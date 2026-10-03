@@ -1,7 +1,7 @@
 {
-  "name": "matane-extensions",
+  "name": "extensions-source",
   "private": true,
-  "description": "Official extensions for Matane, built, signed and published to GitHub Pages",
+  "description": "Extensions built, signed and published to GitHub Pages",
   "license": "MIT",
   "type": "module",
   "packageManager": "pnpm@12.5.1",
@@ -11,8 +11,8 @@
     "test": "pnpm -r test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "repo:build": "mr-ext repo build src/*/* -o public --name \"Official Extensions\"",
-    "repo:build:unsigned": "mr-ext repo build src/*/* -o public --name \"Official Extensions\" --unsigned",
+    "repo:build": "mr-ext repo build src/*/* -o public --name \"Extensions Source\"",
+    "repo:build:unsigned": "mr-ext repo build src/*/* -o public --name \"Extensions Source\" --unsigned",
     "repo:verify": "mr-ext repo verify public"
   },
   "devDependencies": {

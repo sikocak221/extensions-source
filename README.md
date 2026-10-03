@@ -1,10 +1,10 @@
-# Matane Extensions
+# Extensions Source
 
-Official extensions for [Matane](https://github.com/SukunDev/matane), the open-source desktop manga reader.
+Extensions for apps that load Matane-format extensions (built with `@matane/extension-sdk`).
 
-This repository is **added to Matane by default**. Extensions from it show as **Official · Verified**: every index is signed with the official key built into the app, and every archive must match the SHA-256 in that signed index before it is installed.
+Every index of this repository is signed (ed25519) with this repository's own key, and every archive must match the SHA-256 in that signed index before it is installed. Nothing is added to an app by default: add the repository yourself, then choose to trust its key.
 
-**Repository URL:** `https://sukundev.github.io/matane-extensions/` (live once the repository is published) (for other apps or to add it again: Extensions → Repositories → Add repository)
+**Repository URL:** `https://sikocak221.github.io/extensions-source/` (live once the repository is published). In the app: Extensions → Repositories → Add repository, then "Trust this key".
 
 ## Extensions
 
@@ -305,7 +305,7 @@ pnpm repo:build:unsigned  # the repository as it would be published, in public/
 
 ## Writing an extension
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and the [extension guide](https://sukundev.github.io/matane/extensions/).
+See [CONTRIBUTING.md](CONTRIBUTING.md) and the README of [`@matane/extension-sdk`](https://www.npmjs.com/package/@matane/extension-sdk) on npm.
 
 ## License
 

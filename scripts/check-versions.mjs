@@ -2,7 +2,7 @@
 // extension changed without a higher version (the app would never offer that change) or when a
 // version went down. Builds are reproducible, so a different sha256 means different contents.
 //
-//   node scripts/check-versions.mjs https://<owner>.github.io/matane-extensions/
+//   node scripts/check-versions.mjs https://<owner>.github.io/extensions-source/
 import { readFile } from 'node:fs/promises';
 
 const base = process.argv[2];

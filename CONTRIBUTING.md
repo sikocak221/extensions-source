@@ -1,6 +1,6 @@
 # Contributing
 
-Extensions are small TypeScript projects that run in Matane's sandbox (QuickJS, no Node.js APIs, network only through the app). The full guide: [the extension guide](https://sukundev.github.io/matane/extensions/).
+Extensions are small TypeScript projects that run in Matane's sandbox (QuickJS, no Node.js APIs, network only through the app). The SDK reference is the README of [`@matane/extension-sdk`](https://www.npmjs.com/package/@matane/extension-sdk) on npm.
 
 ## Setup
 
@@ -34,4 +34,4 @@ Develop with the app: Extensions → **Load from folder** → `src/en/my-site` (
 
 ## Publishing
 
-Merging to `main` publishes: CI builds every extension, signs the index with the official key (a repository secret) and deploys it to GitHub Pages. Nobody signs anything by hand, and an unsigned or wrongly signed repository is never published.
+Merging to `main` publishes: CI builds every extension, signs the index with this repository's key (the `MR_REPO_KEY` secret) and deploys it to GitHub Pages. Nobody signs anything by hand, and an unsigned or wrongly signed repository is never published.

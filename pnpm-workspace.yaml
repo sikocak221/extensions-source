@@ -1,7 +1,7 @@
 packages:
   - src/*/*
 
-# One version of the Matane SDK, runtime and CLI for every extension ("catalog:" in package.json).
+# One version of the extension SDK, runtime and CLI for every extension ("catalog:" in package.json).
 catalog:
   '@matane/extension-cli': ^0.2.0
   '@matane/extension-runtime': ^0.2.0
