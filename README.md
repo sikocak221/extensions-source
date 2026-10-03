@@ -125,6 +125,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Leslie&Victims                                    | EN        | https://leslie-victims.pages.dev      |      |
 | LHTranslation                                     | EN        | https://lhtranslation.net             |      |
 | LianScans                                         | ID        | https://www.lianscans.com             | yes  |
+| LikeManga                                         | EN        | https://likemanga.ink                 |      |
 | Lily Manga                                        | EN        | https://lilymanga.net                 |      |
 | LinkManga                                         | EN        | https://linkmanga.com                 |      |
 | Loading Artist                                    | EN        | https://loadingartist.com             |      |
@@ -146,11 +147,15 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | MangaDE                                           | EN        | https://mangade.io                    |      |
 | MangaDex                                          | EN, ID    | https://mangadex.org                  |      |
 | Mangaforfree.com                                  | EN        | https://mangaforfree.com              | yes  |
+| MangaFox                                          | EN        | https://fanfox.net                    |      |
 | Mangafreak                                        | EN        | https://ww3.mangafreak.me             |      |
 | Mangafree                                         | EN        | https://mangafree.info                | yes  |
+| Mangahere                                         | EN        | https://www.mangahere.cc              |      |
 | MangaK                                            | EN        | https://mangak.io                     |      |
+| MangaKatana                                       | EN        | https://mangakatana.com               |      |
 | Mangalay                                          | ID        | https://mangalay.blogspot.com         |      |
 | MangaManiacs                                      | EN        | https://mangamaniacs.org              | yes  |
+| MangaMelon                                        | EN        | https://mangamelon.com                |      |
 | MangaNow                                          | EN        | https://manganow.to                   |      |
 | MangaOwl.io (unoriginal)                          | EN        | https://mangaowl.io                   |      |
 | MangaPill                                         | EN        | https://mangapill.com                 |      |

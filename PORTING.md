@@ -474,7 +474,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | kodansha                                  | standalone    | blocked | probe 2026-10-03: cloudflare                                                                            |
 | kuramanga                                 | standalone    | done    |                                                                                                         |
 | leslievictims                             | standalone    | done    |                                                                                                         |
-| likemanga                                 | standalone    | todo    |                                                                                                         |
+| likemanga                                 | standalone    | done    |                                                                                                         |
 | loadingartist                             | standalone    | done    | singleseries                                                                                            |
 | lolobun                                   | standalone    | done    |                                                                                                         |
 | luminaretranslations                      | standalone    | done    |                                                                                                         |
@@ -486,14 +486,14 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangacloud                                | standalone    | todo    |                                                                                                         |
 | mangade                                   | standalone    | done    |                                                                                                         |
 | mangademon                                | standalone    | done    |                                                                                                         |
-| mangafox                                  | standalone    | todo    |                                                                                                         |
+| mangafox                                  | standalone    | done    | mobile roll_manga reader                                                                                |
 | mangafreak                                | standalone    | done    |                                                                                                         |
 | mangago                                   | standalone    | blocked | probe 2026-10-03: cloudflare                                                                            |
 | mangahen                                  | standalone    | done    |                                                                                                         |
-| mangahere                                 | standalone    | todo    |                                                                                                         |
-| mangakatana                               | standalone    | todo    |                                                                                                         |
+| mangahere                                 | standalone    | done    | JS p.a.c.k.e.r unpacker in src/packer.ts                                                                |
+| mangakatana                               | standalone    | done    | images are octet-stream: empty transformImage lets the host sniff them                                  |
 | mangalix                                  | standalone    | todo    |                                                                                                         |
-| mangamelon                                | standalone    | todo    |                                                                                                         |
+| mangamelon                                | standalone    | done    |                                                                                                         |
 | mangamirai                                | standalone    | todo    |                                                                                                         |
 | mangamo                                   | standalone    | todo    |                                                                                                         |
 | mangamob                                  | standalone    | done    |                                                                                                         |
