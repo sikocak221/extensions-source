@@ -402,9 +402,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | xoxocomics                                | wpcomics      | ported  | in pending/: image urls answer with the home page (also via curl, 2026-10-03)                           |
 | murimscan                                 | zeistmanga    | done    | pages from the data-post-body attribute                                                                 |
 | akaicomic                                 | standalone    | blocked | probe 2026-10-03: dead:ENOTFOUND                                                                        |
-| alandal                                   | standalone    | todo    |                                                                                                         |
+| alandal                                   | standalone    | blocked | site is now a company landing page; qq.alandal.com API has no DNS                                       |
 | allanime                                  | standalone    | blocked | probe 2026-10-03: dead:no-baseUrl                                                                       |
-| alphamanga                                | standalone    | todo    |                                                                                                         |
+| alphamanga                                | standalone    | later   | tiles need rotate/flip; SDK TileOp only copies rectangles                                               |
 | asiatoon                                  | standalone    | blocked | probe 2026-10-03: cloudflare                                                                            |
 | asurascans                                | standalone    | todo    |                                                                                                         |
 | atsumaru                                  | standalone    | todo    |                                                                                                         |
@@ -450,7 +450,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hentaihere                                | standalone    | blocked | redesigned (2026-10-03): directory pages now redirect to /browse                                        |
 | hentaikisu                                | standalone    | done    |                                                                                                         |
 | hentaikun                                 | standalone    | done    |                                                                                                         |
-| hentainexus                               | standalone    | todo    |                                                                                                         |
+| hentainexus                               | standalone    | done    |                                                                                                         |
 | hentairead                                | standalone    | blocked | probe 2026-10-03: cloudflare                                                                            |
 | hentaireadio                              | standalone    | blocked | probe 2026-10-03: dead:TimeoutError                                                                     |
 | hentaitnt                                 | standalone    | done    |                                                                                                         |
@@ -500,7 +500,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangapdf                                  | standalone    | blocked | probe 2026-10-03: http:521                                                                              |
 | mangapill                                 | standalone    | done    |                                                                                                         |
 | mangaplaza                                | standalone    | todo    | needs a SpeedBinb image descrambler (transformImage); deferred                                          |
-| mangarawclub                              | standalone    | todo    |                                                                                                         |
+| mangarawclub                              | standalone    | done    |                                                                                                         |
 | mangareadercc                             | standalone    | blocked | probe 2026-10-03: http:526                                                                              |
 | mangatown                                 | standalone    | done    |                                                                                                         |
 | mangauno                                  | standalone    | todo    |                                                                                                         |
@@ -510,12 +510,12 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manhwabuddy                               | standalone    | done    |                                                                                                         |
 | manhwalike                                | standalone    | done    |                                                                                                         |
 | manhwaread                                | standalone    | blocked | probe 2026-10-03: dead:no-baseUrl                                                                       |
-| manhwazone                                | standalone    | todo    |                                                                                                         |
+| manhwazone                                | standalone    | done    | manhwatop CDN 403s Node's TLS (mr-ext smoke) but serves curl/Chromium with Referer manhwatop.com        |
 | megatokyo                                 | standalone    | done    | singleseries                                                                                            |
 | mehgazone                                 | standalone    | done    | WordPress app-password preferences; excerpt text page not ported                                        |
 | mgreadio                                  | standalone    | todo    |                                                                                                         |
 | mlbblore                                  | standalone    | done    |                                                                                                         |
-| multporn                                  | standalone    | todo    |                                                                                                         |
+| multporn                                  | standalone    | done    | gallery is inside <noscript>; re-parsed                                                                 |
 | myadultcomics                             | standalone    | done    |                                                                                                         |
 | myhentaicomics                            | standalone    | blocked | probe 2026-10-03: cloudflare                                                                            |
 | myhentaigallery                           | standalone    | blocked | probe 2026-10-03: cloudflare                                                                            |

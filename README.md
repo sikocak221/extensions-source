@@ -83,6 +83,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Hentai4Free                                       | EN        | https://hentai4free.net               | yes  |
 | HentaiKisu                                        | EN        | https://hentaikisu.com                | yes  |
 | HentaiKun                                         | EN        | https://hentaikun.com                 | yes  |
+| HentaiNexus                                       | EN        | https://hentainexus.com               | yes  |
 | HentaiTnT                                         | EN        | https://hentaitnt.net                 | yes  |
 | HentaiXComic                                      | EN        | https://hentaixcomic.com              | yes  |
 | HentaiXDickgirl                                   | EN        | https://hentaixdickgirl.com           | yes  |
@@ -150,6 +151,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | MangaFox                                          | EN        | https://fanfox.net                    |      |
 | Mangafreak                                        | EN        | https://ww3.mangafreak.me             |      |
 | Mangafree                                         | EN        | https://mangafree.info                | yes  |
+| MangaGeko                                         | EN        | https://www.mgeko.cc                  |      |
 | Mangahere                                         | EN        | https://www.mangahere.cc              |      |
 | MangaK                                            | EN        | https://mangak.io                     |      |
 | MangaKatana                                       | EN        | https://mangakatana.com               |      |
@@ -181,12 +183,14 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | ManhwaGet                                         | EN        | https://manhwaget.com                 |      |
 | Manhwalike                                        | EN        | https://manhwalike.com                | yes  |
 | ManhwaNex                                         | EN        | https://manhwanex.com                 |      |
+| ManhwaZone                                        | EN        | https://manhwazone.com                |      |
 | Megatokyo                                         | EN        | https://megatokyo.com                 |      |
 | Mehgazone                                         | EN        | https://mehgazone.com                 | yes  |
 | Mihentai                                          | ID        | https://mihentai.net                  | yes  |
 | Mist Scans                                        | EN        | https://mistscans.com                 |      |
 | MLBB Lore                                         | EN        | https://play.mobilelegends.com        |      |
 | Monochrome Scans                                  | EN        | https://manga.d34d.one                |      |
+| Multporn                                          | EN        | https://multporn.net                  | yes  |
 | MurimScan                                         | EN        | https://www.murimscans.site           |      |
 | MyAdultComics                                     | EN        | https://myadultcomics.com             | yes  |
 | NarasiNinja                                       | ID        | https://narasininja.net               |      |

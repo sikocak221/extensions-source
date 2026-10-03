@@ -1112,6 +1112,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/en/hentainexus:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/en/hentaitnt:
     devDependencies:
       '@matane/extension-cli':
@@ -1922,6 +1937,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/en/mangarawclub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/en/mangareadorg:
     devDependencies:
       '@matane/extension-cli':
@@ -2222,6 +2252,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/en/manhwazone:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/en/megatokyo:
     devDependencies:
       '@matane/extension-cli':
@@ -2283,6 +2328,21 @@ importers:
         version: 24.19.0
 
   src/en/monochromescans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/en/multporn:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
