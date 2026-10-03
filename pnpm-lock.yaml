@@ -1592,6 +1592,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/en/lusttoon:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/en/manga18free:
     devDependencies:
       '@matane/extension-cli':
@@ -1833,6 +1848,21 @@ importers:
         version: 24.19.0
 
   src/en/mangakatana:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/en/mangalix:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -2283,6 +2313,21 @@ importers:
         version: 24.19.0
 
   src/en/mehgazone:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/en/mgreadio:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'

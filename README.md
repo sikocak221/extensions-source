@@ -134,6 +134,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Lua Scans                                         | EN        | https://luacomic.org                  |      |
 | Luminare Translations                             | EN        | https://luminaretranslations.com      |      |
 | LumosKomik                                        | ID        | https://03.lumosgg.com                |      |
+| LustToon                                          | EN        | https://lustoon.com                   |      |
 | Maid - Manga                                      | ID        | https://www.maid.my.id                |      |
 | Manga 18x                                         | EN        | https://manga18x.net                  | yes  |
 | Manga Can                                         | ID        | https://mangacanblog.com              |      |
@@ -156,6 +157,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | MangaK                                            | EN        | https://mangak.io                     |      |
 | MangaKatana                                       | EN        | https://mangakatana.com               |      |
 | Mangalay                                          | ID        | https://mangalay.blogspot.com         |      |
+| MangaLix                                          | EN        | https://mangalix.com                  |      |
 | MangaManiacs                                      | EN        | https://mangamaniacs.org              | yes  |
 | MangaMelon                                        | EN        | https://mangamelon.com                |      |
 | MangaNow                                          | EN        | https://manganow.to                   |      |
@@ -186,6 +188,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | ManhwaZone                                        | EN        | https://manhwazone.com                |      |
 | Megatokyo                                         | EN        | https://megatokyo.com                 |      |
 | Mehgazone                                         | EN        | https://mehgazone.com                 | yes  |
+| Mgread.io                                         | EN        | https://mgread.io                     |      |
 | Mihentai                                          | ID        | https://mihentai.net                  | yes  |
 | Mist Scans                                        | EN        | https://mistscans.com                 |      |
 | MLBB Lore                                         | EN        | https://play.mobilelegends.com        |      |
