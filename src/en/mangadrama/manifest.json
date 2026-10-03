@@ -1,0 +1,18 @@
+{
+  "id": "mangadrama",
+  "name": "Manga Drama",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Manga Drama"
+    }
+  ]
+}

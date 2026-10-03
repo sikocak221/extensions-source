@@ -1,0 +1,18 @@
+{
+  "id": "readchainsawmanmangaonline",
+  "name": "Read Chainsaw Man Manga Online",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Read Chainsaw Man Manga Online"
+    }
+  ]
+}

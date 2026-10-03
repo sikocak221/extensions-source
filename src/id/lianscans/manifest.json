@@ -1,0 +1,18 @@
+{
+  "id": "lianscans",
+  "name": "LianScans",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "LianScans"
+    }
+  ]
+}

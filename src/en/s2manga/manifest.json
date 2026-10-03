@@ -1,0 +1,18 @@
+{
+  "id": "s2manga",
+  "name": "S2Manga",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "S2Manga"
+    }
+  ]
+}

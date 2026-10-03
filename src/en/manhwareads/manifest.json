@@ -1,0 +1,18 @@
+{
+  "id": "manhwareads",
+  "name": "Manhwa Reads",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Manhwa Reads"
+    }
+  ]
+}

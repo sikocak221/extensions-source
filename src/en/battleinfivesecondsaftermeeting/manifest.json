@@ -1,0 +1,18 @@
+{
+  "id": "battleinfivesecondsaftermeeting",
+  "name": "Battle In 5 Seconds After Meeting",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Battle In 5 Seconds After Meeting"
+    }
+  ]
+}

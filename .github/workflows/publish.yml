@@ -1,0 +1,64 @@
+name: Publish repository
+
+# Builds every extension, signs index.json with the official key and publishes the result to
+# GitHub Pages. Nothing unsigned or signed with another key is ever published.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'pnpm-lock.yaml'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - name: Build and sign
+        # Fails without the secret: mr-ext never writes an unsigned repository unless asked to.
+        run: pnpm repo:build
+        env:
+          MR_REPO_KEY: ${{ secrets.MR_REPO_KEY }}
+      - name: Verify against the key built into the app
+        run: |
+          if [ -z "$PUBLIC_KEY" ]; then
+            echo "::error::No public key to verify against (MR_REPO_PUBLIC_KEY variable or the key in this workflow)."
+            exit 1
+          fi
+          pnpm exec mr-ext repo verify public --public-key "$PUBLIC_KEY"
+        env:
+          # The official public key (not a secret; the app has the same one built in). The
+          # MR_REPO_PUBLIC_KEY variable overrides it, e.g. while rotating keys.
+          PUBLIC_KEY: ${{ vars.MR_REPO_PUBLIC_KEY || 'ed25519:MorWEtba9PuogLbiYZR/HVUVn+KpY3zsNq8nzqyhAbw=' }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
