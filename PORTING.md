@@ -545,18 +545,18 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | reallifecomics                            | standalone    | done    | singleseries                                                                                            |
 | reimanga                                  | standalone    | todo    |                                                                                                         |
 | revivalscans                              | standalone    | done    |                                                                                                         |
-| rinkocomics                               | standalone    | todo    |                                                                                                         |
+| rinkocomics                               | standalone    | done    | newest chapters are paid (live smoke stops at getPages)                                                 |
 | sabrinaonline                             | standalone    | done    | singleseries                                                                                            |
 | sacachispa                                | standalone    | done    | newest chapters can be Patreon-exclusive (the site says so)                                             |
 | saturdaymorningbreakfastcomics            | standalone    | done    | singleseries; hover-text page and bundled thumbnail not ported                                          |
 | scansgg                                   | standalone    | todo    |                                                                                                         |
 | schlockmercenary                          | standalone    | done    |                                                                                                         |
 | silentquill                               | standalone    | done    |                                                                                                         |
-| sirenscans                                | standalone    | todo    |                                                                                                         |
+| sirenscans                                | standalone    | done    | CDN serves JPEGs as text/plain: empty transformImage                                                    |
 | solarandsundry                            | standalone    | done    | singleseries                                                                                            |
 | spyfakku                                  | standalone    | blocked | probe 2026-10-03: dead:no-baseUrl                                                                       |
-| stonescape                                | standalone    | todo    |                                                                                                         |
-| sunshinebutterflyscans                    | standalone    | todo    |                                                                                                         |
+| stonescape                                | standalone    | done    |                                                                                                         |
+| sunshinebutterflyscans                    | standalone    | done    |                                                                                                         |
 | supermega                                 | standalone    | done    | singleseries                                                                                            |
 | swordscomic                               | standalone    | done    | singleseries; title-text page not ported                                                                |
 | tapastic                                  | standalone    | todo    |                                                                                                         |

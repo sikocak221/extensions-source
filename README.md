@@ -239,6 +239,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Renascans                                         | EN        | https://renascans.net                 |      |
 | Revival Scans                                     | EN        | https://www.revivalscans.com          | yes  |
 | ReYume                                            | ID        | https://www.re-yume.my.id             |      |
+| Rinko Comics                                      | EN        | https://rinkocomics.com               |      |
 | RitharScans                                       | EN        | https://ritharscans.com               |      |
 | Riztranslation                                    | ID        | https://riztranslation.pages.dev      |      |
 | Rizz Comic                                        | EN        | https://rizzfables.com                |      |
@@ -260,8 +261,11 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | ShiyuraSub                                        | ID        | https://shiyurasub.blogspot.com       |      |
 | Siikomik                                          | ID        | https://siikomik.id                   |      |
 | SilentQuill                                       | EN        | https://silentquill.net               |      |
+| Siren Scans                                       | EN        | https://sirenscans.org                |      |
 | Solar and Sundry                                  | EN        | https://sas.ewanb.me                  |      |
 | Soul Scans                                        | ID        | https://v1.soulscans.org              |      |
+| StoneScape                                        | EN        | https://stonescape.xyz                |      |
+| Sunshine Butterfly Scans                          | EN        | https://wings.sbs                     | yes  |
 | SUPER MEGA                                        | EN        | https://www.supermegacomics.com       |      |
 | Swords Comic                                      | EN        | https://swordscomic.com               |      |
 | TCB Scans                                         | EN        | https://tcbonepiecechapters.com       |      |
