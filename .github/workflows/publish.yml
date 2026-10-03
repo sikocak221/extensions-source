@@ -45,8 +45,8 @@ jobs:
           fi
           pnpm exec mr-ext repo verify public --public-key "$PUBLIC_KEY"
         env:
-          # The repository's public key (not a secret), set as a repository variable.
-          PUBLIC_KEY: ${{ vars.MR_REPO_PUBLIC_KEY }}
+          # The repository's public key: a repository variable, or a secret of the same name.
+          PUBLIC_KEY: ${{ vars.MR_REPO_PUBLIC_KEY || secrets.MR_REPO_PUBLIC_KEY }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
