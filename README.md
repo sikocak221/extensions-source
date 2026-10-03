@@ -105,6 +105,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Kewn Scans                                        | EN        | https://kewnscans.org                 |      |
 | Kill Six Billion Demons                           | EN        | https://killsixbilliondemons.com      |      |
 | King of Shojo                                     | EN        | https://kingofshojo.com               |      |
+| KingComiX                                         | EN        | https://kingcomix.com                 | yes  |
 | Kiryuu                                            | ID        | https://v7.kiryuu.to                  |      |
 | KlikManga                                         | ID        | https://klikmanga.org                 |      |
 | KokoMangas                                        | EN        | https://kokomangas.com                |      |
@@ -143,6 +144,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Manga District                                    | EN        | https://mangadistrict.com             |      |
 | Manga Drama                                       | EN        | https://mangadrama.com                | yes  |
 | Manga Trend                                       | EN        | https://mangatrend.org                |      |
+| Manga.uno                                         | EN        | https://manga.uno                     |      |
 | Manga18Free                                       | EN        | https://manga18free.com               | yes  |
 | Mangabat                                          | EN        | https://www.mangabats.com             |      |
 | MangaBolt                                         | EN        | https://mangabolt.com                 |      |
@@ -293,6 +295,8 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | VoraToon                                          | ID        | https://v5.voratoon.com               |      |
 | Vortex Scans                                      | EN        | https://vortexscans.org               |      |
 | War For Rayuba                                    | EN        | https://xrabohrok.github.io           |      |
+| Webdex Scans                                      | EN        | https://webdexscans.com               |      |
+| Weeb Central                                      | EN        | https://weebcentral.com               |      |
 | WestManga                                         | ID        | https://v1.westmanga.my               |      |
 | WitchScans                                        | EN        | https://witchtoons.net                |      |
 | Writer Scans                                      | EN        | https://writerscans.com               |      |

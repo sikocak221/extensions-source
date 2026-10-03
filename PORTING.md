@@ -430,7 +430,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | darthsdroids                              | standalone    | done    |                                                                                                              |
 | dflowscans                                | standalone    | blocked | probe 2026-10-03: http:404                                                                                   |
 | digitalcomicmuseum                        | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
-| doujinio                                  | standalone    | todo    |                                                                                                              |
+| doujinio                                  | standalone    | blocked | Cloudflare challenge ('Hold on...') on every page                                                            |
 | doujins                                   | standalone    | done    |                                                                                                              |
 | duskscans                                 | standalone    | blocked | probe 2026-10-03: dead:ENOTFOUND                                                                             |
 | dynasty                                   | standalone    | todo    |                                                                                                              |
@@ -469,7 +469,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | kappabeast                                | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | keenspot                                  | standalone    | done    | singleseries                                                                                                 |
 | killsixbilliondemons                      | standalone    | done    |                                                                                                              |
-| kingcomix                                 | standalone    | todo    |                                                                                                              |
+| kingcomix                                 | standalone    | done    |                                                                                                              |
 | kmanga                                    | standalone    | todo    |                                                                                                              |
 | kodansha                                  | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | kuramanga                                 | standalone    | done    |                                                                                                              |
@@ -503,7 +503,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangarawclub                              | standalone    | done    |                                                                                                              |
 | mangareadercc                             | standalone    | blocked | probe 2026-10-03: http:526                                                                                   |
 | mangatown                                 | standalone    | done    |                                                                                                              |
-| mangauno                                  | standalone    | todo    |                                                                                                              |
+| mangauno                                  | standalone    | done    |                                                                                                              |
 | mangayi                                   | standalone    | done    |                                                                                                              |
 | manhuarush                                | standalone    | blocked | probe 2026-10-03: http:404                                                                                   |
 | manhwa18                                  | standalone    | done    |                                                                                                              |
@@ -575,9 +575,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | voyceme                                   | standalone    | todo    |                                                                                                              |
 | vyvymanga                                 | standalone    | blocked | probe 2026-10-03: http:503                                                                                   |
 | warforrayuba                              | standalone    | done    | pages via Imgur's album API (Cubari proxy gone); newest album deleted on Imgur                               |
-| webdexscans                               | standalone    | todo    |                                                                                                              |
+| webdexscans                               | standalone    | done    |                                                                                                              |
 | webnovel                                  | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
-| weebcentral                               | standalone    | todo    |                                                                                                              |
+| weebcentral                               | standalone    | done    |                                                                                                              |
 | xlecx                                     | standalone    | done    | some posts need an account; live runner picks the #1 post, which currently does (test skips such posts)      |
 | xomanga                                   | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | xyzcomics                                 | standalone    | done    |                                                                                                              |
