@@ -120,7 +120,16 @@ suite(NAME, { timeout: 60_000 }, () => {
   });
 
   it('getChapters', async () => {
-    chapters = await call<Chapter[]>('getChapters', [manga]);
+    // Licensed series list their chapters as unavailable: the first popular series with readable chapters is used.
+    const popular = await call<MangaPage>('getPopular', [1]);
+    chapters = [];
+    for (const candidate of popular.items) {
+      chapters = await call<Chapter[]>('getChapters', [candidate]);
+      if (chapters.length > 0) {
+        manga = candidate;
+        break;
+      }
+    }
     expect(chapters.length).toBeGreaterThan(0);
     for (const chapter of chapters) {
       expect(chapter.url).not.toBe('');
