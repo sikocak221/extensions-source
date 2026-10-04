@@ -726,7 +726,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manhwabreakup   | madara        | blocked | probe 2026-10-04: Cloudflare 403                                                    |
 | mikudoujin      | standalone    | blocked | probe 2026-10-04: Cloudflare 403                                                    |
 | nekopost        | standalone    | todo    |                                                                                     |
-| niceoppai       | standalone    | todo    |                                                                                     |
+| niceoppai       | standalone    | done    | test uses the 2nd popular entry (the site's first, Naruto, has no chapters)         |
 | ntrmanga        | mangathemesia | done    |                                                                                     |
 | oremanga        | zmanga        | done    |                                                                                     |
 | reapertrans     | mangathemesia | done    |                                                                                     |
