@@ -1,0 +1,28 @@
+{
+  "id": "navercomic",
+  "name": "Naver Comic",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "webtoon",
+      "lang": "ko",
+      "name": "Naver Webtoon"
+    },
+    {
+      "key": "best-challenge",
+      "lang": "ko",
+      "name": "Naver Webtoon Best Challenge"
+    },
+    {
+      "key": "challenge",
+      "lang": "ko",
+      "name": "Naver Webtoon Challenge"
+    }
+  ]
+}

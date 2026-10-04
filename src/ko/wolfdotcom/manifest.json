@@ -1,0 +1,23 @@
+{
+  "id": "wolfdotcom",
+  "name": "Wolf.com",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "webtoon",
+      "lang": "ko",
+      "name": "늑대닷컴 - 웹툰"
+    },
+    {
+      "key": "comic",
+      "lang": "ko",
+      "name": "늑대닷컴 - 만화책"
+    }
+  ]
+}
