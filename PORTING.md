@@ -461,7 +461,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hotcomics                                 | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | hyakuro                                   | standalone    | ported  | in pending/: every /backend/uploads image (covers too) answers 404 (2026-10-03)                              |
 | imanevilgod                               | standalone    | done    | singleseries                                                                                                 |
-| infinityscans                             | standalone    | todo    |                                                                                                              |
+| infinityscans                             | standalone    | blocked | API returns nothing without a session cookie set by a WebView captcha                                        |
 | inkr                                      | standalone    | todo    |                                                                                                              |
 | irovedout                                 | standalone    | done    | singleseries                                                                                                 |
 | jnovel                                    | standalone    | todo    |                                                                                                              |
@@ -483,7 +483,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangabay                                  | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | mangabolt                                 | standalone    | done    |                                                                                                              |
 | mangack                                   | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
-| mangacloud                                | standalone    | todo    |                                                                                                              |
+| mangacloud                                | standalone    | blocked | API answers 409 until a WebView posts a Turnstile token                                                      |
 | mangade                                   | standalone    | done    |                                                                                                              |
 | mangademon                                | standalone    | done    |                                                                                                              |
 | mangafox                                  | standalone    | done    | mobile roll_manga reader                                                                                     |
@@ -533,7 +533,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | oots                                      | standalone    | done    | singleseries                                                                                                 |
 | oppaistream                               | standalone    | done    |                                                                                                              |
 | patchfriday                               | standalone    | done    | singleseries                                                                                                 |
-| philiascans                               | standalone    | todo    |                                                                                                              |
+| philiascans                               | standalone    | done    | page DRM (aesctr4/aesctr/chacha/xor + tile shuffle) decrypted in transformImage; newest chapters are paid    |
 | porncomix                                 | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | pornhwa18                                 | standalone    | done    |                                                                                                              |
 | questionablecontent                       | standalone    | done    | singleseries; author's-notes text page not ported                                                            |
@@ -549,7 +549,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | sabrinaonline                             | standalone    | done    | singleseries                                                                                                 |
 | sacachispa                                | standalone    | done    | newest chapters can be Patreon-exclusive (the site says so)                                                  |
 | saturdaymorningbreakfastcomics            | standalone    | done    | singleseries; hover-text page and bundled thumbnail not ported                                               |
-| scansgg                                   | standalone    | todo    |                                                                                                              |
+| scansgg                                   | standalone    | done    | test picks the first popular series with chapters                                                            |
 | schlockmercenary                          | standalone    | done    |                                                                                                              |
 | silentquill                               | standalone    | done    |                                                                                                              |
 | sirenscans                                | standalone    | done    | CDN serves JPEGs as text/plain: empty transformImage                                                         |

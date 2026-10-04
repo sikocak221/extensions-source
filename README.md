@@ -220,6 +220,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Paritehaber                                       | EN        | https://www.paritehaber.com           | yes  |
 | Patch Friday                                      | EN        | https://patchfriday.com               |      |
 | Petrotechsociety                                  | EN        | https://www.petrotechsociety.org      | yes  |
+| Philia Scans                                      | EN        | https://philiascans.org               |      |
 | Pix Hentai                                        | ID        | https://pixhentai.com                 | yes  |
 | Pornhwa18                                         | EN        | https://pornhwa18.com                 | yes  |
 | Pramramadhan                                      | ID        | https://01.pramramadhan.my.id         |      |
@@ -258,6 +259,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Sana Scans                                        | EN        | https://sanascans.com                 |      |
 | Sasangeyou                                        | ID        | https://sasangeyou.net                | yes  |
 | Saturday Morning Breakfast Comics                 | EN        | https://smbc-comics.com               |      |
+| ScansGG                                           | EN        | https://scans.gg                      |      |
 | Schlock Mercenary                                 | EN        | https://www.schlockmercenary.com      |      |
 | Scythe Scans                                      | EN        | https://scythescans.com               |      |
 | Sekte Doujin                                      | ID        | https://sektedoujin.cc                | yes  |
