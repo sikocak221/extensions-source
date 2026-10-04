@@ -101,6 +101,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | I'm An Evil God                                   | EN        | https://imanevilgod.com               |      |
 | IsekaiKomik                                       | ID        | https://ch1.isekaikomik.site          |      |
 | Izanami Scans                                     | ID        | https://izanamiscans.my.id            |      |
+| K Manga                                           | EN        | https://kmanga.kodansha.com           |      |
 | Kanzenin                                          | ID        | https://kanzenin.info                 | yes  |
 | Kayn Scans                                        | EN        | https://kaynscans.com                 |      |
 | keenspot                                          | EN        | https://dummyimage.com                |      |
