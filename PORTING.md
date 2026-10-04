@@ -603,15 +603,15 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## cs
 
-| Extension      | Theme         | Status | Notes |
-| -------------- | ------------- | ------ | ----- |
-| evilproduction | mangathemesia | todo   |       |
+| Extension      | Theme         | Status  | Notes                        |
+| -------------- | ------------- | ------- | ---------------------------- |
+| evilproduction | mangathemesia | blocked | probe 2026-10-04: cloudflare |
 
 ## bg
 
-| Extension  | Theme  | Status | Notes |
-| ---------- | ------ | ------ | ----- |
-| utsukushii | mmrcms | todo   |       |
+| Extension  | Theme  | Status  | Notes                                             |
+| ---------- | ------ | ------- | ------------------------------------------------- |
+| utsukushii | mmrcms | blocked | probe 2026-10-04: dead:connect timeout (curl too) |
 
 ## ca
 
