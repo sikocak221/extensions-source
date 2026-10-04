@@ -1,0 +1,18 @@
+{
+  "id": "allhentai",
+  "name": "AllHentai",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 2,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "AllHentai"
+    }
+  ]
+}
