@@ -703,39 +703,39 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## th
 
-| Extension       | Theme         | Status | Notes |
-| --------------- | ------------- | ------ | ----- |
-| cat300          | madara        | todo   |       |
-| doodmanga       | madara        | todo   |       |
-| doujinlc        | madara        | todo   |       |
-| doujinmoon      | mangathemesia | todo   |       |
-| doujinza        | madara        | todo   |       |
-| ecchidoujin     | mangathemesia | todo   |       |
-| finmanga        | mangathemesia | todo   |       |
-| goddoujin       | mangathemesia | todo   |       |
-| gomanga         | mangathemesia | todo   |       |
-| makimaaaaa      | mangathemesia | todo   |       |
-| manga168        | mangathemesia | todo   |       |
-| mangablackcat   | standalone    | todo   |       |
-| mangaisekaithai | madara        | todo   |       |
-| mangakimi       | mangathemesia | todo   |       |
-| mangalc         | madara        | todo   |       |
-| mangastep       | mangathemesia | todo   |       |
-| manhuabug       | madara        | todo   |       |
-| manhuathai      | madara        | todo   |       |
-| manhwabreakup   | madara        | todo   |       |
-| mikudoujin      | standalone    | todo   |       |
-| nekopost        | standalone    | todo   |       |
-| niceoppai       | standalone    | todo   |       |
-| ntrmanga        | mangathemesia | todo   |       |
-| oremanga        | zmanga        | todo   |       |
-| reapertrans     | mangathemesia | todo   |       |
-| singmanga       | mangathemesia | todo   |       |
-| slowmanga       | mangathemesia | todo   |       |
-| sodsaime        | mangathemesia | todo   |       |
-| speedmanga      | mangathemesia | todo   |       |
-| tanukimanga     | mangathemesia | todo   |       |
-| toomtammanga    | mangathemesia | todo   |       |
+| Extension       | Theme         | Status  | Notes                                                                               |
+| --------------- | ------------- | ------- | ----------------------------------------------------------------------------------- |
+| cat300          | madara        | done    |                                                                                     |
+| doodmanga       | madara        | blocked | probe 2026-10-04: Cloudflare 403                                                    |
+| doujinlc        | madara        | blocked | probe 2026-10-04: Cloudflare 403                                                    |
+| doujinmoon      | mangathemesia | done    |                                                                                     |
+| doujinza        | madara        | blocked | series pages time out (>40 s, also via curl); retry later                           |
+| ecchidoujin     | mangathemesia | done    |                                                                                     |
+| finmanga        | mangathemesia | done    |                                                                                     |
+| goddoujin       | mangathemesia | done    |                                                                                     |
+| gomanga         | mangathemesia | done    |                                                                                     |
+| makimaaaaa      | mangathemesia | blocked | /manga/ listing answers 404 (site changed; series pages still at /manga/<slug>/)    |
+| manga168        | mangathemesia | blocked | probe 2026-10-04: dead:ECONNRESET                                                   |
+| mangablackcat   | standalone    | done    |                                                                                     |
+| mangaisekaithai | madara        | done    | descrambling (packed script + tile matrix) ported but no scrambled page seen        |
+| mangakimi       | mangathemesia | blocked | probe 2026-10-04: Cloudflare 403                                                    |
+| mangalc         | madara        | done    |                                                                                     |
+| mangastep       | mangathemesia | done    |                                                                                     |
+| manhuabug       | madara        | blocked | probe 2026-10-04: Cloudflare 403                                                    |
+| manhuathai      | madara        | blocked | probe 2026-10-04: Cloudflare 403                                                    |
+| manhwabreakup   | madara        | blocked | probe 2026-10-04: Cloudflare 403                                                    |
+| mikudoujin      | standalone    | blocked | probe 2026-10-04: Cloudflare 403                                                    |
+| nekopost        | standalone    | todo    |                                                                                     |
+| niceoppai       | standalone    | done    | test uses the 2nd popular entry (the site's first, Naruto, has no chapters)         |
+| ntrmanga        | mangathemesia | done    |                                                                                     |
+| oremanga        | zmanga        | done    |                                                                                     |
+| reapertrans     | mangathemesia | done    |                                                                                     |
+| singmanga       | mangathemesia | blocked | probe 2026-10-04: Cloudflare 403                                                    |
+| slowmanga       | mangathemesia | ported  | in pending/: image CDN img*.sing-manga.com answers a Cloudflare 403 (also via curl) |
+| sodsaime        | mangathemesia | done    |                                                                                     |
+| speedmanga      | mangathemesia | done    |                                                                                     |
+| tanukimanga     | mangathemesia | done    |                                                                                     |
+| toomtammanga    | mangathemesia | done    |                                                                                     |
 
 ## ar
 
