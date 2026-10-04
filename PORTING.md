@@ -591,9 +591,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## de
 
-| Extension | Theme      | Status | Notes |
-| --------- | ---------- | ------ | ----- |
-| mangatube | standalone | todo   |       |
+| Extension | Theme      | Status | Notes                                                               |
+| --------- | ---------- | ------ | ------------------------------------------------------------------- |
+| mangatube | standalone | done   | solves the site's arithmetic challenge (cookie __mtbpass); JSON API |
 
 ## pl
 
@@ -617,53 +617,53 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 | Extension        | Theme      | Status | Notes |
 | ---------------- | ---------- | ------ | ----- |
-| fansubscat       | fansubscat | todo   |       |
-| fansubscathentai | fansubscat | todo   |       |
+| fansubscat       | fansubscat | done   |       |
+| fansubscathentai | fansubscat | done   |       |
 
 ## ko
 
-| Extension  | Theme      | Status | Notes |
-| ---------- | ---------- | ------ | ----- |
-| blacktoon  | standalone | todo   |       |
-| manatoki   | standalone | todo   |       |
-| navercomic | standalone | todo   |       |
-| rawdex     | standalone | todo   |       |
-| toon11     | standalone | todo   |       |
-| toonkor    | standalone | todo   |       |
-| wolfdotcom | standalone | todo   |       |
+| Extension  | Theme      | Status  | Notes                                                                                                             |
+| ---------- | ---------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
+| blacktoon  | standalone | done    | domain redirect followed (blacktoon.me → current); full catalog from webtoon_N.js filtered client-side            |
+| manatoki   | standalone | blocked | domain rotates (manatoki5xx.net, address portal is JS-driven); no live domain found                               |
+| navercomic | standalone | done    | 3 sources (webtoon, best challenge, challenge)                                                                    |
+| rawdex     | standalone | done    |                                                                                                                   |
+| toon11     | standalone | done    | filters can't combine with a search query                                                                         |
+| toonkor    | standalone | done    | domain rotates (toonkor1.org now); desktop UA needed for the full listing                                         |
+| wolfdotcom | standalone | done    | webtoon + comic; domain rotation followed from the notice page; EUC-KR codec; photo section removed from the site |
 
 ## uk
 
-| Extension  | Theme      | Status | Notes |
-| ---------- | ---------- | ------ | ----- |
-| comixtopia | standalone | todo   |       |
-| dgmanga    | standalone | todo   |       |
-| faust      | standalone | todo   |       |
-| honeymanga | standalone | todo   |       |
-| mangainua  | standalone | todo   |       |
-| mangarama  | madara     | todo   |       |
-| zenko      | standalone | todo   |       |
+| Extension  | Theme      | Status | Notes                                                                                                              |
+| ---------- | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
+| comixtopia | standalone | done   | supabase REST; pages re-fetched from issues.image_list                                                             |
+| dgmanga    | standalone | done   | JSON api; hidden genres + licensed prefs                                                                           |
+| faust      | standalone | done   | unauthenticated API only; 18+ chapters need a site login; hidden-genre pref by genre name                          |
+| honeymanga | standalone | done   | api filters; hidden genres/types from prefs applied as exclusions                                                  |
+| mangainua  | standalone | done   | DLE ajax chapters/pages via site_login_hash                                                                        |
+| mangarama  | madara     | ported | in pending/: media.mangarama.com.ua answers 403 (Cloudflare) to signed page urls from here; rest of the flow works |
+| zenko      | standalone | done   | api; hidden genres/categories/age prefs                                                                            |
 
 ## it
 
-| Extension           | Theme         | Status | Notes |
-| ------------------- | ------------- | ------ | ----- |
-| animegdrclub        | standalone    | todo   |       |
-| ddtteam             | pizzareader   | todo   |       |
-| digitalteam         | standalone    | todo   |       |
-| gto                 | pizzareader   | todo   |       |
-| hastateam           | pizzareader   | todo   |       |
-| hentaiarchive       | standalone    | todo   |       |
-| hentaifantasy       | standalone    | todo   |       |
-| juinjutsuteamreader | foolslide     | todo   |       |
-| lupiteam            | pizzareader   | todo   |       |
-| mangaworld          | mangaworld    | todo   |       |
-| mangaworldadult     | mangaworld    | todo   |       |
-| nifteam             | foolslide     | todo   |       |
-| phoenixscans        | pizzareader   | todo   |       |
-| tuttoanimemanga     | pizzareader   | todo   |       |
-| walpurgisscan       | mangathemesia | todo   |       |
-| zeurelscan          | standalone    | todo   |       |
+| Extension           | Theme         | Status  | Notes                                                        |
+| ------------------- | ------------- | ------- | ------------------------------------------------------------ |
+| animegdrclub        | standalone    | done    | site content is from 2024 (still answers)                    |
+| ddtteam             | pizzareader   | blocked | probe 2026-10-04: Cloudflare 403                             |
+| digitalteam         | standalone    | blocked | probe 2026-10-04: dead:ENOTFOUND                             |
+| gto                 | pizzareader   | done    |                                                              |
+| hastateam           | pizzareader   | blocked | probe 2026-10-04: Cloudflare 403                             |
+| hentaiarchive       | standalone    | done    | each post is a single chapter                                |
+| hentaifantasy       | standalone    | done    | series listed once per recent chapter: deduplicated          |
+| juinjutsuteamreader | foolslide     | done    | search overridden (site lists results in div.series_element) |
+| lupiteam            | pizzareader   | done    |                                                              |
+| mangaworld          | mangaworld    | done    |                                                              |
+| mangaworldadult     | mangaworld    | done    |                                                              |
+| nifteam             | foolslide     | done    |                                                              |
+| phoenixscans        | pizzareader   | done    |                                                              |
+| tuttoanimemanga     | pizzareader   | done    |                                                              |
+| walpurgisscan       | mangathemesia | blocked | probe 2026-10-04: http:503 'Accesso Limitato'                |
+| zeurelscan          | standalone    | blocked | probe 2026-10-04: dead:connect timeout                       |
 
 ## ru
 
