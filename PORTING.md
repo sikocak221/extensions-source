@@ -786,7 +786,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | murim             | zeistmanga    | blocked | connection times out (dead?)                                                                             |
 | neverscans        | standalone    | blocked | TLS certificate error (dead?)                                                                            |
 | oduto             | standalone    | done    | single-series Blogger site                                                                               |
-| onma              | mmrcms        | todo    |                                                                                                          |
+| onma              | mmrcms        | done    | mmrcms                                                                                                   |
 | orcamanga         | zeistmanga    | blocked | blog has series without chapters; the chapter pages found carry no images                                |
 | paradisebl        | madara        | done    | chapters carry no dates on the site                                                                      |
 | rocksmanga        | madara        | blocked | site under maintenance (title 'صيانة')                                                                   |
