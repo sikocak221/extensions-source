@@ -165,6 +165,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | MangaLix                                          | EN        | https://mangalix.com                  |      |
 | MangaManiacs                                      | EN        | https://mangamaniacs.org              | yes  |
 | MangaMelon                                        | EN        | https://mangamelon.com                |      |
+| Mangamo                                           | EN        | https://www.mangamo.com               |      |
 | MangaNow                                          | EN        | https://manganow.to                   |      |
 | MangaOwl.io (unoriginal)                          | EN        | https://mangaowl.io                   |      |
 | MangaPill                                         | EN        | https://mangapill.com                 |      |

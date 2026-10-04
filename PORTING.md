@@ -411,7 +411,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | aurora                                    | standalone    | done    |                                                                                                              |
 | batcave                                   | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | bbato                                     | standalone    | done    | the #1 title can have no chapters yet; the test picks the first with chapters                                |
-| bookwalker                                | standalone    | todo    |                                                                                                              |
+| bookwalker                                | standalone    | later   | pages are E4P manifests (same container decoding as J-Novel)                                                 |
 | broccolisoup                              | standalone    | done    | singleseries; character text pages not ported                                                                |
 | buttsmithy                                | standalone    | done    |                                                                                                              |
 | clonemanga                                | standalone    | done    |                                                                                                              |
@@ -495,7 +495,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangalix                                  | standalone    | done    | catalog parsed from the main script's JS literal; per-series /chapters/<slug>.json (the .gz archive is gone) |
 | mangamelon                                | standalone    | done    |                                                                                                              |
 | mangamirai                                | standalone    | todo    |                                                                                                              |
-| mangamo                                   | standalone    | todo    |                                                                                                              |
+| mangamo                                   | standalone    | done    | anonymous Firebase account + Firestore REST; newest chapters need a subscription                             |
 | mangamob                                  | standalone    | done    |                                                                                                              |
 | mangapdf                                  | standalone    | blocked | probe 2026-10-03: http:521                                                                                   |
 | mangapill                                 | standalone    | done    |                                                                                                              |
