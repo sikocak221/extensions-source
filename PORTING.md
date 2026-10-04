@@ -634,15 +634,15 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## uk
 
-| Extension  | Theme      | Status | Notes |
-| ---------- | ---------- | ------ | ----- |
-| comixtopia | standalone | todo   |       |
-| dgmanga    | standalone | todo   |       |
-| faust      | standalone | todo   |       |
-| honeymanga | standalone | todo   |       |
-| mangainua  | standalone | todo   |       |
-| mangarama  | madara     | todo   |       |
-| zenko      | standalone | todo   |       |
+| Extension  | Theme      | Status | Notes                                                                                                              |
+| ---------- | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
+| comixtopia | standalone | todo   |                                                                                                                    |
+| dgmanga    | standalone | done   | JSON api; hidden genres + licensed prefs                                                                           |
+| faust      | standalone | todo   |                                                                                                                    |
+| honeymanga | standalone | done   | api filters; hidden genres/types from prefs applied as exclusions                                                  |
+| mangainua  | standalone | todo   |                                                                                                                    |
+| mangarama  | madara     | ported | in pending/: media.mangarama.com.ua answers 403 (Cloudflare) to signed page urls from here; rest of the flow works |
+| zenko      | standalone | done   | api; hidden genres/categories/age prefs                                                                            |
 
 ## it
 
