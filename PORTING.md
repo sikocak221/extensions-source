@@ -667,39 +667,39 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## ru
 
-| Extension     | Theme      | Status | Notes |
-| ------------- | ---------- | ------ | ----- |
-| acomics       | standalone | todo   |       |
-| allhentai     | grouple    | todo   |       |
-| astramanga    | standalone | todo   |       |
-| comx          | standalone | todo   |       |
-| desu          | standalone | todo   |       |
-| henchan       | multichan  | todo   |       |
-| hentailib     | libgroup   | todo   |       |
-| inkstory      | inkstory   | todo   |       |
-| mangabuff     | standalone | todo   |       |
-| mangachan     | multichan  | todo   |       |
-| mangahub      | standalone | todo   |       |
-| mangalib      | libgroup   | todo   |       |
-| mangamen      | standalone | todo   |       |
-| mangapoisk    | standalone | todo   |       |
-| mangashi      | standalone | todo   |       |
-| mintmanga     | grouple    | todo   |       |
-| ninegrid      | standalone | todo   |       |
-| nudemoon      | standalone | todo   |       |
-| puremanga     | inkstory   | todo   |       |
-| readmanga     | grouple    | todo   |       |
-| seimanga      | grouple    | todo   |       |
-| selfmanga     | grouple    | todo   |       |
-| senkognito    | senkuro    | todo   |       |
-| senkuro       | senkuro    | todo   |       |
-| slashlib      | libgroup   | todo   |       |
-| tomilolib     | standalone | todo   |       |
-| unicomics     | standalone | todo   |       |
-| usagi         | grouple    | todo   |       |
-| wamanga       | standalone | todo   |       |
-| yagamiproject | standalone | todo   |       |
-| yaoichan      | multichan  | todo   |       |
+| Extension     | Theme      | Status  | Notes                                                                                                           |
+| ------------- | ---------- | ------- | --------------------------------------------------------------------------------------------------------------- |
+| acomics       | standalone | todo    |                                                                                                                 |
+| allhentai     | grouple    | todo    |                                                                                                                 |
+| astramanga    | standalone | todo    |                                                                                                                 |
+| comx          | standalone | todo    |                                                                                                                 |
+| desu          | standalone | todo    |                                                                                                                 |
+| henchan       | multichan  | done    | popular uses the favourites order of /manga/newest (/mostfavorites shows a maintenance page; /manga/new is 404) |
+| hentailib     | libgroup   | todo    |                                                                                                                 |
+| inkstory      | inkstory   | todo    |                                                                                                                 |
+| mangabuff     | standalone | todo    |                                                                                                                 |
+| mangachan     | multichan  | done    | tag listing ids use underscores                                                                                 |
+| mangahub      | standalone | todo    |                                                                                                                 |
+| mangalib      | libgroup   | todo    |                                                                                                                 |
+| mangamen      | standalone | todo    |                                                                                                                 |
+| mangapoisk    | standalone | todo    |                                                                                                                 |
+| mangashi      | standalone | todo    |                                                                                                                 |
+| mintmanga     | grouple    | todo    |                                                                                                                 |
+| ninegrid      | standalone | todo    |                                                                                                                 |
+| nudemoon      | standalone | todo    |                                                                                                                 |
+| puremanga     | inkstory   | todo    |                                                                                                                 |
+| readmanga     | grouple    | todo    |                                                                                                                 |
+| seimanga      | grouple    | todo    |                                                                                                                 |
+| selfmanga     | grouple    | todo    |                                                                                                                 |
+| senkognito    | senkuro    | todo    |                                                                                                                 |
+| senkuro       | senkuro    | todo    |                                                                                                                 |
+| slashlib      | libgroup   | todo    |                                                                                                                 |
+| tomilolib     | standalone | todo    |                                                                                                                 |
+| unicomics     | standalone | todo    |                                                                                                                 |
+| usagi         | grouple    | todo    |                                                                                                                 |
+| wamanga       | standalone | todo    |                                                                                                                 |
+| yagamiproject | standalone | todo    |                                                                                                                 |
+| yaoichan      | multichan  | blocked | probe 2026-10-05: connection times out                                                                          |
 
 ## th
 
