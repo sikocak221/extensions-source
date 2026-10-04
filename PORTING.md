@@ -748,7 +748,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | arabtoons         | madara        | blocked | site under maintenance (503)                                                             |
 | arbxcomix         | madara        | done    | chapters carry no dates on the site                                                      |
 | areamanga         | mangathemesia | blocked | Cloudflare challenge                                                                     |
-| ariatoon          | standalone    | todo    |                                                                                          |
+| ariatoon          | standalone    | done    | chapter list limited to the first 100 (as in Tachiyomi)                                  |
 | azora             | iken          | done    |                                                                                          |
 | comicverse        | zeistmanga    | done    |                                                                                          |
 | despairmanga      | mangathemesia | done    | moved to despair-world.com                                                               |
@@ -756,14 +756,14 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | dilar             | standalone    | todo    |                                                                                          |
 | duskoryvile       | standalone    | todo    |                                                                                          |
 | empirewebtoon     | madara        | blocked | Cloudflare challenge (manga pages)                                                       |
-| eshadow           | standalone    | todo    |                                                                                          |
+| eshadow           | standalone    | done    | series without chapters exist; test picks one with chapters                              |
 | goonscans         | mangathemesia | done    | site search ignores the title (listing only); test uses a series with chapters           |
-| hentailek         | standalone    | todo    |                                                                                          |
+| hentailek         | standalone    | done    | Arabic chapter dates parsed locally (arabic-date.ts)                                     |
 | hentaiman         | standalone    | blocked | connection times out (dead?)                                                             |
 | hentaislayer      | fuzzydoodle   | done    | new fuzzydoodle theme; latest-type preference                                            |
 | hijala            | mangathemesia | blocked | Cloudflare challenge                                                                     |
 | hizomanga         | madara        | done    |                                                                                          |
-| kawiimanga        | standalone    | todo    |                                                                                          |
+| kawiimanga        | standalone    | done    | API needs a short-lived token fetched with the public app key                            |
 | lavascans         | mangathemesia | done    |                                                                                          |
 | lonertranslations | zeistmanga    | done    |                                                                                          |
 | manga3asq         | madara        | done    | Arabic chapter dates parsed locally (arabic-date.ts)                                     |
@@ -779,13 +779,13 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangaswat         | standalone    | todo    |                                                                                          |
 | mangatales        | standalone    | todo    |                                                                                          |
 | mangatek          | standalone    | blocked | Cloudflare challenge                                                                     |
-| mangatime         | standalone    | todo    |                                                                                          |
-| mangatuk          | standalone    | todo    |                                                                                          |
+| mangatime         | standalone    | done    | tRPC API                                                                                 |
+| mangatuk          | standalone    | done    | locked (coin) chapters left out                                                          |
 | manhatic          | madara        | blocked | moved to hentailek.com (same site as the hentailek extension)                            |
 | manhatok          | zeistmanga    | done    | image-host helper posts filtered; test picks a chapter that has pages                    |
 | murim             | zeistmanga    | blocked | connection times out (dead?)                                                             |
 | neverscans        | standalone    | blocked | TLS certificate error (dead?)                                                            |
-| oduto             | standalone    | todo    |                                                                                          |
+| oduto             | standalone    | done    | single-series Blogger site                                                               |
 | onma              | mmrcms        | todo    |                                                                                          |
 | orcamanga         | zeistmanga    | blocked | blog has series without chapters; the chapter pages found carry no images                |
 | paradisebl        | madara        | done    | chapters carry no dates on the site                                                      |
