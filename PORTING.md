@@ -609,9 +609,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## bg
 
-| Extension  | Theme  | Status | Notes |
-| ---------- | ------ | ------ | ----- |
-| utsukushii | mmrcms | todo   |       |
+| Extension  | Theme  | Status  | Notes                                             |
+| ---------- | ------ | ------- | ------------------------------------------------- |
+| utsukushii | mmrcms | blocked | probe 2026-10-04: dead:connect timeout (curl too) |
 
 ## ca
 
