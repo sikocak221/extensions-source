@@ -597,9 +597,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## pl
 
-| Extension | Theme      | Status | Notes |
-| --------- | ---------- | ------ | ----- |
-| mangahona | standalone | todo   |       |
+| Extension | Theme      | Status | Notes                                        |
+| --------- | ---------- | ------ | -------------------------------------------- |
+| mangahona | standalone | done   | JSON API; whole catalog filtered client-side |
 
 ## cs
 
