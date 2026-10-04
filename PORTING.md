@@ -646,24 +646,24 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## it
 
-| Extension           | Theme         | Status | Notes |
-| ------------------- | ------------- | ------ | ----- |
-| animegdrclub        | standalone    | todo   |       |
-| ddtteam             | pizzareader   | todo   |       |
-| digitalteam         | standalone    | todo   |       |
-| gto                 | pizzareader   | todo   |       |
-| hastateam           | pizzareader   | todo   |       |
-| hentaiarchive       | standalone    | todo   |       |
-| hentaifantasy       | standalone    | todo   |       |
-| juinjutsuteamreader | foolslide     | todo   |       |
-| lupiteam            | pizzareader   | todo   |       |
-| mangaworld          | mangaworld    | todo   |       |
-| mangaworldadult     | mangaworld    | todo   |       |
-| nifteam             | foolslide     | todo   |       |
-| phoenixscans        | pizzareader   | todo   |       |
-| tuttoanimemanga     | pizzareader   | todo   |       |
-| walpurgisscan       | mangathemesia | todo   |       |
-| zeurelscan          | standalone    | todo   |       |
+| Extension           | Theme         | Status  | Notes                                         |
+| ------------------- | ------------- | ------- | --------------------------------------------- |
+| animegdrclub        | standalone    | todo    |                                               |
+| ddtteam             | pizzareader   | blocked | probe 2026-10-04: Cloudflare 403              |
+| digitalteam         | standalone    | blocked | probe 2026-10-04: dead:ENOTFOUND              |
+| gto                 | pizzareader   | done    |                                               |
+| hastateam           | pizzareader   | blocked | probe 2026-10-04: Cloudflare 403              |
+| hentaiarchive       | standalone    | todo    |                                               |
+| hentaifantasy       | standalone    | todo    |                                               |
+| juinjutsuteamreader | foolslide     | todo    |                                               |
+| lupiteam            | pizzareader   | done    |                                               |
+| mangaworld          | mangaworld    | todo    |                                               |
+| mangaworldadult     | mangaworld    | todo    |                                               |
+| nifteam             | foolslide     | todo    |                                               |
+| phoenixscans        | pizzareader   | done    |                                               |
+| tuttoanimemanga     | pizzareader   | done    |                                               |
+| walpurgisscan       | mangathemesia | blocked | probe 2026-10-04: http:503 'Accesso Limitato' |
+| zeurelscan          | standalone    | blocked | probe 2026-10-04: dead:connect timeout        |
 
 ## ru
 
