@@ -42,6 +42,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Comic Asura                                       | EN        | https://comicasura.net                |      |
 | ComicLand                                         | EN        | https://comicland.org                 |      |
 | Comivex                                           | EN        | https://comivex.com                   |      |
+| Coolmic                                           | EN        | https://coolmic.me                    |      |
 | CosmicScans                                       | ID        | https://04.cosmicscans.to             |      |
 | CrotPedia                                         | ID        | https://crotpedia.net                 | yes  |
 | Cucumber Manga                                    | EN        | https://cucumbermanga.com             | yes  |

@@ -423,7 +423,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | comickfan                                 | standalone    | blocked | probe 2026-10-03: http:522                                                                                             |
 | comicland                                 | standalone    | done    |                                                                                                                        |
 | comix                                     | standalone    | blocked | probe 2026-10-03: dead:no-baseUrl                                                                                      |
-| coolmic                                   | standalone    | todo    |                                                                                                                        |
+| coolmic                                   | standalone    | done    | pages: site-issued key + PBKDF2-SHA256 + AES-CBC in transformImage; newest chapters are paid                           |
 | cutiecomics                               | standalone    | done    |                                                                                                                        |
 | darklegacycomics                          | standalone    | done    | singleseries                                                                                                           |
 | darkscience                               | standalone    | done    | singleseries                                                                                                           |
@@ -494,7 +494,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangakatana                               | standalone    | done    | images are octet-stream: empty transformImage lets the host sniff them                                                 |
 | mangalix                                  | standalone    | done    | catalog parsed from the main script's JS literal; per-series /chapters/<slug>.json (the .gz archive is gone)           |
 | mangamelon                                | standalone    | done    |                                                                                                                        |
-| mangamirai                                | standalone    | todo    |                                                                                                                        |
+| mangamirai                                | standalone    | blocked | service shutting down (15 Dec 2026, moving to MangaPlaza); catalog/search removed                                      |
 | mangamo                                   | standalone    | done    | anonymous Firebase account + Firestore REST; newest chapters need a subscription                                       |
 | mangamob                                  | standalone    | done    |                                                                                                                        |
 | mangapdf                                  | standalone    | blocked | probe 2026-10-03: http:521                                                                                             |
