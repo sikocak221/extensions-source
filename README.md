@@ -10,12 +10,14 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 
 | Extension                                         | Languages | Site                                  | NSFW |
 | ------------------------------------------------- | --------- | ------------------------------------- | ---- |
+| 11toon                                            | KO        | https://www.11toon.com                |      |
 | 18 Porn Comic                                     | EN        | https://18porncomic.com               | yes  |
 | 8Muses                                            | EN        | https://comics.8muses.com             | yes  |
 | Aarlas                                            | ID        | https://www.arlas.online              |      |
 | Ainz Scans ID                                     | ID        | https://v3.ainzscans01.com            |      |
 | Akaza Scans                                       | EN        | https://akazascans.org                |      |
 | AllPornComic.io                                   | EN        | https://allporncomic.io               | yes  |
+| Anime GDR Club                                    | IT        |                                       |      |
 | AP Comics                                         | EN        | https://apcomics.org                  | yes  |
 | APKOMIK                                           | ID        | https://01.apkomik.com                |      |
 | Arc-Relight                                       | EN        | https://arc-relight.com               |      |
@@ -31,6 +33,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Bakkin                                            | EN        | https://bakkin.moe                    |      |
 | Battle In 5 Seconds After Meeting                 | EN        | https://www.deatte5.com               |      |
 | Bbato                                             | EN        | https://bato1.com                     |      |
+| BlackToon                                         | KO        | https://blacktoon.me                  |      |
 | Broccoli Soup                                     | EN        | https://politeandgood.com             |      |
 | Bun Manga                                         | EN        | https://bunmanga.com                  |      |
 | buttsmithy                                        | EN        | https://incase.buttsmithy.com         | yes  |
@@ -42,6 +45,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Comic Asura                                       | EN        | https://comicasura.net                |      |
 | ComicLand                                         | EN        | https://comicland.org                 |      |
 | Comivex                                           | EN        | https://comivex.com                   |      |
+| ComixTopia                                        | UK        | https://comixtopia.in.ua              |      |
 | Coolmic                                           | EN        | https://coolmic.me                    |      |
 | CosmicScans                                       | ID        | https://04.cosmicscans.to             |      |
 | CrotPedia                                         | ID        | https://crotpedia.net                 | yes  |
@@ -55,6 +59,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Darths & Droids                                   | EN        | https://www.darthsanddroids.net       |      |
 | Death Toll Scans                                  | EN        | https://reader.deathtollscans.net     |      |
 | Decadence Scans                                   | EN        | https://reader.decadencescans.com     |      |
+| DGManga                                           | UK        | https://dgmanga.app                   |      |
 | Diva Scans                                        | EN        | https://divascans.org                 |      |
 | Dojing.net                                        | ID        | https://dojing.net                    | yes  |
 | Doujindesu                                        | ID        | https://doujin.desu.xxx               | yes  |
@@ -65,10 +70,13 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Dynasty Scans                                     | EN        | https://dynasty-scans.com             |      |
 | Eggporncomics                                     | EN        | https://eggporncomics.com             | yes  |
 | El Goonish Shive                                  | EN        | https://static.tumblr.com             |      |
+| emaqi                                             | EN        | https://emaqi.com                     |      |
 | Eris Scans                                        | EN        | https://erisscans.com                 |      |
 | Erofus                                            | EN        | https://www.erofus.com                | yes  |
 | Eva Scans                                         | EN        | https://evascans.net                  |      |
 | Existential Comics                                | EN        | https://existentialcomics.com         |      |
+| Fansubs.cat                                       | CA        | https://manga.fansubs.cat             |      |
+| Faust                                             | UK        | https://faust-web.com                 |      |
 | Frieren Online                                    | EN        | https://www.frieren.online            |      |
 | GakaMangas                                        | EN        | https://gakamangas.com                |      |
 | Galaxy Manga                                      | EN        | https://galaxymanga.io                |      |
@@ -80,11 +88,15 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Gone with the Blastwave                           | EN        | https://www.blastwave-comic.com       |      |
 | Grim Scans                                        | EN        | https://grimscans.com                 |      |
 | Grrl Power Comic                                  | EN        | https://www.grrlpowercomic.com        |      |
+| GTO The Great Site                                | IT        | https://reader.gtothegreatsite.net    |      |
 | Gunnerkrigg Court                                 | EN        | https://www.gunnerkrigg.com           |      |
 | Guya                                              | EN        | https://guya.cubari.moe               |      |
 | Hachirumi                                         | EN        | https://hachirumi.com                 |      |
 | Hentai Crot                                       | ID        | https://hentaicrot.com                | yes  |
+| Hentai.cat                                        | CA        | https://manga.hentai.cat              | yes  |
 | Hentai4Free                                       | EN        | https://hentai4free.net               | yes  |
+| HentaiArchive                                     | IT        | https://www.hentai-archive.com        | yes  |
+| HentaiFantasy                                     | IT        | https://hentaifantasy.it              | yes  |
 | HentaiKisu                                        | EN        | https://hentaikisu.com                | yes  |
 | HentaiKun                                         | EN        | https://hentaikun.com                 | yes  |
 | HentaiNexus                                       | EN        | https://hentainexus.com               | yes  |
@@ -95,6 +107,8 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Hentara                                           | EN        | https://hentara.com                   | yes  |
 | Hiperdex                                          | EN        | https://hiperdex.tv                   |      |
 | Hive Scans                                        | EN        | https://hivetoons.org                 |      |
+| Hiveworks Comics                                  | EN        | https://hiveworkscomics.com           |      |
+| HoneyManga                                        | UK        | https://honey-manga.com.ua            |      |
 | HonkaiImpact3                                     | EN        | https://manga.honkaiimpact3.com       |      |
 | Hunlight Comics                                   | EN        | https://hunlightcomics.com            |      |
 | Hwago                                             | ID        | https://02.hwago.xyz                  |      |
@@ -103,6 +117,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | INKR                                              | EN        | https://comics.inkr.com               |      |
 | IsekaiKomik                                       | ID        | https://ch1.isekaikomik.site          |      |
 | Izanami Scans                                     | ID        | https://izanamiscans.my.id            |      |
+| Juin Jutsu Team Reader                            | IT        | https://www.juinjutsureader.ovh       |      |
 | K Manga                                           | EN        | https://kmanga.kodansha.com           |      |
 | Kanzenin                                          | ID        | https://kanzenin.info                 | yes  |
 | Kayn Scans                                        | EN        | https://kaynscans.com                 |      |
@@ -141,6 +156,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Lua Scans                                         | EN        | https://luacomic.org                  |      |
 | Luminare Translations                             | EN        | https://luminaretranslations.com      |      |
 | LumosKomik                                        | ID        | https://03.lumosgg.com                |      |
+| LupiTeam                                          | IT        | https://lupiteam.net                  |      |
 | LustToon                                          | EN        | https://lustoon.com                   |      |
 | Maid - Manga                                      | ID        | https://www.maid.my.id                |      |
 | Manga 18x                                         | EN        | https://manga18x.net                  | yes  |
@@ -150,6 +166,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Manga District                                    | EN        | https://mangadistrict.com             |      |
 | Manga Drama                                       | EN        | https://mangadrama.com                | yes  |
 | Manga Trend                                       | EN        | https://mangatrend.org                |      |
+| Manga Tube                                        | DE        | https://manga-tube.me                 |      |
 | Manga.uno                                         | EN        | https://manga.uno                     |      |
 | Manga18Free                                       | EN        | https://manga18free.com               | yes  |
 | Mangabat                                          | EN        | https://www.mangabats.com             |      |
@@ -162,6 +179,8 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Mangafree                                         | EN        | https://mangafree.info                | yes  |
 | MangaGeko                                         | EN        | https://www.mgeko.cc                  |      |
 | Mangahere                                         | EN        | https://www.mangahere.cc              |      |
+| MangaHoNa                                         | PL        | https://mangahona.pl                  |      |
+| MangaInUa                                         | UK        | https://manga.in.ua                   |      |
 | MangaK                                            | EN        | https://mangak.io                     |      |
 | MangaKatana                                       | EN        | https://mangakatana.com               |      |
 | Mangalay                                          | ID        | https://mangalay.blogspot.com         |      |
@@ -178,6 +197,8 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | MangaTaro                                         | EN        | https://mangataro.org                 |      |
 | Mangatellers                                      | EN        | https://reader.mangatellers.gr        |      |
 | Mangatown                                         | EN        | https://www.mangatown.com             |      |
+| Mangaworld                                        | IT        | https://www.mangaworld.mx             |      |
+| MangaworldAdult                                   | IT        | https://www.mangaworldadult.net       | yes  |
 | MangaYi                                           | EN        | https://mangayi.com                   |      |
 | MangaYY                                           | EN        | https://mangayy.org                   |      |
 | Manhua Plus                                       | EN        | https://manhuaplus.com                |      |
@@ -207,9 +228,11 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | MyAdultComics                                     | EN        | https://myadultcomics.com             | yes  |
 | NarasiNinja                                       | ID        | https://narasininja.net               |      |
 | Natsu                                             | ID        | https://natsu.one                     |      |
+| Naver Comic                                       | KO        | https://comic.naver.com               |      |
 | New Manhwa                                        | EN        | https://saymanhwa.com                 |      |
 | NgamenKomik                                       | ID        | https://ngamenkomik05.blogspot.com    |      |
 | Ngomik                                            | ID        | https://02.ngomik.cc                  |      |
+| NIFTeam                                           | IT        | https://read-nifteam.info             |      |
 | NineHentai                                        | EN        | https://9hentai.so                    | yes  |
 | Noromax                                           | ID        | https://noromax02.my.id               |      |
 | Nyanu Kafe                                        | EN        | https://nyanukafe.com                 |      |
@@ -229,6 +252,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Patch Friday                                      | EN        | https://patchfriday.com               |      |
 | Petrotechsociety                                  | EN        | https://www.petrotechsociety.org      | yes  |
 | Philia Scans                                      | EN        | https://philiascans.org               |      |
+| Phoenix Scans                                     | IT        | https://www.phoenixscans.com          |      |
 | Pix Hentai                                        | ID        | https://pixhentai.com                 | yes  |
 | Pornhwa18                                         | EN        | https://pornhwa18.com                 | yes  |
 | Pramramadhan                                      | ID        | https://01.pramramadhan.my.id         |      |
@@ -236,6 +260,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Questionable Content                              | EN        | https://www.questionablecontent.net   |      |
 | Rackus                                            | EN        | https://rackusreads.com               |      |
 | Raven Scans                                       | EN        | https://ravenscans.org                |      |
+| RawDEX                                            | KO        | https://rawdex.net                    | yes  |
 | Read Attack on Titan Shingeki no Kyojin Manga     | EN        | https://ww12.readsnk.com              |      |
 | Read Berserk Manga                                | EN        | https://readberserk.com               |      |
 | Read Chainsaw Man Manga Online                    | EN        | https://ww6.readchainsawman.com       | yes  |
@@ -294,11 +319,13 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | TimelessToons                                     | EN        | https://timelesstoons.org             |      |
 | Toonily.me                                        | EN        | https://toontop.io                    | yes  |
 | Toonizy                                           | EN        | https://toonizy.com                   |      |
+| Toonkor                                           | KO        | https://toonkor1.org                  |      |
 | Toonz                                             | EN        | https://toonz.to                      | yes  |
 | Top Manhua                                        | EN        | https://mangatop.org                  |      |
 | TopManhua.fan                                     | EN        | https://www.topmanhua.fan             |      |
 | TopManhua.net                                     | EN        | https://topmanhua.net                 |      |
 | TritiniaScans                                     | EN        | https://tritinia.org                  |      |
+| TuttoAnimeManga                                   | IT        | https://tuttoanimemanga.net           |      |
 | Valir Scans                                       | EN        | https://valirscans.org                |      |
 | vgperson                                          | EN        | https://vgperson.com                  |      |
 | Violet Scans                                      | EN        | https://violetmanga.com               |      |
@@ -310,6 +337,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Weeb Central                                      | EN        | https://weebcentral.com               |      |
 | WestManga                                         | ID        | https://v1.westmanga.my               |      |
 | WitchScans                                        | EN        | https://witchtoons.net                |      |
+| Wolf.com                                          | KO        | https://wfwf510.com                   |      |
 | Writer Scans                                      | EN        | https://writerscans.com               |      |
 | Wurmz                                             | ID        | https://wurmz.net                     |      |
 | WuxiaWorld                                        | EN        | https://wuxiaworld.site               |      |
@@ -318,6 +346,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | YaoiHot                                           | EN        | https://yaoihot.com                   | yes  |
 | Yaoihub                                           | EN        | https://yaoihub.org                   | yes  |
 | Zazamanga                                         | EN        | https://www.zazamanga.com             |      |
+| Zenko                                             | UK        | https://zenko.online                  |      |
 | Zinmanga                                          | EN        | https://mangazin.org                  |      |
 
 Porting progress from Tachiyomi: [PORTING.md](PORTING.md).
