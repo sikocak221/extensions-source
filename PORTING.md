@@ -799,65 +799,65 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## fr
 
-| Extension        | Theme         | Status | Notes |
-| ---------------- | ------------- | ------ | ----- |
-| animesama        | standalone    | todo   |       |
-| aralosbd         | standalone    | todo   |       |
-| astralmanga      | standalone    | todo   |       |
-| bananascan       | madara        | todo   |       |
-| banchanscan      | standalone    | todo   |       |
-| bigsolo          | standalone    | todo   |       |
-| blossomscans     | standalone    | todo   |       |
-| bluesolo         | pizzareader   | todo   |       |
-| chaostrad        | standalone    | todo   |       |
-| dassouscan       | standalone    | todo   |       |
-| epsilonscan      | pam           | todo   |       |
-| fmteam           | pizzareader   | todo   |       |
-| furyosquad       | standalone    | todo   |       |
-| hanabook         | standalone    | todo   |       |
-| hentaiorigines   | origines      | todo   |       |
-| hentaiscanreader | scanreader    | todo   |       |
-| hentaiscantrad   | madara        | todo   |       |
-| hentaizone       | madara        | todo   |       |
-| histoiredhentai  | madara        | todo   |       |
-| japscan          | standalone    | todo   |       |
-| kiwiyascans      | mangathemesia | todo   |       |
-| lanortrad        | standalone    | todo   |       |
-| lelmanga         | mangathemesia | todo   |       |
-| lelscan          | standalone    | todo   |       |
-| lelscanvf        | fuzzydoodle   | todo   |       |
-| lesporoiniens    | standalone    | todo   |       |
-| mangacorporation | pizzareader   | todo   |       |
-| mangahubfr       | madara        | todo   |       |
-| mangakawaii      | standalone    | todo   |       |
-| mangamoins       | standalone    | todo   |       |
-| manganova        | standalone    | todo   |       |
-| mangascantrad    | madara        | todo   |       |
-| mangasoriginesfr | origines      | todo   |       |
-| ono              | standalone    | todo   |       |
-| ortegascans      | standalone    | todo   |       |
-| pantheonscan     | madara        | todo   |       |
-| perfscan         | loneseal      | todo   |       |
-| phenixscansco    | standalone    | todo   |       |
-| pornhwafr        | mangathemesia | todo   |       |
-| poseidonscans    | standalone    | todo   |       |
-| raijinscans      | standalone    | todo   |       |
-| rimuscans        | standalone    | todo   |       |
-| scanhentaimenu   | madara        | todo   |       |
-| scanmanga        | standalone    | todo   |       |
-| scanr            | standalone    | todo   |       |
-| scanreader       | scanreader    | todo   |       |
-| scansfr          | standalone    | todo   |       |
-| scantradunion    | standalone    | todo   |       |
-| scanvf           | mmrcms        | todo   |       |
-| sirenscansfr     | keyoapp       | todo   |       |
-| softepsilonscan  | pam           | todo   |       |
-| solarisscans     | standalone    | todo   |       |
-| sushiscan        | mangathemesia | todo   |       |
-| sushiscanfr      | mangathemesia | todo   |       |
-| toonfr           | madara        | todo   |       |
-| twatt            | standalone    | todo   |       |
-| yaoiscan         | mangathemesia | todo   |       |
+| Extension        | Theme         | Status  | Notes                                                                                                                                                                                     |
+| ---------------- | ------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| animesama        | standalone    | blocked | Cloudflare 403                                                                                                                                                                            |
+| aralosbd         | standalone    | todo    |                                                                                                                                                                                           |
+| astralmanga      | standalone    | blocked | Cloudflare challenge                                                                                                                                                                      |
+| bananascan       | madara        | done    |                                                                                                                                                                                           |
+| banchanscan      | standalone    | blocked | Cloudflare 403                                                                                                                                                                            |
+| bigsolo          | standalone    | blocked | Cloudflare 403                                                                                                                                                                            |
+| blossomscans     | standalone    | blocked | Cloudflare 403                                                                                                                                                                            |
+| bluesolo         | pizzareader   | todo    |                                                                                                                                                                                           |
+| chaostrad        | standalone    | todo    |                                                                                                                                                                                           |
+| dassouscan       | standalone    | todo    |                                                                                                                                                                                           |
+| epsilonscan      | pam           | blocked | Cloudflare 403                                                                                                                                                                            |
+| fmteam           | pizzareader   | todo    |                                                                                                                                                                                           |
+| furyosquad       | standalone    | todo    |                                                                                                                                                                                           |
+| hanabook         | standalone    | todo    |                                                                                                                                                                                           |
+| hentaiorigines   | origines      | todo    |                                                                                                                                                                                           |
+| hentaiscanreader | scanreader    | ported  | in pending/: o2switch Tiger Protect redirects the chapter-list POST until its o2s-chl cookie is sent back (redirect loop in the sandbox)                                                  |
+| hentaiscantrad   | madara        | done    |                                                                                                                                                                                           |
+| hentaizone       | madara        | blocked | Cloudflare 403                                                                                                                                                                            |
+| histoiredhentai  | madara        | done    |                                                                                                                                                                                           |
+| japscan          | standalone    | todo    |                                                                                                                                                                                           |
+| kiwiyascans      | mangathemesia | blocked | 526 invalid SSL certificate                                                                                                                                                               |
+| lanortrad        | standalone    | todo    |                                                                                                                                                                                           |
+| lelmanga         | mangathemesia | blocked | Cloudflare 403                                                                                                                                                                            |
+| lelscan          | standalone    | todo    |                                                                                                                                                                                           |
+| lelscanvf        | fuzzydoodle   | blocked | Cloudflare 403                                                                                                                                                                            |
+| lesporoiniens    | standalone    | todo    |                                                                                                                                                                                           |
+| mangacorporation | pizzareader   | todo    |                                                                                                                                                                                           |
+| mangahubfr       | madara        | done    | chapter images need a PHP session: made-up PHPSESSID sent with page and images                                                                                                            |
+| mangakawaii      | standalone    | todo    |                                                                                                                                                                                           |
+| mangamoins       | standalone    | todo    |                                                                                                                                                                                           |
+| manganova        | standalone    | todo    |                                                                                                                                                                                           |
+| mangascantrad    | madara        | blocked | Cloudflare challenge                                                                                                                                                                      |
+| mangasoriginesfr | origines      | blocked | Cloudflare challenge                                                                                                                                                                      |
+| ono              | standalone    | todo    |                                                                                                                                                                                           |
+| ortegascans      | standalone    | todo    |                                                                                                                                                                                           |
+| pantheonscan     | madara        | ported  | in pending/: the host's bot protection (o2switch Tiger Protect) redirects the chapter-list POST until its o2s-chl cookie is sent back; the sandbox has no cookie jar for redirects (loop) |
+| perfscan         | loneseal      | blocked | domain has no DNS record (dead)                                                                                                                                                           |
+| phenixscansco    | standalone    | blocked | Cloudflare 403                                                                                                                                                                            |
+| pornhwafr        | mangathemesia | blocked | 522 connection timed out                                                                                                                                                                  |
+| poseidonscans    | standalone    | todo    |                                                                                                                                                                                           |
+| raijinscans      | standalone    | todo    |                                                                                                                                                                                           |
+| rimuscans        | standalone    | todo    |                                                                                                                                                                                           |
+| scanhentaimenu   | madara        | blocked | Cloudflare challenge                                                                                                                                                                      |
+| scanmanga        | standalone    | blocked | m.scan-manga.com answers 404                                                                                                                                                              |
+| scanr            | standalone    | todo    |                                                                                                                                                                                           |
+| scanreader       | scanreader    | done    | test falls back to the next chapter (duplicate oldest chapter returns 500 on the site)                                                                                                    |
+| scansfr          | standalone    | todo    |                                                                                                                                                                                           |
+| scantradunion    | standalone    | todo    |                                                                                                                                                                                           |
+| scanvf           | mmrcms        | todo    |                                                                                                                                                                                           |
+| sirenscansfr     | keyoapp       | blocked | domain has no DNS record (dead)                                                                                                                                                           |
+| softepsilonscan  | pam           | blocked | Cloudflare 403                                                                                                                                                                            |
+| solarisscans     | standalone    | blocked | 503 maintenance page                                                                                                                                                                      |
+| sushiscan        | mangathemesia | blocked | Cloudflare 403                                                                                                                                                                            |
+| sushiscanfr      | mangathemesia | todo    |                                                                                                                                                                                           |
+| toonfr           | madara        | blocked | Cloudflare challenge                                                                                                                                                                      |
+| twatt            | standalone    | todo    |                                                                                                                                                                                           |
+| yaoiscan         | mangathemesia | blocked | 504 gateway time-out                                                                                                                                                                      |
 
 ## zh
 
