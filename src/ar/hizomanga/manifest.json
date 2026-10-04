@@ -1,0 +1,18 @@
+{
+  "id": "hizomanga",
+  "name": "HizoManga",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "HizoManga"
+    }
+  ]
+}
