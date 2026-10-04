@@ -716,7 +716,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | gomanga         | mangathemesia | done    |                                                                                     |
 | makimaaaaa      | mangathemesia | blocked | /manga/ listing answers 404 (site changed; series pages still at /manga/<slug>/)    |
 | manga168        | mangathemesia | blocked | probe 2026-10-04: dead:ECONNRESET                                                   |
-| mangablackcat   | standalone    | todo    |                                                                                     |
+| mangablackcat   | standalone    | done    |                                                                                     |
 | mangaisekaithai | madara        | done    | descrambling (packed script + tile matrix) ported but no scrambled page seen        |
 | mangakimi       | mangathemesia | blocked | probe 2026-10-04: Cloudflare 403                                                    |
 | mangalc         | madara        | done    |                                                                                     |
