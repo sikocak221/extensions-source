@@ -100,6 +100,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Hwago                                             | ID        | https://02.hwago.xyz                  |      |
 | I Roved Out                                       | EN        | https://www.irovedout.com             | yes  |
 | I'm An Evil God                                   | EN        | https://imanevilgod.com               |      |
+| INKR                                              | EN        | https://comics.inkr.com               |      |
 | IsekaiKomik                                       | ID        | https://ch1.isekaikomik.site          |      |
 | Izanami Scans                                     | ID        | https://izanamiscans.my.id            |      |
 | K Manga                                           | EN        | https://kmanga.kodansha.com           |      |
