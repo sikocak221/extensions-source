@@ -133,10 +133,9 @@ export default defineExtension({
       const showLocked = prefs.get<boolean>(LOCKED_PREFERENCE.key) ?? true;
       const showScheduled = prefs.get<boolean>(SCHEDULED_PREFERENCE.key) ?? true;
       const chapters: Chapter[] = [];
-      const since = Date.now();
       for (let page = 1, more = true; more; page++) {
         const response = await http.get(
-          `${BASE_URL}${manga.url}/episodes?page=${page}&sort=NEWEST&since=${since}&large=true&last_access=0&=`,
+          `${BASE_URL}${manga.url}/episodes?page=${page}&sort=NEWEST&large=true&last_access=0`,
           { headers },
         );
         const dto = JSON.parse(response.body) as {
