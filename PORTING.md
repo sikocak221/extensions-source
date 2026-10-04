@@ -760,7 +760,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | goonscans         | mangathemesia | done    | site search ignores the title (listing only); test uses a series with chapters           |
 | hentailek         | standalone    | todo    |                                                                                          |
 | hentaiman         | standalone    | blocked | connection times out (dead?)                                                             |
-| hentaislayer      | fuzzydoodle   | todo    |                                                                                          |
+| hentaislayer      | fuzzydoodle   | done    | new fuzzydoodle theme; latest-type preference                                            |
 | hijala            | mangathemesia | blocked | Cloudflare challenge                                                                     |
 | hizomanga         | madara        | done    |                                                                                          |
 | kawiimanga        | standalone    | todo    |                                                                                          |
