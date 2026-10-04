@@ -657,8 +657,8 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hentaifantasy       | standalone    | todo    |                                               |
 | juinjutsuteamreader | foolslide     | todo    |                                               |
 | lupiteam            | pizzareader   | done    |                                               |
-| mangaworld          | mangaworld    | todo    |                                               |
-| mangaworldadult     | mangaworld    | todo    |                                               |
+| mangaworld          | mangaworld    | done    |                                               |
+| mangaworldadult     | mangaworld    | done    |                                               |
 | nifteam             | foolslide     | todo    |                                               |
 | phoenixscans        | pizzareader   | done    |                                               |
 | tuttoanimemanga     | pizzareader   | done    |                                               |
