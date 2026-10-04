@@ -622,15 +622,15 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## ko
 
-| Extension  | Theme      | Status | Notes |
-| ---------- | ---------- | ------ | ----- |
-| blacktoon  | standalone | todo   |       |
-| manatoki   | standalone | todo   |       |
-| navercomic | standalone | todo   |       |
-| rawdex     | standalone | todo   |       |
-| toon11     | standalone | todo   |       |
-| toonkor    | standalone | todo   |       |
-| wolfdotcom | standalone | todo   |       |
+| Extension  | Theme      | Status  | Notes                                                                                                             |
+| ---------- | ---------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
+| blacktoon  | standalone | done    | domain redirect followed (blacktoon.me → current); full catalog from webtoon_N.js filtered client-side            |
+| manatoki   | standalone | blocked | domain rotates (manatoki5xx.net, address portal is JS-driven); no live domain found                               |
+| navercomic | standalone | done    | 3 sources (webtoon, best challenge, challenge)                                                                    |
+| rawdex     | standalone | done    |                                                                                                                   |
+| toon11     | standalone | done    | filters can't combine with a search query                                                                         |
+| toonkor    | standalone | done    | domain rotates (toonkor1.org now); desktop UA needed for the full listing                                         |
+| wolfdotcom | standalone | done    | webtoon + comic; domain rotation followed from the notice page; EUC-KR codec; photo section removed from the site |
 
 ## uk
 
