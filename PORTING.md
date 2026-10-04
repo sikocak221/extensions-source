@@ -617,8 +617,8 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 | Extension        | Theme      | Status | Notes |
 | ---------------- | ---------- | ------ | ----- |
-| fansubscat       | fansubscat | todo   |       |
-| fansubscathentai | fansubscat | todo   |       |
+| fansubscat       | fansubscat | done   |       |
+| fansubscathentai | fansubscat | done   |       |
 
 ## ko
 
