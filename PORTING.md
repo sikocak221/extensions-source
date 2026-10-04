@@ -636,11 +636,11 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 | Extension  | Theme      | Status | Notes                                                                                                              |
 | ---------- | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
-| comixtopia | standalone | todo   |                                                                                                                    |
+| comixtopia | standalone | done   | supabase REST; pages re-fetched from issues.image_list                                                             |
 | dgmanga    | standalone | done   | JSON api; hidden genres + licensed prefs                                                                           |
-| faust      | standalone | todo   |                                                                                                                    |
+| faust      | standalone | done   | unauthenticated API only; 18+ chapters need a site login; hidden-genre pref by genre name                          |
 | honeymanga | standalone | done   | api filters; hidden genres/types from prefs applied as exclusions                                                  |
-| mangainua  | standalone | todo   |                                                                                                                    |
+| mangainua  | standalone | done   | DLE ajax chapters/pages via site_login_hash                                                                        |
 | mangarama  | madara     | ported | in pending/: media.mangarama.com.ua answers 403 (Cloudflare) to signed page urls from here; rest of the flow works |
 | zenko      | standalone | done   | api; hidden genres/categories/age prefs                                                                            |
 
