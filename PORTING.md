@@ -697,7 +697,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | tomilolib     | standalone | done    | no resolveUrl (the api needs the title id, the site urls carry the slug)                                                                                                   |
 | unicomics     | standalone | done    | text search goes through Yandex site search (can show a captcha)                                                                                                           |
 | usagi         | grouple    | done    | no auto-login: series gated for guests (404) can't be read, e.g. the top popular ones; the fixture test uses the first popular series that opens                           |
-| wamanga       | standalone | todo    |                                                                                                                                                                            |
+| wamanga       | standalone | done    | SvelteKit __data.json (devalue) decoded in TS; detail responses stream extra lines, only the first is parsed                                                               |
 | yagamiproject | standalone | blocked | probe 2026-10-05: connection times out                                                                                                                                     |
 | yaoichan      | multichan  | blocked | probe 2026-10-05: connection times out                                                                                                                                     |
 
