@@ -648,13 +648,13 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 | Extension           | Theme         | Status  | Notes                                                        |
 | ------------------- | ------------- | ------- | ------------------------------------------------------------ |
-| animegdrclub        | standalone    | todo    |                                                              |
+| animegdrclub        | standalone    | done    | site content is from 2024 (still answers)                    |
 | ddtteam             | pizzareader   | blocked | probe 2026-10-04: Cloudflare 403                             |
 | digitalteam         | standalone    | blocked | probe 2026-10-04: dead:ENOTFOUND                             |
 | gto                 | pizzareader   | done    |                                                              |
 | hastateam           | pizzareader   | blocked | probe 2026-10-04: Cloudflare 403                             |
-| hentaiarchive       | standalone    | todo    |                                                              |
-| hentaifantasy       | standalone    | todo    |                                                              |
+| hentaiarchive       | standalone    | done    | each post is a single chapter                                |
+| hentaifantasy       | standalone    | done    | series listed once per recent chapter: deduplicated          |
 | juinjutsuteamreader | foolslide     | done    | search overridden (site lists results in div.series_element) |
 | lupiteam            | pizzareader   | done    |                                                              |
 | mangaworld          | mangaworld    | done    |                                                              |
