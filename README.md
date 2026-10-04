@@ -61,6 +61,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Doujins                                           | EN        | https://doujins.com                   | yes  |
 | Drake Scans                                       | EN        | https://drakecomic.net                |      |
 | DreamTeams Scans                                  | ID        | https://dreamteams.space              | yes  |
+| Dynasty Scans                                     | EN        | https://dynasty-scans.com             |      |
 | Eggporncomics                                     | EN        | https://eggporncomics.com             | yes  |
 | El Goonish Shive                                  | EN        | https://static.tumblr.com             |      |
 | Eris Scans                                        | EN        | https://erisscans.com                 |      |

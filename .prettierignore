@@ -3,3 +3,5 @@ public
 pnpm-lock.yaml
 .mr-ext
 src/*/*/test/fixtures
+src/en/dynasty/src/covers.ts
+src/en/dynasty/src/tags.ts

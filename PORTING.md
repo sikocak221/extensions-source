@@ -433,11 +433,11 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | doujinio                                  | standalone    | blocked | Cloudflare challenge ('Hold on...') on every page                                                            |
 | doujins                                   | standalone    | done    |                                                                                                              |
 | duskscans                                 | standalone    | blocked | probe 2026-10-03: dead:ENOTFOUND                                                                             |
-| dynasty                                   | standalone    | todo    |                                                                                                              |
+| dynasty                                   | standalone    | done    | covers/tags assets bundled as TS; no thumbnails for chapter-only entries                                     |
 | eggporncomics                             | standalone    | done    | the site's own search finds nothing (2026-10-03)                                                             |
 | egscomics                                 | standalone    | done    | singleseries                                                                                                 |
 | elanschool                                | standalone    | blocked | probe 2026-10-03: http:403                                                                                   |
-| emaqi                                     | standalone    | todo    |                                                                                                              |
+| emaqi                                     | standalone    | later   | needs RSA-OAEP key exchange + AES-GCM page decryption (SDK has neither)                                      |
 | existentialcomics                         | standalone    | done    | singleseries                                                                                                 |
 | explosm                                   | standalone    | done    |                                                                                                              |
 | fairyscans                                | standalone    | blocked | probe 2026-10-03: http:520                                                                                   |
