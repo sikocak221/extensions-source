@@ -603,9 +603,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## cs
 
-| Extension      | Theme         | Status | Notes |
-| -------------- | ------------- | ------ | ----- |
-| evilproduction | mangathemesia | todo   |       |
+| Extension      | Theme         | Status  | Notes                        |
+| -------------- | ------------- | ------- | ---------------------------- |
+| evilproduction | mangathemesia | blocked | probe 2026-10-04: cloudflare |
 
 ## bg
 
