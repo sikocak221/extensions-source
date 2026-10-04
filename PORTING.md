@@ -406,8 +406,8 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | allanime                                  | standalone    | blocked | probe 2026-10-03: dead:no-baseUrl                                                                            |
 | alphamanga                                | standalone    | later   | tiles need rotate/flip; SDK TileOp only copies rectangles                                                    |
 | asiatoon                                  | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
-| asurascans                                | standalone    | todo    |                                                                                                              |
-| atsumaru                                  | standalone    | todo    |                                                                                                              |
+| asurascans                                | standalone    | done    | free chapters only; tiled premium pages handled by transformImage                                            |
+| atsumaru                                  | standalone    | done    |                                                                                                              |
 | aurora                                    | standalone    | done    |                                                                                                              |
 | batcave                                   | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | bbato                                     | standalone    | done    | the #1 title can have no chapters yet; the test picks the first with chapters                                |
@@ -562,7 +562,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | tapastic                                  | standalone    | todo    |                                                                                                              |
 | tcbscans                                  | standalone    | done    |                                                                                                              |
 | teamshadowi                               | standalone    | done    |                                                                                                              |
-| templescan                                | standalone    | todo    |                                                                                                              |
+| templescan                                | standalone    | blocked | every page redirects to a Cloudflare Turnstile /challenge                                                    |
 | theduckwebcomics                          | standalone    | done    | 18+ comics need a login; live runner picks the #1 comic, which currently is one                              |
 | thegirlfromrandomchattingmangaonline      | standalone    | done    | singleseries                                                                                                 |
 | thepropertyofhate                         | standalone    | done    | singleseries                                                                                                 |
@@ -572,7 +572,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | visionhaze                                | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | vixenlogic                                | standalone    | done    | singleseries                                                                                                 |
 | vizshonenjump                             | standalone    | todo    | 2 sources                                                                                                    |
-| voyceme                                   | standalone    | todo    |                                                                                                              |
+| voyceme                                   | standalone    | ported  | in pending/: graphql.voyce.me answers 503                                                                    |
 | vyvymanga                                 | standalone    | blocked | probe 2026-10-03: http:503                                                                                   |
 | warforrayuba                              | standalone    | done    | pages via Imgur's album API (Cubari proxy gone); newest album deleted on Imgur                               |
 | webdexscans                               | standalone    | done    |                                                                                                              |

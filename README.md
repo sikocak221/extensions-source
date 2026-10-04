@@ -24,7 +24,9 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Assorted Scans                                    | EN        | https://assortedscans.com             |      |
 | Aster Scans                                       | EN        | https://asterscans.com                |      |
 | Astral Scans                                      | ID        | https://astralscans.site              | yes  |
+| Asura Scans                                       | EN        | https://asurascans.com                |      |
 | Athrea Scans                                      | EN        | https://athreascans.com               |      |
+| Atsumaru                                          | EN        | https://atsu.moe                      |      |
 | aurora                                            | EN        | https://comicaurora.com               |      |
 | Bakkin                                            | EN        | https://bakkin.moe                    |      |
 | Battle In 5 Seconds After Meeting                 | EN        | https://www.deatte5.com               |      |
