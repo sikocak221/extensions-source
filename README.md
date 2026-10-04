@@ -162,6 +162,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Mangafree                                         | EN        | https://mangafree.info                | yes  |
 | MangaGeko                                         | EN        | https://www.mgeko.cc                  |      |
 | Mangahere                                         | EN        | https://www.mangahere.cc              |      |
+| MangaHoNa                                         | PL        | https://mangahona.pl                  |      |
 | MangaK                                            | EN        | https://mangak.io                     |      |
 | MangaKatana                                       | EN        | https://mangakatana.com               |      |
 | Mangalay                                          | ID        | https://mangalay.blogspot.com         |      |
