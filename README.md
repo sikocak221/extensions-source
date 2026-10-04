@@ -213,6 +213,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Oglaf                                             | EN        | https://www.oglaf.com                 | yes  |
 | Oh Joy Sex Toy                                    | EN        | https://www.ohjoysextoy.com           | yes  |
 | Omega Scans                                       | EN        | https://omegascans.org                | yes  |
+| Omoi                                              | EN        | https://www.omoi.com                  |      |
 | One Punch Man Online                              | EN        | https://w20.1punchman.com             |      |
 | Only The Best Hentai                              | EN        | https://onlythebesthentai.com         | yes  |
 | oots                                              | EN        | https://www.giantitp.com              |      |
@@ -278,6 +279,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Sunshine Butterfly Scans                          | EN        | https://wings.sbs                     | yes  |
 | SUPER MEGA                                        | EN        | https://www.supermegacomics.com       |      |
 | Swords Comic                                      | EN        | https://swordscomic.com               |      |
+| Tapas                                             | EN        | https://tapas.io                      |      |
 | TCB Scans                                         | EN        | https://tcbonepiecechapters.com       |      |
 | Team Shadowi                                      | EN        | https://www.team-shadowi.com          |      |
 | The Duck Webcomics                                | EN        | https://www.theduckwebcomics.com      |      |

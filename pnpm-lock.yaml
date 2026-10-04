@@ -2612,6 +2612,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/en/omoi:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/en/onepunchmanonline:
     devDependencies:
       '@matane/extension-cli':
@@ -3363,6 +3378,21 @@ importers:
         version: 24.19.0
 
   src/en/swordscomic:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/en/tapastic:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'

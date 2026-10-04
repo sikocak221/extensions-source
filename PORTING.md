@@ -464,7 +464,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | infinityscans                             | standalone    | blocked | API returns nothing without a session cookie set by a WebView captcha                                        |
 | inkr                                      | standalone    | todo    |                                                                                                              |
 | irovedout                                 | standalone    | done    | singleseries                                                                                                 |
-| jnovel                                    | standalone    | todo    |                                                                                                              |
+| jnovel                                    | standalone    | later   | pages are E4P manifests with custom TIFF/XEBP containers needing pixel decoding                              |
 | kaliscancom                               | standalone    | blocked | probe 2026-10-03: dead:no-baseUrl                                                                            |
 | kappabeast                                | standalone    | blocked | probe 2026-10-03: cloudflare                                                                                 |
 | keenspot                                  | standalone    | done    | singleseries                                                                                                 |
@@ -527,7 +527,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | nuxscans                                  | standalone    | ported  | in pending/: the site's oldest chapter post is a 404 and chapters 147/148 share a url (2026-10-03)           |
 | oglaf                                     | standalone    | done    | singleseries                                                                                                 |
 | ohjoysextoy                               | standalone    | done    |                                                                                                              |
-| omoi                                      | standalone    | todo    |                                                                                                              |
+| omoi                                      | standalone    | done    | pages XORed with 174 in transformImage; newest chapters are paid                                             |
 | onepunchmanonline                         | standalone    | done    | singleseries; site moved to w20.1punchman.com; newest chapter has only a placeholder image                   |
 | onlythebesthentai                         | standalone    | done    |                                                                                                              |
 | oots                                      | standalone    | done    | singleseries                                                                                                 |
@@ -559,7 +559,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | sunshinebutterflyscans                    | standalone    | done    |                                                                                                              |
 | supermega                                 | standalone    | done    | singleseries                                                                                                 |
 | swordscomic                               | standalone    | done    | singleseries; title-text page not ported                                                                     |
-| tapastic                                  | standalone    | todo    |                                                                                                              |
+| tapastic                                  | standalone    | done    | newest episodes are paid (smoke stops at getPages); author's-note text pages not ported                      |
 | tcbscans                                  | standalone    | done    |                                                                                                              |
 | teamshadowi                               | standalone    | done    |                                                                                                              |
 | templescan                                | standalone    | blocked | every page redirects to a Cloudflare Turnstile /challenge                                                    |
