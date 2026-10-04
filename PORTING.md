@@ -866,7 +866,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | bakamh          | madara     | blocked | probe 2026-10-04: Cloudflare                                              |
 | baozimanhua     | standalone | todo    |                                                                           |
 | baozimhorg      | goda       | done    | mirrors: baozimh.org (first); api-get-v3 chapter list + decoded page list |
-| bh3             | standalone | todo    |                                                                           |
+| bh3             | standalone | done    | no site search: search filters the book list                              |
 | bilimanga       | standalone | todo    |                                                                           |
 | boylove         | standalone | todo    |                                                                           |
 | cartoon18       | standalone | todo    |                                                                           |
@@ -874,13 +874,13 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | comicabc        | standalone | todo    |                                                                           |
 | creativecomic   | standalone | todo    |                                                                           |
 | dm5             | standalone | todo    |                                                                           |
-| dongmanmanhua   | standalone | todo    |                                                                           |
+| dongmanmanhua   | standalone | done    | yields while parsing the 1.2 MB schedule page                             |
 | dumanwu         | mmlook     | blocked | probe 2026-10-04: dead (TLS certificate invalid)                          |
 | eighteenmanhua  | goda       | blocked | probe 2026-10-04: Cloudflare                                              |
 | favcomic        | standalone | todo    |                                                                           |
 | guazimanhua     | standalone | todo    |                                                                           |
 | hanabimanga     | standalone | todo    |                                                                           |
-| hanime1         | standalone | todo    |                                                                           |
+| hanime1         | standalone | done    |                                                                           |
 | hanman18        | manga18    | done    | tag filter removed (doesn't work on the site)                             |
 | hcomic          | standalone | todo    |                                                                           |
 | hentaiclub      | standalone | todo    |                                                                           |
@@ -897,7 +897,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manhuadui       | sinmh      | blocked | probe 2026-10-04: Cloudflare                                              |
 | manhuagui       | standalone | todo    |                                                                           |
 | manhuaren       | standalone | todo    |                                                                           |
-| manhuashe       | standalone | todo    |                                                                           |
+| manhuashe       | standalone | done    |                                                                           |
 | manhuawu        | mccms      | done    |                                                                           |
 | manwa           | standalone | blocked | probe 2026-10-04: Cloudflare                                              |
 | mh1234          | standalone | todo    |                                                                           |
