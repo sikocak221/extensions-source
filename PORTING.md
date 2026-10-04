@@ -923,85 +923,85 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## tr
 
-| Extension         | Theme         | Status | Notes |
-| ----------------- | ------------- | ------ | ----- |
-| afroditscans      | uzaymanga     | todo   |       |
-| alucardscans      | standalone    | todo   |       |
-| amangaplanet      | mangathemesia | todo   |       |
-| anikiga           | madara        | todo   |       |
-| araznovel         | standalone    | todo   |       |
-| arcurafansub      | mangathemesia | todo   |       |
-| asurascanstr      | madara        | todo   |       |
-| caprazmanga       | madara        | todo   |       |
-| diamondfansub     | madara        | todo   |       |
-| domalfansub       | madara        | todo   |       |
-| eldermanga        | uzaymanga     | todo   |       |
-| eskimangalar      | uzaymanga     | todo   |       |
-| gafeland          | mangathemesia | todo   |       |
-| gaiatoon          | mangathemesia | todo   |       |
-| garciamanga       | madara        | todo   |       |
-| ghosthentai       | madara        | todo   |       |
-| golgebahcesi      | standalone    | todo   |       |
-| hattorimanga      | standalone    | todo   |       |
-| hattoriscans      | standalone    | todo   |       |
-| hayalistic        | madara        | todo   |       |
-| holyscans         | standalone    | todo   |       |
-| juratempest       | standalone    | todo   |       |
-| korelimanga       | initmanga     | todo   |       |
-| koreliscans       | mangathemesia | todo   |       |
-| kuroimanga        | madara        | todo   |       |
-| laviniafansub     | madara        | todo   |       |
-| limonmanga        | uzaymanga     | todo   |       |
-| lunascans         | madara        | todo   |       |
-| mangadenizi       | standalone    | todo   |       |
-| mangadiyari       | standalone    | todo   |       |
-| mangadusleri      | standalone    | todo   |       |
-| mangakusu         | mangathemesia | todo   |       |
-| mangaportali      | standalone    | todo   |       |
-| mangasehrinet     | madara        | todo   |       |
-| mangaship         | standalone    | todo   |       |
-| mangatilkisi      | madara        | todo   |       |
-| mangatr           | standalone    | todo   |       |
-| mangawow          | madara        | todo   |       |
-| mangawt           | standalone    | todo   |       |
-| mangazure         | madara        | todo   |       |
-| mangitto          | standalone    | todo   |       |
-| merlinscans       | initmanga     | todo   |       |
-| mikrokosmosfansub | zeistmanga    | todo   |       |
-| milasub           | madara        | todo   |       |
-| monomanga         | standalone    | todo   |       |
-| moondaisyscans    | mangathemesia | todo   |       |
-| nemesisscans      | mangathemesia | todo   |       |
-| nirvanamanga      | mangathemesia | todo   |       |
-| niverafansub      | madara        | todo   |       |
-| okutoon           | standalone    | todo   |       |
-| opiatoon          | madara        | todo   |       |
-| orimanga          | initmanga     | todo   |       |
-| paradoxscans      | initmanga     | todo   |       |
-| patimanga         | mangathemesia | todo   |       |
-| ragnarscans       | initmanga     | todo   |       |
-| raindropfansub    | mangathemesia | todo   |       |
-| ruyamanga         | madara        | todo   |       |
-| sereinscan        | mangathemesia | todo   |       |
-| shadowceviri      | zeistmanga    | todo   |       |
-| shijiescans       | mangathemesia | todo   |       |
-| siyahmelek        | initmanga     | todo   |       |
-| sleptmanga        | standalone    | todo   |       |
-| strayfansub       | madaralegacy  | todo   |       |
-| summertoon        | madara        | todo   |       |
-| sunsetmanga       | madara        | todo   |       |
-| tarotscans        | mangathemesia | todo   |       |
-| tenshimanga       | uzaymanga     | todo   |       |
-| tonizutoon        | madara        | todo   |       |
-| toontaku          | standalone    | todo   |       |
-| tortugaceviri     | madara        | todo   |       |
-| trmanga           | standalone    | todo   |       |
-| turkcemangaoku    | madara        | todo   |       |
-| uzaymanga         | uzaymanga     | todo   |       |
-| webtoonhatti      | madara        | todo   |       |
-| webtoonoku        | standalone    | todo   |       |
-| yaoiflix          | madara        | todo   |       |
-| yaoimangaoku      | madara        | todo   |       |
+| Extension         | Theme         | Status  | Notes                                       |
+| ----------------- | ------------- | ------- | ------------------------------------------- |
+| afroditscans      | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| alucardscans      | standalone    | blocked | SSL handshake failed (525)                  |
+| amangaplanet      | mangathemesia | todo    |                                             |
+| anikiga           | madara        | todo    |                                             |
+| araznovel         | standalone    | todo    |                                             |
+| arcurafansub      | mangathemesia | blocked | Cloudflare challenge                        |
+| asurascanstr      | madara        | blocked | domain has no DNS record (dead)             |
+| caprazmanga       | madara        | blocked | TLS handshake fails (dead)                  |
+| diamondfansub     | madara        | todo    |                                             |
+| domalfansub       | madara        | blocked | Cloudflare block (403)                      |
+| eldermanga        | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| eskimangalar      | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| gafeland          | mangathemesia | blocked | Cloudflare challenge                        |
+| gaiatoon          | mangathemesia | blocked | Cloudflare challenge                        |
+| garciamanga       | madara        | blocked | hosting account suspended                   |
+| ghosthentai       | madara        | todo    |                                             |
+| golgebahcesi      | standalone    | blocked | Cloudflare block (403)                      |
+| hattorimanga      | standalone    | blocked | Cloudflare challenge                        |
+| hattoriscans      | standalone    | blocked | Cloudflare challenge                        |
+| hayalistic        | madara        | blocked | Cloudflare challenge                        |
+| holyscans         | standalone    | todo    |                                             |
+| juratempest       | standalone    | todo    |                                             |
+| korelimanga       | initmanga     | todo    |                                             |
+| koreliscans       | mangathemesia | todo    |                                             |
+| kuroimanga        | madara        | blocked | Cloudflare challenge                        |
+| laviniafansub     | madara        | todo    |                                             |
+| limonmanga        | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| lunascans         | madara        | todo    |                                             |
+| mangadenizi       | standalone    | todo    |                                             |
+| mangadiyari       | standalone    | todo    |                                             |
+| mangadusleri      | standalone    | blocked | connection times out (dead)                 |
+| mangakusu         | mangathemesia | blocked | Cloudflare challenge                        |
+| mangaportali      | standalone    | todo    |                                             |
+| mangasehrinet     | madara        | blocked | origin down (522)                           |
+| mangaship         | standalone    | todo    |                                             |
+| mangatilkisi      | madara        | todo    |                                             |
+| mangatr           | standalone    | blocked | DDoS-Guard challenge                        |
+| mangawow          | madara        | todo    |                                             |
+| mangawt           | standalone    | blocked | Cloudflare challenge                        |
+| mangazure         | madara        | blocked | origin down (522)                           |
+| mangitto          | standalone    | todo    |                                             |
+| merlinscans       | initmanga     | blocked | Cloudflare block (403)                      |
+| mikrokosmosfansub | zeistmanga    | todo    |                                             |
+| milasub           | madara        | todo    |                                             |
+| monomanga         | standalone    | todo    |                                             |
+| moondaisyscans    | mangathemesia | todo    |                                             |
+| nemesisscans      | mangathemesia | todo    |                                             |
+| nirvanamanga      | mangathemesia | todo    |                                             |
+| niverafansub      | madara        | blocked | Cloudflare challenge                        |
+| okutoon           | standalone    | todo    |                                             |
+| opiatoon          | madara        | todo    |                                             |
+| orimanga          | initmanga     | todo    |                                             |
+| paradoxscans      | initmanga     | blocked | Cloudflare block (403)                      |
+| patimanga         | mangathemesia | blocked | Cloudflare block (403)                      |
+| ragnarscans       | initmanga     | todo    |                                             |
+| raindropfansub    | mangathemesia | blocked | connection times out (dead)                 |
+| ruyamanga         | madara        | todo    |                                             |
+| sereinscan        | mangathemesia | todo    |                                             |
+| shadowceviri      | zeistmanga    | todo    |                                             |
+| shijiescans       | mangathemesia | todo    |                                             |
+| siyahmelek        | initmanga     | blocked | moved to siyahmelek.my; check below         |
+| sleptmanga        | standalone    | todo    |                                             |
+| strayfansub       | madaralegacy  | todo    |                                             |
+| summertoon        | madara        | todo    |                                             |
+| sunsetmanga       | madara        | todo    |                                             |
+| tarotscans        | mangathemesia | todo    |                                             |
+| tenshimanga       | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| tonizutoon        | madara        | todo    |                                             |
+| toontaku          | standalone    | todo    |                                             |
+| tortugaceviri     | madara        | todo    |                                             |
+| trmanga           | standalone    | todo    |                                             |
+| turkcemangaoku    | madara        | todo    |                                             |
+| uzaymanga         | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| webtoonhatti      | madara        | blocked | Cloudflare challenge                        |
+| webtoonoku        | standalone    | todo    |                                             |
+| yaoiflix          | madara        | todo    |                                             |
+| yaoimangaoku      | madara        | blocked | Cloudflare challenge                        |
 
 ## vi
 
