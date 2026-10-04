@@ -591,9 +591,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## de
 
-| Extension | Theme      | Status | Notes |
-| --------- | ---------- | ------ | ----- |
-| mangatube | standalone | todo   |       |
+| Extension | Theme      | Status | Notes                                                               |
+| --------- | ---------- | ------ | ------------------------------------------------------------------- |
+| mangatube | standalone | done   | solves the site's arithmetic challenge (cookie __mtbpass); JSON API |
 
 ## pl
 
@@ -634,15 +634,15 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## uk
 
-| Extension  | Theme      | Status | Notes |
-| ---------- | ---------- | ------ | ----- |
-| comixtopia | standalone | todo   |       |
-| dgmanga    | standalone | todo   |       |
-| faust      | standalone | todo   |       |
-| honeymanga | standalone | todo   |       |
-| mangainua  | standalone | todo   |       |
-| mangarama  | madara     | todo   |       |
-| zenko      | standalone | todo   |       |
+| Extension  | Theme      | Status | Notes                                                                                                              |
+| ---------- | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
+| comixtopia | standalone | done   | supabase REST; pages re-fetched from issues.image_list                                                             |
+| dgmanga    | standalone | done   | JSON api; hidden genres + licensed prefs                                                                           |
+| faust      | standalone | done   | unauthenticated API only; 18+ chapters need a site login; hidden-genre pref by genre name                          |
+| honeymanga | standalone | done   | api filters; hidden genres/types from prefs applied as exclusions                                                  |
+| mangainua  | standalone | done   | DLE ajax chapters/pages via site_login_hash                                                                        |
+| mangarama  | madara     | ported | in pending/: media.mangarama.com.ua answers 403 (Cloudflare) to signed page urls from here; rest of the flow works |
+| zenko      | standalone | done   | api; hidden genres/categories/age prefs                                                                            |
 
 ## it
 
