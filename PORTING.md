@@ -861,65 +861,65 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## zh
 
-| Extension       | Theme      | Status  | Notes                                                                |
-| --------------- | ---------- | ------- | -------------------------------------------------------------------- |
-| bakamh          | madara     | blocked | probe 2026-10-04: Cloudflare                                         |
-| baozimanhua     | standalone | todo    |                                                                      |
-| baozimhorg      | goda       | todo    |                                                                      |
-| bh3             | standalone | todo    |                                                                      |
-| bilimanga       | standalone | todo    |                                                                      |
-| boylove         | standalone | todo    |                                                                      |
-| cartoon18       | standalone | todo    |                                                                      |
-| cmanhua         | standalone | todo    |                                                                      |
-| comicabc        | standalone | todo    |                                                                      |
-| creativecomic   | standalone | todo    |                                                                      |
-| dm5             | standalone | todo    |                                                                      |
-| dongmanmanhua   | standalone | todo    |                                                                      |
-| dumanwu         | mmlook     | blocked | probe 2026-10-04: dead (TLS certificate invalid)                     |
-| eighteenmanhua  | goda       | blocked | probe 2026-10-04: Cloudflare                                         |
-| favcomic        | standalone | todo    |                                                                      |
-| guazimanhua     | standalone | todo    |                                                                      |
-| hanabimanga     | standalone | todo    |                                                                      |
-| hanime1         | standalone | todo    |                                                                      |
-| hanman18        | manga18    | todo    |                                                                      |
-| hcomic          | standalone | todo    |                                                                      |
-| hentaiclub      | standalone | todo    |                                                                      |
-| hikarinagi      | standalone | todo    |                                                                      |
-| ikmmh           | standalone | todo    |                                                                      |
-| iqiyi           | standalone | todo    |                                                                      |
-| jcomic          | standalone | todo    |                                                                      |
-| jinmantiantang  | standalone | blocked | probe 2026-10-04: Cloudflare                                         |
-| jiuermanhua     | sinmh      | blocked | probe 2026-10-04: Cloudflare                                         |
-| komiic          | standalone | todo    |                                                                      |
-| kuaikanmanhua   | standalone | todo    |                                                                      |
-| mangabz         | standalone | todo    |                                                                      |
-| mangaxiaosi     | standalone | todo    |                                                                      |
-| manhuadui       | sinmh      | blocked | probe 2026-10-04: Cloudflare                                         |
-| manhuagui       | standalone | todo    |                                                                      |
-| manhuaren       | standalone | todo    |                                                                      |
-| manhuashe       | standalone | todo    |                                                                      |
-| manhuawu        | mccms      | done    |                                                                      |
-| manwa           | standalone | blocked | probe 2026-10-04: Cloudflare                                         |
-| mh1234          | standalone | todo    |                                                                      |
-| mh160           | standalone | todo    |                                                                      |
-| miaoqu          | mccms      | done    | site search answers 404: search filters the first 10 catalogue pages |
-| mycomic         | standalone | blocked | probe 2026-10-04: Cloudflare                                         |
-| nnhanman        | standalone | todo    |                                                                      |
-| noyacg          | standalone | todo    |                                                                      |
-| picacomic       | standalone | todo    |                                                                      |
-| roumanwu        | standalone | todo    |                                                                      |
-| rumanhua        | mmlook     | blocked | probe 2026-10-04: dead (TLS certificate invalid)                     |
-| sixmh           | mccms      | done    |                                                                      |
-| tencentcomics   | standalone | todo    |                                                                      |
-| terrahistoricus | standalone | todo    |                                                                      |
-| tongli          | standalone | todo    |                                                                      |
-| toptoon         | standalone | todo    |                                                                      |
-| vomic           | standalone | todo    |                                                                      |
-| wnacg           | standalone | todo    |                                                                      |
-| yidan           | standalone | blocked | probe 2026-10-04: dead:ENOTFOUND                                     |
-| zaimanhua       | standalone | todo    |                                                                      |
-| zazhimi         | standalone | todo    |                                                                      |
-| zerobyw         | standalone | todo    |                                                                      |
+| Extension       | Theme      | Status  | Notes                                                                     |
+| --------------- | ---------- | ------- | ------------------------------------------------------------------------- |
+| bakamh          | madara     | blocked | probe 2026-10-04: Cloudflare                                              |
+| baozimanhua     | standalone | todo    |                                                                           |
+| baozimhorg      | goda       | done    | mirrors: baozimh.org (first); api-get-v3 chapter list + decoded page list |
+| bh3             | standalone | todo    |                                                                           |
+| bilimanga       | standalone | todo    |                                                                           |
+| boylove         | standalone | todo    |                                                                           |
+| cartoon18       | standalone | todo    |                                                                           |
+| cmanhua         | standalone | todo    |                                                                           |
+| comicabc        | standalone | todo    |                                                                           |
+| creativecomic   | standalone | todo    |                                                                           |
+| dm5             | standalone | todo    |                                                                           |
+| dongmanmanhua   | standalone | todo    |                                                                           |
+| dumanwu         | mmlook     | blocked | probe 2026-10-04: dead (TLS certificate invalid)                          |
+| eighteenmanhua  | goda       | blocked | probe 2026-10-04: Cloudflare                                              |
+| favcomic        | standalone | todo    |                                                                           |
+| guazimanhua     | standalone | todo    |                                                                           |
+| hanabimanga     | standalone | todo    |                                                                           |
+| hanime1         | standalone | todo    |                                                                           |
+| hanman18        | manga18    | done    | tag filter removed (doesn't work on the site)                             |
+| hcomic          | standalone | todo    |                                                                           |
+| hentaiclub      | standalone | todo    |                                                                           |
+| hikarinagi      | standalone | todo    |                                                                           |
+| ikmmh           | standalone | todo    |                                                                           |
+| iqiyi           | standalone | todo    |                                                                           |
+| jcomic          | standalone | todo    |                                                                           |
+| jinmantiantang  | standalone | blocked | probe 2026-10-04: Cloudflare                                              |
+| jiuermanhua     | sinmh      | blocked | probe 2026-10-04: Cloudflare                                              |
+| komiic          | standalone | todo    |                                                                           |
+| kuaikanmanhua   | standalone | todo    |                                                                           |
+| mangabz         | standalone | todo    |                                                                           |
+| mangaxiaosi     | standalone | todo    |                                                                           |
+| manhuadui       | sinmh      | blocked | probe 2026-10-04: Cloudflare                                              |
+| manhuagui       | standalone | todo    |                                                                           |
+| manhuaren       | standalone | todo    |                                                                           |
+| manhuashe       | standalone | todo    |                                                                           |
+| manhuawu        | mccms      | done    |                                                                           |
+| manwa           | standalone | blocked | probe 2026-10-04: Cloudflare                                              |
+| mh1234          | standalone | todo    |                                                                           |
+| mh160           | standalone | todo    |                                                                           |
+| miaoqu          | mccms      | done    | site search answers 404: search filters the first 10 catalogue pages      |
+| mycomic         | standalone | blocked | probe 2026-10-04: Cloudflare                                              |
+| nnhanman        | standalone | todo    |                                                                           |
+| noyacg          | standalone | todo    |                                                                           |
+| picacomic       | standalone | todo    |                                                                           |
+| roumanwu        | standalone | todo    |                                                                           |
+| rumanhua        | mmlook     | blocked | probe 2026-10-04: dead (TLS certificate invalid)                          |
+| sixmh           | mccms      | done    |                                                                           |
+| tencentcomics   | standalone | todo    |                                                                           |
+| terrahistoricus | standalone | todo    |                                                                           |
+| tongli          | standalone | todo    |                                                                           |
+| toptoon         | standalone | todo    |                                                                           |
+| vomic           | standalone | todo    |                                                                           |
+| wnacg           | standalone | todo    |                                                                           |
+| yidan           | standalone | blocked | probe 2026-10-04: dead:ENOTFOUND                                          |
+| zaimanhua       | standalone | todo    |                                                                           |
+| zazhimi         | standalone | todo    |                                                                           |
+| zerobyw         | standalone | todo    |                                                                           |
 
 ## tr
 
