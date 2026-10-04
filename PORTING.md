@@ -591,9 +591,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## de
 
-| Extension | Theme      | Status | Notes |
-| --------- | ---------- | ------ | ----- |
-| mangatube | standalone | todo   |       |
+| Extension | Theme      | Status | Notes                                                               |
+| --------- | ---------- | ------ | ------------------------------------------------------------------- |
+| mangatube | standalone | done   | solves the site's arithmetic challenge (cookie __mtbpass); JSON API |
 
 ## pl
 
