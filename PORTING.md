@@ -669,11 +669,11 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 | Extension     | Theme      | Status  | Notes                                                                                                                                                                      |
 | ------------- | ---------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| acomics       | standalone | todo    |                                                                                                                                                                            |
+| acomics       | standalone | done    | filters read from /comics; age rating cookie sent                                                                                                                          |
 | allhentai     | grouple    | done    | no auto-login; every popular series is adult and answers 404 to guests, so the fixture test accepts the login error for getPages (chapter list, details, filters verified) |
 | astramanga    | standalone | todo    |                                                                                                                                                                            |
 | comx          | standalone | todo    |                                                                                                                                                                            |
-| desu          | standalone | todo    |                                                                                                                                                                            |
+| desu          | standalone | done    | popular/latest use order_by popular/updated (Tachiyomi sends neither); filters added; page images need a Referer                                                           |
 | henchan       | multichan  | done    | popular uses the favourites order of /manga/newest (/mostfavorites shows a maintenance page; /manga/new is 404)                                                            |
 | hentailib     | libgroup   | blocked | probe 2026-10-05: http:403 (site returns a 404 page)                                                                                                                       |
 | inkstory      | inkstory   | done    | only api.inuko.me is used (inkstory.net itself is behind DDoS-Guard); XOR image decryption via transformImage                                                              |
