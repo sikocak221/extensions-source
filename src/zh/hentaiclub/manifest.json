@@ -1,0 +1,18 @@
+{
+  "id": "hentaiclub",
+  "name": "HentaiClub",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "绅士会所"
+    }
+  ]
+}
