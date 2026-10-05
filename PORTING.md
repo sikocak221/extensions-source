@@ -1016,7 +1016,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | dilib             | standalone | todo    |                                                                                                                   |
 | doctruyen3q       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | doctruyen5s       | liliana    | done    | images are on post-phinf.pstatic.net, which this machine cannot reach (fetch failed); chapters and pages verified |
-| dualeotruyen      | standalone | todo    |                                                                                                                   |
+| dualeotruyen      | standalone | done    | moved to dualeotruyenpet.com                                                                                      |
 | fastscan          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | gantzvn           | madara     | done    |                                                                                                                   |
 | goctruyentranh    | standalone | todo    |                                                                                                                   |
@@ -1058,16 +1058,16 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | sinhsieusao       | standalone | todo    |                                                                                                                   |
 | soaicacomic       | standalone | todo    |                                                                                                                   |
 | teamlanhlung      | standalone | todo    |                                                                                                                   |
-| teletruyen        | standalone | todo    |                                                                                                                   |
+| teletruyen        | standalone | done    |                                                                                                                   |
 | thienthaitruyen   | standalone | todo    |                                                                                                                   |
 | thohamngu         | standalone | todo    |                                                                                                                   |
 | toptruyen         | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| tranh18           | standalone | todo    |                                                                                                                   |
+| tranh18           | standalone | done    | site now serves page images in src (Tachiyomi reads data-original); both used                                     |
 | truyen18          | standalone | todo    |                                                                                                                   |
 | truyengg          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | truyenggvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| truyenhentai18    | standalone | todo    |                                                                                                                   |
-| truyenhentaivn    | standalone | todo    |                                                                                                                   |
+| truyenhentai18    | standalone | done    |                                                                                                                   |
+| truyenhentaivn    | standalone | done    |                                                                                                                   |
 | truyenhentaiz     | standalone | todo    |                                                                                                                   |
 | truyenmm          | standalone | todo    |                                                                                                                   |
 | truyenqq          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
