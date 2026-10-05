@@ -512,6 +512,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Tanuki-Manga                                      | TH        | https://www.tanuki-manga.net               |      |
 | Tapas                                             | EN        | https://tapas.io                           |      |
 | TCB Scans                                         | EN        | https://tcbonepiecechapters.com            |      |
+| Team Lanh Lung                                    | VI        | https://lanhlungteam3.top                  |      |
 | Team Shadowi                                      | EN        | https://www.team-shadowi.com               |      |
 | Team X                                            | AR        | https://olympustaff.com                    |      |
 | TeleTruyen                                        | VI        | https://teletruyen.com                     |      |

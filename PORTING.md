@@ -1070,7 +1070,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | seikowo           | standalone | todo    |                                                                                                                                     |
 | sinhsieusao       | standalone | done    |                                                                                                                                     |
 | soaicacomic       | standalone | todo    |                                                                                                                                     |
-| teamlanhlung      | standalone | todo    |                                                                                                                                     |
+| teamlanhlung      | standalone | done    | same engine as TuSachXinhXinh (encrypted pages); password chapters via a text pref                                                  |
 | teletruyen        | standalone | done    |                                                                                                                                     |
 | thienthaitruyen   | standalone | done    | moved to thienthaitruyen16.com                                                                                                      |
 | thohamngu         | standalone | done    |                                                                                                                                     |
