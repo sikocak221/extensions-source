@@ -381,6 +381,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Nekopost                                          | TH        | https://www.nekopost.net                   |      |
 | NekoScans                                         | ES        | https://nekoproject.org                    |      |
 | New Manhwa                                        | EN        | https://saymanhwa.com                      |      |
+| NexusScanlation                                   | ES        | https://nexusscanlation.com                | yes  |
 | NgamenKomik                                       | ID        | https://ngamenkomik05.blogspot.com         |      |
 | Ngomik                                            | ID        | https://02.ngomik.cc                       |      |
 | Niceoppai                                         | TH        | https://www.niceoppai.net                  |      |
