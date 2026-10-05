@@ -582,6 +582,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | zero搬运网                                        | ZH        | https://stevenyomi.github.io               |      |
 | Zinmanga                                          | EN        | https://mangazin.org                       |      |
 | ZonaTMO.org (unoriginal)                          | ES        | https://zonatmo.org                        |      |
+| Zonatmo.to (unoriginal)                           | ES        | https://zonatmo.to                         |      |
 | 再漫画                                            | ZH        | https://manhua.zaimanhua.com               |      |
 | 包子漫画                                          | ZH        | https://static-tw.baozimh.com              |      |
 | 哔哩漫画                                          | ZH        | https://www.bilimanga.net                  |      |

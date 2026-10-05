@@ -5312,6 +5312,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/zonatmoto:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/fr/aralosbd:
     devDependencies:
       '@matane/extension-cli':

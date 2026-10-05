@@ -1118,7 +1118,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | celestialmoon         | mangathemesia | done    |                                                                                                                     |
 | cerberusseries        | mangathemesia | done    |                                                                                                                     |
 | chochox               | vercomics     | blocked | Cloudflare challenge                                                                                                |
-| codearc               | standalone    | todo    |                                                                                                                     |
+| codearc               | standalone    | blocked | reader pages need /api/mangas/reader-access, which demands a Turnstile challenge                                    |
 | colorcitoscan         | standalone    | done    | two sources (Colorcito Scan/Toons); pages from the RSC payload                                                      |
 | darkroomfansub        | zeistmanga    | done    |                                                                                                                     |
 | datgarscanlation      | zeistmanga    | done    |                                                                                                                     |
@@ -1209,7 +1209,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | yupmanga              | standalone    | blocked | Cloudflare 403                                                                                                      |
 | yurionline            | madara        | done    |                                                                                                                     |
 | zonatmoorgunoriginal  | standalone    | done    |                                                                                                                     |
-| zonatmoto             | standalone    | todo    |                                                                                                                     |
+| zonatmoto             | standalone    | done    | wp-api JSON; novels (type 214) filtered out                                                                         |
 
 ## pt
 
