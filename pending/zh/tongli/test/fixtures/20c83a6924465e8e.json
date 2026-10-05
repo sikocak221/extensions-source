@@ -1,0 +1,1344 @@
+{
+  "request": { "method": "GET", "url": "https://api.tongli.tw/SellRanking/1" },
+  "response": {
+    "status": 200,
+    "url": "https://api.tongli.tw/SellRanking/1",
+    "headers": { "content-type": "application/json; charset=utf-8" },
+    "body": {
+      "RankingSet": [
+        {
+          "Week": [
+            {
+              "Rank": 1,
+              "BookGroupID": "72c265e5-6fb0-ea11-ab4b-00155d020a17",
+              "BookTitle": "派對咖孔明",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/75b27cfa48484d41558408df19e80b44.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "75b27cfa-4848-4d41-5584-08df19e80b44",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第222話"
+            },
+            {
+              "Rank": 2,
+              "BookGroupID": "029c1d03-358b-f111-80dd-40f2e9cd029c",
+              "BookTitle": "FAIRY TAIL 魔導少年 RE:FANTASIA",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/ae28e25610124bb5f38608df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "ae28e256-1012-4bb5-f386-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第9話"
+            },
+            {
+              "Rank": 3,
+              "BookGroupID": "2648f315-257b-eb11-90b5-00155d020a17",
+              "BookTitle": "啟示錄四騎士",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/dd4f6bc6ab9d4593930408df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "dd4f6bc6-ab9d-4593-9304-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第255話"
+            },
+            {
+              "Rank": 4,
+              "BookGroupID": "d2091f2c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "火鳳燎原",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/de31832d27094a98133908df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "de31832d-2709-4a98-1339-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第635話"
+            },
+            {
+              "Rank": 5,
+              "BookGroupID": "d519b2f4-4869-ed11-80c1-40f2e9cd029d",
+              "BookTitle": "學生會也有洞！",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/5e6e1705fb794f6b930808df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "5e6e1705-fb79-4f6b-9308-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第186話"
+            },
+            {
+              "Rank": 6,
+              "BookGroupID": "b43a73a3-5dfa-eb11-8110-00155d020a17",
+              "BookTitle": "膽大黨",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/4e9886cf5a494fa086ac08df0e17034d.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "4e9886cf-5a49-4fa0-86ac-08df0e17034d",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第246話"
+            },
+            {
+              "Rank": 7,
+              "BookGroupID": "42a8cecb-c8e4-e911-86fd-00155d020a17",
+              "BookTitle": "SPY×FAMILY間諜家家酒",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/7246008afcfb445386ae08df0e17034d.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "7246008a-fcfb-4453-86ae-08df0e17034d",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "SPY×FAMILY間諜家家酒 番外篇19"
+            },
+            {
+              "Rank": 8,
+              "BookGroupID": "318259e9-278e-ed11-80c1-40f2e9cd029d",
+              "BookTitle": "VERSUS「對抗！」",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/636745a834374b86cbfa08df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "636745a8-3437-4b86-cbfa-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第37話(前)"
+            },
+            {
+              "Rank": 9,
+              "BookGroupID": "f637132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "中華小廚師！極",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/b2a90d074e764f73cbf508df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "b2a90d07-4e76-4f73-cbf5-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第209話"
+            },
+            {
+              "Rank": 10,
+              "BookGroupID": "9834132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "聖☆哥傳",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/7c0edf2f6a2c418a92fa08df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "7c0edf2f-6a2c-418a-92fa-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第178話"
+            },
+            {
+              "Rank": 11,
+              "BookGroupID": "c22c132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "境界觸發者",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/57b9c4210ff74d54e9e608dee85ca1d2.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "57b9c421-0ff7-4d54-e9e6-08dee85ca1d2",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第263話"
+            },
+            {
+              "Rank": 12,
+              "BookGroupID": "a7db335a-6959-f111-80db-40f2e9cd029b",
+              "BookTitle": "談場地圖上沒有的戀愛",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/a5b179c6ba684e41f38508df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "a5b179c6-ba68-4e41-f385-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第5話"
+            },
+            {
+              "Rank": 13,
+              "BookGroupID": "8834132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "魔女的使命",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/eb0f37e5bbcc4383cbfb08df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "eb0f37e5-bbcc-4383-cbfb-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "EXTRA第55話"
+            },
+            {
+              "Rank": 14,
+              "BookGroupID": "b6677241-ceb7-f111-80df-40f2e9cd029c",
+              "BookTitle": "知己大人＆遲鈍先生",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/5b07d73023474bbff38308df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "5b07d730-2347-4bbf-f383-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第1話"
+            },
+            {
+              "Rank": 15,
+              "BookGroupID": "4335132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "亞爾斯蘭戰記",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/7e052a580eb64022136308df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "7e052a58-0eb6-4022-1363-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第155話"
+            },
+            {
+              "Rank": 16,
+              "BookGroupID": "ba725734-ce1b-ef11-80ca-40f2e9cd029d",
+              "BookTitle": "人魚王子♡來我家",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/9b53e1085fce4683f38408df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "9b53e108-5fce-4683-f384-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第18話"
+            },
+            {
+              "Rank": 17,
+              "BookGroupID": "9c2c3181-f2e0-ee11-80c8-40f2e9cd029d",
+              "BookTitle": "棋盤上的獵戶座",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/35a63a20bbf442b0cbf708df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "35a63a20-bbf4-42b0-cbf7-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第112話"
+            },
+            {
+              "Rank": 18,
+              "BookGroupID": "fa6c4337-2541-f011-80d0-40f2e9cd029b",
+              "BookTitle": "和尾守積美希共度奇幻日常",
+              "IsSerial": true,
+              "IsFree": false,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/75e9140b131d43d9f38708df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "75e9140b-131d-43d9-f387-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 20,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 20,
+                "OrgBonus": 10,
+                "Bonus": 10
+              },
+              "Vol": "第116話"
+            },
+            {
+              "Rank": 19,
+              "BookGroupID": "99e8c82d-2e54-ed11-80c1-40f2e9cd029d",
+              "BookTitle": "黑貓與魔女的教室",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/2fc2030592694088096108df18550ed0.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "2fc20305-9269-4088-0961-08df18550ed0",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第121話"
+            },
+            {
+              "Rank": 20,
+              "BookGroupID": "cdb10c79-4ff0-ec11-80bd-40f2e9cd029d",
+              "BookTitle": "GACHIAKUTA",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/55029506684a488cd91708def1fc218f.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "55029506-684a-488c-d917-08def1fc218f",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第173話"
+            }
+          ],
+          "Month": [
+            {
+              "Rank": 1,
+              "BookGroupID": "42a8cecb-c8e4-e911-86fd-00155d020a17",
+              "BookTitle": "SPY×FAMILY間諜家家酒",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/7246008afcfb445386ae08df0e17034d.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "7246008a-fcfb-4453-86ae-08df0e17034d",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "SPY×FAMILY間諜家家酒 番外篇19"
+            },
+            {
+              "Rank": 2,
+              "BookGroupID": "b43a73a3-5dfa-eb11-8110-00155d020a17",
+              "BookTitle": "膽大黨",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/4e9886cf5a494fa086ac08df0e17034d.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "4e9886cf-5a49-4fa0-86ac-08df0e17034d",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第246話"
+            },
+            {
+              "Rank": 3,
+              "BookGroupID": "f637132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "中華小廚師！極",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/b2a90d074e764f73cbf508df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "b2a90d07-4e76-4f73-cbf5-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第209話"
+            },
+            {
+              "Rank": 4,
+              "BookGroupID": "2648f315-257b-eb11-90b5-00155d020a17",
+              "BookTitle": "啟示錄四騎士",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/dd4f6bc6ab9d4593930408df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "dd4f6bc6-ab9d-4593-9304-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第255話"
+            },
+            {
+              "Rank": 5,
+              "BookGroupID": "d2091f2c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "火鳳燎原",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/de31832d27094a98133908df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "de31832d-2709-4a98-1339-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第635話"
+            },
+            {
+              "Rank": 6,
+              "BookGroupID": "72c265e5-6fb0-ea11-ab4b-00155d020a17",
+              "BookTitle": "派對咖孔明",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/75b27cfa48484d41558408df19e80b44.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "75b27cfa-4848-4d41-5584-08df19e80b44",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第222話"
+            },
+            {
+              "Rank": 7,
+              "BookGroupID": "318259e9-278e-ed11-80c1-40f2e9cd029d",
+              "BookTitle": "VERSUS「對抗！」",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/636745a834374b86cbfa08df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "636745a8-3437-4b86-cbfa-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第37話(前)"
+            },
+            {
+              "Rank": 8,
+              "BookGroupID": "029c1d03-358b-f111-80dd-40f2e9cd029c",
+              "BookTitle": "FAIRY TAIL 魔導少年 RE:FANTASIA",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/ae28e25610124bb5f38608df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "ae28e256-1012-4bb5-f386-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第9話"
+            },
+            {
+              "Rank": 9,
+              "BookGroupID": "d519b2f4-4869-ed11-80c1-40f2e9cd029d",
+              "BookTitle": "學生會也有洞！",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/5e6e1705fb794f6b930808df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "5e6e1705-fb79-4f6b-9308-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第186話"
+            },
+            {
+              "Rank": 10,
+              "BookGroupID": "4335132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "亞爾斯蘭戰記",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/7e052a580eb64022136308df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "7e052a58-0eb6-4022-1363-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第155話"
+            },
+            {
+              "Rank": 11,
+              "BookGroupID": "562bd001-3ee3-ed11-80c2-40f2e9cd029d",
+              "BookTitle": "瑠璃龍龍",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/830ba655d78c4ce0135708df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "830ba655-d78c-4ce0-1357-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第51話"
+            },
+            {
+              "Rank": 12,
+              "BookGroupID": "99e8c82d-2e54-ed11-80c1-40f2e9cd029d",
+              "BookTitle": "黑貓與魔女的教室",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/2fc2030592694088096108df18550ed0.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "2fc20305-9269-4088-0961-08df18550ed0",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第121話"
+            },
+            {
+              "Rank": 13,
+              "BookGroupID": "9c2c3181-f2e0-ee11-80c8-40f2e9cd029d",
+              "BookTitle": "棋盤上的獵戶座",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/35a63a20bbf442b0cbf708df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "35a63a20-bbf4-42b0-cbf7-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第112話"
+            },
+            {
+              "Rank": 14,
+              "BookGroupID": "c22c132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "境界觸發者",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/57b9c4210ff74d54e9e608dee85ca1d2.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "57b9c421-0ff7-4d54-e9e6-08dee85ca1d2",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第263話"
+            },
+            {
+              "Rank": 15,
+              "BookGroupID": "00c5ee5b-5271-ee11-80c5-40f2e9cd029b",
+              "BookTitle": "青春偶像製作中",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/4e4acd5689674dfacbf608df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "4e4acd56-8967-4dfa-cbf6-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第63話"
+            },
+            {
+              "Rank": 16,
+              "BookGroupID": "cdb10c79-4ff0-ec11-80bd-40f2e9cd029d",
+              "BookTitle": "GACHIAKUTA",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/55029506684a488cd91708def1fc218f.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "55029506-684a-488c-d917-08def1fc218f",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第173話"
+            },
+            {
+              "Rank": 17,
+              "BookGroupID": "7e02b3de-81aa-ec11-80b9-40f2e9cd029d",
+              "BookTitle": "啟程的魔王城",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/6848ba07ce5646bc86c808df0e17034d.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "6848ba07-ce56-46bc-86c8-08df0e17034d",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第57話"
+            },
+            {
+              "Rank": 18,
+              "BookGroupID": "a7db335a-6959-f111-80db-40f2e9cd029b",
+              "BookTitle": "談場地圖上沒有的戀愛",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/a5b179c6ba684e41f38508df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "a5b179c6-ba68-4e41-f385-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第5話"
+            },
+            {
+              "Rank": 19,
+              "BookGroupID": "9834132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "聖☆哥傳",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/7c0edf2f6a2c418a92fa08df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "7c0edf2f-6a2c-418a-92fa-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第178話"
+            },
+            {
+              "Rank": 20,
+              "BookGroupID": "a4cce4d8-1e75-f111-80dc-40f2e9cd029d",
+              "BookTitle": "邊界-Breaking Boundaries",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/b3ceefb381b14b52135d08df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "b3ceefb3-81b1-4b52-135d-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第3話"
+            }
+          ],
+          "Title": "連載排行"
+        },
+        {
+          "Week": [
+            {
+              "Rank": 1,
+              "BookGroupID": "72c265e5-6fb0-ea11-ab4b-00155d020a17",
+              "BookTitle": "派對咖孔明",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/75b27cfa48484d41558408df19e80b44.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "75b27cfa-4848-4d41-5584-08df19e80b44",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第222話"
+            },
+            {
+              "Rank": 2,
+              "BookGroupID": "029c1d03-358b-f111-80dd-40f2e9cd029c",
+              "BookTitle": "FAIRY TAIL 魔導少年 RE:FANTASIA",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/ae28e25610124bb5f38608df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "ae28e256-1012-4bb5-f386-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第9話"
+            },
+            {
+              "Rank": 3,
+              "BookGroupID": "2648f315-257b-eb11-90b5-00155d020a17",
+              "BookTitle": "啟示錄四騎士",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/dd4f6bc6ab9d4593930408df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "dd4f6bc6-ab9d-4593-9304-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第255話"
+            },
+            {
+              "Rank": 4,
+              "BookGroupID": "d2091f2c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "火鳳燎原",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/de31832d27094a98133908df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "de31832d-2709-4a98-1339-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第635話"
+            },
+            {
+              "Rank": 5,
+              "BookGroupID": "d519b2f4-4869-ed11-80c1-40f2e9cd029d",
+              "BookTitle": "學生會也有洞！",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/5e6e1705fb794f6b930808df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "5e6e1705-fb79-4f6b-9308-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第186話"
+            }
+          ],
+          "Month": [
+            {
+              "Rank": 1,
+              "BookGroupID": "42a8cecb-c8e4-e911-86fd-00155d020a17",
+              "BookTitle": "SPY×FAMILY間諜家家酒",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/7246008afcfb445386ae08df0e17034d.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "7246008a-fcfb-4453-86ae-08df0e17034d",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "SPY×FAMILY間諜家家酒 番外篇19"
+            },
+            {
+              "Rank": 2,
+              "BookGroupID": "b43a73a3-5dfa-eb11-8110-00155d020a17",
+              "BookTitle": "膽大黨",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/4e9886cf5a494fa086ac08df0e17034d.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "4e9886cf-5a49-4fa0-86ac-08df0e17034d",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第246話"
+            },
+            {
+              "Rank": 3,
+              "BookGroupID": "f637132c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "中華小廚師！極",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/b2a90d074e764f73cbf508df193985d3.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "b2a90d07-4e76-4f73-cbf5-08df193985d3",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第209話"
+            },
+            {
+              "Rank": 4,
+              "BookGroupID": "2648f315-257b-eb11-90b5-00155d020a17",
+              "BookTitle": "啟示錄四騎士",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/dd4f6bc6ab9d4593930408df1ebc7e82.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "dd4f6bc6-ab9d-4593-9304-08df1ebc7e82",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第255話"
+            },
+            {
+              "Rank": 5,
+              "BookGroupID": "d2091f2c-6a96-e811-a947-00155d020a17",
+              "BookTitle": "火鳳燎原",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/de31832d27094a98133908df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "de31832d-2709-4a98-1339-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第635話"
+            }
+          ],
+          "Title": "少年漫畫"
+        },
+        {
+          "Week": [
+            {
+              "Rank": 1,
+              "BookGroupID": "8e7532ac-49d6-f011-80d3-40f2e9cd029d",
+              "BookTitle": "與魔女的新婚契約",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/9752538993064584134508df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "97525389-9306-4584-1345-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第7話"
+            },
+            {
+              "Rank": 2,
+              "BookGroupID": "a4cce4d8-1e75-f111-80dc-40f2e9cd029d",
+              "BookTitle": "邊界-Breaking Boundaries",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/b3ceefb381b14b52135d08df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "b3ceefb3-81b1-4b52-135d-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第3話"
+            },
+            {
+              "Rank": 3,
+              "BookGroupID": "a5f18889-3aa9-ee11-80c5-40f2e9cd029b",
+              "BookTitle": "亡國必有妖孽",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/f9981fe52f5940c57daa08def1dafc70.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "f9981fe5-2f59-40c5-7daa-08def1dafc70",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第54話"
+            }
+          ],
+          "Month": [
+            {
+              "Rank": 1,
+              "BookGroupID": "a4cce4d8-1e75-f111-80dc-40f2e9cd029d",
+              "BookTitle": "邊界-Breaking Boundaries",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/b3ceefb381b14b52135d08df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "b3ceefb3-81b1-4b52-135d-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第3話"
+            },
+            {
+              "Rank": 2,
+              "BookGroupID": "8e7532ac-49d6-f011-80d3-40f2e9cd029d",
+              "BookTitle": "與魔女的新婚契約",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/9752538993064584134508df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "97525389-9306-4584-1345-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第7話"
+            }
+          ],
+          "Title": "少女漫畫"
+        },
+        {
+          "Week": [
+            {
+              "Rank": 1,
+              "BookGroupID": "a7db335a-6959-f111-80db-40f2e9cd029b",
+              "BookTitle": "談場地圖上沒有的戀愛",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/a5b179c6ba684e41f38508df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "a5b179c6-ba68-4e41-f385-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第5話"
+            },
+            {
+              "Rank": 2,
+              "BookGroupID": "b6677241-ceb7-f111-80df-40f2e9cd029c",
+              "BookTitle": "知己大人＆遲鈍先生",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/5b07d73023474bbff38308df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "5b07d730-2347-4bbf-f383-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第1話"
+            },
+            {
+              "Rank": 3,
+              "BookGroupID": "ba725734-ce1b-ef11-80ca-40f2e9cd029d",
+              "BookTitle": "人魚王子♡來我家",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/9b53e1085fce4683f38408df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "9b53e108-5fce-4683-f384-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第18話"
+            },
+            {
+              "Rank": 4,
+              "BookGroupID": "ca28f0f9-4332-ec11-ac04-00155d020a17",
+              "BookTitle": "對你的承諾",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/bd6ff4190c604487070808df025d7fd8.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "bd6ff419-0c60-4487-0708-08df025d7fd8",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第38話 後篇"
+            },
+            {
+              "Rank": 5,
+              "BookGroupID": "7199339a-6959-f111-80db-40f2e9cd029b",
+              "BookTitle": "長濱To Be,or Not To Be 3rd season",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/c7fb9addfa904d21e9c608dee85ca1d2.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "c7fb9add-fa90-4d21-e9c6-08dee85ca1d2",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第3話"
+            }
+          ],
+          "Month": [
+            {
+              "Rank": 1,
+              "BookGroupID": "a7db335a-6959-f111-80db-40f2e9cd029b",
+              "BookTitle": "談場地圖上沒有的戀愛",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/a5b179c6ba684e41f38508df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "a5b179c6-ba68-4e41-f385-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第5話"
+            },
+            {
+              "Rank": 2,
+              "BookGroupID": "221761d5-b1db-f011-80d3-40f2e9cd029d",
+              "BookTitle": "君為后",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/0845a3d39c6e48a2135e08df0721f562.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "0845a3d3-9c6e-48a2-135e-08df0721f562",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "番外2"
+            },
+            {
+              "Rank": 3,
+              "BookGroupID": "ca28f0f9-4332-ec11-ac04-00155d020a17",
+              "BookTitle": "對你的承諾",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/bd6ff4190c604487070808df025d7fd8.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "bd6ff419-0c60-4487-0708-08df025d7fd8",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第38話 後篇"
+            },
+            {
+              "Rank": 4,
+              "BookGroupID": "0baea4bd-2120-f011-80d0-40f2e9cd029b",
+              "BookTitle": "在第∞次死亡擁抱你",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/91b7b6bf1fdf47ae86ab08df0e17034d.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "91b7b6bf-1fdf-47ae-86ab-08df0e17034d",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第33話"
+            },
+            {
+              "Rank": 5,
+              "BookGroupID": "b6677241-ceb7-f111-80df-40f2e9cd029c",
+              "BookTitle": "知己大人＆遲鈍先生",
+              "IsSerial": true,
+              "IsFree": true,
+              "BookCoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/5b07d73023474bbff38308df1df0bcf5.jpg",
+              "IsSubscribe": false,
+              "IsSubscribeBook": false,
+              "newestID": "5b07d730-2347-4bbf-f383-08df1df0bcf5",
+              "BookPrice": {
+                "OrgPrice": 0,
+                "IsPromotion": false,
+                "PromotionDiscount": null,
+                "Price": 0,
+                "OrgBonus": 0,
+                "Bonus": 0
+              },
+              "Vol": "第1話"
+            }
+          ],
+          "Title": "紫界漫畫"
+        },
+        { "Week": [], "Month": [], "Title": "唯美漫畫" },
+        { "Week": [], "Month": [], "Title": "其他" }
+      ],
+      "RankingType": 181,
+      "Title": "連載排行"
+    }
+  }
+}

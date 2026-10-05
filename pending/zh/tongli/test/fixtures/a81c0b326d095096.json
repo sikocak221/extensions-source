@@ -1,0 +1,47 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.tongli.tw/Book?bookGroupID=72c265e5-6fb0-ea11-ab4b-00155d020a17&isSerial=true"
+  },
+  "response": {
+    "status": 200,
+    "url": "https://api.tongli.tw/Book?bookGroupID=72c265e5-6fb0-ea11-ab4b-00155d020a17&isSerial=true",
+    "headers": { "content-type": "application/json; charset=utf-8" },
+    "body": {
+      "BookGroupID": "72c265e5-6fb0-ea11-ab4b-00155d020a17",
+      "BookID": null,
+      "PromotionID": null,
+      "IsFreeTrial": true,
+      "IsFree": false,
+      "FreeTrialPageLimit": 16,
+      "PromotionLinkName": null,
+      "Title": "派對咖孔明",
+      "SubTitle": null,
+      "Vol": null,
+      "Page": null,
+      "Authors": [
+        { "ID": 7105, "Name": "小川亮", "Title": "" },
+        { "ID": 7106, "Name": "四葉タト", "Title": "原作" }
+      ],
+      "Grade18": false,
+      "Region": "台港澳地區",
+      "OnShelfDate": null,
+      "Rank": { "RankStar": 5, "RankCount": 3601 },
+      "CoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/75b27cfa48484d41558408df19e80b44.jpg",
+      "Introduction": "",
+      "PromotionStatus": null,
+      "IsSerial": true,
+      "SerialTag": null,
+      "BookPrice": null,
+      "Promotion": null,
+      "IsPurchased": false,
+      "IsSubscribe": false,
+      "IsSubscribePlan": false,
+      "IsUpcoming": false,
+      "IsPortrait": false,
+      "IsLTR": false,
+      "ExistTanKo": true,
+      "ExistRenSi": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.tongli.tw/Book/BookVol/72c265e5-6fb0-ea11-ab4b-00155d020a17?bookID=null&isSerial=true"
+  },
+  "response": {
+    "status": 200,
+    "url": "https://api.tongli.tw/Book/BookVol/72c265e5-6fb0-ea11-ab4b-00155d020a17?bookID=null&isSerial=true",
+    "headers": { "content-type": "application/json; charset=utf-8" },
+    "body": [
+      {
+        "BookID": "3ee9330b-2a7c-43a9-d93e-08d80208f4f0",
+        "Vol": "第1話",
+        "IsPromotion": false,
+        "IsPurchased": false,
+        "SelectedBook": false,
+        "IsUpcoming": false,
+        "IsFree": true
+      },
+      {
+        "BookID": "fa6fe472-906b-4102-135b-08df0721f562",
+        "Vol": "第220話",
+        "IsPromotion": false,
+        "IsPurchased": false,
+        "SelectedBook": false,
+        "IsUpcoming": false,
+        "IsFree": true
+      },
+      {
+        "BookID": "12580997-1495-4224-2e45-08df13cc14c2",
+        "Vol": "第221話",
+        "IsPromotion": false,
+        "IsPurchased": false,
+        "SelectedBook": false,
+        "IsUpcoming": false,
+        "IsFree": true
+      },
+      {
+        "BookID": "75b27cfa-4848-4d41-5584-08df19e80b44",
+        "Vol": "第222話",
+        "IsPromotion": false,
+        "IsPurchased": false,
+        "SelectedBook": false,
+        "IsUpcoming": false,
+        "IsFree": true
+      }
+    ]
+  }
+}

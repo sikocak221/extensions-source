@@ -1,0 +1,72 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://api.tongli.tw/Search",
+    "body": { "form": { "SearchStr": "派對咖孔明" } }
+  },
+  "response": {
+    "status": 200,
+    "url": "https://api.tongli.tw/Search",
+    "headers": { "content-type": "application/json; charset=utf-8" },
+    "body": [
+      {
+        "BookID": null,
+        "BookGroupID": "72c265e5-6fb0-ea11-ab4b-00155d020a17",
+        "newestID": null,
+        "Title": "派對咖孔明",
+        "Vol": null,
+        "VolNumber": 0,
+        "IsPortrait": false,
+        "IsLTR": false,
+        "CoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/e5ef16dbef564b2ca14608def1d35080.jpg",
+        "Author": "小川亮，四葉タト",
+        "Rank": null,
+        "SerialTag": null,
+        "IsSerial": false,
+        "IsFree": false,
+        "IsUpcoming": false,
+        "Promotion": null,
+        "BookPrice": null,
+        "IsSubscribe": null,
+        "IsUpdateNotify": null,
+        "SubscribeDate": null,
+        "NewBookUpdate": null,
+        "IsPurchased": null,
+        "IsSubscribeBook": null,
+        "PurchasedDate": null,
+        "Page": null,
+        "DBCreate": null,
+        "DBUpdate": "2026-09-24T11:00:52.3411452+08:00"
+      },
+      {
+        "BookID": null,
+        "BookGroupID": "72c265e5-6fb0-ea11-ab4b-00155d020a17",
+        "newestID": null,
+        "Title": "派對咖孔明",
+        "Vol": null,
+        "VolNumber": 0,
+        "IsPortrait": false,
+        "IsLTR": false,
+        "CoverURL": "https://tongliebookpic.blob.core.windows.net/bookcover/75b27cfa48484d41558408df19e80b44.jpg",
+        "Author": "小川亮，四葉タト",
+        "Rank": null,
+        "SerialTag": { "ID": "1055b8e3-4be4-43d8-3764-08d5fd913e61", "Title": "新少年快報", "TagColor": "#ef1f1f" },
+        "IsSerial": true,
+        "IsFree": false,
+        "IsUpcoming": false,
+        "Promotion": null,
+        "BookPrice": null,
+        "IsSubscribe": null,
+        "IsUpdateNotify": null,
+        "SubscribeDate": null,
+        "NewBookUpdate": null,
+        "IsPurchased": null,
+        "IsSubscribeBook": null,
+        "PurchasedDate": null,
+        "Page": null,
+        "DBCreate": null,
+        "DBUpdate": "2026-09-24T11:00:52.3411452+08:00"
+      }
+    ]
+  }
+}
