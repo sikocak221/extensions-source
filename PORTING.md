@@ -1037,10 +1037,10 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hentaicube        | madara     | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | hentaivnplus      | madara     | done    |                                                                                                                                     |
 | hentaivnx         | standalone | blocked | probe 2026-10-05: http:403                                                                                                          |
-| hv2tcomics        | standalone | todo    |                                                                                                                                     |
+| hv2tcomics        | standalone | blocked | every request (even /) answers ADULT_GATE_REQUIRED 403; pages are rendered by a WebView in the Kotlin port                          |
 | kamicomic         | standalone | blocked | kamicomi.com redirects to a parking page (/lander); probe said ok                                                                   |
 | khomanhwa         | standalone | blocked | probe 2026-10-05: http:522                                                                                                          |
-| kirakira          | standalone | todo    |                                                                                                                                     |
+| kirakira          | standalone | done    | paid chapters stay locked (the auto-unlock url guessing is not ported)                                                              |
 | loppytoon         | standalone | done    |                                                                                                                                     |
 | luottruyen        | standalone | blocked | every chapter page redirects to /Account/Login (reading needs an account)                                                           |
 | luvevaland        | standalone | blocked | probe 2026-10-05: http:403                                                                                                          |
@@ -1088,7 +1088,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | truyentini        | madara     | done    |                                                                                                                                     |
 | truyentranhdammy  | madara     | done    |                                                                                                                                     |
 | truyentuoitho     | madara     | done    | protected image payload (XOR) decoded in TS                                                                                         |
-| truyentvn         | standalone | todo    |                                                                                                                                     |
+| truyentvn         | standalone | done    |                                                                                                                                     |
 | tuitruyen         | standalone | todo    |                                                                                                                                     |
 | tusachxinhxinh    | standalone | done    | pages AES-CBC (PBKDF2-SHA512) like InitManga                                                                                        |
 | umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                                          |

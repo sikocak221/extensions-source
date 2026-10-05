@@ -221,6 +221,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Kill Six Billion Demons                           | EN        | https://killsixbilliondemons.com           |      |
 | King of Shojo                                     | EN        | https://kingofshojo.com                    |      |
 | KingComiX                                         | EN        | https://kingcomix.com                      | yes  |
+| KiraKira                                          | VI        | https://truyenkira.net                     |      |
 | Kiryuu                                            | ID        | https://v7.kiryuu.to                       |      |
 | KlikManga                                         | ID        | https://klikmanga.org                      |      |
 | KokoMangas                                        | EN        | https://kokomangas.com                     |      |
@@ -546,6 +547,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Truyenhentaiz                                     | VI        | https://truyenhentaiz.net                  | yes  |
 | TruyenTini                                        | VI        | https://truyentini.net                     |      |
 | TruyenTuoiTho                                     | VI        | https://truyentuoitho.com                  |      |
+| TruyenTVN                                         | VI        | https://truyentvn.net                      | yes  |
 | Türkçe Manga Oku                                  | TR        | https://trmangaoku.com                     |      |
 | TuSachXinhXinh                                    | VI        | https://tusachxinhxinh12.online            |      |
 | TuttoAnimeManga                                   | IT        | https://tuttoanimemanga.net                |      |
