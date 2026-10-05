@@ -1,0 +1,579 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://www.hikarinagi.org/api/pages/mangas/browse?page=1&page_size=24&sort=latest_chapter_at%3Adssc"
+  },
+  "response": {
+    "status": 200,
+    "url": "https://www.hikarinagi.org/api/pages/mangas/browse?page=1&page_size=24&sort=latest_chapter_at%3Adssc",
+    "headers": { "content-type": "application/json" },
+    "body": {
+      "list": {
+        "items": [
+          {
+            "id": 3936,
+            "name": "憂国のモリアーティ",
+            "name_cn": "忧国的莫里亚蒂",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 365690,
+                  "src": "images/f7b5999c-f51e-419d-b0d6-33d1845ac443.webp",
+                  "width": 760,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2016-11-04T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T20:11:10.470Z"
+          },
+          {
+            "id": 5855,
+            "name": "嘆きの亡霊は引退したい ~最弱ハンターによる最強パーティ育成術~",
+            "name_cn": "叹息的亡灵好想隐退~最弱猎手的最强队伍养成术~",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 367641,
+                  "src": "images/a927ce52-7686-4cd6-8f0b-5f8dcd4266db.webp",
+                  "width": 1440,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2019-10-26T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T20:10:37.128Z"
+          },
+          {
+            "id": 55964,
+            "name": "オレの一途を邪魔するアイツ",
+            "name_cn": null,
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 417303,
+                  "src": "images/073038fe-ceea-4782-8fbb-5d87503a4903.webp",
+                  "width": 1055,
+                  "height": 1500,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2026-07-27T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T19:52:04.687Z"
+          },
+          {
+            "id": 39958,
+            "name": "ひねくれ騎士とふわふわ姫様 古城暮らしと小さなおうち",
+            "name_cn": "乖僻骑士与轻飘飘公主 ~ 古城生活与小小的家",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 401416,
+                  "src": "images/d62918bf-2c94-4c40-9402-5d4358c05a95.webp",
+                  "width": 1055,
+                  "height": 1500,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2024-05-11T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T19:50:58.717Z"
+          },
+          {
+            "id": 47975,
+            "name": "げにかすり",
+            "name_cn": "人偶榨取师",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 409428,
+                  "src": "images/638d3ba9-0171-4da0-87a7-36396527a0c7.webp",
+                  "width": 843,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2025-06-18T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T19:21:02.116Z"
+          },
+          {
+            "id": 2186,
+            "name": "最弱テイマーはゴミ拾いの旅を始めました。",
+            "name_cn": "最弱的驯养师开启的捡垃圾的旅途。",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 363945,
+                  "src": "images/079a1247-542e-416e-a98d-a0c764c04d85.webp",
+                  "width": 1440,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2020-07-15T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T19:11:16.890Z"
+          },
+          {
+            "id": 6142,
+            "name": "生意気なギャル姉を解らせる話",
+            "name_cn": "桀骜不驯辣姐的导正守则",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 367928,
+                  "src": "images/d9a48483-6053-42eb-a938-a10b321fbddb.webp",
+                  "width": 842,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2025-01-17T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T19:11:16.436Z"
+          },
+          {
+            "id": 43840,
+            "name": "36",
+            "name_cn": null,
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 405264,
+                  "src": "images/810e0c4c-e274-4a8c-b39c-796ba26d050f.webp",
+                  "width": 1445,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2024-12-12T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T19:01:35.565Z"
+          },
+          {
+            "id": 38250,
+            "name": "竜送りのイサギ",
+            "name_cn": "葬龙者洁",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 399789,
+                  "src": "images/e4bfe6f8-865f-4f79-b436-3de0a5accb5b.webp",
+                  "width": 705,
+                  "height": 1000,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2024-01-12T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T19:00:50.882Z"
+          },
+          {
+            "id": 3852,
+            "name": "ELDEN RING 黄金樹への道",
+            "name_cn": "艾尔登法环 黄金树之路",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 365603,
+                  "src": "images/fb370b60-6334-4258-a05d-ffc8cf936d5e.webp",
+                  "width": 1051,
+                  "height": 1500,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2022-12-02T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T18:31:01.548Z"
+          },
+          {
+            "id": 47691,
+            "name": "花子さん、食べないで",
+            "name_cn": "请不要吃我，花子同学",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 409135,
+                  "src": "images/d89c3eb9-f115-4dc3-a4f9-05e8a4b3b6a3.webp",
+                  "width": 1055,
+                  "height": 1500,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2025-06-09T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T18:10:35.319Z"
+          },
+          {
+            "id": 4374,
+            "name": "恋喰少女",
+            "name_cn": "噬恋少女",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 366151,
+                  "src": "images/39093473-be93-426a-87ba-4a1ce92ea2d9.webp",
+                  "width": 706,
+                  "height": 1000,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2024-08-08T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T18:00:31.561Z"
+          },
+          {
+            "id": 51143,
+            "name": "東京KINOKO 〜世界ランキング1位のコミュ力最弱JK〜",
+            "name_cn": "东京KINOKO~交流能力最弱的JK是世界第一~",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 412545,
+                  "src": "images/1f22116e-13b3-428a-924b-a4b8bf83b088.webp",
+                  "width": 844,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2025-12-18T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T18:00:27.426Z"
+          },
+          {
+            "id": 44039,
+            "name": "釣って食べたいギャル澤さん",
+            "name_cn": "老饕钓客辣妹春泽",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 405460,
+                  "src": "images/753cd90a-3120-4653-8f7a-b29d004f67e3.webp",
+                  "width": 842,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2024-09-19T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T17:29:19.545Z"
+          },
+          {
+            "id": 49163,
+            "name": "轟大丸の奇怪体験談",
+            "name_cn": "轰大丸的奇妙冒险",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 410567,
+                  "src": "images/3177a09d-3e2f-459a-a7c8-75891ba9e7cc.webp",
+                  "width": 1055,
+                  "height": 1500,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2025-07-18T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:51:00.200Z"
+          },
+          {
+            "id": 54971,
+            "name": "極道令嬢、猫を拾う。",
+            "name_cn": null,
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 416305,
+                  "src": "images/d983f4e1-c8dc-4bc4-b07f-64e149b10e6d.webp",
+                  "width": 1304,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2026-07-03T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:50:46.003Z"
+          },
+          {
+            "id": 6192,
+            "name": "バツハレ",
+            "name_cn": "离婚后宫",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 367978,
+                  "src": "images/72a388d6-ba2e-40de-a727-0cd7429800b5.webp",
+                  "width": 844,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2022-07-19T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:50:31.909Z"
+          },
+          {
+            "id": 5858,
+            "name": "冒険者ライセンスを剥奪されたおっさんだけど、愛娘ができたのでのんびり人生を謳歌する",
+            "name_cn": "被剥夺了冒险者执照的大叔，得到了爱女悠闲的讴歌人生",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 367707,
+                  "src": "images/430aeb36-1f35-4d27-bf38-2e0e13a8c769.webp",
+                  "width": 1440,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2018-12-13T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:41:12.840Z"
+          },
+          {
+            "id": 5237,
+            "name": "妻が完璧すぎるので、ちょっと乱していいですか？",
+            "name_cn": "我的妻子太完美了可以稍微捉弄一下吗？",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 367017,
+                  "src": "images/6a2ffb93-bd92-4514-ad42-ddc7ee076037.webp",
+                  "width": 725,
+                  "height": 1030,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2022-11-01T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:40:35.334Z"
+          },
+          {
+            "id": 5465,
+            "name": "奴隷からの期待と評価のせいで搾取できないのだが",
+            "name_cn": "奴隶们对我充满期待与好评，害我无法压榨她们",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 367370,
+                  "src": "images/8247b74f-cd23-4781-adef-0effff8e7f42.webp",
+                  "width": 1056,
+                  "height": 1500,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2024-05-24T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:40:18.784Z"
+          },
+          {
+            "id": 5060,
+            "name": "出会って5秒でバトル",
+            "name_cn": "见面之后5秒开始战斗",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 366816,
+                  "src": "images/bb754c05-f117-4841-84f7-e84e72ea00fb.webp",
+                  "width": 847,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2016-02-26T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:21:00.780Z"
+          },
+          {
+            "id": 49403,
+            "name": "こちら、終末停滞委員会。",
+            "name_cn": "这里是、终末停滞委员会",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 410824,
+                  "src": "images/2ee3e203-26be-45fa-a15c-f2a41c3b4e2c.webp",
+                  "width": 1055,
+                  "height": 1500,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2025-10-23T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:20:15.909Z"
+          },
+          {
+            "id": 47911,
+            "name": "ウは宇宙ヤバイのウ！",
+            "name_cn": "宇是宇宙不太妙的宇！",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 409339,
+                  "src": "images/135a866d-5c85-4534-9a76-3828d1563bb7.webp",
+                  "width": 1000,
+                  "height": 1410,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2025-08-16T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:11:10.946Z"
+          },
+          {
+            "id": 30285,
+            "name": "どうか俺を放っておいてくれ なぜかぼっちの終わった高校生活を彼女が変えようとしてくる",
+            "name_cn": "求你别来管我了",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 391813,
+                  "src": "images/8c465399-3096-448d-a937-2d0ab25d4a01.webp",
+                  "width": 1000,
+                  "height": 1422,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2022-11-07T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T16:01:48.332Z"
+          }
+        ],
+        "meta": { "page": 1, "page_size": 24, "total_items": 64325, "item_count": 24, "total_pages": 2681 }
+      },
+      "selected_filter_labels": { "tags": [], "magazine": null, "genres": [] },
+      "state": {
+        "page": 1,
+        "page_size": 24,
+        "sort_field": "latest_chapter_at",
+        "sort_order": "desc",
+        "tag_groups": [],
+        "genre": []
+      }
+    }
+  }
+}

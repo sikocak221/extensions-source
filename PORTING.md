@@ -870,7 +870,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | bilimanga       | standalone | todo    |                                                                                                                            |
 | boylove         | standalone | todo    |                                                                                                                            |
 | cartoon18       | standalone | todo    |                                                                                                                            |
-| cmanhua         | standalone | todo    |                                                                                                                            |
+| cmanhua         | standalone | done    | listing needs ASP.NET postbacks; image host manhua.5um.net sometimes unreachable (passed live once)                        |
 | comicabc        | standalone | todo    |                                                                                                                            |
 | creativecomic   | standalone | todo    |                                                                                                                            |
 | dm5             | standalone | todo    |                                                                                                                            |
@@ -884,7 +884,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hanman18        | manga18    | done    | tag filter removed (doesn't work on the site)                                                                              |
 | hcomic          | standalone | todo    |                                                                                                                            |
 | hentaiclub      | standalone | done    | every post is a single chapter                                                                                             |
-| hikarinagi      | standalone | todo    |                                                                                                                            |
+| hikarinagi      | standalone | ported  | in pending/: the reader API answers 401 without a logged-in session                                                        |
 | ikmmh           | standalone | todo    |                                                                                                                            |
 | iqiyi           | standalone | todo    |                                                                                                                            |
 | jcomic          | standalone | done    | chapter dates and author not kept                                                                                          |
@@ -893,7 +893,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | komiic          | standalone | todo    |                                                                                                                            |
 | kuaikanmanhua   | standalone | todo    |                                                                                                                            |
 | mangabz         | standalone | todo    |                                                                                                                            |
-| mangaxiaosi     | standalone | todo    |                                                                                                                            |
+| mangaxiaosi     | standalone | done    |                                                                                                                            |
 | manhuadui       | sinmh      | blocked | probe 2026-10-04: Cloudflare                                                                                               |
 | manhuagui       | standalone | todo    |                                                                                                                            |
 | manhuaren       | standalone | todo    |                                                                                                                            |
@@ -904,7 +904,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mh160           | standalone | todo    |                                                                                                                            |
 | miaoqu          | mccms      | done    | site search answers 404: search filters the first 10 catalogue pages                                                       |
 | mycomic         | standalone | blocked | probe 2026-10-04: Cloudflare                                                                                               |
-| nnhanman        | standalone | todo    |                                                                                                                            |
+| nnhanman        | standalone | done    |                                                                                                                            |
 | noyacg          | standalone | todo    |                                                                                                                            |
 | picacomic       | standalone | todo    |                                                                                                                            |
 | roumanwu        | standalone | todo    |                                                                                                                            |

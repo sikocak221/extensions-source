@@ -1,0 +1,572 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://www.hikarinagi.org/api/pages/mangas/browse?page=1&page_size=24&sort=heat%3Adssc"
+  },
+  "response": {
+    "status": 200,
+    "url": "https://www.hikarinagi.org/api/pages/mangas/browse?page=1&page_size=24&sort=heat%3Adssc",
+    "headers": { "content-type": "application/json" },
+    "body": {
+      "list": {
+        "items": [
+          {
+            "id": 228,
+            "name": "チェンソーマン",
+            "name_cn": "链锯人",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 362018,
+                  "src": "images/de7f08fe-8fa6-43fb-b687-d597aaceeb17.webp",
+                  "width": 1297,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2019-03-04T00:00:00.000Z",
+            "latest_chapter_at": "2026-07-29T11:42:38.218Z"
+          },
+          {
+            "id": 6167,
+            "name": "【推しの子】",
+            "name_cn": "【我推的孩子】",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 367945,
+                  "src": "images/4bf82e58-3d0e-47e4-add7-ca520f690b95.webp",
+                  "width": 1441,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2020-07-17T00:00:00.000Z",
+            "latest_chapter_at": "2026-07-29T03:01:25.269Z"
+          },
+          {
+            "id": 217,
+            "name": "サマータイムレンダ",
+            "name_cn": "夏日重现",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 362011,
+                  "src": "images/a9c62690-53ca-4698-9c58-eebfbe637f4d.webp",
+                  "width": 844,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2018-02-02T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-04T03:20:59.202Z"
+          },
+          {
+            "id": 35,
+            "name": "やがて君になる",
+            "name_cn": "终将成为你",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361830,
+                  "src": "images/b7c0504f-3e1b-402f-ac72-9941ea617192.webp",
+                  "width": 702,
+                  "height": 1000,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2015-10-24T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-21T00:29:51.014Z"
+          },
+          {
+            "id": 44,
+            "name": "ダンジョン飯",
+            "name_cn": "迷宫饭",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361859,
+                  "src": "images/919652d0-8b97-47bf-9de7-ec7df8c10947.webp",
+                  "width": 1125,
+                  "height": 1600,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2015-01-15T00:00:00.000Z",
+            "latest_chapter_at": "2026-07-31T04:11:58.813Z"
+          },
+          {
+            "id": 6,
+            "name": "ジョジョの奇妙な冒険 Part7『スティール・ボール・ラン』",
+            "name_cn": "JoJo的奇妙冒险 第七部 飙马野郎",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361831,
+                  "src": "images/b37e4175-494c-4dbe-b27a-ee2e2c1a8738.webp",
+                  "width": 772,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2004-05-20T00:00:00.000Z",
+            "latest_chapter_at": "2026-07-26T02:45:36.736Z"
+          },
+          {
+            "id": 17,
+            "name": "ONE PIECE",
+            "name_cn": "航海王",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361905,
+                  "src": "images/b4f656fb-332c-4a4f-a221-bee31501506c.webp",
+                  "width": 912,
+                  "height": 1440,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "1997-12-24T00:00:00.000Z",
+            "latest_chapter_at": "2026-09-30T18:32:42.072Z"
+          },
+          {
+            "id": 958,
+            "name": "進撃の巨人",
+            "name_cn": "进击的巨人",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 362721,
+                  "src": "images/1ff28771-4836-4cbc-82b2-8da9ea13eb04.webp",
+                  "width": 798,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2010-03-17T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-23T18:39:51.841Z"
+          },
+          {
+            "id": 30,
+            "name": "少女終末旅行",
+            "name_cn": "少女终末旅行",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361893,
+                  "src": "images/08ad79d0-0f5e-40f9-bfe4-683f48b4f337.webp",
+                  "width": 1441,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2014-11-08T00:00:00.000Z",
+            "latest_chapter_at": "2026-07-29T20:45:28.359Z"
+          },
+          {
+            "id": 93,
+            "name": "チ。―地球の運動について―",
+            "name_cn": "关于地球的运动",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361913,
+                  "src": "images/c3a0704d-fc32-447d-be47-3919ed13e69a.webp",
+                  "width": 847,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2020-12-11T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-23T17:32:18.544Z"
+          },
+          {
+            "id": 1625,
+            "name": "魔都精兵のスレイブ",
+            "name_cn": "魔都精兵的奴隶",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 363386,
+                  "src": "images/b7fa96eb-fa92-4886-8a41-3ae2d84e8721.webp",
+                  "width": 1297,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2019-03-04T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-03T09:06:01.260Z"
+          },
+          {
+            "id": 49,
+            "name": "DEATH NOTE",
+            "name_cn": "死亡笔记",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361862,
+                  "src": "images/db4517e5-d282-4830-bdb8-2ba23ba1dd06.webp",
+                  "width": 912,
+                  "height": 1440,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2004-04-02T00:00:00.000Z",
+            "latest_chapter_at": "2026-07-29T21:34:05.338Z"
+          },
+          {
+            "id": 1860,
+            "name": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+            "name_cn": "辉夜大小姐想让我告白 ~天才们的恋爱头脑战~",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 363592,
+                  "src": "images/d82e9d46-77d5-4fc8-ad4d-904049353f19.webp",
+                  "width": 1436,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2016-03-18T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-03T03:57:26.430Z"
+          },
+          {
+            "id": 988,
+            "name": "SPY×FAMILY",
+            "name_cn": "间谍过家家",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 362758,
+                  "src": "images/106394b9-8312-40cb-8d44-57c123dfb1e7.webp",
+                  "width": 764,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2019-07-04T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-03T02:56:35.643Z"
+          },
+          {
+            "id": 788,
+            "name": "ワンパンマン",
+            "name_cn": "一拳超人",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 362553,
+                  "src": "images/619d69b2-82b5-473c-a3cb-915caafa4dc8.webp",
+                  "width": 763,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2012-12-04T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-03T06:21:59.326Z"
+          },
+          {
+            "id": 3519,
+            "name": "鬼滅の刃",
+            "name_cn": "鬼灭之刃",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 365276,
+                  "src": "images/cf6ad18f-dc15-4ae5-ada3-c961ae5cebcc.webp",
+                  "width": 917,
+                  "height": 1440,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2016-06-03T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-24T06:10:25.501Z"
+          },
+          {
+            "id": 10,
+            "name": "それでも町は廻っている",
+            "name_cn": "女仆咖啡厅",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361841,
+                  "src": "images/29d88f29-707a-44c5-b53e-223366f5cd61.webp",
+                  "width": 995,
+                  "height": 1440,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2006-01-27T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-21T09:10:46.663Z"
+          },
+          {
+            "id": 75,
+            "name": "スピリットサークル",
+            "name_cn": "魂环",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361873,
+                  "src": "images/05631ae1-00a0-46fa-baf8-0331fc13c464.webp",
+                  "width": 840,
+                  "height": 1200,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2012-12-10T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-23T18:55:18.036Z"
+          },
+          {
+            "id": 4,
+            "name": "火の鳥（朝日ソノラマ版）",
+            "name_cn": "火之鸟",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361834,
+                  "src": "images/cb6e9b9f-100d-488e-a86d-9f5d53726e7f.webp",
+                  "width": 352,
+                  "height": 500,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "1997-09-01T00:00:00.000Z",
+            "latest_chapter_at": "2026-07-26T03:34:27.108Z"
+          },
+          {
+            "id": 47,
+            "name": "メイドインアビス",
+            "name_cn": "来自深渊",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361845,
+                  "src": "images/9389d988-0bbd-4d3c-85f5-1602b7847f48.webp",
+                  "width": 1019,
+                  "height": 1440,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2013-07-31T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-03T07:58:31.330Z"
+          },
+          {
+            "id": 693,
+            "name": "お兄ちゃんはおしまい！",
+            "name_cn": "别当欧尼酱了！",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 362467,
+                  "src": "images/a67daaea-527b-420b-bf3f-339d7cdf453c.webp",
+                  "width": 1387,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2018-06-27T00:00:00.000Z",
+            "latest_chapter_at": "2026-10-04T12:24:49.133Z"
+          },
+          {
+            "id": 18,
+            "name": "HUNTER×HUNTER",
+            "name_cn": "猎人",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361825,
+                  "src": "images/28b298e6-121c-4729-ae88-459737f1033d.webp",
+                  "width": 822,
+                  "height": 1290,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "1998-06-04T00:00:00.000Z",
+            "latest_chapter_at": "2026-09-09T12:50:34.159Z"
+          },
+          {
+            "id": 1072,
+            "name": "魔法少女にあこがれて",
+            "name_cn": "梦想成为魔法少女",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 362834,
+                  "src": "images/b99310f0-089a-4e6f-91e9-1a514383ad34.webp",
+                  "width": 1440,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "SERIALIZING",
+            "publication_date": "2019-11-30T00:00:00.000Z",
+            "latest_chapter_at": "2026-09-22T17:00:58.052Z"
+          },
+          {
+            "id": 94,
+            "name": "僕の心のヤバイやつ",
+            "name_cn": "我心里危险的东西",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 361910,
+                  "src": "images/4debf514-f7da-4407-adb0-fdf7d12803f2.webp",
+                  "width": 1318,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2018-12-07T00:00:00.000Z",
+            "latest_chapter_at": "2026-09-15T13:00:50.371Z"
+          }
+        ],
+        "meta": { "page": 1, "page_size": 24, "total_items": 64325, "item_count": 24, "total_pages": 2681 }
+      },
+      "selected_filter_labels": { "tags": [], "magazine": null, "genres": [] },
+      "state": { "page": 1, "page_size": 24, "sort_field": "heat", "sort_order": "desc", "tag_groups": [], "genre": [] }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://www.hikarinagi.org/api/pages/mangas/browse?page=1&page_size=24&search=%E9%93%BE%E9%94%AF%E4%BA%BA&sort=latest_chapter_at%3Adssc"
+  },
+  "response": {
+    "status": 200,
+    "url": "https://www.hikarinagi.org/api/pages/mangas/browse?page=1&page_size=24&search=%E9%93%BE%E9%94%AF%E4%BA%BA&sort=latest_chapter_at%3Adssc",
+    "headers": { "content-type": "application/json" },
+    "body": {
+      "list": {
+        "items": [
+          {
+            "id": 6275,
+            "name": "チェンソーマン 第二部",
+            "name_cn": "链锯人 第二部",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 368070,
+                  "src": "images/d19660ae-4bd2-4e58-b3c4-db85a652d89e.webp",
+                  "width": 400,
+                  "height": 630,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2022-10-04T00:00:00.000Z",
+            "latest_chapter_at": "2026-08-23T10:14:12.689Z"
+          },
+          {
+            "id": 228,
+            "name": "チェンソーマン",
+            "name_cn": "链锯人",
+            "covers": [
+              {
+                "votes": 0,
+                "media": {
+                  "id": 362018,
+                  "src": "images/de7f08fe-8fa6-43fb-b687-d597aaceeb17.webp",
+                  "width": 1297,
+                  "height": 2048,
+                  "nsfw": false,
+                  "sexual": 0,
+                  "violence": 0
+                }
+              }
+            ],
+            "nsfw": false,
+            "serial_status": "FINISHED",
+            "publication_date": "2019-03-04T00:00:00.000Z",
+            "latest_chapter_at": "2026-07-29T11:42:38.218Z"
+          }
+        ],
+        "meta": { "page": 1, "page_size": 24, "total_items": 2, "item_count": 2, "total_pages": 1 }
+      },
+      "selected_filter_labels": { "tags": [], "magazine": null, "genres": [] },
+      "state": {
+        "page": 1,
+        "page_size": 24,
+        "search": "链锯人",
+        "sort_field": "latest_chapter_at",
+        "sort_order": "desc",
+        "tag_groups": [],
+        "genre": []
+      }
+    }
+  }
+}
