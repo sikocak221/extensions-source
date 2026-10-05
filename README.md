@@ -57,6 +57,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Bymichi Scan                                      | ES        | https://bymichiby.com                      | yes  |
 | Cartoon18                                         | ZH        | https://www.cartoon18.com                  | yes  |
 | Cat300                                            | TH        | https://cat-300.com                        | yes  |
+| Catharsis World                                   | ES        | https://newcatharsis.dig-it.info           |      |
 | CCC追漫台                                         | ZH        | https://www.creative-comic.tw              |      |
 | Celestial Moon                                    | ES        | https://celestialmoonscan.es               |      |
 | Cerberus Series                                   | ES        | https://legionscans.com                    |      |
@@ -488,6 +489,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Solar and Sundry                                  | EN        | https://sas.ewanb.me                       |      |
 | Soul Scans                                        | ID        | https://v1.soulscans.org                   |      |
 | Speed Manga                                       | TH        | https://speed-manga.net                    |      |
+| Spicy Scan                                        | ES        | https://spicyseries.com                    |      |
 | StoneScape                                        | EN        | https://stonescape.xyz                     |      |
 | Submanhwa                                         | ES        | https://submanhwa.com                      | yes  |
 | Sunshine Butterfly Scans                          | EN        | https://wings.sbs                          | yes  |
