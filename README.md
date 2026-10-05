@@ -199,6 +199,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | IsekaiKomik                                       | ID        | https://ch1.isekaikomik.site               |      |
 | Izanami Scans                                     | ID        | https://izanamiscans.my.id                 |      |
 | JComic                                            | ZH        | https://jcomic.net                         | yes  |
+| Jeaz Scans                                        | ES        | https://lectorhub.j5z.xyz                  |      |
 | Juin Jutsu Team Reader                            | IT        | https://www.juinjutsureader.ovh            |      |
 | JuraTempest                                       | TR        | https://juratempe.st                       |      |
 | K Manga                                           | EN        | https://kmanga.kodansha.com                |      |
@@ -234,7 +235,9 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | LanorTrad                                         | FR        | https://lanortrad.com                      |      |
 | Lava Scans                                        | AR        | https://lavascans.com                      |      |
 | Lector Asteria                                    | ES        | https://visor.chifa-tong.online            |      |
+| LectorJPG                                         | ES        | https://visorjpg.lat                       |      |
 | LectorManga.lat                                   | ES        | https://lector-mangas.lat                  |      |
+| LeerCapitulo                                      | ES        | https://www.leercapitulo.co                |      |
 | LeerManhwas                                       | ES        | https://leermanhwas.com                    | yes  |
 | Lelscan                                           | FR        | https://lelscans.net                       |      |
 | LepoyTL                                           | ID        | https://www.lepoytl.my.id                  |      |
@@ -414,6 +417,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Qi Scans                                          | EN        | https://qimanga.com                        |      |
 | Questionable Content                              | EN        | https://www.questionablecontent.net        |      |
 | Rackus                                            | EN        | https://rackusreads.com                    |      |
+| Ragna Scans                                       | ES        | https://lector.ragnascan.xyz               |      |
 | Ragnarok Scanlation                               | ES        | https://ragnarokscanlation.org             |      |
 | Raven Scans                                       | EN        | https://ravenscans.org                     |      |
 | RavenManga                                        | ES        | https://raventard.xyz                      |      |
