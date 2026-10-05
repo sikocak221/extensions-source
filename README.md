@@ -98,6 +98,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Dongman Manhua                                    | ZH        | https://www.dongmanmanhua.cn               |      |
 | Doujin Moon                                       | TH        | https://doujinmoon.com                     | yes  |
 | Doujindesu                                        | ID        | https://doujin.desu.xxx                    | yes  |
+| DoujinHentai                                      | ES        | https://doujinhentai.net                   | yes  |
 | Doujinku                                          | ID        | https://doujinku.org                       | yes  |
 | Doujins                                           | EN        | https://doujins.com                        | yes  |
 | DoujinsHell                                       | ES        | https://doujinshell.net                    | yes  |
@@ -185,9 +186,11 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Hwago                                             | ID        | https://02.hwago.xyz                       |      |
 | I Roved Out                                       | EN        | https://www.irovedout.com                  | yes  |
 | I'm An Evil God                                   | EN        | https://imanevilgod.com                    |      |
+| Ikuhentai                                         | ES        | https://ikuhentai.net                      | yes  |
 | InfraFandub                                       | ES        | https://infrafandub.com                    |      |
 | INKR                                              | EN        | https://comics.inkr.com                    |      |
 | InkStory                                          | RU        | https://inkstory.net                       |      |
+| InManga                                           | ES        | https://inmanga.com                        |      |
 | Inmortal Scan                                     | ES        | https://scan-inmortal.com                  |      |
 | Inventario Oculto                                 | ES        | https://inventariooculto.com               |      |
 | IsekaiKomik                                       | ID        | https://ch1.isekaikomik.site               |      |
@@ -228,6 +231,8 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | LanorTrad                                         | FR        | https://lanortrad.com                      |      |
 | Lava Scans                                        | AR        | https://lavascans.com                      |      |
 | Lector Asteria                                    | ES        | https://visor.chifa-tong.online            |      |
+| LectorManga.lat                                   | ES        | https://lector-mangas.lat                  |      |
+| LeerManhwas                                       | ES        | https://leermanhwas.com                    | yes  |
 | Lelscan                                           | FR        | https://lelscans.net                       |      |
 | LepoyTL                                           | ID        | https://www.lepoytl.my.id                  |      |
 | Les Poroiniens                                    | FR        | https://lesporoiniens.org                  |      |
@@ -562,6 +567,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | 喜漫漫画                                          | ZH        | https://www.favcomic.com                   |      |
 | 漫画1234                                          | ZH        | https://m.wmh1234.com                      |      |
 | 漫画160                                           | ZH        | https://www.mh160mh.com                    |      |
+| 爱奇艺叭嗒                                        | ZH        | https://bud.m.iqiyi.com                    |      |
 | 爱看漫                                            | ZH        | https://ymcdnyfqdapp.ikmmh.com             |      |
 | 紳士漫畫                                          | ZH        | https://www.wn10.cfd                       | yes  |
 | 肉漫屋                                            | ZH        | https://rouman5.com                        | yes  |

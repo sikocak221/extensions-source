@@ -4562,6 +4562,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/doujinhentai:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/doujinshell:
     devDependencies:
       '@matane/extension-cli':
@@ -4667,7 +4682,37 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/ikuhentai:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/infrafandub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/inmanga:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -4728,6 +4773,36 @@ importers:
         version: 24.19.0
 
   src/es/lectorasteria:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/lectormangalat:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/leermanhwas:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -8283,6 +8358,21 @@ importers:
         version: 24.19.0
 
   src/zh/ikmmh:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/iqiyi:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'

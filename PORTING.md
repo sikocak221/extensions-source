@@ -899,7 +899,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hentaiclub      | standalone | done    | every post is a single chapter                                                                                                                                                   |
 | hikarinagi      | standalone | ported  | in pending/: the reader API answers 401 without a logged-in session                                                                                                              |
 | ikmmh           | standalone | done    | mobile UA + session cookie kept in memory as the site's WAF wants                                                                                                                |
-| iqiyi           | standalone | todo    |                                                                                                                                                                                  |
+| iqiyi           | standalone | done    |                                                                                                                                                                                  |
 | jcomic          | standalone | done    | chapter dates and author not kept                                                                                                                                                |
 | jinmantiantang  | standalone | blocked | probe 2026-10-04: Cloudflare                                                                                                                                                     |
 | jiuermanhua     | sinmh      | blocked | probe 2026-10-04: Cloudflare                                                                                                                                                     |
@@ -1122,7 +1122,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | colorcitoscan         | standalone    | todo    |                                                                        |
 | darkroomfansub        | zeistmanga    | done    |                                                                        |
 | datgarscanlation      | zeistmanga    | done    |                                                                        |
-| doujinhentai          | standalone    | todo    |                                                                        |
+| doujinhentai          | standalone    | done    |                                                                        |
 | doujinshell           | madara        | done    |                                                                        |
 | dragontranslationorg  | madara        | blocked | Cloudflare 403                                                         |
 | dynasty               | standalone    | todo    |                                                                        |
@@ -1139,9 +1139,9 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hentaimode            | standalone    | done    |                                                                        |
 | houseofotakus         | madara        | done    |                                                                        |
 | ikigaimangas          | standalone    | todo    |                                                                        |
-| ikuhentai             | standalone    | todo    |                                                                        |
+| ikuhentai             | standalone    | done    |                                                                        |
 | infrafandub           | madara        | done    |                                                                        |
-| inmanga               | standalone    | todo    |                                                                        |
+| inmanga               | standalone    | done    |                                                                        |
 | inmortalscan          | madara        | done    |                                                                        |
 | insanosscan           | standalone    | todo    |                                                                        |
 | inventariooculto      | madara        | done    |                                                                        |
@@ -1150,11 +1150,11 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | koinoboriscan         | standalone    | blocked | dead (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)                              |
 | lectorasteria         | moonlighttl   | done    |                                                                        |
 | lectorjpg             | standalone    | todo    |                                                                        |
-| lectormangalat        | standalone    | todo    |                                                                        |
+| lectormangalat        | standalone    | done    |                                                                        |
 | lectormonline         | standalone    | blocked | dead (ENOTFOUND)                                                       |
 | leercapitulo          | standalone    | todo    |                                                                        |
 | leermangaesp          | standalone    | todo    |                                                                        |
-| leermanhwas           | standalone    | todo    |                                                                        |
+| leermanhwas           | standalone    | done    |                                                                        |
 | lmtoonline            | standalone    | blocked | Cloudflare challenge                                                   |
 | lolivault             | foolslide     | blocked | dead (TimeoutError)                                                    |
 | lunapieces            | mangathemesia | blocked | dead (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)                              |
