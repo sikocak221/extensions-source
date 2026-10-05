@@ -1119,7 +1119,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | cerberusseries        | mangathemesia | done    |                                                                                                                 |
 | chochox               | vercomics     | blocked | Cloudflare challenge                                                                                            |
 | codearc               | standalone    | todo    |                                                                                                                 |
-| colorcitoscan         | standalone    | todo    |                                                                                                                 |
+| colorcitoscan         | standalone    | done    | two sources (Colorcito Scan/Toons); pages from the RSC payload                                                  |
 | darkroomfansub        | zeistmanga    | done    |                                                                                                                 |
 | datgarscanlation      | zeistmanga    | done    |                                                                                                                 |
 | doujinhentai          | standalone    | done    |                                                                                                                 |
@@ -1153,7 +1153,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | lectormangalat        | standalone    | done    |                                                                                                                 |
 | lectormonline         | standalone    | blocked | dead (ENOTFOUND)                                                                                                |
 | leercapitulo          | standalone    | done    |                                                                                                                 |
-| leermangaesp          | standalone    | todo    |                                                                                                                 |
+| leermangaesp          | standalone    | done    |                                                                                                                 |
 | leermanhwas           | standalone    | done    |                                                                                                                 |
 | lmtoonline            | standalone    | blocked | Cloudflare challenge                                                                                            |
 | lolivault             | foolslide     | blocked | dead (TimeoutError)                                                                                             |

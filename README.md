@@ -67,6 +67,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | CManhua                                           | ZH        | https://cmanhua.com                        |      |
 | Cocomic                                           | EN        | https://cocomic.co                         |      |
 | Collected Curios                                  | EN        | https://www.collectedcurios.com            |      |
+| Colorcito                                         | ES        | https://coloresito.site                    | yes  |
 | Colorized Mangas                                  | EN        | https://colorizedmangas.com                |      |
 | Comic Asura                                       | EN        | https://comicasura.net                     |      |
 | Comic Verse                                       | AR        | https://arcomixverse.blogspot.com          |      |
@@ -241,6 +242,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | LectorJPG                                         | ES        | https://visorjpg.lat                       |      |
 | LectorManga.lat                                   | ES        | https://lector-mangas.lat                  |      |
 | LeerCapitulo                                      | ES        | https://www.leercapitulo.co                |      |
+| LeerMangaEsp                                      | ES        | https://mangalect.org                      |      |
 | LeerManhwas                                       | ES        | https://leermanhwas.com                    | yes  |
 | Lelscan                                           | FR        | https://lelscans.net                       |      |
 | LepoyTL                                           | ID        | https://www.lepoytl.my.id                  |      |
