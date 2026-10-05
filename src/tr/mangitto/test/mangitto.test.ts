@@ -8,7 +8,7 @@ import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 
 // Generic reading-flow test (scripts/templates/extension.test.ts): the manga under test is the first
 // popular one, so recording fixtures needs no hand-picked urls.
-const NAME = "Mangitto";
+const NAME = 'Mangitto';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FIXTURES = path.join(root, 'test/fixtures');
 const RECORD = process.env.MR_RECORD === '1';
@@ -120,7 +120,15 @@ suite(NAME, { timeout: 60_000 }, () => {
   });
 
   it('getChapters', async () => {
-    chapters = await call<Chapter[]>('getChapters', [manga]);
+    // Some sites list series without chapters first: use the first popular one that has some.
+    const popular = await call<MangaPage>('getPopular', [1]);
+    for (const candidate of popular.items.slice(0, 5)) {
+      chapters = await call<Chapter[]>('getChapters', [candidate]).catch(() => []);
+      if (chapters.length > 0) {
+        manga = candidate;
+        break;
+      }
+    }
     expect(chapters.length).toBeGreaterThan(0);
     for (const chapter of chapters) {
       expect(chapter.url).not.toBe('');
@@ -129,7 +137,12 @@ suite(NAME, { timeout: 60_000 }, () => {
   });
 
   it('getPages', async () => {
-    const pages = await call<Page[]>('getPages', [chapters[chapters.length - 1]]);
+    // The oldest chapters of some sites are locked or placeholders: take the first one that has pages.
+    let pages: Page[] = [];
+    for (const chapter of [...chapters].reverse().slice(0, 5)) {
+      pages = await call<Page[]>('getPages', [chapter]).catch(() => []);
+      if (pages.length > 0) break;
+    }
     expect(pages.length).toBeGreaterThan(0);
     expect(pages[0]?.index).toBe(0);
     expect(pages[0]?.imageUrl ?? pages[0]?.url).toMatch(/^https?:\/\//);

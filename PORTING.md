@@ -954,10 +954,10 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | limonmanga        | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json)                                                                      |
 | lunascans         | madara        | blocked | chapters need a logged-in account / list is empty without login                                                  |
 | mangadenizi       | standalone    | todo    |                                                                                                                  |
-| mangadiyari       | standalone    | todo    |                                                                                                                  |
+| mangadiyari       | standalone    | done    |                                                                                                                  |
 | mangadusleri      | standalone    | blocked | connection times out (dead)                                                                                      |
 | mangakusu         | mangathemesia | blocked | Cloudflare challenge                                                                                             |
-| mangaportali      | standalone    | todo    |                                                                                                                  |
+| mangaportali      | standalone    | done    | page images served through /api/reader/pages                                                                     |
 | mangasehrinet     | madara        | blocked | origin down (522)                                                                                                |
 | mangaship         | standalone    | todo    |                                                                                                                  |
 | mangatilkisi      | madara        | done    | chapter links skip the thumbnail anchor                                                                          |
@@ -965,11 +965,11 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangawow          | madara        | done    |                                                                                                                  |
 | mangawt           | standalone    | blocked | Cloudflare challenge                                                                                             |
 | mangazure         | madara        | blocked | origin down (522)                                                                                                |
-| mangitto          | standalone    | todo    |                                                                                                                  |
+| mangitto          | standalone    | done    | test picks a series with chapters                                                                                |
 | merlinscans       | initmanga     | blocked | Cloudflare block (403)                                                                                           |
 | mikrokosmosfansub | zeistmanga    | done    |                                                                                                                  |
 | milasub           | madara        | blocked | chapters need a logged-in account (login wall)                                                                   |
-| monomanga         | standalone    | todo    |                                                                                                                  |
+| monomanga         | standalone    | done    | Next.js RSC                                                                                                      |
 | moondaisyscans    | mangathemesia | blocked | chapters need a logged-in account (login wall)                                                                   |
 | nemesisscans      | mangathemesia | blocked | site redesigned (no longer MangaThemesia); Tachiyomi source outdated                                             |
 | nirvanamanga      | mangathemesia | done    | text search through ?s= (the archive ignores title)                                                              |
@@ -986,7 +986,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | shadowceviri      | zeistmanga    | done    | popular widget duplicates removed                                                                                |
 | shijiescans       | mangathemesia | done    |                                                                                                                  |
 | siyahmelek        | initmanga     | blocked | chapters locked (login required)                                                                                 |
-| sleptmanga        | standalone    | todo    |                                                                                                                  |
+| sleptmanga        | standalone    | done    | Next.js RSC series object extracted by brace matching; locked chapters are listed                                |
 | strayfansub       | madaralegacy  | blocked | madaralegacy theme not ported (blocked)                                                                          |
 | summertoon        | madara        | blocked | chapter pages need a logged-in account                                                                           |
 | sunsetmanga       | madara        | blocked | moved to sunsetscans.com.tr; listings/chapters no longer match Madara                                            |

@@ -8,7 +8,7 @@ import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 
 // Generic reading-flow test (scripts/templates/extension.test.ts): the manga under test is the first
 // popular one, so recording fixtures needs no hand-picked urls.
-const NAME = "Mono Manga";
+const NAME = 'Mono Manga';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FIXTURES = path.join(root, 'test/fixtures');
 const RECORD = process.env.MR_RECORD === '1';
