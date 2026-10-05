@@ -1022,7 +1022,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | ----------------- | ---------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | ariverse          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | cmanga            | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
-| cuutruyen         | standalone | todo    |                                                                                                                                     |
+| cuutruyen         | standalone | done    | API v2 + strip descrambling via tiles (verified visually); mirror pref                                                              |
 | cuutruyenmoe      | standalone | ported  | password gate (Livewire, pref) handled; listing/details/chapters/pages pass live; the site's keyword search answers 500; in pending |
 | damconuong        | standalone | later   | image descrambling needs a decoder secret scraped from an obfuscated JS bundle + webview auth token; heavy                          |
 | daomeoden         | standalone | done    |                                                                                                                                     |

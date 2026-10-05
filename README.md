@@ -83,6 +83,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Cucumber Manga                                    | EN        | https://cucumbermanga.com                  | yes  |
 | CulturedWorks                                     | EN        | https://culturedworks.com                  |      |
 | Cutie Comics                                      | EN        | https://cutiecomics.com                    | yes  |
+| CuuTruyen                                         | VI        | https://cuutruyen.net                      |      |
 | Cyanide & Happiness                               | EN        | https://explosm.net                        |      |
 | Danke fürs Lesen                                  | EN        | https://danke.moe                          |      |
 | DaoMeoDen                                         | VI        | https://daomeoden.net                      |      |
