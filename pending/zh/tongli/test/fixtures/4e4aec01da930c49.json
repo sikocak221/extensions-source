@@ -1,0 +1,26 @@
+{
+  "request": { "method": "GET", "url": "https://api.tongli.tw/Comic/sas/3ee9330b-2a7c-43a9-d93e-08d80208f4f0" },
+  "response": {
+    "status": 400,
+    "url": "https://api.tongli.tw/Comic/sas/3ee9330b-2a7c-43a9-d93e-08d80208f4f0",
+    "headers": { "content-type": "application/json; charset=utf-8" },
+    "body": {
+      "Errors": [
+        {
+          "Code": 3166,
+          "Message": "您所在的區域(ID)無法閱讀此作品",
+          "Data": {},
+          "InnerException": null,
+          "TargetSite": null,
+          "StackTrace": null,
+          "HelpLink": null,
+          "Source": null,
+          "HResult": -2146233088
+        }
+      ],
+      "Code": 1,
+      "Succeeded": false,
+      "Error": "您所在的區域(ID)無法閱讀此作品。"
+    }
+  }
+}

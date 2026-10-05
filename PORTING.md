@@ -885,7 +885,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hcomic          | standalone | done    | each comic is a single chapter                                                                                               |
 | hentaiclub      | standalone | done    | every post is a single chapter                                                                                               |
 | hikarinagi      | standalone | ported  | in pending/: the reader API answers 401 without a logged-in session                                                          |
-| ikmmh           | standalone | todo    |                                                                                                                              |
+| ikmmh           | standalone | done    | mobile UA + session cookie kept in memory as the site's WAF wants                                                            |
 | iqiyi           | standalone | todo    |                                                                                                                              |
 | jcomic          | standalone | done    | chapter dates and author not kept                                                                                            |
 | jinmantiantang  | standalone | blocked | probe 2026-10-04: Cloudflare                                                                                                 |
@@ -912,7 +912,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | sixmh           | mccms      | done    |                                                                                                                              |
 | tencentcomics   | standalone | todo    |                                                                                                                              |
 | terrahistoricus | standalone | done    |                                                                                                                              |
-| tongli          | standalone | todo    |                                                                                                                              |
+| tongli          | standalone | ported  | in pending/: chapter API refuses readers outside Taiwan/HK ('您所在的區域(ID)無法閱讀此作品'), untestable from here          |
 | toptoon         | standalone | ported  | in pending/: every chapter page (epView) redirects to the list without a logged-in session; age check passed with a cookie   |
 | vomic           | standalone | blocked | chapter page API needs a time-stamped 3DES-CBC encrypted request; the sandbox crypto only decrypts AES                       |
 | wnacg           | standalone | todo    |                                                                                                                              |

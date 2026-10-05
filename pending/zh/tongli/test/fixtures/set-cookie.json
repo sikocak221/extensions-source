@@ -1,0 +1,8 @@
+{
+  "https://api.tongli.tw/SellRanking/1": "ARRAffinitySameSite=1de2da87aeb1cf80f8fb9b2c29418e24ed2e19e36ddbcbd81f34016600c610d5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.tongli.tw",
+  "https://api.tongli.tw/SellShelf/6e7e5b75-1acd-4b7c-0097-08d6179fc10a/1?pageSize=20": "ARRAffinitySameSite=1de2da87aeb1cf80f8fb9b2c29418e24ed2e19e36ddbcbd81f34016600c610d5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.tongli.tw",
+  "https://api.tongli.tw/Search": "ARRAffinitySameSite=1de2da87aeb1cf80f8fb9b2c29418e24ed2e19e36ddbcbd81f34016600c610d5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.tongli.tw",
+  "https://api.tongli.tw/Book?bookGroupID=72c265e5-6fb0-ea11-ab4b-00155d020a17&isSerial=true": "ARRAffinitySameSite=1de2da87aeb1cf80f8fb9b2c29418e24ed2e19e36ddbcbd81f34016600c610d5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.tongli.tw",
+  "https://api.tongli.tw/Book/BookVol/72c265e5-6fb0-ea11-ab4b-00155d020a17?bookID=null&isSerial=true": "ARRAffinitySameSite=1de2da87aeb1cf80f8fb9b2c29418e24ed2e19e36ddbcbd81f34016600c610d5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.tongli.tw",
+  "https://api.tongli.tw/Comic/sas/3ee9330b-2a7c-43a9-d93e-08d80208f4f0": "ARRAffinitySameSite=1de2da87aeb1cf80f8fb9b2c29418e24ed2e19e36ddbcbd81f34016600c610d5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.tongli.tw"
+}
