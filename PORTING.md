@@ -907,7 +907,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | nnhanman        | standalone | done    |                                                                                                                            |
 | noyacg          | standalone | todo    |                                                                                                                            |
 | picacomic       | standalone | todo    |                                                                                                                            |
-| roumanwu        | standalone | todo    |                                                                                                                            |
+| roumanwu        | standalone | done    | scrambled pages (sr:1) rebuilt by transformImage; not seen scrambled in the live test                                      |
 | rumanhua        | mmlook     | blocked | probe 2026-10-04: dead (TLS certificate invalid)                                                                           |
 | sixmh           | mccms      | done    |                                                                                                                            |
 | tencentcomics   | standalone | todo    |                                                                                                                            |
@@ -919,7 +919,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | yidan           | standalone | blocked | probe 2026-10-04: dead:ENOTFOUND                                                                                           |
 | zaimanhua       | standalone | todo    |                                                                                                                            |
 | zazhimi         | standalone | done    | test uses the 2nd popular entry (the first is an advert search never finds)                                                |
-| zerobyw         | standalone | todo    |                                                                                                                            |
+| zerobyw         | standalone | done    | domain fallback (latest domain from a text file) kept in memory only                                                       |
 
 ## tr
 
