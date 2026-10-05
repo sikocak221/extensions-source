@@ -86,7 +86,7 @@ Status: `todo` → `ported` (code + build) → `done` (fixture test + live `mr-e
 | heancms       | 2 (en)          | done    |
 | mangak        | 2 (en)          | done    |
 | mangataro     | 2 (en)          | done    |
-| manhwaz       | 2 (en)          | later   | every en site blocked; port with a language that has live sites |
+| manhwaz       | 2 (vi)          | done    | en sites blocked                                                |
 | monochrome    | 2 (en)          | done    |
 | goda          | 1 (en)          | ported  |
 | hiper         | 1 (en)          | done    |
@@ -94,10 +94,23 @@ Status: `todo` → `ported` (code + build) → `done` (fixture test + live `mr-e
 | initmanga     | 1 (en)          | done    |
 | mangareader   | 1 (en)          | done    |
 | liliana       | 1 (en)          | done    |
-| mmrcms        | 1 (en)          | later   | every en site blocked; port with a language that has live sites |
+| mmrcms        | 3 (ar, es, fr)  | done    | en sites blocked                                                |
 | pam           | 1 (en)          | later   | every en site blocked; port with a language that has live sites |
 | madaralegacy  | 1 (en)          | blocked |
 | wpcomics      | 1 (en)          | done    |
+| fansubscat    | 2 (ca)          | done    |
+| fuzzydoodle   | 1 (ar)          | done    |
+| grouple       | 6 (ru)          | done    |
+| inkstory      | 2 (ru)          | done    |
+| mangaworld    | 2 (it)          | done    |
+| mccms         | 3 (zh)          | done    |
+| moonlighttl   | 2 (es)          | done    |
+| multichan     | 2 (ru)          | done    |
+| origines      | 1 (fr)          | done    |
+| pizzareader   | 7 (it, fr)      | done    |
+| scanreader    | 1 (fr)          | done    |
+| senkuro       | 2 (ru)          | done    |
+| uzaymanga     | 6 (tr)          | done    |
 
 ## id
 
@@ -394,7 +407,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | thunderscans                              | mangathemesia | done    |                                                                                                                                                                                                                                                                                                                                               |
 | violetscans                               | mangathemesia | done    |                                                                                                                                                                                                                                                                                                                                               |
 | manhwahub                                 | manhwaz       | blocked | probe 2026-10-03: dead:ENOTFOUND                                                                                                                                                                                                                                                                                                              |
-| manhwaz                                   | manhwaz       | blocked | probe 2026-10-03: dead:ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR                                                                                                                                                                                                                                                                                     |
+| manhwaz                                   | 2 (vi)        | done    | en sites blocked                                                                                                                                                                                                                                                                                                                              |
 | readcomicsonline                          | mmrcms        | blocked | probe 2026-10-03: cloudflare                                                                                                                                                                                                                                                                                                                  |
 | monochromecustom                          | monochrome    | blocked | API host is a user setting; the manifest allowlist is fixed                                                                                                                                                                                                                                                                                   |
 | monochromescans                           | monochrome    | done    |                                                                                                                                                                                                                                                                                                                                               |
@@ -974,7 +987,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | nemesisscans      | mangathemesia | blocked | site redesigned (no longer MangaThemesia); Tachiyomi source outdated                                             |
 | nirvanamanga      | mangathemesia | done    | text search through ?s= (the archive ignores title)                                                              |
 | niverafansub      | madara        | blocked | Cloudflare challenge                                                                                             |
-| okutoon           | standalone    | todo    |                                                                                                                  |
+| okutoon           | standalone    | ported  | chapter pages behind Cloudflare challenge (listing/details fine); in pending                                     |
 | opiatoon          | madara        | blocked | chapters need a logged-in account (login wall)                                                                   |
 | orimanga          | initmanga     | done    |                                                                                                                  |
 | paradoxscans      | initmanga     | blocked | Cloudflare block (403)                                                                                           |

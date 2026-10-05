@@ -227,6 +227,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/ar/ariatoon:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/ar/azora:
     devDependencies:
       '@matane/extension-cli':
@@ -272,7 +287,37 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/ar/eshadow:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/ar/goonscans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ar/hentailek:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -303,6 +348,21 @@ importers:
         version: 24.19.0
 
   src/ar/hizomanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ar/kawiimanga:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -377,6 +437,66 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/ar/mangaswat:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ar/mangatales:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ar/mangatime:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ar/mangatuk:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/ar/manhatok:
     devDependencies:
       '@matane/extension-cli':
@@ -392,7 +512,52 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/ar/oduto:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ar/onma:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/ar/paradisebl:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ar/teamx:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -4277,7 +4442,622 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/anzmanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/apollcomics:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/asialotus:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/bymichiscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/celestialmoon:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/cerberusseries:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/darkroomfansub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/datgarscanlation:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/doujinshell:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/enchiladascan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/eternalmangas:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/hadesnofansub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/haremdekira:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/hentaimode:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/houseofotakus:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/infrafandub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/inmortalscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/inventariooculto:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/kazokuden:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/lectorasteria:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/mangatv:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/manhuaonline:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/marmota:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/menudofansub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/mhscans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/monopolyscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/mundomanhwa:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/nekoscans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/ragnarokscanlation:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/submanhwa:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/templescanesp:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/traduccionesmoonlight:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/uchuujinprojects:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/vermanhwas:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/yurionline:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/aralosbd:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/fr/bananascan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/bluesolo:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/chaostrad:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/dassouscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/fmteam:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/furyosquad:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -4337,7 +5117,52 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/fr/lanortrad:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/fr/lelscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/lesporoiniens:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/mangacorporation:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -4367,7 +5192,112 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/fr/mangakawaii:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/mangamoins:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/ortegascans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/poseidonscans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/rimuscans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/scanr:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/fr/scanreader:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/fr/scantradunion:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -4397,7 +5327,7 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
-  src/fr/sushiscanfr:
+  src/fr/twatt:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -5567,7 +6497,52 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/ru/acomics:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/ru/allhentai:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/astramanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/desu:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -5597,6 +6572,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/ru/inkstory:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/ru/mangachan:
     devDependencies:
       '@matane/extension-cli':
@@ -5612,7 +6602,82 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/ru/mangahub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/mangapoisk:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/mangashi:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/ru/mintmanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/ninegrid:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/puremanga:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -5672,7 +6737,82 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/ru/senkognito:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/senkuro:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/tomilolib:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/unicomics:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/ru/usagi:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/ru/wamanga:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
@@ -5837,6 +6977,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/th/nekopost:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/th/niceoppai:
     devDependencies:
       '@matane/extension-cli':
@@ -5957,6 +7112,531 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/tr/afroditscans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/amangaplanet:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/anikiga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/diamondfansub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/eldermanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/eskimangalar:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/ghosthentai:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/holyscans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/juratempest:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/korelimanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/koreliscans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/limonmanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/mangadenizi:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/mangadiyari:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/mangaportali:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/mangatilkisi:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/mangawow:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/mangitto:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/mikrokosmosfansub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/monomanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/nirvanamanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/orimanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/ruyamanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/sereinscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/shadowceviri:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/shijiescans:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/sleptmanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/tenshimanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/toontaku:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/tortugaceviri:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/trmanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/turkcemangaoku:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/uzaymanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/webtoonoku:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/tr/yaoiflix:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/uk/comixtopia:
     devDependencies:
       '@matane/extension-cli':
@@ -6033,6 +7713,816 @@ importers:
         version: 24.19.0
 
   src/uk/zenko:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/doctruyen5s:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/dualeotruyen:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/gantzvn:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/hentaivnplus:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/loppytoon:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/lxmangaorg:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/mehentai:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/meosss:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/meosua:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/sayhentai:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/teletruyen:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/thienthaitruyen:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/thohamngu:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/tranh18:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/truyen18:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/truyenhentai18:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/truyenhentaivn:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/truyenhentaiz:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/truyentini:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/truyentranhdammy:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/truyentuoitho:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/vinahentai:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/vitruyen:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/baozimhorg:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/bh3:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/bilimanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/boylove:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/cartoon18:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/cmanhua:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/creativecomic:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/dongmanmanhua:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/favcomic:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/guazimanhua:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/hanime1:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/hanman18:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/hcomic:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/hentaiclub:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/ikmmh:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/jcomic:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/mangabz:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/mangaxiaosi:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/manhuashe:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/manhuawu:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/mh1234:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/mh160:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/miaoqu:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/nnhanman:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/roumanwu:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/sixmh:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/terrahistoricus:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/wnacg:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/zaimanhua:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/zazhimi:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/zh/zerobyw:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'

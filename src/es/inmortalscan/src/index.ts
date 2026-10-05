@@ -8,7 +8,6 @@ class InmortalScan extends Madara {
   override chapterDatePattern = 'MMMM d, yyyy';
   override mangaSubString = 'mg';
   override chapterMode = 'MangaAjax' as const;
-  override supportsFilterFetching = false;
   override mangaDetailsSelectorTitle = 'h1';
   override mangaDetailsSelectorStatus = 'span.scanim-series-status';
   override mangaDetailsSelectorDescription = 'div.scanim-series-description p:not(.scanim-seo-info p)';
