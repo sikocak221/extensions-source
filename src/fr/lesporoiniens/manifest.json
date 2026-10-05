@@ -1,0 +1,18 @@
+{
+  "id": "lesporoiniens",
+  "name": "Les Poroiniens",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 30,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "Les Poroiniens"
+    }
+  ]
+}
