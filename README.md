@@ -142,6 +142,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | GhosToon                                          | TR        | https://ghostoon.com                       |      |
 | GirlsTop                                          | EN        | https://en.girlstop.info                   | yes  |
 | Go Manga                                          | TH        | https://www.go-manga.com                   |      |
+| Goc Truyen Tranh                                  | VI        | https://goctruyentranh.com                 |      |
 | God-Doujin                                        | TH        | https://god-doujin.com                     | yes  |
 | GoDa                                              | ZH        | https://api-get-v3.mgsearcher.com          |      |
 | Gone with the Blastwave                           | EN        | https://www.blastwave-comic.com            |      |
@@ -467,6 +468,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | SACACHISPA                                        | EN        | https://sacachispa.site                    |      |
 | SamuraiScan                                       | ES        | https://samurai.j5z.xyz                    |      |
 | Sana Scans                                        | EN        | https://sanascans.com                      |      |
+| SangChanhTeam                                     | VI        | https://sangchanhteam.com                  |      |
 | Sasangeyou                                        | ID        | https://sasangeyou.net                     | yes  |
 | Saturday Morning Breakfast Comics                 | EN        | https://smbc-comics.com                    |      |
 | SayHentai                                         | VI        | https://sayhentai.cx                       | yes  |

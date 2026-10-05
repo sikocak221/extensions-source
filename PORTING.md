@@ -1032,7 +1032,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | dualeotruyen      | standalone | done    | moved to dualeotruyenpet.com                                                                                                        |
 | fastscan          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | gantzvn           | madara     | done    |                                                                                                                                     |
-| goctruyentranh    | standalone | todo    |                                                                                                                                     |
+| goctruyentranh    | standalone | done    | pages unwrap the db.goctruyentranh.net proxy to the TruyenQQ cdn (proxy unreachable)                                                |
 | goctruyentranhvui | standalone | blocked | probe 2026-10-05: http:403                                                                                                          |
 | hentaicube        | madara     | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | hentaivnplus      | madara     | done    |                                                                                                                                     |
@@ -1065,7 +1065,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | otakusic          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | otruyen           | standalone | ported  | in pending/: otruyenapi.com answers 522 and the CDN 502 (2026-10-05); code untested against the live API                            |
 | panomic           | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
-| sangchanhteam     | standalone | todo    |                                                                                                                                     |
+| sangchanhteam     | standalone | done    | reader markup changed: pages are /init-manga/ images                                                                                |
 | sayhentai         | manhwaz    | done    |                                                                                                                                     |
 | seikowo           | standalone | todo    |                                                                                                                                     |
 | sinhsieusao       | standalone | done    |                                                                                                                                     |
