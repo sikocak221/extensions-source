@@ -1103,7 +1103,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 | Extension             | Theme         | Status  | Notes                                                                                                                                                  |
 | --------------------- | ------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| akaya                 | standalone    | todo    |                                                                                                                                                        |
+| akaya                 | standalone    | done    | Livewire search/genres/chapter pages (update uri read from the page)                                                                                   |
 | anzmanga              | mmrcms        | done    |                                                                                                                                                        |
 | apollcomics           | madara        | done    |                                                                                                                                                        |
 | asialotus             | mangathemesia | done    |                                                                                                                                                        |

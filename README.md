@@ -19,6 +19,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | AComics                                           | RU        | https://acomics.ru                         |      |
 | Afrodit Scans                                     | TR        | https://afroditscans.com                   |      |
 | Ainz Scans ID                                     | ID        | https://v3.ainzscans01.com                 |      |
+| AKAYA                                             | ES        | https://akaya.io                           |      |
 | Akaza Scans                                       | EN        | https://akazascans.org                     |      |
 | AllHentai                                         | RU        | https://20.allhen.online                   | yes  |
 | AllPornComic.io                                   | EN        | https://allporncomic.io                    | yes  |
