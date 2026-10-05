@@ -1,0 +1,79 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://komiic.com/api/query",
+    "body": {
+      "json": {
+        "operationName": "searchComicsAndAuthors",
+        "query": "query searchComicsAndAuthors($keyword: String!) { searchComicsAndAuthors(keyword: $keyword) { comics { id title description status imageUrl authors { id name } categories { id name } warnings } }  }",
+        "variables": { "keyword": "魔都精兵的奴隸" }
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "url": "https://komiic.com/api/query",
+    "headers": { "content-type": "application/json; charset=utf-8" },
+    "body": {
+      "data": {
+        "searchComicsAndAuthors": {
+          "comics": [
+            {
+              "id": "533",
+              "title": "魔都精兵的奴隸",
+              "description": "",
+              "status": "ONGOING",
+              "imageUrl": "https://public.komiic.com/comics/ff82257e884f3d41fbad59af7c0b718f/cover.jpg",
+              "authors": [
+                { "id": "656", "name": "竹村洋平" },
+                { "id": "657", "name": "タカヒロ" }
+              ],
+              "categories": [
+                { "id": "2", "name": "後宮" },
+                { "id": "4", "name": "校園" },
+                { "id": "21", "name": "熱血" },
+                { "id": "47", "name": "異世界" },
+                { "id": "54", "name": "戰鬥" }
+              ],
+              "warnings": []
+            },
+            {
+              "id": "771",
+              "title": "異世界魔王與召喚少女的奴隸魔術",
+              "description": "",
+              "status": "ONGOING",
+              "imageUrl": "https://public.komiic.com/comics/b3e74acb2dc82e2e73e8ac3a68216626/cover.jpg",
+              "authors": [
+                { "id": "951", "name": "福田直葉" },
+                { "id": "952", "name": "むらさきゆきや" }
+              ],
+              "categories": [
+                { "id": "2", "name": "後宮" },
+                { "id": "5", "name": "搞笑" },
+                { "id": "8", "name": "冒險" },
+                { "id": "12", "name": "魔法" }
+              ],
+              "warnings": []
+            },
+            {
+              "id": "560",
+              "title": "魔奴嫁",
+              "description": "",
+              "status": "ONGOING",
+              "imageUrl": "https://public.komiic.com/comics/4993a34c5461e8276ac2770d895fe609/cover.jpg",
+              "authors": [{ "id": "691", "name": "手島史詞" }],
+              "categories": [
+                { "id": "1", "name": "愛情" },
+                { "id": "5", "name": "搞笑" },
+                { "id": "8", "name": "冒險" },
+                { "id": "12", "name": "魔法" },
+                { "id": "19", "name": "治癒" }
+              ],
+              "warnings": []
+            }
+          ]
+        }
+      }
+    }
+  }
+}

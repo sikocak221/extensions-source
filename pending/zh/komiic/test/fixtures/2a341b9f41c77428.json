@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://komiic.com/api/query",
+    "body": {
+      "json": {
+        "operationName": "mangaQuery",
+        "query": "query mangaQuery($comicId: ID!) { comicById(comicId: $comicId) { id title description status imageUrl authors { id name } categories { id name } warnings } }",
+        "variables": { "comicId": "533" }
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "url": "https://komiic.com/api/query",
+    "headers": { "content-type": "application/json; charset=utf-8" },
+    "body": {
+      "data": {
+        "comicById": {
+          "id": "533",
+          "title": "魔都精兵的奴隸",
+          "description": "數十年前，日本各地突然出現連接異空間「魔都」的神祕門戶「枯那道」，由此出現的怪物「醜鬼」不斷侵擾人類社會。魔都中的「桃」只能賦予女性特殊能力，導致社會逐漸演變為女尊男卑的格局，並由具有異能的女性組成「魔防隊」對抗醜鬼。平凡高中生和倉優希在某天意外闖入魔都，被魔防隊七番組組長羽前京香以其能力「無窮的鎖（スレイブ）」收為奴隸，獲得了超乎常人的戰鬥力。優希在成為京香奴隸兼七番組宿舍管理人後，憑藉擅長的家事與戰場上的奮勇表現，逐漸贏得各組女性組員的信賴與好感。故事在後宮式的溫馨日常與激烈的魔都戰鬥之間交替推進，展現出主角從平凡少年成長為真正英雄的歷程。",
+          "status": "ONGOING",
+          "imageUrl": "https://public.komiic.com/comics/ff82257e884f3d41fbad59af7c0b718f/cover.jpg",
+          "authors": [
+            { "id": "656", "name": "竹村洋平" },
+            { "id": "657", "name": "タカヒロ" }
+          ],
+          "categories": [
+            { "id": "54", "name": "戰鬥" },
+            { "id": "4", "name": "校園" },
+            { "id": "47", "name": "異世界" },
+            { "id": "2", "name": "後宮" },
+            { "id": "21", "name": "熱血" }
+          ],
+          "warnings": ["性暗示", "暴力"]
+        }
+      }
+    }
+  }
+}

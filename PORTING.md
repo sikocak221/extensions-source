@@ -877,7 +877,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | dongmanmanhua   | standalone | done    | yields while parsing the 1.2 MB schedule page                                                                                                                      |
 | dumanwu         | mmlook     | blocked | probe 2026-10-04: dead (TLS certificate invalid)                                                                                                                   |
 | eighteenmanhua  | goda       | blocked | probe 2026-10-04: Cloudflare                                                                                                                                       |
-| favcomic        | standalone | todo    |                                                                                                                                                                    |
+| favcomic        | standalone | done    | live: newest chapter needs the site login (preferences take username/password); images AES-decrypted by transformImage                                             |
 | guazimanhua     | standalone | done    |                                                                                                                                                                    |
 | hanabimanga     | standalone | todo    |                                                                                                                                                                    |
 | hanime1         | standalone | done    |                                                                                                                                                                    |
@@ -890,7 +890,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | jcomic          | standalone | done    | chapter dates and author not kept                                                                                                                                  |
 | jinmantiantang  | standalone | blocked | probe 2026-10-04: Cloudflare                                                                                                                                       |
 | jiuermanhua     | sinmh      | blocked | probe 2026-10-04: Cloudflare                                                                                                                                       |
-| komiic          | standalone | todo    |                                                                                                                                                                    |
+| komiic          | standalone | ported  | in pending/: /api/image/<kid> answers 400 unless Referer is the page url (…/chapter/<id>/page/<n>); the SDK's imageHeaders() is not per page                       |
 | kuaikanmanhua   | standalone | blocked | pages ship their data as a JS function call (window.**NUXT**=(function(a,b,…){…})(…)) that Tachiyomi runs in QuickJS; the sandbox has no eval                      |
 | mangabz         | standalone | done    | chapter image responses cached in memory (2-15 pages each)                                                                                                         |
 | mangaxiaosi     | standalone | done    |                                                                                                                                                                    |
@@ -905,7 +905,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | miaoqu          | mccms      | done    | site search answers 404: search filters the first 10 catalogue pages                                                                                               |
 | mycomic         | standalone | blocked | probe 2026-10-04: Cloudflare                                                                                                                                       |
 | nnhanman        | standalone | done    |                                                                                                                                                                    |
-| noyacg          | standalone | todo    |                                                                                                                                                                    |
+| noyacg          | standalone | blocked | every API call answers {status:login}: needs an account (Tachiyomi asks for it in the settings); untestable without one                                            |
 | picacomic       | standalone | todo    |                                                                                                                                                                    |
 | roumanwu        | standalone | done    | scrambled pages (sr:1) rebuilt by transformImage; not seen scrambled in the live test                                                                              |
 | rumanhua        | mmlook     | blocked | probe 2026-10-04: dead (TLS certificate invalid)                                                                                                                   |
