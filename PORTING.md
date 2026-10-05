@@ -1032,10 +1032,10 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | luottruyen        | standalone | blocked | every chapter page redirects to /Account/Login (reading needs an account)                                         |
 | luvevaland        | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
 | lxhentai          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| lxmangaorg        | standalone | todo    |                                                                                                                   |
+| lxmangaorg        | standalone | done    |                                                                                                                   |
 | medamtruyen       | standalone | todo    |                                                                                                                   |
 | mehentai          | manhwaz    | done    | manhwaz theme (also unblocks en manhwaz/manhwahub/manhwazone if their sites return)                               |
-| meosss            | standalone | todo    |                                                                                                                   |
+| meosss            | standalone | done    |                                                                                                                   |
 | meosua            | standalone | done    | chapter list is paged (one request per page)                                                                      |
 | metruyen18        | madara     | todo    |                                                                                                                   |
 | mimi              | standalone | todo    |                                                                                                                   |
