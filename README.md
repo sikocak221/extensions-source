@@ -58,6 +58,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Cartoon18                                         | ZH        | https://www.cartoon18.com                  | yes  |
 | Cat300                                            | TH        | https://cat-300.com                        | yes  |
 | Catharsis World                                   | ES        | https://newcatharsis.dig-it.info           |      |
+| Catoons                                           | ES        | https://cattoons.org                       | yes  |
 | CCC追漫台                                         | ZH        | https://www.creative-comic.tw              |      |
 | Celestial Moon                                    | ES        | https://celestialmoonscan.es               |      |
 | Cerberus Series                                   | ES        | https://legionscans.com                    |      |
@@ -399,6 +400,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Omega Scans                                       | EN        | https://omegascans.org                     | yes  |
 | Omoi                                              | EN        | https://www.omoi.com                       |      |
 | One Punch Man Online                              | EN        | https://w20.1punchman.com                  |      |
+| ONF MANGAS                                        | ES        | https://onfmangas.com                      |      |
 | Only The Best Hentai                              | EN        | https://onlythebesthentai.com              | yes  |
 | Onma                                              | AR        | https://onma.top                           |      |
 | oots                                              | EN        | https://www.giantitp.com                   |      |

@@ -1,0 +1,23 @@
+{
+  "id": "shadowmanga",
+  "name": "Shadow Manga",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 2,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "Shadow Manga"
+    },
+    {
+      "key": "adult",
+      "lang": "es",
+      "name": "Shadow Manga (+18)"
+    }
+  ]
+}

@@ -4517,6 +4517,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/catmanhwas:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/celestialmoon:
     devDependencies:
       '@matane/extension-cli':
@@ -5088,6 +5103,21 @@ importers:
         version: 24.19.0
 
   src/es/olympusscanlation:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/onfmangas:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'

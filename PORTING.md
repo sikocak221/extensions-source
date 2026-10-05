@@ -1101,115 +1101,115 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## es
 
-| Extension             | Theme         | Status  | Notes                                                                                                           |
-| --------------------- | ------------- | ------- | --------------------------------------------------------------------------------------------------------------- |
-| akaya                 | standalone    | todo    |                                                                                                                 |
-| anzmanga              | mmrcms        | done    |                                                                                                                 |
-| apollcomics           | madara        | done    |                                                                                                                 |
-| asialotus             | mangathemesia | done    |                                                                                                                 |
-| barmanga              | madara        | blocked | Cloudflare 403                                                                                                  |
-| begatranslation       | madara        | blocked | Cloudflare challenge                                                                                            |
-| bloomscans            | mangathemesia | blocked | Cloudflare 403                                                                                                  |
-| bokugentranslation    | mangathemesia | blocked | Cloudflare challenge                                                                                            |
-| bymichiscan           | mangathemesia | done    |                                                                                                                 |
-| capibaratraductor     | standalone    | blocked | Cloudflare 403                                                                                                  |
-| catharsisworld        | standalone    | done    | API changed: per-page signed tickets (fetched in getImageUrl), XOR 0x43 images; API throttles bursts (rate 2/s) |
-| catmanhwas            | standalone    | todo    |                                                                                                                 |
-| celestialmoon         | mangathemesia | done    |                                                                                                                 |
-| cerberusseries        | mangathemesia | done    |                                                                                                                 |
-| chochox               | vercomics     | blocked | Cloudflare challenge                                                                                            |
-| codearc               | standalone    | todo    |                                                                                                                 |
-| colorcitoscan         | standalone    | done    | two sources (Colorcito Scan/Toons); pages from the RSC payload                                                  |
-| darkroomfansub        | zeistmanga    | done    |                                                                                                                 |
-| datgarscanlation      | zeistmanga    | done    |                                                                                                                 |
-| doujinhentai          | standalone    | done    |                                                                                                                 |
-| doujinshell           | madara        | done    |                                                                                                                 |
-| dragontranslationorg  | madara        | blocked | Cloudflare 403                                                                                                  |
-| dynasty               | standalone    | done    | manhuako.net API                                                                                                |
-| emperorscan           | madara        | blocked | Cloudflare 403                                                                                                  |
-| enchiladascan         | standalone    | done    |                                                                                                                 |
-| esmi2manga            | madara        | blocked | Cloudflare challenge                                                                                            |
-| eternalmangas         | iken          | done    |                                                                                                                 |
-| gistamishouse         | zeistmanga    | blocked | site gone (redirects to accounts.google.com)                                                                    |
-| gremorymangas         | madara        | blocked | hosting account suspended                                                                                       |
-| hadesnofansub         | madara        | done    |                                                                                                                 |
-| haremdekira           | madara        | done    |                                                                                                                 |
-| heavenmanga           | standalone    | done    |                                                                                                                 |
-| hentaihall            | standalone    | blocked | HTTP 401                                                                                                        |
-| hentaimode            | standalone    | done    |                                                                                                                 |
-| houseofotakus         | madara        | done    |                                                                                                                 |
-| ikigaimangas          | standalone    | todo    |                                                                                                                 |
-| ikuhentai             | standalone    | done    |                                                                                                                 |
-| infrafandub           | madara        | done    |                                                                                                                 |
-| inmanga               | standalone    | done    |                                                                                                                 |
-| inmortalscan          | madara        | done    |                                                                                                                 |
-| insanosscan           | standalone    | done    | site rebuilt as a JSON API app (/series/…); ported against the API                                              |
-| inventariooculto      | madara        | done    |                                                                                                                 |
-| jeazscans             | standalone    | done    | image tokens need the PHPSESSID of the chapter page (kept for imageHeaders)                                     |
-| kazokuden             | madara        | done    |                                                                                                                 |
-| koinoboriscan         | standalone    | blocked | dead (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)                                                                       |
-| lectorasteria         | moonlighttl   | done    |                                                                                                                 |
-| lectorjpg             | standalone    | done    | cursor pagination remembered per page                                                                           |
-| lectormangalat        | standalone    | done    |                                                                                                                 |
-| lectormonline         | standalone    | blocked | dead (ENOTFOUND)                                                                                                |
-| leercapitulo          | standalone    | done    |                                                                                                                 |
-| leermangaesp          | standalone    | done    |                                                                                                                 |
-| leermanhwas           | standalone    | done    |                                                                                                                 |
-| lmtoonline            | standalone    | blocked | Cloudflare challenge                                                                                            |
-| lolivault             | foolslide     | blocked | dead (TimeoutError)                                                                                             |
-| lunapieces            | mangathemesia | blocked | dead (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)                                                                       |
-| mangacrab             | standalone    | blocked | Cloudflare 403                                                                                                  |
-| mangamx               | standalone    | blocked | Cloudflare challenge                                                                                            |
-| mangaromance          | madara        | blocked | Cloudflare challenge                                                                                            |
-| mangashiina           | mangathemesia | blocked | site is now a JS single-page app (Mangamukai); no MangaThemesia markup                                          |
-| mangasin              | mmrcms        | blocked | Cloudflare 403                                                                                                  |
-| mangasnosekai         | madara        | blocked | Cloudflare 403                                                                                                  |
-| mangatv               | mangathemesia | done    |                                                                                                                 |
-| manhuaonline          | madara        | done    |                                                                                                                 |
-| manhwalatino          | madara        | blocked | dead (no-baseUrl)                                                                                               |
-| manhwaonline          | madara        | blocked | Cloudflare challenge                                                                                            |
-| manhwaweb             | standalone    | ported  | API backend (railway.app) times out; ported from Kotlin + site JS, untested; in pending                         |
-| mantrazscan           | standalone    | done    |                                                                                                                 |
-| marmota               | madara        | done    |                                                                                                                 |
-| menudofansub          | foolslide     | done    |                                                                                                                 |
-| mhscans               | madara        | done    |                                                                                                                 |
-| monopolyscan          | madara        | done    |                                                                                                                 |
-| mundomanhwa           | madara        | done    |                                                                                                                 |
-| nartag                | standalone    | blocked | Cloudflare challenge (Un momento…)                                                                              |
-| nekoscans             | mangathemesia | done    |                                                                                                                 |
-| neomanga              | standalone    | blocked | HTTP 402 Deployment Paused                                                                                      |
-| nexusscanlation       | standalone    | todo    |                                                                                                                 |
-| novamanhwa            | mangathemesia | blocked | HTTP 525 novamanhwa.cc                                                                                          | 525: SSL handshake failed |
-| olympusscanlation     | standalone    | done    | slugs rotate: ids + slug lookup from /api/series/list                                                           |
-| onfmangas             | standalone    | todo    |                                                                                                                 |
-| orckumangas           | standalone    | blocked | Cloudflare challenge                                                                                            |
-| platinumlilyscan      | standalone    | blocked | dead (UND_ERR_CONNECT_TIMEOUT)                                                                                  |
-| plottwistnofansub     | standalone    | blocked | Cloudflare 403                                                                                                  |
-| ragnarokscanlation    | madara        | done    |                                                                                                                 |
-| ragnascans            | standalone    | done    |                                                                                                                 |
-| ravenmanga            | standalone    | done    |                                                                                                                 |
-| richtoscan            | madara        | blocked | dead (UND_ERR_CONNECT_TIMEOUT)                                                                                  |
-| sapphirescan          | zeistmanga    | blocked | dead (ECONNRESET)                                                                                               |
-| shadowmanga           | standalone    | todo    |                                                                                                                 |
-| skymangas             | mangathemesia | blocked | site is now an Angular app (404 on /manga/); no MangaThemesia markup                                            |
-| spicyscan             | standalone    | done    |                                                                                                                 |
-| submanhwa             | standalone    | done    |                                                                                                                 |
-| taurusfansub          | madara        | blocked | Cloudflare 403                                                                                                  |
-| templescanesp         | madara        | done    |                                                                                                                 |
-| tenkaiscan            | standalone    | done    | Falco Scan; images need token+session+chapter referer; scrambled chapters unsupported (none seen)               |
-| tmohentaiunoriginal   | standalone    | blocked | Cloudflare 403                                                                                                  |
-| toones                | madara        | blocked | Cloudflare challenge                                                                                            |
-| topcomicporno         | madara        | blocked | Cloudflare challenge                                                                                            |
-| topcomicpornonet      | madara        | blocked | Cloudflare challenge                                                                                            |
-| traduccionesmoonlight | moonlighttl   | done    |                                                                                                                 |
-| tumanhwasclub         | standalone    | blocked | dead (ENOTFOUND)                                                                                                |
-| uchuujinprojects      | mangathemesia | done    |                                                                                                                 |
-| vcpvmp                | vercomics     | blocked | Cloudflare challenge                                                                                            |
-| vermanhwas            | madara        | done    |                                                                                                                 |
-| yupmanga              | standalone    | blocked | Cloudflare 403                                                                                                  |
-| yurionline            | madara        | done    |                                                                                                                 |
-| zonatmoorgunoriginal  | standalone    | done    |                                                                                                                 |
-| zonatmoto             | standalone    | todo    |                                                                                                                 |
+| Extension             | Theme         | Status  | Notes                                                                                                               |
+| --------------------- | ------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
+| akaya                 | standalone    | todo    |                                                                                                                     |
+| anzmanga              | mmrcms        | done    |                                                                                                                     |
+| apollcomics           | madara        | done    |                                                                                                                     |
+| asialotus             | mangathemesia | done    |                                                                                                                     |
+| barmanga              | madara        | blocked | Cloudflare 403                                                                                                      |
+| begatranslation       | madara        | blocked | Cloudflare challenge                                                                                                |
+| bloomscans            | mangathemesia | blocked | Cloudflare 403                                                                                                      |
+| bokugentranslation    | mangathemesia | blocked | Cloudflare challenge                                                                                                |
+| bymichiscan           | mangathemesia | done    |                                                                                                                     |
+| capibaratraductor     | standalone    | blocked | Cloudflare 403                                                                                                      |
+| catharsisworld        | standalone    | done    | API changed: per-page signed tickets (fetched in getImageUrl), XOR 0x43 images; API throttles bursts (rate 2/s)     |
+| catmanhwas            | standalone    | done    | Catoons; SvelteKit remote functions, ids rediscovered by crawling the client chunks on 404                          |
+| celestialmoon         | mangathemesia | done    |                                                                                                                     |
+| cerberusseries        | mangathemesia | done    |                                                                                                                     |
+| chochox               | vercomics     | blocked | Cloudflare challenge                                                                                                |
+| codearc               | standalone    | todo    |                                                                                                                     |
+| colorcitoscan         | standalone    | done    | two sources (Colorcito Scan/Toons); pages from the RSC payload                                                      |
+| darkroomfansub        | zeistmanga    | done    |                                                                                                                     |
+| datgarscanlation      | zeistmanga    | done    |                                                                                                                     |
+| doujinhentai          | standalone    | done    |                                                                                                                     |
+| doujinshell           | madara        | done    |                                                                                                                     |
+| dragontranslationorg  | madara        | blocked | Cloudflare 403                                                                                                      |
+| dynasty               | standalone    | done    | manhuako.net API                                                                                                    |
+| emperorscan           | madara        | blocked | Cloudflare 403                                                                                                      |
+| enchiladascan         | standalone    | done    |                                                                                                                     |
+| esmi2manga            | madara        | blocked | Cloudflare challenge                                                                                                |
+| eternalmangas         | iken          | done    |                                                                                                                     |
+| gistamishouse         | zeistmanga    | blocked | site gone (redirects to accounts.google.com)                                                                        |
+| gremorymangas         | madara        | blocked | hosting account suspended                                                                                           |
+| hadesnofansub         | madara        | done    |                                                                                                                     |
+| haremdekira           | madara        | done    |                                                                                                                     |
+| heavenmanga           | standalone    | done    |                                                                                                                     |
+| hentaihall            | standalone    | blocked | HTTP 401                                                                                                            |
+| hentaimode            | standalone    | done    |                                                                                                                     |
+| houseofotakus         | madara        | done    |                                                                                                                     |
+| ikigaimangas          | standalone    | todo    |                                                                                                                     |
+| ikuhentai             | standalone    | done    |                                                                                                                     |
+| infrafandub           | madara        | done    |                                                                                                                     |
+| inmanga               | standalone    | done    |                                                                                                                     |
+| inmortalscan          | madara        | done    |                                                                                                                     |
+| insanosscan           | standalone    | done    | site rebuilt as a JSON API app (/series/…); ported against the API                                                  |
+| inventariooculto      | madara        | done    |                                                                                                                     |
+| jeazscans             | standalone    | done    | image tokens need the PHPSESSID of the chapter page (kept for imageHeaders)                                         |
+| kazokuden             | madara        | done    |                                                                                                                     |
+| koinoboriscan         | standalone    | blocked | dead (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)                                                                           |
+| lectorasteria         | moonlighttl   | done    |                                                                                                                     |
+| lectorjpg             | standalone    | done    | cursor pagination remembered per page                                                                               |
+| lectormangalat        | standalone    | done    |                                                                                                                     |
+| lectormonline         | standalone    | blocked | dead (ENOTFOUND)                                                                                                    |
+| leercapitulo          | standalone    | done    |                                                                                                                     |
+| leermangaesp          | standalone    | done    |                                                                                                                     |
+| leermanhwas           | standalone    | done    |                                                                                                                     |
+| lmtoonline            | standalone    | blocked | Cloudflare challenge                                                                                                |
+| lolivault             | foolslide     | blocked | dead (TimeoutError)                                                                                                 |
+| lunapieces            | mangathemesia | blocked | dead (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)                                                                           |
+| mangacrab             | standalone    | blocked | Cloudflare 403                                                                                                      |
+| mangamx               | standalone    | blocked | Cloudflare challenge                                                                                                |
+| mangaromance          | madara        | blocked | Cloudflare challenge                                                                                                |
+| mangashiina           | mangathemesia | blocked | site is now a JS single-page app (Mangamukai); no MangaThemesia markup                                              |
+| mangasin              | mmrcms        | blocked | Cloudflare 403                                                                                                      |
+| mangasnosekai         | madara        | blocked | Cloudflare 403                                                                                                      |
+| mangatv               | mangathemesia | done    |                                                                                                                     |
+| manhuaonline          | madara        | done    |                                                                                                                     |
+| manhwalatino          | madara        | blocked | dead (no-baseUrl)                                                                                                   |
+| manhwaonline          | madara        | blocked | Cloudflare challenge                                                                                                |
+| manhwaweb             | standalone    | ported  | API backend (railway.app) times out; ported from Kotlin + site JS, untested; in pending                             |
+| mantrazscan           | standalone    | done    |                                                                                                                     |
+| marmota               | madara        | done    |                                                                                                                     |
+| menudofansub          | foolslide     | done    |                                                                                                                     |
+| mhscans               | madara        | done    |                                                                                                                     |
+| monopolyscan          | madara        | done    |                                                                                                                     |
+| mundomanhwa           | madara        | done    |                                                                                                                     |
+| nartag                | standalone    | blocked | Cloudflare challenge (Un momento…)                                                                                  |
+| nekoscans             | mangathemesia | done    |                                                                                                                     |
+| neomanga              | standalone    | blocked | HTTP 402 Deployment Paused                                                                                          |
+| nexusscanlation       | standalone    | todo    |                                                                                                                     |
+| novamanhwa            | mangathemesia | blocked | HTTP 525 novamanhwa.cc                                                                                              | 525: SSL handshake failed |
+| olympusscanlation     | standalone    | done    | slugs rotate: ids + slug lookup from /api/series/list                                                               |
+| onfmangas             | standalone    | done    | JS cookie check not ported (not active; clear error if it appears); images prefer the uploads.mangadex.org fallback |
+| orckumangas           | standalone    | blocked | Cloudflare challenge                                                                                                |
+| platinumlilyscan      | standalone    | blocked | dead (UND_ERR_CONNECT_TIMEOUT)                                                                                      |
+| plottwistnofansub     | standalone    | blocked | Cloudflare 403                                                                                                      |
+| ragnarokscanlation    | madara        | done    |                                                                                                                     |
+| ragnascans            | standalone    | done    |                                                                                                                     |
+| ravenmanga            | standalone    | done    |                                                                                                                     |
+| richtoscan            | madara        | blocked | dead (UND_ERR_CONNECT_TIMEOUT)                                                                                      |
+| sapphirescan          | zeistmanga    | blocked | dead (ECONNRESET)                                                                                                   |
+| shadowmanga           | standalone    | ported  | API answered while probing, then timed out (IP throttling?); untested; two sources (+18); in pending                |
+| skymangas             | mangathemesia | blocked | site is now an Angular app (404 on /manga/); no MangaThemesia markup                                                |
+| spicyscan             | standalone    | done    |                                                                                                                     |
+| submanhwa             | standalone    | done    |                                                                                                                     |
+| taurusfansub          | madara        | blocked | Cloudflare 403                                                                                                      |
+| templescanesp         | madara        | done    |                                                                                                                     |
+| tenkaiscan            | standalone    | done    | Falco Scan; images need token+session+chapter referer; scrambled chapters unsupported (none seen)                   |
+| tmohentaiunoriginal   | standalone    | blocked | Cloudflare 403                                                                                                      |
+| toones                | madara        | blocked | Cloudflare challenge                                                                                                |
+| topcomicporno         | madara        | blocked | Cloudflare challenge                                                                                                |
+| topcomicpornonet      | madara        | blocked | Cloudflare challenge                                                                                                |
+| traduccionesmoonlight | moonlighttl   | done    |                                                                                                                     |
+| tumanhwasclub         | standalone    | blocked | dead (ENOTFOUND)                                                                                                    |
+| uchuujinprojects      | mangathemesia | done    |                                                                                                                     |
+| vcpvmp                | vercomics     | blocked | Cloudflare challenge                                                                                                |
+| vermanhwas            | madara        | done    |                                                                                                                     |
+| yupmanga              | standalone    | blocked | Cloudflare 403                                                                                                      |
+| yurionline            | madara        | done    |                                                                                                                     |
+| zonatmoorgunoriginal  | standalone    | done    |                                                                                                                     |
+| zonatmoto             | standalone    | todo    |                                                                                                                     |
 
 ## pt
 
