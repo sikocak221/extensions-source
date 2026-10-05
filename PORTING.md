@@ -1034,7 +1034,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | lxhentai          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | lxmangaorg        | standalone | todo    |                                                                                                                   |
 | medamtruyen       | standalone | todo    |                                                                                                                   |
-| mehentai          | manhwaz    | todo    |                                                                                                                   |
+| mehentai          | manhwaz    | done    | manhwaz theme (also unblocks en manhwaz/manhwahub/manhwazone if their sites return)                               |
 | meosss            | standalone | todo    |                                                                                                                   |
 | meosua            | standalone | todo    |                                                                                                                   |
 | metruyen18        | madara     | todo    |                                                                                                                   |
@@ -1053,7 +1053,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | otruyen           | standalone | todo    |                                                                                                                   |
 | panomic           | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | sangchanhteam     | standalone | todo    |                                                                                                                   |
-| sayhentai         | manhwaz    | todo    |                                                                                                                   |
+| sayhentai         | manhwaz    | done    |                                                                                                                   |
 | seikowo           | standalone | todo    |                                                                                                                   |
 | sinhsieusao       | standalone | todo    |                                                                                                                   |
 | soaicacomic       | standalone | todo    |                                                                                                                   |
@@ -1078,7 +1078,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | truyentvn         | standalone | todo    |                                                                                                                   |
 | tuitruyen         | standalone | todo    |                                                                                                                   |
 | tusachxinhxinh    | standalone | todo    |                                                                                                                   |
-| umetruyen         | manhwaz    | todo    |                                                                                                                   |
+| umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                        |
 | vihentai          | standalone | todo    |                                                                                                                   |
 | vinahentai        | standalone | todo    |                                                                                                                   |
 | vitruyen          | standalone | todo    |                                                                                                                   |
