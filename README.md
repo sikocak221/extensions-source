@@ -499,6 +499,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | SinhSieuSao                                       | VI        | https://sinhsieusao.com                    | yes  |
 | Siren Scans                                       | EN        | https://sirenscans.org                     |      |
 | Slept Manga                                       | TR        | https://sleptmanga.com.tr                  |      |
+| SoaiCaComic                                       | VI        | https://soaicacomic2.top                   |      |
 | Sodsaime                                          | TH        | https://www.xn--l3c0azab5a2gta.com         |      |
 | Solar and Sundry                                  | EN        | https://sas.ewanb.me                       |      |
 | Soul Scans                                        | ID        | https://v1.soulscans.org                   |      |

@@ -1069,7 +1069,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | sayhentai         | manhwaz    | done    |                                                                                                                                     |
 | seikowo           | standalone | todo    |                                                                                                                                     |
 | sinhsieusao       | standalone | done    |                                                                                                                                     |
-| soaicacomic       | standalone | todo    |                                                                                                                                     |
+| soaicacomic       | standalone | done    | same engine as TuSachXinhXinh/Team Lanh Lung                                                                                        |
 | teamlanhlung      | standalone | done    | same engine as TuSachXinhXinh (encrypted pages); password chapters via a text pref                                                  |
 | teletruyen        | standalone | done    |                                                                                                                                     |
 | thienthaitruyen   | standalone | done    | moved to thienthaitruyen16.com                                                                                                      |
