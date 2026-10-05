@@ -36,7 +36,8 @@ for (const id of ids) {
   const gradle = readFileSync(path.join(source, 'build.gradle.kts'), 'utf8');
   const field = (name) => new RegExp(`\\b${name}\\s*=\\s*"([^"]*)"`).exec(gradle)?.[1];
   const name = field('name');
-  const baseUrl = field('baseUrl');
+  // `baseUrl = "…"`, or a `baseUrl { custom("…") / mirrors("…", …) }` block (first url).
+  const baseUrl = field('baseUrl') ?? /\bbaseUrl\s*\{[^}]*?"(https?:\/\/[^"]+)"/.exec(gradle)?.[1];
   if (!name || !baseUrl) {
     console.log(`skip ${id}: no name/baseUrl in build.gradle.kts (multi-source? scaffold it by hand)`);
     continue;

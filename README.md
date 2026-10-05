@@ -121,6 +121,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | EternalMangas                                     | ES        | https://eternalmangas.org                  |      |
 | Eva Scans                                         | EN        | https://evascans.net                       |      |
 | Existential Comics                                | EN        | https://existentialcomics.com              |      |
+| Falco Scan                                        | ES        | https://falcoscan.net                      | yes  |
 | Fansubs.cat                                       | CA        | https://manga.fansubs.cat                  |      |
 | Faust                                             | UK        | https://faust-web.com                      |      |
 | Fin Manga                                         | TH        | https://www.fin-manga.com                  |      |
@@ -154,6 +155,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | HANMAN18                                          | ZH        | https://hanman18.com                       | yes  |
 | Harem de Kira                                     | ES        | https://kiraproject.lat                    |      |
 | Harmony-Scan                                      | FR        | https://harmony-scan.fr                    |      |
+| HeavenManga                                       | ES        | https://heavenmanga.com                    |      |
 | HenChan                                           | RU        | https://xxl.hentaichan.live                | yes  |
 | Hentai Crot                                       | ID        | https://hentaicrot.com                     | yes  |
 | Hentai Lek                                        | AR        | https://hentailek.com                      | yes  |
@@ -390,6 +392,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Oduto                                             | AR        | https://nb19u.blogspot.com                 |      |
 | Oglaf                                             | EN        | https://www.oglaf.com                      | yes  |
 | Oh Joy Sex Toy                                    | EN        | https://www.ohjoysextoy.com                | yes  |
+| Olympus Scanlation                                | ES        | https://olympusxyz.com                     |      |
 | Omega Scans                                       | EN        | https://omegascans.org                     | yes  |
 | Omoi                                              | EN        | https://www.omoi.com                       |      |
 | One Punch Man Online                              | EN        | https://w20.1punchman.com                  |      |
@@ -572,6 +575,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Zenko                                             | UK        | https://zenko.online                       |      |
 | zero搬运网                                        | ZH        | https://stevenyomi.github.io               |      |
 | Zinmanga                                          | EN        | https://mangazin.org                       |      |
+| ZonaTMO.org (unoriginal)                          | ES        | https://zonatmo.org                        |      |
 | 再漫画                                            | ZH        | https://manhua.zaimanhua.com               |      |
 | 包子漫画                                          | ZH        | https://static-tw.baozimh.com              |      |
 | 哔哩漫画                                          | ZH        | https://www.bilimanga.net                  |      |

@@ -4667,6 +4667,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/heavenmanga:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/hentaimode:
     devDependencies:
       '@matane/extension-cli':
@@ -5027,6 +5042,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/olympusscanlation:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/ragnarokscanlation:
     devDependencies:
       '@matane/extension-cli':
@@ -5102,6 +5132,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/tenkaiscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/traduccionesmoonlight:
     devDependencies:
       '@matane/extension-cli':
@@ -5148,6 +5193,21 @@ importers:
         version: 24.19.0
 
   src/es/yurionline:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/zonatmoorgunoriginal:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
