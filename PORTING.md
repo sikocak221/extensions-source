@@ -739,63 +739,63 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## ar
 
-| Extension         | Theme         | Status  | Notes                                                                                    |
-| ----------------- | ------------- | ------- | ---------------------------------------------------------------------------------------- |
-| anyonemanga       | madara        | blocked | Cloudflare challenge (manga pages)                                                       |
-| arabhentai        | standalone    | todo    |                                                                                          |
-| arabmanhwa        | madara        | blocked | site redesigned (no longer Madara); Tachiyomi source outdated                            |
-| arabshentai       | standalone    | blocked | Cloudflare challenge                                                                     |
-| arabtoons         | madara        | blocked | site under maintenance (503)                                                             |
-| arbxcomix         | madara        | done    | chapters carry no dates on the site                                                      |
-| areamanga         | mangathemesia | blocked | Cloudflare challenge                                                                     |
-| ariatoon          | standalone    | todo    |                                                                                          |
-| azora             | iken          | done    |                                                                                          |
-| comicverse        | zeistmanga    | done    |                                                                                          |
-| despairmanga      | mangathemesia | done    | moved to despair-world.com                                                               |
-| detectiveconanar  | madara        | blocked | Cloudflare challenge                                                                     |
-| dilar             | standalone    | todo    |                                                                                          |
-| duskoryvile       | standalone    | todo    |                                                                                          |
-| empirewebtoon     | madara        | blocked | Cloudflare challenge (manga pages)                                                       |
-| eshadow           | standalone    | todo    |                                                                                          |
-| goonscans         | mangathemesia | done    | site search ignores the title (listing only); test uses a series with chapters           |
-| hentailek         | standalone    | todo    |                                                                                          |
-| hentaiman         | standalone    | blocked | connection times out (dead?)                                                             |
-| hentaislayer      | fuzzydoodle   | done    | new fuzzydoodle theme; latest-type preference                                            |
-| hijala            | mangathemesia | blocked | Cloudflare challenge                                                                     |
-| hizomanga         | madara        | done    |                                                                                          |
-| kawiimanga        | standalone    | todo    |                                                                                          |
-| lavascans         | mangathemesia | done    |                                                                                          |
-| lonertranslations | zeistmanga    | done    |                                                                                          |
-| manga3asq         | madara        | done    | Arabic chapter dates parsed locally (arabic-date.ts)                                     |
-| mangaailand       | zeistmanga    | done    |                                                                                          |
-| mangacloud        | standalone    | blocked | domain has no DNS record (dead)                                                          |
-| mangadar          | standalone    | blocked | Cloudflare challenge                                                                     |
-| mangahub          | zeistmanga    | blocked | moved to mangaxhentai.com, now a different (non-Blogger) site; Tachiyomi source outdated |
-| mangalek          | madara        | blocked | Tachiyomi source has no baseUrl                                                          |
-| mangalink         | madara        | blocked | Cloudflare challenge (manga pages)                                                       |
-| mangalionz        | madara        | blocked | Cloudflare challenge (manga pages)                                                       |
-| mangaspark        | madara        | blocked | Cloudflare challenge (manga pages)                                                       |
-| mangastarz        | madara        | blocked | Cloudflare challenge (manga pages)                                                       |
-| mangaswat         | standalone    | todo    |                                                                                          |
-| mangatales        | standalone    | todo    |                                                                                          |
-| mangatek          | standalone    | blocked | Cloudflare challenge                                                                     |
-| mangatime         | standalone    | todo    |                                                                                          |
-| mangatuk          | standalone    | todo    |                                                                                          |
-| manhatic          | madara        | blocked | moved to hentailek.com (same site as the hentailek extension)                            |
-| manhatok          | zeistmanga    | done    | image-host helper posts filtered; test picks a chapter that has pages                    |
-| murim             | zeistmanga    | blocked | connection times out (dead?)                                                             |
-| neverscans        | standalone    | blocked | TLS certificate error (dead?)                                                            |
-| oduto             | standalone    | todo    |                                                                                          |
-| onma              | mmrcms        | todo    |                                                                                          |
-| orcamanga         | zeistmanga    | blocked | blog has series without chapters; the chapter pages found carry no images                |
-| paradisebl        | madara        | done    | chapters carry no dates on the site                                                      |
-| rocksmanga        | madara        | blocked | site under maintenance (title 'صيانة')                                                   |
-| stellarsaber      | standalone    | blocked | Cloudflare challenge                                                                     |
-| teamx             | standalone    | todo    |                                                                                          |
-| xsanomanga        | zeistmanga    | done    |                                                                                          |
-| yokai             | zeistmanga    | done    |                                                                                          |
-| yonabar           | madara        | done    | image host rewrite follows the site's script (medium1xr)                                 |
-| yurimoonsub       | zeistmanga    | done    |                                                                                          |
+| Extension         | Theme         | Status  | Notes                                                                                                    |
+| ----------------- | ------------- | ------- | -------------------------------------------------------------------------------------------------------- |
+| anyonemanga       | madara        | blocked | Cloudflare challenge (manga pages)                                                                       |
+| arabhentai        | standalone    | blocked | arabhentai.net now redirects to mangabab.com (different site); Tachiyomi source outdated                 |
+| arabmanhwa        | madara        | blocked | site redesigned (no longer Madara); Tachiyomi source outdated                                            |
+| arabshentai       | standalone    | blocked | Cloudflare challenge                                                                                     |
+| arabtoons         | madara        | blocked | site under maintenance (503)                                                                             |
+| arbxcomix         | madara        | done    | chapters carry no dates on the site                                                                      |
+| areamanga         | mangathemesia | blocked | Cloudflare challenge                                                                                     |
+| ariatoon          | standalone    | done    | chapter list limited to the first 100 (as in Tachiyomi)                                                  |
+| azora             | iken          | done    |                                                                                                          |
+| comicverse        | zeistmanga    | done    |                                                                                                          |
+| despairmanga      | mangathemesia | done    | moved to despair-world.com                                                                               |
+| detectiveconanar  | madara        | blocked | Cloudflare challenge                                                                                     |
+| dilar             | standalone    | blocked | responses are ECIES encrypted (ECDH + HKDF + AES-GCM), which the extension sandbox cannot do             |
+| duskoryvile       | standalone    | blocked | needs an account (login interceptor) and answers 406 to anonymous requests                               |
+| empirewebtoon     | madara        | blocked | Cloudflare challenge (manga pages)                                                                       |
+| eshadow           | standalone    | done    | series without chapters exist; test picks one with chapters                                              |
+| goonscans         | mangathemesia | done    | site search ignores the title (listing only); test uses a series with chapters                           |
+| hentailek         | standalone    | done    | Arabic chapter dates parsed locally (arabic-date.ts)                                                     |
+| hentaiman         | standalone    | blocked | connection times out (dead?)                                                                             |
+| hentaislayer      | fuzzydoodle   | done    | new fuzzydoodle theme; latest-type preference                                                            |
+| hijala            | mangathemesia | blocked | Cloudflare challenge                                                                                     |
+| hizomanga         | madara        | done    |                                                                                                          |
+| kawiimanga        | standalone    | done    | API needs a short-lived token fetched with the public app key                                            |
+| lavascans         | mangathemesia | done    |                                                                                                          |
+| lonertranslations | zeistmanga    | done    |                                                                                                          |
+| manga3asq         | madara        | done    | Arabic chapter dates parsed locally (arabic-date.ts)                                                     |
+| mangaailand       | zeistmanga    | done    |                                                                                                          |
+| mangacloud        | standalone    | blocked | domain has no DNS record (dead)                                                                          |
+| mangadar          | standalone    | blocked | Cloudflare challenge                                                                                     |
+| mangahub          | zeistmanga    | blocked | moved to mangaxhentai.com, now a different (non-Blogger) site; Tachiyomi source outdated                 |
+| mangalek          | madara        | blocked | Tachiyomi source has no baseUrl                                                                          |
+| mangalink         | madara        | blocked | Cloudflare challenge (manga pages)                                                                       |
+| mangalionz        | madara        | blocked | Cloudflare challenge (manga pages)                                                                       |
+| mangaspark        | madara        | blocked | Cloudflare challenge (manga pages)                                                                       |
+| mangastarz        | madara        | blocked | Cloudflare challenge (manga pages)                                                                       |
+| mangaswat         | standalone    | done    | site at meshmanga.com                                                                                    |
+| mangatales        | standalone    | done    | search is AES-encrypted (decrypted locally); only a status filter kept; test uses a series with chapters |
+| mangatek          | standalone    | blocked | Cloudflare challenge                                                                                     |
+| mangatime         | standalone    | done    | tRPC API                                                                                                 |
+| mangatuk          | standalone    | done    | locked (coin) chapters left out                                                                          |
+| manhatic          | madara        | blocked | moved to hentailek.com (same site as the hentailek extension)                                            |
+| manhatok          | zeistmanga    | done    | image-host helper posts filtered; test picks a chapter that has pages                                    |
+| murim             | zeistmanga    | blocked | connection times out (dead?)                                                                             |
+| neverscans        | standalone    | blocked | TLS certificate error (dead?)                                                                            |
+| oduto             | standalone    | done    | single-series Blogger site                                                                               |
+| onma              | mmrcms        | done    | mmrcms                                                                                                   |
+| orcamanga         | zeistmanga    | blocked | blog has series without chapters; the chapter pages found carry no images                                |
+| paradisebl        | madara        | done    | chapters carry no dates on the site                                                                      |
+| rocksmanga        | madara        | blocked | site under maintenance (title 'صيانة')                                                                   |
+| stellarsaber      | standalone    | blocked | Cloudflare challenge                                                                                     |
+| teamx             | standalone    | done    | site at olympustaff.com                                                                                  |
+| xsanomanga        | zeistmanga    | done    |                                                                                                          |
+| yokai             | zeistmanga    | done    |                                                                                                          |
+| yonabar           | madara        | done    | image host rewrite follows the site's script (medium1xr)                                                 |
+| yurimoonsub       | zeistmanga    | done    |                                                                                                          |
 
 ## fr
 
@@ -923,85 +923,85 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## tr
 
-| Extension         | Theme         | Status | Notes |
-| ----------------- | ------------- | ------ | ----- |
-| afroditscans      | uzaymanga     | todo   |       |
-| alucardscans      | standalone    | todo   |       |
-| amangaplanet      | mangathemesia | todo   |       |
-| anikiga           | madara        | todo   |       |
-| araznovel         | standalone    | todo   |       |
-| arcurafansub      | mangathemesia | todo   |       |
-| asurascanstr      | madara        | todo   |       |
-| caprazmanga       | madara        | todo   |       |
-| diamondfansub     | madara        | todo   |       |
-| domalfansub       | madara        | todo   |       |
-| eldermanga        | uzaymanga     | todo   |       |
-| eskimangalar      | uzaymanga     | todo   |       |
-| gafeland          | mangathemesia | todo   |       |
-| gaiatoon          | mangathemesia | todo   |       |
-| garciamanga       | madara        | todo   |       |
-| ghosthentai       | madara        | todo   |       |
-| golgebahcesi      | standalone    | todo   |       |
-| hattorimanga      | standalone    | todo   |       |
-| hattoriscans      | standalone    | todo   |       |
-| hayalistic        | madara        | todo   |       |
-| holyscans         | standalone    | todo   |       |
-| juratempest       | standalone    | todo   |       |
-| korelimanga       | initmanga     | todo   |       |
-| koreliscans       | mangathemesia | todo   |       |
-| kuroimanga        | madara        | todo   |       |
-| laviniafansub     | madara        | todo   |       |
-| limonmanga        | uzaymanga     | todo   |       |
-| lunascans         | madara        | todo   |       |
-| mangadenizi       | standalone    | todo   |       |
-| mangadiyari       | standalone    | todo   |       |
-| mangadusleri      | standalone    | todo   |       |
-| mangakusu         | mangathemesia | todo   |       |
-| mangaportali      | standalone    | todo   |       |
-| mangasehrinet     | madara        | todo   |       |
-| mangaship         | standalone    | todo   |       |
-| mangatilkisi      | madara        | todo   |       |
-| mangatr           | standalone    | todo   |       |
-| mangawow          | madara        | todo   |       |
-| mangawt           | standalone    | todo   |       |
-| mangazure         | madara        | todo   |       |
-| mangitto          | standalone    | todo   |       |
-| merlinscans       | initmanga     | todo   |       |
-| mikrokosmosfansub | zeistmanga    | todo   |       |
-| milasub           | madara        | todo   |       |
-| monomanga         | standalone    | todo   |       |
-| moondaisyscans    | mangathemesia | todo   |       |
-| nemesisscans      | mangathemesia | todo   |       |
-| nirvanamanga      | mangathemesia | todo   |       |
-| niverafansub      | madara        | todo   |       |
-| okutoon           | standalone    | todo   |       |
-| opiatoon          | madara        | todo   |       |
-| orimanga          | initmanga     | todo   |       |
-| paradoxscans      | initmanga     | todo   |       |
-| patimanga         | mangathemesia | todo   |       |
-| ragnarscans       | initmanga     | todo   |       |
-| raindropfansub    | mangathemesia | todo   |       |
-| ruyamanga         | madara        | todo   |       |
-| sereinscan        | mangathemesia | todo   |       |
-| shadowceviri      | zeistmanga    | todo   |       |
-| shijiescans       | mangathemesia | todo   |       |
-| siyahmelek        | initmanga     | todo   |       |
-| sleptmanga        | standalone    | todo   |       |
-| strayfansub       | madaralegacy  | todo   |       |
-| summertoon        | madara        | todo   |       |
-| sunsetmanga       | madara        | todo   |       |
-| tarotscans        | mangathemesia | todo   |       |
-| tenshimanga       | uzaymanga     | todo   |       |
-| tonizutoon        | madara        | todo   |       |
-| toontaku          | standalone    | todo   |       |
-| tortugaceviri     | madara        | todo   |       |
-| trmanga           | standalone    | todo   |       |
-| turkcemangaoku    | madara        | todo   |       |
-| uzaymanga         | uzaymanga     | todo   |       |
-| webtoonhatti      | madara        | todo   |       |
-| webtoonoku        | standalone    | todo   |       |
-| yaoiflix          | madara        | todo   |       |
-| yaoimangaoku      | madara        | todo   |       |
+| Extension         | Theme         | Status  | Notes                                       |
+| ----------------- | ------------- | ------- | ------------------------------------------- |
+| afroditscans      | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| alucardscans      | standalone    | blocked | SSL handshake failed (525)                  |
+| amangaplanet      | mangathemesia | todo    |                                             |
+| anikiga           | madara        | todo    |                                             |
+| araznovel         | standalone    | todo    |                                             |
+| arcurafansub      | mangathemesia | blocked | Cloudflare challenge                        |
+| asurascanstr      | madara        | blocked | domain has no DNS record (dead)             |
+| caprazmanga       | madara        | blocked | TLS handshake fails (dead)                  |
+| diamondfansub     | madara        | todo    |                                             |
+| domalfansub       | madara        | blocked | Cloudflare block (403)                      |
+| eldermanga        | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| eskimangalar      | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| gafeland          | mangathemesia | blocked | Cloudflare challenge                        |
+| gaiatoon          | mangathemesia | blocked | Cloudflare challenge                        |
+| garciamanga       | madara        | blocked | hosting account suspended                   |
+| ghosthentai       | madara        | todo    |                                             |
+| golgebahcesi      | standalone    | blocked | Cloudflare block (403)                      |
+| hattorimanga      | standalone    | blocked | Cloudflare challenge                        |
+| hattoriscans      | standalone    | blocked | Cloudflare challenge                        |
+| hayalistic        | madara        | blocked | Cloudflare challenge                        |
+| holyscans         | standalone    | todo    |                                             |
+| juratempest       | standalone    | todo    |                                             |
+| korelimanga       | initmanga     | todo    |                                             |
+| koreliscans       | mangathemesia | todo    |                                             |
+| kuroimanga        | madara        | blocked | Cloudflare challenge                        |
+| laviniafansub     | madara        | todo    |                                             |
+| limonmanga        | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| lunascans         | madara        | todo    |                                             |
+| mangadenizi       | standalone    | todo    |                                             |
+| mangadiyari       | standalone    | todo    |                                             |
+| mangadusleri      | standalone    | blocked | connection times out (dead)                 |
+| mangakusu         | mangathemesia | blocked | Cloudflare challenge                        |
+| mangaportali      | standalone    | todo    |                                             |
+| mangasehrinet     | madara        | blocked | origin down (522)                           |
+| mangaship         | standalone    | todo    |                                             |
+| mangatilkisi      | madara        | todo    |                                             |
+| mangatr           | standalone    | blocked | DDoS-Guard challenge                        |
+| mangawow          | madara        | todo    |                                             |
+| mangawt           | standalone    | blocked | Cloudflare challenge                        |
+| mangazure         | madara        | blocked | origin down (522)                           |
+| mangitto          | standalone    | todo    |                                             |
+| merlinscans       | initmanga     | blocked | Cloudflare block (403)                      |
+| mikrokosmosfansub | zeistmanga    | todo    |                                             |
+| milasub           | madara        | todo    |                                             |
+| monomanga         | standalone    | todo    |                                             |
+| moondaisyscans    | mangathemesia | todo    |                                             |
+| nemesisscans      | mangathemesia | todo    |                                             |
+| nirvanamanga      | mangathemesia | todo    |                                             |
+| niverafansub      | madara        | blocked | Cloudflare challenge                        |
+| okutoon           | standalone    | todo    |                                             |
+| opiatoon          | madara        | todo    |                                             |
+| orimanga          | initmanga     | todo    |                                             |
+| paradoxscans      | initmanga     | blocked | Cloudflare block (403)                      |
+| patimanga         | mangathemesia | blocked | Cloudflare block (403)                      |
+| ragnarscans       | initmanga     | todo    |                                             |
+| raindropfansub    | mangathemesia | blocked | connection times out (dead)                 |
+| ruyamanga         | madara        | todo    |                                             |
+| sereinscan        | mangathemesia | todo    |                                             |
+| shadowceviri      | zeistmanga    | todo    |                                             |
+| shijiescans       | mangathemesia | todo    |                                             |
+| siyahmelek        | initmanga     | blocked | moved to siyahmelek.my; check below         |
+| sleptmanga        | standalone    | todo    |                                             |
+| strayfansub       | madaralegacy  | todo    |                                             |
+| summertoon        | madara        | todo    |                                             |
+| sunsetmanga       | madara        | todo    |                                             |
+| tarotscans        | mangathemesia | todo    |                                             |
+| tenshimanga       | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| tonizutoon        | madara        | todo    |                                             |
+| toontaku          | standalone    | todo    |                                             |
+| tortugaceviri     | madara        | todo    |                                             |
+| trmanga           | standalone    | todo    |                                             |
+| turkcemangaoku    | madara        | todo    |                                             |
+| uzaymanga         | uzaymanga     | done    | new uzaymanga theme (SvelteKit __data.json) |
+| webtoonhatti      | madara        | blocked | Cloudflare challenge                        |
+| webtoonoku        | standalone    | todo    |                                             |
+| yaoiflix          | madara        | todo    |                                             |
+| yaoimangaoku      | madara        | blocked | Cloudflare challenge                        |
 
 ## vi
 
