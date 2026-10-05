@@ -1088,115 +1088,115 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## es
 
-| Extension             | Theme         | Status | Notes |
-| --------------------- | ------------- | ------ | ----- |
-| akaya                 | standalone    | todo   |       |
-| anzmanga              | mmrcms        | todo   |       |
-| apollcomics           | madara        | todo   |       |
-| asialotus             | mangathemesia | todo   |       |
-| barmanga              | madara        | todo   |       |
-| begatranslation       | madara        | todo   |       |
-| bloomscans            | mangathemesia | todo   |       |
-| bokugentranslation    | mangathemesia | todo   |       |
-| bymichiscan           | mangathemesia | todo   |       |
-| capibaratraductor     | standalone    | todo   |       |
-| catharsisworld        | standalone    | todo   |       |
-| catmanhwas            | standalone    | todo   |       |
-| celestialmoon         | mangathemesia | todo   |       |
-| cerberusseries        | mangathemesia | todo   |       |
-| chochox               | vercomics     | todo   |       |
-| codearc               | standalone    | todo   |       |
-| colorcitoscan         | standalone    | todo   |       |
-| darkroomfansub        | zeistmanga    | todo   |       |
-| datgarscanlation      | zeistmanga    | todo   |       |
-| doujinhentai          | standalone    | todo   |       |
-| doujinshell           | madara        | todo   |       |
-| dragontranslationorg  | madara        | todo   |       |
-| dynasty               | standalone    | todo   |       |
-| emperorscan           | madara        | todo   |       |
-| enchiladascan         | standalone    | todo   |       |
-| esmi2manga            | madara        | todo   |       |
-| eternalmangas         | iken          | todo   |       |
-| gistamishouse         | zeistmanga    | todo   |       |
-| gremorymangas         | madara        | todo   |       |
-| hadesnofansub         | madara        | todo   |       |
-| haremdekira           | madara        | todo   |       |
-| heavenmanga           | standalone    | todo   |       |
-| hentaihall            | standalone    | todo   |       |
-| hentaimode            | standalone    | todo   |       |
-| houseofotakus         | madara        | todo   |       |
-| ikigaimangas          | standalone    | todo   |       |
-| ikuhentai             | standalone    | todo   |       |
-| infrafandub           | madara        | todo   |       |
-| inmanga               | standalone    | todo   |       |
-| inmortalscan          | madara        | todo   |       |
-| insanosscan           | standalone    | todo   |       |
-| inventariooculto      | madara        | todo   |       |
-| jeazscans             | standalone    | todo   |       |
-| kazokuden             | madara        | todo   |       |
-| koinoboriscan         | standalone    | todo   |       |
-| lectorasteria         | moonlighttl   | todo   |       |
-| lectorjpg             | standalone    | todo   |       |
-| lectormangalat        | standalone    | todo   |       |
-| lectormonline         | standalone    | todo   |       |
-| leercapitulo          | standalone    | todo   |       |
-| leermangaesp          | standalone    | todo   |       |
-| leermanhwas           | standalone    | todo   |       |
-| lmtoonline            | standalone    | todo   |       |
-| lolivault             | foolslide     | todo   |       |
-| lunapieces            | mangathemesia | todo   |       |
-| mangacrab             | standalone    | todo   |       |
-| mangamx               | standalone    | todo   |       |
-| mangaromance          | madara        | todo   |       |
-| mangashiina           | mangathemesia | todo   |       |
-| mangasin              | mmrcms        | todo   |       |
-| mangasnosekai         | madara        | todo   |       |
-| mangatv               | mangathemesia | todo   |       |
-| manhuaonline          | madara        | todo   |       |
-| manhwalatino          | madara        | todo   |       |
-| manhwaonline          | madara        | todo   |       |
-| manhwaweb             | standalone    | todo   |       |
-| mantrazscan           | standalone    | todo   |       |
-| marmota               | madara        | todo   |       |
-| menudofansub          | foolslide     | todo   |       |
-| mhscans               | madara        | todo   |       |
-| monopolyscan          | madara        | todo   |       |
-| mundomanhwa           | madara        | todo   |       |
-| nartag                | standalone    | todo   |       |
-| nekoscans             | mangathemesia | todo   |       |
-| neomanga              | standalone    | todo   |       |
-| nexusscanlation       | standalone    | todo   |       |
-| novamanhwa            | mangathemesia | todo   |       |
-| olympusscanlation     | standalone    | todo   |       |
-| onfmangas             | standalone    | todo   |       |
-| orckumangas           | standalone    | todo   |       |
-| platinumlilyscan      | standalone    | todo   |       |
-| plottwistnofansub     | standalone    | todo   |       |
-| ragnarokscanlation    | madara        | todo   |       |
-| ragnascans            | standalone    | todo   |       |
-| ravenmanga            | standalone    | todo   |       |
-| richtoscan            | madara        | todo   |       |
-| sapphirescan          | zeistmanga    | todo   |       |
-| shadowmanga           | standalone    | todo   |       |
-| skymangas             | mangathemesia | todo   |       |
-| spicyscan             | standalone    | todo   |       |
-| submanhwa             | standalone    | todo   |       |
-| taurusfansub          | madara        | todo   |       |
-| templescanesp         | madara        | todo   |       |
-| tenkaiscan            | standalone    | todo   |       |
-| tmohentaiunoriginal   | standalone    | todo   |       |
-| toones                | madara        | todo   |       |
-| topcomicporno         | madara        | todo   |       |
-| topcomicpornonet      | madara        | todo   |       |
-| traduccionesmoonlight | moonlighttl   | todo   |       |
-| tumanhwasclub         | standalone    | todo   |       |
-| uchuujinprojects      | mangathemesia | todo   |       |
-| vcpvmp                | vercomics     | todo   |       |
-| vermanhwas            | madara        | todo   |       |
-| yupmanga              | standalone    | todo   |       |
-| yurionline            | madara        | todo   |       |
-| zonatmoorgunoriginal  | standalone    | todo   |       |
-| zonatmoto             | standalone    | todo   |       |
+| Extension             | Theme         | Status  | Notes                                                                  |
+| --------------------- | ------------- | ------- | ---------------------------------------------------------------------- |
+| akaya                 | standalone    | todo    |                                                                        |
+| anzmanga              | mmrcms        | done    |                                                                        |
+| apollcomics           | madara        | done    |                                                                        |
+| asialotus             | mangathemesia | done    |                                                                        |
+| barmanga              | madara        | blocked | Cloudflare 403                                                         |
+| begatranslation       | madara        | blocked | Cloudflare challenge                                                   |
+| bloomscans            | mangathemesia | blocked | Cloudflare 403                                                         |
+| bokugentranslation    | mangathemesia | blocked | Cloudflare challenge                                                   |
+| bymichiscan           | mangathemesia | done    |                                                                        |
+| capibaratraductor     | standalone    | blocked | Cloudflare 403                                                         |
+| catharsisworld        | standalone    | todo    |                                                                        |
+| catmanhwas            | standalone    | todo    |                                                                        |
+| celestialmoon         | mangathemesia | done    |                                                                        |
+| cerberusseries        | mangathemesia | done    |                                                                        |
+| chochox               | vercomics     | blocked | Cloudflare challenge                                                   |
+| codearc               | standalone    | todo    |                                                                        |
+| colorcitoscan         | standalone    | todo    |                                                                        |
+| darkroomfansub        | zeistmanga    | done    |                                                                        |
+| datgarscanlation      | zeistmanga    | done    |                                                                        |
+| doujinhentai          | standalone    | todo    |                                                                        |
+| doujinshell           | madara        | done    |                                                                        |
+| dragontranslationorg  | madara        | blocked | Cloudflare 403                                                         |
+| dynasty               | standalone    | todo    |                                                                        |
+| emperorscan           | madara        | blocked | Cloudflare 403                                                         |
+| enchiladascan         | standalone    | done    |                                                                        |
+| esmi2manga            | madara        | blocked | Cloudflare challenge                                                   |
+| eternalmangas         | iken          | done    |                                                                        |
+| gistamishouse         | zeistmanga    | blocked | site gone (redirects to accounts.google.com)                           |
+| gremorymangas         | madara        | blocked | hosting account suspended                                              |
+| hadesnofansub         | madara        | done    |                                                                        |
+| haremdekira           | madara        | done    |                                                                        |
+| heavenmanga           | standalone    | todo    |                                                                        |
+| hentaihall            | standalone    | blocked | HTTP 401                                                               |
+| hentaimode            | standalone    | done    |                                                                        |
+| houseofotakus         | madara        | done    |                                                                        |
+| ikigaimangas          | standalone    | todo    |                                                                        |
+| ikuhentai             | standalone    | todo    |                                                                        |
+| infrafandub           | madara        | done    |                                                                        |
+| inmanga               | standalone    | todo    |                                                                        |
+| inmortalscan          | madara        | done    |                                                                        |
+| insanosscan           | standalone    | todo    |                                                                        |
+| inventariooculto      | madara        | done    |                                                                        |
+| jeazscans             | standalone    | todo    |                                                                        |
+| kazokuden             | madara        | done    |                                                                        |
+| koinoboriscan         | standalone    | blocked | dead (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)                              |
+| lectorasteria         | moonlighttl   | done    |                                                                        |
+| lectorjpg             | standalone    | todo    |                                                                        |
+| lectormangalat        | standalone    | todo    |                                                                        |
+| lectormonline         | standalone    | blocked | dead (ENOTFOUND)                                                       |
+| leercapitulo          | standalone    | todo    |                                                                        |
+| leermangaesp          | standalone    | todo    |                                                                        |
+| leermanhwas           | standalone    | todo    |                                                                        |
+| lmtoonline            | standalone    | blocked | Cloudflare challenge                                                   |
+| lolivault             | foolslide     | blocked | dead (TimeoutError)                                                    |
+| lunapieces            | mangathemesia | blocked | dead (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)                              |
+| mangacrab             | standalone    | blocked | Cloudflare 403                                                         |
+| mangamx               | standalone    | blocked | Cloudflare challenge                                                   |
+| mangaromance          | madara        | blocked | Cloudflare challenge                                                   |
+| mangashiina           | mangathemesia | blocked | site is now a JS single-page app (Mangamukai); no MangaThemesia markup |
+| mangasin              | mmrcms        | blocked | Cloudflare 403                                                         |
+| mangasnosekai         | madara        | blocked | Cloudflare 403                                                         |
+| mangatv               | mangathemesia | done    |                                                                        |
+| manhuaonline          | madara        | done    |                                                                        |
+| manhwalatino          | madara        | blocked | dead (no-baseUrl)                                                      |
+| manhwaonline          | madara        | blocked | Cloudflare challenge                                                   |
+| manhwaweb             | standalone    | todo    |                                                                        |
+| mantrazscan           | standalone    | todo    |                                                                        |
+| marmota               | madara        | done    |                                                                        |
+| menudofansub          | foolslide     | done    |                                                                        |
+| mhscans               | madara        | done    |                                                                        |
+| monopolyscan          | madara        | done    |                                                                        |
+| mundomanhwa           | madara        | done    |                                                                        |
+| nartag                | standalone    | blocked | Cloudflare challenge (Un momento…)                                     |
+| nekoscans             | mangathemesia | done    |                                                                        |
+| neomanga              | standalone    | blocked | HTTP 402 Deployment Paused                                             |
+| nexusscanlation       | standalone    | todo    |                                                                        |
+| novamanhwa            | mangathemesia | blocked | HTTP 525 novamanhwa.cc                                                 | 525: SSL handshake failed |
+| olympusscanlation     | standalone    | todo    |                                                                        |
+| onfmangas             | standalone    | todo    |                                                                        |
+| orckumangas           | standalone    | blocked | Cloudflare challenge                                                   |
+| platinumlilyscan      | standalone    | blocked | dead (UND_ERR_CONNECT_TIMEOUT)                                         |
+| plottwistnofansub     | standalone    | blocked | Cloudflare 403                                                         |
+| ragnarokscanlation    | madara        | done    |                                                                        |
+| ragnascans            | standalone    | todo    |                                                                        |
+| ravenmanga            | standalone    | todo    |                                                                        |
+| richtoscan            | madara        | blocked | dead (UND_ERR_CONNECT_TIMEOUT)                                         |
+| sapphirescan          | zeistmanga    | blocked | dead (ECONNRESET)                                                      |
+| shadowmanga           | standalone    | todo    |                                                                        |
+| skymangas             | mangathemesia | blocked | site is now an Angular app (404 on /manga/); no MangaThemesia markup   |
+| spicyscan             | standalone    | todo    |                                                                        |
+| submanhwa             | standalone    | done    |                                                                        |
+| taurusfansub          | madara        | blocked | Cloudflare 403                                                         |
+| templescanesp         | madara        | done    |                                                                        |
+| tenkaiscan            | standalone    | todo    |                                                                        |
+| tmohentaiunoriginal   | standalone    | blocked | Cloudflare 403                                                         |
+| toones                | madara        | blocked | Cloudflare challenge                                                   |
+| topcomicporno         | madara        | blocked | Cloudflare challenge                                                   |
+| topcomicpornonet      | madara        | blocked | Cloudflare challenge                                                   |
+| traduccionesmoonlight | moonlighttl   | done    |                                                                        |
+| tumanhwasclub         | standalone    | blocked | dead (ENOTFOUND)                                                       |
+| uchuujinprojects      | mangathemesia | done    |                                                                        |
+| vcpvmp                | vercomics     | blocked | Cloudflare challenge                                                   |
+| vermanhwas            | madara        | done    |                                                                        |
+| yupmanga              | standalone    | blocked | Cloudflare 403                                                         |
+| yurionline            | madara        | done    |                                                                        |
+| zonatmoorgunoriginal  | standalone    | todo    |                                                                        |
+| zonatmoto             | standalone    | todo    |                                                                        |
 
 ## pt
 
