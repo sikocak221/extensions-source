@@ -1,0 +1,6 @@
+{
+  "https://www.toptoon.net/ranking": "adultStatus1=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; domain=.toptoon.net",
+  "https://www.toptoon.net/search": "adultStatus1=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; domain=.toptoon.net",
+  "https://www.toptoon.net/comic/epList/m043": "epListAccessPath=%2F; expires=Sun, 04 Oct 2026 22:30:01 GMT; Max-Age=3600; path=/; domain=.toptoon.net",
+  "https://www.toptoon.net/comic/epView/m043/62933": "epListAccessPath=%2F; expires=Sun, 04 Oct 2026 22:30:02 GMT; Max-Age=3600; path=/; domain=.toptoon.net"
+}
