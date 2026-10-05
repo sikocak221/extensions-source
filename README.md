@@ -106,6 +106,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Drake Scans                                       | EN        | https://drakecomic.net                     |      |
 | DreamTeams Scans                                  | ID        | https://dreamteams.space                   | yes  |
 | Dua Leo Truyen                                    | VI        | https://dualeotruyenpet.com                | yes  |
+| Dynasty                                           | ES        | https://manhuako.net                       |      |
 | Dynasty Scans                                     | EN        | https://dynasty-scans.com                  |      |
 | Ecchi-Doujin                                      | TH        | https://ecchi-doujin.com                   | yes  |
 | Eggporncomics                                     | EN        | https://eggporncomics.com                  | yes  |
@@ -193,6 +194,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | InkStory                                          | RU        | https://inkstory.net                       |      |
 | InManga                                           | ES        | https://inmanga.com                        |      |
 | Inmortal Scan                                     | ES        | https://scan-inmortal.com                  |      |
+| InsanosScan                                       | ES        | https://insanoslibrary.com                 |      |
 | Inventario Oculto                                 | ES        | https://inventariooculto.com               |      |
 | IsekaiKomik                                       | ID        | https://ch1.isekaikomik.site               |      |
 | Izanami Scans                                     | ID        | https://izanamiscans.my.id                 |      |
@@ -341,6 +343,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Manhwalike                                        | EN        | https://manhwalike.com                     | yes  |
 | ManhwaNex                                         | EN        | https://manhwanex.com                      |      |
 | ManhwaZone                                        | EN        | https://manhwazone.com                     |      |
+| Mantraz Scan                                      | ES        | https://mantrazscan.co                     |      |
 | Marmota                                           | ES        | https://marmota.me                         |      |
 | Megatokyo                                         | EN        | https://megatokyo.com                      |      |
 | MeHentai                                          | VI        | https://mehentai.live                      | yes  |
@@ -413,6 +416,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Rackus                                            | EN        | https://rackusreads.com                    |      |
 | Ragnarok Scanlation                               | ES        | https://ragnarokscanlation.org             |      |
 | Raven Scans                                       | EN        | https://ravenscans.org                     |      |
+| RavenManga                                        | ES        | https://raventard.xyz                      |      |
 | RawDEX                                            | KO        | https://rawdex.net                         | yes  |
 | Read Attack on Titan Shingeki no Kyojin Manga     | EN        | https://ww12.readsnk.com                   |      |
 | Read Berserk Manga                                | EN        | https://readberserk.com                    |      |

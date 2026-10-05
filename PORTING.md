@@ -1125,7 +1125,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | doujinhentai          | standalone    | done    |                                                                        |
 | doujinshell           | madara        | done    |                                                                        |
 | dragontranslationorg  | madara        | blocked | Cloudflare 403                                                         |
-| dynasty               | standalone    | todo    |                                                                        |
+| dynasty               | standalone    | done    | manhuako.net API                                                       |
 | emperorscan           | madara        | blocked | Cloudflare 403                                                         |
 | enchiladascan         | standalone    | done    |                                                                        |
 | esmi2manga            | madara        | blocked | Cloudflare challenge                                                   |
@@ -1143,7 +1143,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | infrafandub           | madara        | done    |                                                                        |
 | inmanga               | standalone    | done    |                                                                        |
 | inmortalscan          | madara        | done    |                                                                        |
-| insanosscan           | standalone    | todo    |                                                                        |
+| insanosscan           | standalone    | done    | site rebuilt as a JSON API app (/series/…); ported against the API     |
 | inventariooculto      | madara        | done    |                                                                        |
 | jeazscans             | standalone    | todo    |                                                                        |
 | kazokuden             | madara        | done    |                                                                        |
@@ -1169,7 +1169,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manhwalatino          | madara        | blocked | dead (no-baseUrl)                                                      |
 | manhwaonline          | madara        | blocked | Cloudflare challenge                                                   |
 | manhwaweb             | standalone    | todo    |                                                                        |
-| mantrazscan           | standalone    | todo    |                                                                        |
+| mantrazscan           | standalone    | done    |                                                                        |
 | marmota               | madara        | done    |                                                                        |
 | menudofansub          | foolslide     | done    |                                                                        |
 | mhscans               | madara        | done    |                                                                        |
@@ -1187,7 +1187,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | plottwistnofansub     | standalone    | blocked | Cloudflare 403                                                         |
 | ragnarokscanlation    | madara        | done    |                                                                        |
 | ragnascans            | standalone    | todo    |                                                                        |
-| ravenmanga            | standalone    | todo    |                                                                        |
+| ravenmanga            | standalone    | done    |                                                                        |
 | richtoscan            | madara        | blocked | dead (UND_ERR_CONNECT_TIMEOUT)                                         |
 | sapphirescan          | zeistmanga    | blocked | dead (ECONNRESET)                                                      |
 | shadowmanga           | standalone    | todo    |                                                                        |

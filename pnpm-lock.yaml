@@ -4592,6 +4592,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/dynasty:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/enchiladascan:
     devDependencies:
       '@matane/extension-cli':
@@ -4742,6 +4757,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/insanosscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/inventariooculto:
     devDependencies:
       '@matane/extension-cli':
@@ -4847,6 +4877,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/es/mantrazscan:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/es/marmota:
     devDependencies:
       '@matane/extension-cli':
@@ -4938,6 +4983,21 @@ importers:
         version: 24.19.0
 
   src/es/ragnarokscanlation:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/es/ravenmanga:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'
