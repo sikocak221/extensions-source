@@ -1029,7 +1029,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | khomanhwa         | standalone | blocked | probe 2026-10-05: http:522                                                                                        |
 | kirakira          | standalone | todo    |                                                                                                                   |
 | loppytoon         | standalone | todo    |                                                                                                                   |
-| luottruyen        | standalone | todo    |                                                                                                                   |
+| luottruyen        | standalone | blocked | every chapter page redirects to /Account/Login (reading needs an account)                                         |
 | luvevaland        | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
 | lxhentai          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | lxmangaorg        | standalone | todo    |                                                                                                                   |
@@ -1068,7 +1068,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | truyenggvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | truyenhentai18    | standalone | done    |                                                                                                                   |
 | truyenhentaivn    | standalone | done    |                                                                                                                   |
-| truyenhentaiz     | standalone | todo    |                                                                                                                   |
+| truyenhentaiz     | standalone | done    | some series have empty chapters on the site; the fixture test uses the first popular one with pages               |
 | truyenmm          | standalone | todo    |                                                                                                                   |
 | truyenqq          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | truyenqqvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
