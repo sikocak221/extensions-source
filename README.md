@@ -69,6 +69,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Colorized Mangas                                  | EN        | https://colorizedmangas.com                |      |
 | Comic Asura                                       | EN        | https://comicasura.net                     |      |
 | Comic Verse                                       | AR        | https://arcomixverse.blogspot.com          |      |
+| Comicabc                                          | ZH        | https://www.8comic.com                     |      |
 | ComicLand                                         | EN        | https://comicland.org                      |      |
 | Comivex                                           | EN        | https://comivex.com                        |      |
 | ComixTopia                                        | UK        | https://comixtopia.in.ua                   |      |
@@ -488,6 +489,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Team X                                            | AR        | https://olympustaff.com                    |      |
 | TeleTruyen                                        | VI        | https://teletruyen.com                     |      |
 | Temple Scan                                       | ES        | https://aedexnox.akan01.com                | yes  |
+| Tencent Comics (ac.qq.com)                        | ZH        | https://m.ac.qq.com                        |      |
 | Tenshi Manga                                      | TR        | https://tenshimanga.com                    |      |
 | TerraHistoricus                                   | ZH        | https://comic.hypergryph.com               |      |
 | The Duck Webcomics                                | EN        | https://www.theduckwebcomics.com           |      |
@@ -563,10 +565,12 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | zero搬运网                                        | ZH        | https://stevenyomi.github.io               |      |
 | Zinmanga                                          | EN        | https://mangazin.org                       |      |
 | 再漫画                                            | ZH        | https://manhua.zaimanhua.com               |      |
+| 包子漫画                                          | ZH        | https://static-tw.baozimh.com              |      |
 | 哔哩漫画                                          | ZH        | https://www.bilimanga.net                  |      |
 | 喜漫漫画                                          | ZH        | https://www.favcomic.com                   |      |
 | 漫画1234                                          | ZH        | https://m.wmh1234.com                      |      |
 | 漫画160                                           | ZH        | https://www.mh160mh.com                    |      |
+| 漫画柜                                            | ZH        | https://www.manhuagui.com                  |      |
 | 爱奇艺叭嗒                                        | ZH        | https://bud.m.iqiyi.com                    |      |
 | 爱看漫                                            | ZH        | https://ymcdnyfqdapp.ikmmh.com             |      |
 | 紳士漫畫                                          | ZH        | https://www.wn10.cfd                       | yes  |
