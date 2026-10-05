@@ -1,0 +1,18 @@
+{
+  "id": "desu",
+  "name": "Desu",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 1,
+    "perMs": 2000
+  },
+  "sources": [
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "Desu"
+    }
+  ]
+}
