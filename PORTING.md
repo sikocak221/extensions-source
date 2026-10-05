@@ -1025,7 +1025,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hentaivnplus      | madara     | done    |                                                                                                                   |
 | hentaivnx         | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
 | hv2tcomics        | standalone | todo    |                                                                                                                   |
-| kamicomic         | standalone | todo    |                                                                                                                   |
+| kamicomic         | standalone | blocked | kamicomi.com redirects to a parking page (/lander); probe said ok                                                 |
 | khomanhwa         | standalone | blocked | probe 2026-10-05: http:522                                                                                        |
 | kirakira          | standalone | todo    |                                                                                                                   |
 | loppytoon         | standalone | todo    |                                                                                                                   |
@@ -1060,7 +1060,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | teamlanhlung      | standalone | todo    |                                                                                                                   |
 | teletruyen        | standalone | done    |                                                                                                                   |
 | thienthaitruyen   | standalone | done    | moved to thienthaitruyen16.com                                                                                    |
-| thohamngu         | standalone | todo    |                                                                                                                   |
+| thohamngu         | standalone | done    |                                                                                                                   |
 | toptruyen         | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | tranh18           | standalone | done    | site now serves page images in src (Tachiyomi reads data-original); both used                                     |
 | truyen18          | standalone | done    | chapter html read from the Next.js outlined text row ($id → id:T…)                                                |
