@@ -867,7 +867,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | baozimanhua     | standalone | todo    |                                                                                                                                                                    |
 | baozimhorg      | goda       | done    | mirrors: baozimh.org (first); api-get-v3 chapter list + decoded page list                                                                                          |
 | bh3             | standalone | done    | no site search: search filters the book list                                                                                                                       |
-| bilimanga       | standalone | todo    |                                                                                                                                                                    |
+| bilimanga       | standalone | done    | search ticket cookies and prev/next chapter lookup handled manually                                                                                                |
 | boylove         | standalone | done    | scrambled pages rebuilt by transformImage (tiles)                                                                                                                  |
 | cartoon18       | standalone | done    |                                                                                                                                                                    |
 | cmanhua         | standalone | done    | listing needs ASP.NET postbacks; image host manhua.5um.net sometimes unreachable (passed live once)                                                                |
@@ -915,7 +915,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | tongli          | standalone | ported  | in pending/: chapter API refuses readers outside Taiwan/HK ('您所在的區域(ID)無法閱讀此作品'), untestable from here                                                |
 | toptoon         | standalone | ported  | in pending/: every chapter page (epView) redirects to the list without a logged-in session; age check passed with a cookie                                         |
 | vomic           | standalone | blocked | chapter page API needs a time-stamped 3DES-CBC encrypted request; the sandbox crypto only decrypts AES                                                             |
-| wnacg           | standalone | todo    |                                                                                                                                                                    |
+| wnacg           | standalone | done    | domain redirects to www.wn10.cfd (base url updated); title blacklist kept (no page scanning, no domain-list preference)                                            |
 | yidan           | standalone | blocked | probe 2026-10-04: dead:ENOTFOUND                                                                                                                                   |
 | zaimanhua       | standalone | todo    |                                                                                                                                                                    |
 | zazhimi         | standalone | done    | test uses the 2nd popular entry (the first is an advert search never finds)                                                                                        |
