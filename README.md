@@ -371,6 +371,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Mihentai                                          | ID        | https://mihentai.net                       | yes  |
 | Mikrokosmos Fansub                                | TR        | https://mikrokosmosfb.blogspot.com         | yes  |
 | MiMi                                              | VI        | https://mimihentai.moe                     | yes  |
+| MinoTruyen                                        | VI        | https://minotruyenv5.xyz                   | yes  |
 | MintManga                                         | RU        | https://2.mintmanga.one                    |      |
 | Mist Scans                                        | EN        | https://mistscans.com                      |      |
 | MLBB Lore                                         | EN        | https://play.mobilelegends.com             |      |

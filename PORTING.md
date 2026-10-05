@@ -1053,8 +1053,8 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | metruyen18        | madara     | later   | now redirects to damconuong.pet (same site as damconuong)                                                                           |
 | mimi              | standalone | done    |                                                                                                                                     |
 | mimihentai        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
-| minotruyen        | standalone | todo    |                                                                                                                                     |
-| moetruyen         | standalone | todo    |                                                                                                                                     |
+| minotruyen        | standalone | done    | three sources; api host read from the bundle; strip descrambling via tiles; legacy CryptoJS page blob not ported (unused now)       |
+| moetruyen         | standalone | blocked | Cloudflare challenge on every page (both mirrors)                                                                                   |
 | moetruyensuicao   | standalone | todo    |                                                                                                                                     |
 | nettruyenco       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | nettruyens        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
@@ -1092,7 +1092,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | tuitruyen         | standalone | todo    |                                                                                                                                     |
 | tusachxinhxinh    | standalone | done    | pages AES-CBC (PBKDF2-SHA512) like InitManga                                                                                        |
 | umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                                          |
-| vihentai          | standalone | todo    |                                                                                                                                     |
+| vihentai          | standalone | blocked | Cloudflare challenge on every page (both mirrors)                                                                                   |
 | vinahentai        | standalone | done    | moved to vinahentai.pics                                                                                                            |
 | vitruyen          | standalone | done    | no login token (WebView localStorage in Tachiyomi): guests read the images in the reader page                                       |
 | yurigarden        | standalone | todo    |                                                                                                                                     |

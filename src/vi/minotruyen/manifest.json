@@ -1,0 +1,28 @@
+{
+  "id": "minotruyen",
+  "name": "MinoTruyen",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "manga",
+      "lang": "vi",
+      "name": "MinoTruyen Manga"
+    },
+    {
+      "key": "comics",
+      "lang": "vi",
+      "name": "MinoTruyen Comics"
+    },
+    {
+      "key": "hentai",
+      "lang": "vi",
+      "name": "MinoTruyen Hentai"
+    }
+  ]
+}
