@@ -869,7 +869,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | bh3             | standalone | done    | no site search: search filters the book list                                                                               |
 | bilimanga       | standalone | todo    |                                                                                                                            |
 | boylove         | standalone | todo    |                                                                                                                            |
-| cartoon18       | standalone | todo    |                                                                                                                            |
+| cartoon18       | standalone | done    |                                                                                                                            |
 | cmanhua         | standalone | done    | listing needs ASP.NET postbacks; image host manhua.5um.net sometimes unreachable (passed live once)                        |
 | comicabc        | standalone | todo    |                                                                                                                            |
 | creativecomic   | standalone | todo    |                                                                                                                            |
@@ -882,7 +882,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hanabimanga     | standalone | todo    |                                                                                                                            |
 | hanime1         | standalone | done    |                                                                                                                            |
 | hanman18        | manga18    | done    | tag filter removed (doesn't work on the site)                                                                              |
-| hcomic          | standalone | todo    |                                                                                                                            |
+| hcomic          | standalone | done    | each comic is a single chapter                                                                                             |
 | hentaiclub      | standalone | done    | every post is a single chapter                                                                                             |
 | hikarinagi      | standalone | ported  | in pending/: the reader API answers 401 without a logged-in session                                                        |
 | ikmmh           | standalone | todo    |                                                                                                                            |
@@ -900,7 +900,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manhuashe       | standalone | done    |                                                                                                                            |
 | manhuawu        | mccms      | done    |                                                                                                                            |
 | manwa           | standalone | blocked | probe 2026-10-04: Cloudflare                                                                                               |
-| mh1234          | standalone | todo    |                                                                                                                            |
+| mh1234          | standalone | done    |                                                                                                                            |
 | mh160           | standalone | todo    |                                                                                                                            |
 | miaoqu          | mccms      | done    | site search answers 404: search filters the first 10 catalogue pages                                                       |
 | mycomic         | standalone | blocked | probe 2026-10-04: Cloudflare                                                                                               |
