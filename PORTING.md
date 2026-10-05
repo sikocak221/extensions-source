@@ -1013,7 +1013,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | cuutruyenmoe      | standalone | todo    |                                                                                                                   |
 | damconuong        | standalone | todo    |                                                                                                                   |
 | daomeoden         | standalone | todo    |                                                                                                                   |
-| dilib             | standalone | todo    |                                                                                                                   |
+| dilib             | standalone | blocked | chapter urls (…-chap-N.html) redirect to the series page: the reader no longer works for guests                   |
 | doctruyen3q       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | doctruyen5s       | liliana    | done    | images are on post-phinf.pstatic.net, which this machine cannot reach (fetch failed); chapters and pages verified |
 | dualeotruyen      | standalone | done    | moved to dualeotruyenpet.com                                                                                      |
@@ -1080,7 +1080,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | tusachxinhxinh    | standalone | todo    |                                                                                                                   |
 | umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                        |
 | vihentai          | standalone | todo    |                                                                                                                   |
-| vinahentai        | standalone | todo    |                                                                                                                   |
+| vinahentai        | standalone | done    | moved to vinahentai.pics                                                                                          |
 | vitruyen          | standalone | todo    |                                                                                                                   |
 | yurigarden        | standalone | todo    |                                                                                                                   |
 | yurineko          | standalone | todo    |                                                                                                                   |
