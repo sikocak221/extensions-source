@@ -1036,7 +1036,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | medamtruyen       | standalone | todo    |                                                                                                                   |
 | mehentai          | manhwaz    | done    | manhwaz theme (also unblocks en manhwaz/manhwahub/manhwazone if their sites return)                               |
 | meosss            | standalone | todo    |                                                                                                                   |
-| meosua            | standalone | todo    |                                                                                                                   |
+| meosua            | standalone | done    | chapter list is paged (one request per page)                                                                      |
 | metruyen18        | madara     | todo    |                                                                                                                   |
 | mimi              | standalone | todo    |                                                                                                                   |
 | mimihentai        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
@@ -1059,7 +1059,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | soaicacomic       | standalone | todo    |                                                                                                                   |
 | teamlanhlung      | standalone | todo    |                                                                                                                   |
 | teletruyen        | standalone | done    |                                                                                                                   |
-| thienthaitruyen   | standalone | todo    |                                                                                                                   |
+| thienthaitruyen   | standalone | done    | moved to thienthaitruyen16.com                                                                                    |
 | thohamngu         | standalone | todo    |                                                                                                                   |
 | toptruyen         | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | tranh18           | standalone | done    | site now serves page images in src (Tachiyomi reads data-original); both used                                     |
