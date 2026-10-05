@@ -1005,86 +1005,86 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## vi
 
-| Extension         | Theme      | Status | Notes |
-| ----------------- | ---------- | ------ | ----- |
-| ariverse          | standalone | todo   |       |
-| cmanga            | standalone | todo   |       |
-| cuutruyen         | standalone | todo   |       |
-| cuutruyenmoe      | standalone | todo   |       |
-| damconuong        | standalone | todo   |       |
-| daomeoden         | standalone | todo   |       |
-| dilib             | standalone | todo   |       |
-| doctruyen3q       | wpcomics   | todo   |       |
-| doctruyen5s       | liliana    | todo   |       |
-| dualeotruyen      | standalone | todo   |       |
-| fastscan          | standalone | todo   |       |
-| gantzvn           | madara     | todo   |       |
-| goctruyentranh    | standalone | todo   |       |
-| goctruyentranhvui | standalone | todo   |       |
-| hentaicube        | madara     | todo   |       |
-| hentaivnplus      | madara     | todo   |       |
-| hentaivnx         | standalone | todo   |       |
-| hv2tcomics        | standalone | todo   |       |
-| kamicomic         | standalone | todo   |       |
-| khomanhwa         | standalone | todo   |       |
-| kirakira          | standalone | todo   |       |
-| loppytoon         | standalone | todo   |       |
-| luottruyen        | standalone | todo   |       |
-| luvevaland        | standalone | todo   |       |
-| lxhentai          | standalone | todo   |       |
-| lxmangaorg        | standalone | todo   |       |
-| medamtruyen       | standalone | todo   |       |
-| mehentai          | manhwaz    | todo   |       |
-| meosss            | standalone | todo   |       |
-| meosua            | standalone | todo   |       |
-| metruyen18        | madara     | todo   |       |
-| mimi              | standalone | todo   |       |
-| mimihentai        | standalone | todo   |       |
-| minotruyen        | standalone | todo   |       |
-| moetruyen         | standalone | todo   |       |
-| moetruyensuicao   | standalone | todo   |       |
-| nettruyenco       | wpcomics   | todo   |       |
-| nettruyens        | standalone | todo   |       |
-| nettruyenviet     | standalone | todo   |       |
-| nettruyenx        | wpcomics   | todo   |       |
-| nhattruyen        | wpcomics   | todo   |       |
-| nhentaiclub       | standalone | todo   |       |
-| otakusic          | standalone | todo   |       |
-| otruyen           | standalone | todo   |       |
-| panomic           | standalone | todo   |       |
-| sangchanhteam     | standalone | todo   |       |
-| sayhentai         | manhwaz    | todo   |       |
-| seikowo           | standalone | todo   |       |
-| sinhsieusao       | standalone | todo   |       |
-| soaicacomic       | standalone | todo   |       |
-| teamlanhlung      | standalone | todo   |       |
-| teletruyen        | standalone | todo   |       |
-| thienthaitruyen   | standalone | todo   |       |
-| thohamngu         | standalone | todo   |       |
-| toptruyen         | wpcomics   | todo   |       |
-| tranh18           | standalone | todo   |       |
-| truyen18          | standalone | todo   |       |
-| truyengg          | standalone | todo   |       |
-| truyenggvn        | standalone | todo   |       |
-| truyenhentai18    | standalone | todo   |       |
-| truyenhentaivn    | standalone | todo   |       |
-| truyenhentaiz     | standalone | todo   |       |
-| truyenmm          | standalone | todo   |       |
-| truyenqq          | standalone | todo   |       |
-| truyenqqvn        | standalone | todo   |       |
-| truyentini        | madara     | todo   |       |
-| truyentranhdammy  | madara     | todo   |       |
-| truyentuoitho     | madara     | todo   |       |
-| truyentvn         | standalone | todo   |       |
-| tuitruyen         | standalone | todo   |       |
-| tusachxinhxinh    | standalone | todo   |       |
-| umetruyen         | manhwaz    | todo   |       |
-| vihentai          | standalone | todo   |       |
-| vinahentai        | standalone | todo   |       |
-| vitruyen          | standalone | todo   |       |
-| yurigarden        | standalone | todo   |       |
-| yurineko          | standalone | todo   |       |
-| zettruyen         | standalone | todo   |       |
+| Extension         | Theme      | Status  | Notes                                                                                                             |
+| ----------------- | ---------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
+| ariverse          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| cmanga            | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| cuutruyen         | standalone | todo    |                                                                                                                   |
+| cuutruyenmoe      | standalone | todo    |                                                                                                                   |
+| damconuong        | standalone | todo    |                                                                                                                   |
+| daomeoden         | standalone | todo    |                                                                                                                   |
+| dilib             | standalone | todo    |                                                                                                                   |
+| doctruyen3q       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| doctruyen5s       | liliana    | done    | images are on post-phinf.pstatic.net, which this machine cannot reach (fetch failed); chapters and pages verified |
+| dualeotruyen      | standalone | todo    |                                                                                                                   |
+| fastscan          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| gantzvn           | madara     | done    |                                                                                                                   |
+| goctruyentranh    | standalone | todo    |                                                                                                                   |
+| goctruyentranhvui | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
+| hentaicube        | madara     | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| hentaivnplus      | madara     | done    |                                                                                                                   |
+| hentaivnx         | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
+| hv2tcomics        | standalone | todo    |                                                                                                                   |
+| kamicomic         | standalone | todo    |                                                                                                                   |
+| khomanhwa         | standalone | blocked | probe 2026-10-05: http:522                                                                                        |
+| kirakira          | standalone | todo    |                                                                                                                   |
+| loppytoon         | standalone | todo    |                                                                                                                   |
+| luottruyen        | standalone | todo    |                                                                                                                   |
+| luvevaland        | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
+| lxhentai          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| lxmangaorg        | standalone | todo    |                                                                                                                   |
+| medamtruyen       | standalone | todo    |                                                                                                                   |
+| mehentai          | manhwaz    | done    | manhwaz theme (also unblocks en manhwaz/manhwahub/manhwazone if their sites return)                               |
+| meosss            | standalone | todo    |                                                                                                                   |
+| meosua            | standalone | todo    |                                                                                                                   |
+| metruyen18        | madara     | todo    |                                                                                                                   |
+| mimi              | standalone | todo    |                                                                                                                   |
+| mimihentai        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| minotruyen        | standalone | todo    |                                                                                                                   |
+| moetruyen         | standalone | todo    |                                                                                                                   |
+| moetruyensuicao   | standalone | todo    |                                                                                                                   |
+| nettruyenco       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| nettruyens        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| nettruyenviet     | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| nettruyenx        | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| nhattruyen        | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| nhentaiclub       | standalone | blocked | probe 2026-10-05: dead:ENOTFOUND                                                                                  |
+| otakusic          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| otruyen           | standalone | todo    |                                                                                                                   |
+| panomic           | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| sangchanhteam     | standalone | todo    |                                                                                                                   |
+| sayhentai         | manhwaz    | done    |                                                                                                                   |
+| seikowo           | standalone | todo    |                                                                                                                   |
+| sinhsieusao       | standalone | todo    |                                                                                                                   |
+| soaicacomic       | standalone | todo    |                                                                                                                   |
+| teamlanhlung      | standalone | todo    |                                                                                                                   |
+| teletruyen        | standalone | todo    |                                                                                                                   |
+| thienthaitruyen   | standalone | todo    |                                                                                                                   |
+| thohamngu         | standalone | todo    |                                                                                                                   |
+| toptruyen         | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| tranh18           | standalone | todo    |                                                                                                                   |
+| truyen18          | standalone | todo    |                                                                                                                   |
+| truyengg          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| truyenggvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| truyenhentai18    | standalone | todo    |                                                                                                                   |
+| truyenhentaivn    | standalone | todo    |                                                                                                                   |
+| truyenhentaiz     | standalone | todo    |                                                                                                                   |
+| truyenmm          | standalone | todo    |                                                                                                                   |
+| truyenqq          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| truyenqqvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
+| truyentini        | madara     | done    |                                                                                                                   |
+| truyentranhdammy  | madara     | done    |                                                                                                                   |
+| truyentuoitho     | madara     | done    | protected image payload (XOR) decoded in TS                                                                       |
+| truyentvn         | standalone | todo    |                                                                                                                   |
+| tuitruyen         | standalone | todo    |                                                                                                                   |
+| tusachxinhxinh    | standalone | todo    |                                                                                                                   |
+| umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                        |
+| vihentai          | standalone | todo    |                                                                                                                   |
+| vinahentai        | standalone | todo    |                                                                                                                   |
+| vitruyen          | standalone | todo    |                                                                                                                   |
+| yurigarden        | standalone | todo    |                                                                                                                   |
+| yurineko          | standalone | todo    |                                                                                                                   |
+| zettruyen         | standalone | todo    |                                                                                                                   |
 
 ## es
 
