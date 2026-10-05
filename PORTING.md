@@ -1050,7 +1050,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | nhattruyen        | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | nhentaiclub       | standalone | blocked | probe 2026-10-05: dead:ENOTFOUND                                                                                  |
 | otakusic          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| otruyen           | standalone | todo    |                                                                                                                   |
+| otruyen           | standalone | ported  | in pending/: otruyenapi.com answers 522 and the CDN 502 (2026-10-05); code untested against the live API          |
 | panomic           | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | sangchanhteam     | standalone | todo    |                                                                                                                   |
 | sayhentai         | manhwaz    | done    |                                                                                                                   |
@@ -1063,7 +1063,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | thohamngu         | standalone | todo    |                                                                                                                   |
 | toptruyen         | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | tranh18           | standalone | done    | site now serves page images in src (Tachiyomi reads data-original); both used                                     |
-| truyen18          | standalone | todo    |                                                                                                                   |
+| truyen18          | standalone | done    | chapter html read from the Next.js outlined text row ($id → id:T…)                                                |
 | truyengg          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | truyenggvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
 | truyenhentai18    | standalone | done    |                                                                                                                   |
