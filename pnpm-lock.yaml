@@ -8117,6 +8117,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/vi/daomeoden:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/vi/doctruyen5s:
     devDependencies:
       '@matane/extension-cli':
@@ -8478,6 +8493,21 @@ importers:
         version: 24.19.0
 
   src/vi/truyentuoitho:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
+  src/vi/tusachxinhxinh:
     devDependencies:
       '@matane/extension-cli':
         specifier: 'catalog:'

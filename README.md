@@ -85,6 +85,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Cutie Comics                                      | EN        | https://cutiecomics.com                    | yes  |
 | Cyanide & Happiness                               | EN        | https://explosm.net                        |      |
 | Danke fürs Lesen                                  | EN        | https://danke.moe                          |      |
+| DaoMeoDen                                         | VI        | https://daomeoden.net                      |      |
 | Dark Legacy Comics                                | EN        | https://images2.imgbox.com                 |      |
 | Dark Room Fansub                                  | ES        | https://lector-darkroomfansub.blogspot.com | yes  |
 | Dark Science                                      | EN        | https://dresdencodak.com                   |      |
@@ -546,6 +547,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | TruyenTini                                        | VI        | https://truyentini.net                     |      |
 | TruyenTuoiTho                                     | VI        | https://truyentuoitho.com                  |      |
 | Türkçe Manga Oku                                  | TR        | https://trmangaoku.com                     |      |
+| TuSachXinhXinh                                    | VI        | https://tusachxinhxinh12.online            |      |
 | TuttoAnimeManga                                   | IT        | https://tuttoanimemanga.net                |      |
 | Twatt                                             | FR        | https://twatt.fr                           |      |
 | Uchuujin Projects                                 | ES        | https://uchuujinmangas.com                 |      |

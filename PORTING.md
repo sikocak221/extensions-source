@@ -1025,7 +1025,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | cuutruyen         | standalone | todo    |                                                                                                                                     |
 | cuutruyenmoe      | standalone | ported  | password gate (Livewire, pref) handled; listing/details/chapters/pages pass live; the site's keyword search answers 500; in pending |
 | damconuong        | standalone | later   | image descrambling needs a decoder secret scraped from an obfuscated JS bundle + webview auth token; heavy                          |
-| daomeoden         | standalone | todo    |                                                                                                                                     |
+| daomeoden         | standalone | done    |                                                                                                                                     |
 | dilib             | standalone | blocked | chapter urls (…-chap-N.html) redirect to the series page: the reader no longer works for guests                                     |
 | doctruyen3q       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | doctruyen5s       | liliana    | done    | images are on post-phinf.pstatic.net, which this machine cannot reach (fetch failed); chapters and pages verified                   |
@@ -1090,7 +1090,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | truyentuoitho     | madara     | done    | protected image payload (XOR) decoded in TS                                                                                         |
 | truyentvn         | standalone | todo    |                                                                                                                                     |
 | tuitruyen         | standalone | todo    |                                                                                                                                     |
-| tusachxinhxinh    | standalone | todo    |                                                                                                                                     |
+| tusachxinhxinh    | standalone | done    | pages AES-CBC (PBKDF2-SHA512) like InitManga                                                                                        |
 | umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                                          |
 | vihentai          | standalone | todo    |                                                                                                                                     |
 | vinahentai        | standalone | done    | moved to vinahentai.pics                                                                                                            |
