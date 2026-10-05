@@ -1,0 +1,14 @@
+{
+  "request": { "method": "GET", "url": "https://www.hikarinagi.org/api/pages/mangas/reader/228/7892" },
+  "response": {
+    "status": 401,
+    "url": "https://www.hikarinagi.org/api/pages/mangas/reader/228/7892",
+    "headers": { "content-type": "application/json" },
+    "body": {
+      "success": false,
+      "error": { "code": "AUTH_UNAUTHENTICATED", "message": "请先登录" },
+      "request_id": "",
+      "timestamp": "2026-10-04T21:34:10.154Z"
+    }
+  }
+}

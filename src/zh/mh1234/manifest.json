@@ -1,0 +1,18 @@
+{
+  "id": "mh1234",
+  "name": "漫画1234",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "漫画1234"
+    }
+  ]
+}
