@@ -1028,7 +1028,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | kamicomic         | standalone | blocked | kamicomi.com redirects to a parking page (/lander); probe said ok                                                 |
 | khomanhwa         | standalone | blocked | probe 2026-10-05: http:522                                                                                        |
 | kirakira          | standalone | todo    |                                                                                                                   |
-| loppytoon         | standalone | todo    |                                                                                                                   |
+| loppytoon         | standalone | done    |                                                                                                                   |
 | luottruyen        | standalone | blocked | every chapter page redirects to /Account/Login (reading needs an account)                                         |
 | luvevaland        | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
 | lxhentai          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
@@ -1081,7 +1081,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                        |
 | vihentai          | standalone | todo    |                                                                                                                   |
 | vinahentai        | standalone | done    | moved to vinahentai.pics                                                                                          |
-| vitruyen          | standalone | todo    |                                                                                                                   |
+| vitruyen          | standalone | done    | no login token (WebView localStorage in Tachiyomi): guests read the images in the reader page                     |
 | yurigarden        | standalone | todo    |                                                                                                                   |
 | yurineko          | standalone | todo    |                                                                                                                   |
 | zettruyen         | standalone | todo    |                                                                                                                   |
