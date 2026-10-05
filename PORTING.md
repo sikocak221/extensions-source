@@ -1018,86 +1018,86 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## vi
 
-| Extension         | Theme      | Status  | Notes                                                                                                             |
-| ----------------- | ---------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
-| ariverse          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| cmanga            | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| cuutruyen         | standalone | todo    |                                                                                                                   |
-| cuutruyenmoe      | standalone | todo    |                                                                                                                   |
-| damconuong        | standalone | todo    |                                                                                                                   |
-| daomeoden         | standalone | todo    |                                                                                                                   |
-| dilib             | standalone | blocked | chapter urls (…-chap-N.html) redirect to the series page: the reader no longer works for guests                   |
-| doctruyen3q       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| doctruyen5s       | liliana    | done    | images are on post-phinf.pstatic.net, which this machine cannot reach (fetch failed); chapters and pages verified |
-| dualeotruyen      | standalone | done    | moved to dualeotruyenpet.com                                                                                      |
-| fastscan          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| gantzvn           | madara     | done    |                                                                                                                   |
-| goctruyentranh    | standalone | todo    |                                                                                                                   |
-| goctruyentranhvui | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
-| hentaicube        | madara     | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| hentaivnplus      | madara     | done    |                                                                                                                   |
-| hentaivnx         | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
-| hv2tcomics        | standalone | todo    |                                                                                                                   |
-| kamicomic         | standalone | blocked | kamicomi.com redirects to a parking page (/lander); probe said ok                                                 |
-| khomanhwa         | standalone | blocked | probe 2026-10-05: http:522                                                                                        |
-| kirakira          | standalone | todo    |                                                                                                                   |
-| loppytoon         | standalone | done    |                                                                                                                   |
-| luottruyen        | standalone | blocked | every chapter page redirects to /Account/Login (reading needs an account)                                         |
-| luvevaland        | standalone | blocked | probe 2026-10-05: http:403                                                                                        |
-| lxhentai          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| lxmangaorg        | standalone | done    |                                                                                                                   |
-| medamtruyen       | standalone | todo    |                                                                                                                   |
-| mehentai          | manhwaz    | done    | manhwaz theme (also unblocks en manhwaz/manhwahub/manhwazone if their sites return)                               |
-| meosss            | standalone | done    |                                                                                                                   |
-| meosua            | standalone | done    | chapter list is paged (one request per page)                                                                      |
-| metruyen18        | madara     | todo    |                                                                                                                   |
-| mimi              | standalone | todo    |                                                                                                                   |
-| mimihentai        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| minotruyen        | standalone | todo    |                                                                                                                   |
-| moetruyen         | standalone | todo    |                                                                                                                   |
-| moetruyensuicao   | standalone | todo    |                                                                                                                   |
-| nettruyenco       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| nettruyens        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| nettruyenviet     | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| nettruyenx        | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| nhattruyen        | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| nhentaiclub       | standalone | blocked | probe 2026-10-05: dead:ENOTFOUND                                                                                  |
-| otakusic          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| otruyen           | standalone | ported  | in pending/: otruyenapi.com answers 522 and the CDN 502 (2026-10-05); code untested against the live API          |
-| panomic           | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| sangchanhteam     | standalone | todo    |                                                                                                                   |
-| sayhentai         | manhwaz    | done    |                                                                                                                   |
-| seikowo           | standalone | todo    |                                                                                                                   |
-| sinhsieusao       | standalone | todo    |                                                                                                                   |
-| soaicacomic       | standalone | todo    |                                                                                                                   |
-| teamlanhlung      | standalone | todo    |                                                                                                                   |
-| teletruyen        | standalone | done    |                                                                                                                   |
-| thienthaitruyen   | standalone | done    | moved to thienthaitruyen16.com                                                                                    |
-| thohamngu         | standalone | done    |                                                                                                                   |
-| toptruyen         | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| tranh18           | standalone | done    | site now serves page images in src (Tachiyomi reads data-original); both used                                     |
-| truyen18          | standalone | done    | chapter html read from the Next.js outlined text row ($id → id:T…)                                                |
-| truyengg          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| truyenggvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| truyenhentai18    | standalone | done    |                                                                                                                   |
-| truyenhentaivn    | standalone | done    |                                                                                                                   |
-| truyenhentaiz     | standalone | done    | some series have empty chapters on the site; the fixture test uses the first popular one with pages               |
-| truyenmm          | standalone | todo    |                                                                                                                   |
-| truyenqq          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| truyenqqvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                      |
-| truyentini        | madara     | done    |                                                                                                                   |
-| truyentranhdammy  | madara     | done    |                                                                                                                   |
-| truyentuoitho     | madara     | done    | protected image payload (XOR) decoded in TS                                                                       |
-| truyentvn         | standalone | todo    |                                                                                                                   |
-| tuitruyen         | standalone | todo    |                                                                                                                   |
-| tusachxinhxinh    | standalone | todo    |                                                                                                                   |
-| umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                        |
-| vihentai          | standalone | todo    |                                                                                                                   |
-| vinahentai        | standalone | done    | moved to vinahentai.pics                                                                                          |
-| vitruyen          | standalone | done    | no login token (WebView localStorage in Tachiyomi): guests read the images in the reader page                     |
-| yurigarden        | standalone | todo    |                                                                                                                   |
-| yurineko          | standalone | todo    |                                                                                                                   |
-| zettruyen         | standalone | todo    |                                                                                                                   |
+| Extension         | Theme      | Status  | Notes                                                                                                                               |
+| ----------------- | ---------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| ariverse          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| cmanga            | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| cuutruyen         | standalone | todo    |                                                                                                                                     |
+| cuutruyenmoe      | standalone | ported  | password gate (Livewire, pref) handled; listing/details/chapters/pages pass live; the site's keyword search answers 500; in pending |
+| damconuong        | standalone | later   | image descrambling needs a decoder secret scraped from an obfuscated JS bundle + webview auth token; heavy                          |
+| daomeoden         | standalone | todo    |                                                                                                                                     |
+| dilib             | standalone | blocked | chapter urls (…-chap-N.html) redirect to the series page: the reader no longer works for guests                                     |
+| doctruyen3q       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| doctruyen5s       | liliana    | done    | images are on post-phinf.pstatic.net, which this machine cannot reach (fetch failed); chapters and pages verified                   |
+| dualeotruyen      | standalone | done    | moved to dualeotruyenpet.com                                                                                                        |
+| fastscan          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| gantzvn           | madara     | done    |                                                                                                                                     |
+| goctruyentranh    | standalone | todo    |                                                                                                                                     |
+| goctruyentranhvui | standalone | blocked | probe 2026-10-05: http:403                                                                                                          |
+| hentaicube        | madara     | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| hentaivnplus      | madara     | done    |                                                                                                                                     |
+| hentaivnx         | standalone | blocked | probe 2026-10-05: http:403                                                                                                          |
+| hv2tcomics        | standalone | todo    |                                                                                                                                     |
+| kamicomic         | standalone | blocked | kamicomi.com redirects to a parking page (/lander); probe said ok                                                                   |
+| khomanhwa         | standalone | blocked | probe 2026-10-05: http:522                                                                                                          |
+| kirakira          | standalone | todo    |                                                                                                                                     |
+| loppytoon         | standalone | done    |                                                                                                                                     |
+| luottruyen        | standalone | blocked | every chapter page redirects to /Account/Login (reading needs an account)                                                           |
+| luvevaland        | standalone | blocked | probe 2026-10-05: http:403                                                                                                          |
+| lxhentai          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| lxmangaorg        | standalone | done    |                                                                                                                                     |
+| medamtruyen       | standalone | todo    |                                                                                                                                     |
+| mehentai          | manhwaz    | done    | manhwaz theme (also unblocks en manhwaz/manhwahub/manhwazone if their sites return)                                                 |
+| meosss            | standalone | done    |                                                                                                                                     |
+| meosua            | standalone | done    | chapter list is paged (one request per page)                                                                                        |
+| metruyen18        | madara     | later   | now redirects to damconuong.pet (same site as damconuong)                                                                           |
+| mimi              | standalone | done    |                                                                                                                                     |
+| mimihentai        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| minotruyen        | standalone | todo    |                                                                                                                                     |
+| moetruyen         | standalone | todo    |                                                                                                                                     |
+| moetruyensuicao   | standalone | todo    |                                                                                                                                     |
+| nettruyenco       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| nettruyens        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| nettruyenviet     | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| nettruyenx        | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| nhattruyen        | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| nhentaiclub       | standalone | blocked | probe 2026-10-05: dead:ENOTFOUND                                                                                                    |
+| otakusic          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| otruyen           | standalone | ported  | in pending/: otruyenapi.com answers 522 and the CDN 502 (2026-10-05); code untested against the live API                            |
+| panomic           | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| sangchanhteam     | standalone | todo    |                                                                                                                                     |
+| sayhentai         | manhwaz    | done    |                                                                                                                                     |
+| seikowo           | standalone | todo    |                                                                                                                                     |
+| sinhsieusao       | standalone | done    |                                                                                                                                     |
+| soaicacomic       | standalone | todo    |                                                                                                                                     |
+| teamlanhlung      | standalone | todo    |                                                                                                                                     |
+| teletruyen        | standalone | done    |                                                                                                                                     |
+| thienthaitruyen   | standalone | done    | moved to thienthaitruyen16.com                                                                                                      |
+| thohamngu         | standalone | done    |                                                                                                                                     |
+| toptruyen         | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| tranh18           | standalone | done    | site now serves page images in src (Tachiyomi reads data-original); both used                                                       |
+| truyen18          | standalone | done    | chapter html read from the Next.js outlined text row ($id → id:T…)                                                                  |
+| truyengg          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| truyenggvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| truyenhentai18    | standalone | done    |                                                                                                                                     |
+| truyenhentaivn    | standalone | done    |                                                                                                                                     |
+| truyenhentaiz     | standalone | done    | some series have empty chapters on the site; the fixture test uses the first popular one with pages                                 |
+| truyenmm          | standalone | ported  | listing/details/chapters fine; the site's own search answers 522/523 and pages time out intermittently; in pending                  |
+| truyenqq          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| truyenqqvn        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
+| truyentini        | madara     | done    |                                                                                                                                     |
+| truyentranhdammy  | madara     | done    |                                                                                                                                     |
+| truyentuoitho     | madara     | done    | protected image payload (XOR) decoded in TS                                                                                         |
+| truyentvn         | standalone | todo    |                                                                                                                                     |
+| tuitruyen         | standalone | todo    |                                                                                                                                     |
+| tusachxinhxinh    | standalone | todo    |                                                                                                                                     |
+| umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                                          |
+| vihentai          | standalone | todo    |                                                                                                                                     |
+| vinahentai        | standalone | done    | moved to vinahentai.pics                                                                                                            |
+| vitruyen          | standalone | done    | no login token (WebView localStorage in Tachiyomi): guests read the images in the reader page                                       |
+| yurigarden        | standalone | todo    |                                                                                                                                     |
+| yurineko          | standalone | todo    |                                                                                                                                     |
+| zettruyen         | standalone | done    | domain zettruyen3.com                                                                                                               |
 
 ## es
 

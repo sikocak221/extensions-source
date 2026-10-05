@@ -366,6 +366,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Miaoqu Manhua                                     | ZH        | https://www.miaoqumh.org                   |      |
 | Mihentai                                          | ID        | https://mihentai.net                       | yes  |
 | Mikrokosmos Fansub                                | TR        | https://mikrokosmosfb.blogspot.com         | yes  |
+| MiMi                                              | VI        | https://mimihentai.moe                     | yes  |
 | MintManga                                         | RU        | https://2.mintmanga.one                    |      |
 | Mist Scans                                        | EN        | https://mistscans.com                      |      |
 | MLBB Lore                                         | EN        | https://play.mobilelegends.com             |      |
@@ -489,6 +490,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | ShiyuraSub                                        | ID        | https://shiyurasub.blogspot.com            |      |
 | Siikomik                                          | ID        | https://siikomik.id                        |      |
 | SilentQuill                                       | EN        | https://silentquill.net                    |      |
+| SinhSieuSao                                       | VI        | https://sinhsieusao.com                    | yes  |
 | Siren Scans                                       | EN        | https://sirenscans.org                     |      |
 | Slept Manga                                       | TR        | https://sleptmanga.com.tr                  |      |
 | Sodsaime                                          | TH        | https://www.xn--l3c0azab5a2gta.com         |      |
@@ -582,6 +584,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Zazhimi                                           | ZH        | https://www.zazhimi.net                    |      |
 | Zenko                                             | UK        | https://zenko.online                       |      |
 | zero搬运网                                        | ZH        | https://stevenyomi.github.io               |      |
+| ZetTruyen                                         | VI        | https://www.zettruyen3.com                 |      |
 | Zinmanga                                          | EN        | https://mangazin.org                       |      |
 | ZonaTMO.org (unoriginal)                          | ES        | https://zonatmo.org                        |      |
 | Zonatmo.to (unoriginal)                           | ES        | https://zonatmo.to                         |      |
