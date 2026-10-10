@@ -1576,7 +1576,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | seraphicdeviltry      | madara        | todo    |                                                                                                                                     |
 | simplycosplay         | standalone    | blocked | site answers 502 Bad gateway (probe 2026-10-11)                                                                                     |
 | simplyhentai          | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
-| stashapp              | standalone    | todo    |                                                                                                                                     |
+| stashapp              | standalone    | ported  | in pending/: self-hosted server (user-set address and API key), cannot be tested here                                               |
 | taddyink              | standalone    | todo    |                                                                                                                                     |
 | tappytoon             | standalone    | todo    |                                                                                                                                     |
 | thelibraryofohara     | standalone    | blocked | Cloudflare 'Checking your browser' 403 (probe 2026-10-11)                                                                           |
