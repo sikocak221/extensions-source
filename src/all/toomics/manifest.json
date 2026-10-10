@@ -1,0 +1,58 @@
+{
+  "id": "toomics",
+  "name": "Toomics",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Toomics (Only free chapters)"
+    },
+    {
+      "key": "zh-hans",
+      "lang": "zh-Hans",
+      "name": "Toomics (Only free chapters)"
+    },
+    {
+      "key": "zh-hant",
+      "lang": "zh-Hant",
+      "name": "Toomics (Only free chapters)"
+    },
+    {
+      "key": "es-419",
+      "lang": "es-419",
+      "name": "Toomics (Only free chapters)"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "Toomics (Only free chapters)"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "Toomics (Only free chapters)"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "Toomics (Only free chapters)"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "Toomics (Only free chapters)"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "Toomics (Only free chapters)"
+    }
+  ]
+}
