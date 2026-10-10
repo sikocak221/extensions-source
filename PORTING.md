@@ -1532,7 +1532,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangadex              | standalone    | done    | existing                                                                                                                            |
 | mangadna              | standalone    | done    |                                                                                                                                     |
 | mangadotnet           | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
-| mangadraft            | standalone    | todo    |                                                                                                                                     |
+| mangadraft            | standalone    | done    |                                                                                                                                     |
 | mangafire             | standalone    | done    | VRF-signed API; WAF captcha solver not ported; live: ja source has no chapters for the top titles (lists are not language-filtered) |
 | mangaforfree          | madara        | todo    |                                                                                                                                     |
 | mangamillion          | standalone    | todo    |                                                                                                                                     |
