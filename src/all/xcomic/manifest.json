@@ -1,0 +1,558 @@
+{
+  "id": "xcomic",
+  "name": "XCOMIC",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "es-419",
+      "lang": "es-419",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "zh-hant",
+      "lang": "zh-Hant",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ab",
+      "lang": "ab",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "af",
+      "lang": "af",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sq",
+      "lang": "sq",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "am",
+      "lang": "am",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "hy",
+      "lang": "hy",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "az",
+      "lang": "az",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "be",
+      "lang": "be",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "bn",
+      "lang": "bn",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "bs",
+      "lang": "bs",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "bg",
+      "lang": "bg",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "my",
+      "lang": "my",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "km",
+      "lang": "km",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ca",
+      "lang": "ca",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ceb",
+      "lang": "ceb",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "hr",
+      "lang": "hr",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "cs",
+      "lang": "cs",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "cv",
+      "lang": "cv",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "da",
+      "lang": "da",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "nl",
+      "lang": "nl",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "et",
+      "lang": "et",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "eo",
+      "lang": "eo",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "eu",
+      "lang": "eu",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "fo",
+      "lang": "fo",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "fil",
+      "lang": "fil",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ka",
+      "lang": "ka",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "el",
+      "lang": "el",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "gn",
+      "lang": "gn",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "gu",
+      "lang": "gu",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ht",
+      "lang": "ht",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ha",
+      "lang": "ha",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "he",
+      "lang": "he",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "hi",
+      "lang": "hi",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "is",
+      "lang": "is",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ig",
+      "lang": "ig",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ga",
+      "lang": "ga",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "gl",
+      "lang": "gl",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "jv",
+      "lang": "jv",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "kn",
+      "lang": "kn",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "kk",
+      "lang": "kk",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ku",
+      "lang": "ku",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ky",
+      "lang": "ky",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "la",
+      "lang": "la",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "lo",
+      "lang": "lo",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "lv",
+      "lang": "lv",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "lt",
+      "lang": "lt",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "lb",
+      "lang": "lb",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "mk",
+      "lang": "mk",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "mg",
+      "lang": "mg",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ms",
+      "lang": "ms",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ml",
+      "lang": "ml",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "mt",
+      "lang": "mt",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "mi",
+      "lang": "mi",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "mr",
+      "lang": "mr",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "mo",
+      "lang": "mo",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "mn",
+      "lang": "mn",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ne",
+      "lang": "ne",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "no",
+      "lang": "no",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ny",
+      "lang": "ny",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ps",
+      "lang": "ps",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "fa",
+      "lang": "fa",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ro",
+      "lang": "ro",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "rm",
+      "lang": "rm",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sm",
+      "lang": "sm",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sr",
+      "lang": "sr",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sh",
+      "lang": "sh",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ss",
+      "lang": "ss",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "st",
+      "lang": "st",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sn",
+      "lang": "sn",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sd",
+      "lang": "sd",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "si",
+      "lang": "si",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sk",
+      "lang": "sk",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sl",
+      "lang": "sl",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "so",
+      "lang": "so",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sw",
+      "lang": "sw",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "sv",
+      "lang": "sv",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "tg",
+      "lang": "tg",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ta",
+      "lang": "ta",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "te",
+      "lang": "te",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ti",
+      "lang": "ti",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "to",
+      "lang": "to",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "tk",
+      "lang": "tk",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "uk",
+      "lang": "uk",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "ur",
+      "lang": "ur",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "uz",
+      "lang": "uz",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "vi",
+      "lang": "vi",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "yo",
+      "lang": "yo",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "zu",
+      "lang": "zu",
+      "name": "XCOMIC"
+    },
+    {
+      "key": "other",
+      "lang": "other",
+      "name": "XCOMIC"
+    }
+  ]
+}
