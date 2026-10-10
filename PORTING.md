@@ -1268,7 +1268,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangadash           | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
 | mangaflix           | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
 | mangalivre          | standalone    | blocked | probe 2026-10-11: dead:ENOTFOUND                                                                         |
-| mangalivreblog      | standalone    | todo    |                                                                                                          |
+| mangalivreblog      | standalone    | done    |                                                                                                          |
 | mangalivreorg       | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
 | mangalivreto        | madara        | todo    |                                                                                                          |
 | manganyx            | aurora        | todo    |                                                                                                          |
