@@ -1560,7 +1560,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | niadd                 | standalone    | todo    |                                                       |
 | novelcool             | standalone    | todo    |                                                       |
 | onepiecefans          | standalone    | todo    |                                                       |
-| onisaga               | standalone    | todo    |                                                       |
+| onisaga               | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)               |
 | ososedki              | standalone    | todo    |                                                       |
 | pandachaika           | standalone    | todo    |                                                       |
 | pawchive              | standalone    | todo    |                                                       |
