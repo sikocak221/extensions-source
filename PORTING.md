@@ -1256,7 +1256,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | huntersscans        | madara        | todo   |       |
 | imperiodabritannia  | mangotheme    | todo   |       |
 | inkapk              | madara        | done   |       |
-| kamisamaexplorer    | madara        | todo   |       |
+| kamisamaexplorer    | madara        | done   |       |
 | kivaratoons         | standalone    | todo   |       |
 | kuromangas          | standalone    | todo   |       |
 | leitordemangas      | aurora        | todo   |       |
