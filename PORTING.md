@@ -1578,7 +1578,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | simplyhentai          | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
 | stashapp              | standalone    | ported  | in pending/: self-hosted server (user-set address and API key), cannot be tested here                                               |
 | taddyink              | standalone    | done    | live: the image CDN answers application/octet-stream (mr-ext image check fails; bytes are images)                                   |
-| tappytoon             | standalone    | todo    |                                                                                                                                     |
+| tappytoon             | standalone    | done    | live: the newest chapter is locked (Tachiyomi behaves the same); older chapters read fine                                           |
 | thelibraryofohara     | standalone    | blocked | Cloudflare 'Checking your browser' 403 (probe 2026-10-11)                                                                           |
 | toomics               | standalone    | done    |                                                                                                                                     |
 | twicomi               | standalone    | done    |                                                                                                                                     |
