@@ -1260,7 +1260,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | kivaratoons         | standalone    | blocked | site unreachable (connection fails, 2026-10-11)                                                          |
 | kuromangas          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
 | leitordemangas      | aurora        | todo    |                                                                                                          |
-| leituramanga        | standalone    | todo    |                                                                                                          |
+| leituramanga        | standalone    | done    |                                                                                                          |
 | ler999              | zeistmanga    | todo    |                                                                                                          |
 | littletyrant        | madara        | todo    |                                                                                                          |
 | lycantoons          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
