@@ -1572,7 +1572,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | projectsuki           | standalone    | done    |                                                                                                                                     |
 | rokuhentai            | standalone    | done    | live: image host answers without a content type (mr-ext image check fails; bytes are images)                                        |
 | sandraandwoo          | standalone    | done    |                                                                                                                                     |
-| saymanhwa             | standalone    | todo    |                                                                                                                                     |
+| saymanhwa             | standalone    | done    | live: the site answers 429 on chapter pages when several languages are tested in a row (single-language runs pass)                  |
 | seraphicdeviltry      | madara        | todo    |                                                                                                                                     |
 | simplycosplay         | standalone    | blocked | site answers 502 Bad gateway (probe 2026-10-11)                                                                                     |
 | simplyhentai          | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
