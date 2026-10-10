@@ -1564,7 +1564,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | ososedki              | standalone    | done    |                                                                                                                                     |
 | pandachaika           | standalone    | todo    |                                                                                                                                     |
 | pawchive              | standalone    | done    |                                                                                                                                     |
-| peppercarrot          | standalone    | todo    |                                                                                                                                     |
+| peppercarrot          | standalone    | done    |                                                                                                                                     |
 | photos18              | standalone    | todo    |                                                                                                                                     |
 | pixiv                 | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
 | playmatehunter        | masonry       | todo    |                                                                                                                                     |
