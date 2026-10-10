@@ -1278,7 +1278,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangeek             | standalone    | todo    |                                                                                                          |
 | mangotoons          | mangotheme    | todo    |                                                                                                          |
 | manhastro           | standalone    | todo    |                                                                                                          |
-| mediocretoons       | standalone    | todo    |                                                                                                          |
+| mediocretoons       | standalone    | ported  | in pending/: every API call needs an account (e-mail/password preferences)                               |
 | minitwoscan         | madara        | todo    |                                                                                                          |
 | montetai            | madara        | todo    |                                                                                                          |
 | mrtenzus            | madara        | todo    |                                                                                                          |
@@ -1289,12 +1289,12 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | ninjascan           | madara        | todo    |                                                                                                          |
 | nocturnesummer      | madara        | todo    |                                                                                                          |
 | noindexscan         | madara        | todo    |                                                                                                          |
-| onereader           | standalone    | todo    |                                                                                                          |
+| onereader           | standalone    | ported  | in pending/: site under maintenance (503, 2026-10-11)                                                    |
 | osakascan           | zeistmanga    | todo    |                                                                                                          |
 | pinkrosa            | zeistmanga    | todo    |                                                                                                          |
 | pinkseaunicorn      | madara        | todo    |                                                                                                          |
 | pizzariascan        | mangawork     | todo    |                                                                                                          |
-| plumacomics         | standalone    | todo    |                                                                                                          |
+| plumacomics         | standalone    | ported  | in pending/: site under maintenance (503, 2026-10-11)                                                    |
 | pointzerotoons      | mangathemesia | todo    |                                                                                                          |
 | portalyaoi          | madara        | todo    |                                                                                                          |
 | randomscan          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
@@ -1302,12 +1302,12 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | revistasequadrinhos | standalone    | todo    |                                                                                                          |
 | rfdragonscan        | standalone    | blocked | every request needs an account login (Next.js server actions + access_token cookie); no cookie jar       |
 | risentoons          | standalone    | todo    |                                                                                                          |
-| roxinha             | standalone    | todo    |                                                                                                          |
+| roxinha             | standalone    | ported  | in pending/: chapter pages need an account (e-mail/password preferences)                                 |
 | saikaiscan          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
 | shiraiscans         | standalone    | blocked | probe 2026-10-11: redirects to a Google page (dead)                                                      |
 | slimereadunoriginal | standalone    | blocked | probe 2026-10-11: dead:ENOTFOUND                                                                         |
 | spectralscan        | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
-| sssscanlator        | standalone    | todo    |                                                                                                          |
+| sssscanlator        | standalone    | ported  | in pending/: list API answers 502 (2026-10-11)                                                           |
 | starlightscan       | mangathemesia | todo    |                                                                                                          |
 | taimumangas         | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                  |
 | taiyo               | standalone    | todo    |                                                                                                          |
