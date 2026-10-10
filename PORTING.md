@@ -1581,7 +1581,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | tappytoon             | standalone    | todo    |                                                                                                                                     |
 | thelibraryofohara     | standalone    | blocked | Cloudflare 'Checking your browser' 403 (probe 2026-10-11)                                                                           |
 | toomics               | standalone    | todo    |                                                                                                                                     |
-| twicomi               | standalone    | todo    |                                                                                                                                     |
+| twicomi               | standalone    | done    |                                                                                                                                     |
 | v2ph                  | standalone    | blocked | Cloudflare 403 (curl and Node fetch, 2026-10-11)                                                                                    |
 | vinnieVeritas         | standalone    | done    |                                                                                                                                     |
 | webcomics             | standalone    | todo    |                                                                                                                                     |
