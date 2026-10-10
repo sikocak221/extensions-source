@@ -1315,7 +1315,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | taosect             | standalone    | done    | Google Drive view-limit pre-check not ported                                                                                           |
 | temakimangas        | zeistmanga    | todo    |                                                                                                                                        |
 | tiamanhwa           | madara        | todo    |                                                                                                                                        |
-| toonbr              | standalone    | todo    |                                                                                                                                        |
+| toonbr              | standalone    | done    | login (e-mail/password) optional                                                                                                       |
 | traducoesdolipe     | zeistmanga    | todo    |                                                                                                                                        |
 | tsundokutraducoes   | mangathemesia | todo    |                                                                                                                                        |
 | universohentai      | gattsu        | todo    |                                                                                                                                        |
