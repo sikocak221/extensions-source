@@ -1285,7 +1285,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mugiwarasoficial    | aurora        | todo   |       |
 | muitohentai         | standalone    | todo   |       |
 | mundohentai         | standalone    | todo   |       |
-| nebulosascan        | madara        | todo   |       |
+| nebulosascan        | madara        | done   |       |
 | ninjascan           | madara        | todo   |       |
 | nocturnesummer      | madara        | todo   |       |
 | noindexscan         | madara        | todo   |       |
