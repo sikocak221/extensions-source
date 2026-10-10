@@ -1570,7 +1570,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | playmatehunter        | masonry       | todo    |                                                                                                                                     |
 | pornpics              | standalone    | done    |                                                                                                                                     |
 | projectsuki           | standalone    | done    |                                                                                                                                     |
-| rokuhentai            | standalone    | todo    |                                                                                                                                     |
+| rokuhentai            | standalone    | done    | live: image host answers without a content type (mr-ext image check fails; bytes are images)                                        |
 | sandraandwoo          | standalone    | done    |                                                                                                                                     |
 | saymanhwa             | standalone    | todo    |                                                                                                                                     |
 | seraphicdeviltry      | madara        | todo    |                                                                                                                                     |
