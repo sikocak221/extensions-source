@@ -1565,7 +1565,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | pandachaika           | standalone    | blocked | pages are entries of a remote zip read by range requests and inflated on the fly; the sandbox has no zip/deflate support            |
 | pawchive              | standalone    | done    |                                                                                                                                     |
 | peppercarrot          | standalone    | done    |                                                                                                                                     |
-| photos18              | standalone    | todo    |                                                                                                                                     |
+| photos18              | standalone    | done    |                                                                                                                                     |
 | pixiv                 | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
 | playmatehunter        | masonry       | todo    |                                                                                                                                     |
 | pornpics              | standalone    | done    |                                                                                                                                     |
