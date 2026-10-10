@@ -1,0 +1,228 @@
+{
+  "id": "namicomi",
+  "name": "NamiComi",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "NamiComi"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "NamiComi"
+    },
+    {
+      "key": "bg",
+      "lang": "bg",
+      "name": "NamiComi"
+    },
+    {
+      "key": "ca",
+      "lang": "ca",
+      "name": "NamiComi"
+    },
+    {
+      "key": "zh-hans",
+      "lang": "zh-Hans",
+      "name": "NamiComi"
+    },
+    {
+      "key": "zh-hant",
+      "lang": "zh-Hant",
+      "name": "NamiComi"
+    },
+    {
+      "key": "hr",
+      "lang": "hr",
+      "name": "NamiComi"
+    },
+    {
+      "key": "cs",
+      "lang": "cs",
+      "name": "NamiComi"
+    },
+    {
+      "key": "da",
+      "lang": "da",
+      "name": "NamiComi"
+    },
+    {
+      "key": "nl",
+      "lang": "nl",
+      "name": "NamiComi"
+    },
+    {
+      "key": "et",
+      "lang": "et",
+      "name": "NamiComi"
+    },
+    {
+      "key": "fil",
+      "lang": "fil",
+      "name": "NamiComi"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "NamiComi"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "NamiComi"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "NamiComi"
+    },
+    {
+      "key": "el",
+      "lang": "el",
+      "name": "NamiComi"
+    },
+    {
+      "key": "he",
+      "lang": "he",
+      "name": "NamiComi"
+    },
+    {
+      "key": "hi",
+      "lang": "hi",
+      "name": "NamiComi"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "NamiComi"
+    },
+    {
+      "key": "is",
+      "lang": "is",
+      "name": "NamiComi"
+    },
+    {
+      "key": "ga",
+      "lang": "ga",
+      "name": "NamiComi"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "NamiComi"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "NamiComi"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "NamiComi"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "NamiComi"
+    },
+    {
+      "key": "lt",
+      "lang": "lt",
+      "name": "NamiComi"
+    },
+    {
+      "key": "ms",
+      "lang": "ms",
+      "name": "NamiComi"
+    },
+    {
+      "key": "ne",
+      "lang": "ne",
+      "name": "NamiComi"
+    },
+    {
+      "key": "no",
+      "lang": "no",
+      "name": "NamiComi"
+    },
+    {
+      "key": "pa",
+      "lang": "pa",
+      "name": "NamiComi"
+    },
+    {
+      "key": "fa",
+      "lang": "fa",
+      "name": "NamiComi"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "NamiComi"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "NamiComi"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "NamiComi"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "NamiComi"
+    },
+    {
+      "key": "sk",
+      "lang": "sk",
+      "name": "NamiComi"
+    },
+    {
+      "key": "sl",
+      "lang": "sl",
+      "name": "NamiComi"
+    },
+    {
+      "key": "es-419",
+      "lang": "es-419",
+      "name": "NamiComi"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "NamiComi"
+    },
+    {
+      "key": "sv",
+      "lang": "sv",
+      "name": "NamiComi"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "NamiComi"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "NamiComi"
+    },
+    {
+      "key": "uk",
+      "lang": "uk",
+      "name": "NamiComi"
+    }
+  ]
+}
