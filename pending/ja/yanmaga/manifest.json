@@ -1,0 +1,23 @@
+{
+  "id": "yanmaga",
+  "name": "Weekly Young Magazine",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "ヤンマガ（マンガ）"
+    },
+    {
+      "key": "gravure",
+      "lang": "ja",
+      "name": "ヤンマガ（グラビア）"
+    }
+  ]
+}
