@@ -1240,7 +1240,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | euphoriascan        | madara        | todo   |       |
 | exhentainetbr       | standalone    | todo   |       |
 | fenixproject        | madara        | todo   |       |
-| fleurblanche        | madara        | todo   |       |
+| fleurblanche        | madara        | done   |       |
 | flowermanga         | madara        | todo   |       |
 | galaxscanlator      | zeistmanga    | todo   |       |
 | geasscomics         | standalone    | todo   |       |
@@ -1270,7 +1270,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangalivre          | standalone    | todo   |       |
 | mangalivreblog      | standalone    | todo   |       |
 | mangalivreorg       | standalone    | todo   |       |
-| mangalivreto        | madara        | todo   |       |
+| mangalivreto        | madara        | done   |       |
 | manganyx            | aurora        | todo   |       |
 | mangaonline         | standalone    | todo   |       |
 | mangasbrasuka       | aurora        | todo   |       |
