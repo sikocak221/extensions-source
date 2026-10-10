@@ -1243,7 +1243,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | fleurblanche        | madara        | todo    |                                                                                                          |
 | flowermanga         | madara        | todo    |                                                                                                          |
 | galaxscanlator      | zeistmanga    | todo    |                                                                                                          |
-| geasscomics         | standalone    | todo    |                                                                                                          |
+| geasscomics         | standalone    | done    |                                                                                                          |
 | ghostscan           | madara        | todo    |                                                                                                          |
 | hanmokkuscan        | zeistmanga    | todo    |                                                                                                          |
 | hentaiseason        | gattsu        | todo    |                                                                                                          |
