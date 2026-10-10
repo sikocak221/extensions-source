@@ -1310,7 +1310,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | sssscanlator        | standalone    | ported  | in pending/: list API answers 502 (2026-10-11)                                                                                         |
 | starlightscan       | mangathemesia | todo    |                                                                                                                                        |
 | taimumangas         | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
-| taiyo               | standalone    | todo    |                                                                                                                                        |
+| taiyo               | standalone    | done    |                                                                                                                                        |
 | tankouhentai        | madara        | todo    |                                                                                                                                        |
 | taosect             | standalone    | todo    |                                                                                                                                        |
 | temakimangas        | zeistmanga    | todo    |                                                                                                                                        |
