@@ -1255,7 +1255,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hqnow               | standalone    | todo   |       |
 | huntersscans        | madara        | todo   |       |
 | imperiodabritannia  | mangotheme    | todo   |       |
-| inkapk              | madara        | todo   |       |
+| inkapk              | madara        | done   |       |
 | kamisamaexplorer    | madara        | todo   |       |
 | kivaratoons         | standalone    | todo   |       |
 | kuromangas          | standalone    | todo   |       |
