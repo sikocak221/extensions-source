@@ -1559,7 +1559,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | nhentaixxx            | galleryadults | todo    |                                                                                                                                     |
 | niadd                 | standalone    | todo    |                                                                                                                                     |
 | novelcool             | standalone    | todo    |                                                                                                                                     |
-| onepiecefans          | standalone    | todo    |                                                                                                                                     |
+| onepiecefans          | standalone    | done    |                                                                                                                                     |
 | onisaga               | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
 | ososedki              | standalone    | done    |                                                                                                                                     |
 | pandachaika           | standalone    | todo    |                                                                                                                                     |
