@@ -1571,7 +1571,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | pornpics              | standalone    | done    |                                                                                     |
 | projectsuki           | standalone    | done    |                                                                                     |
 | rokuhentai            | standalone    | todo    |                                                                                     |
-| sandraandwoo          | standalone    | todo    |                                                                                     |
+| sandraandwoo          | standalone    | done    |                                                                                     |
 | saymanhwa             | standalone    | todo    |                                                                                     |
 | seraphicdeviltry      | madara        | todo    |                                                                                     |
 | simplycosplay         | standalone    | blocked | site answers 502 Bad gateway (probe 2026-10-11)                                     |
