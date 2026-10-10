@@ -1539,7 +1539,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangaplus             | standalone    | done    |                                                                                                                                     |
 | mangapluscreators     | standalone    | done    |                                                                                                                                     |
 | mangatoon             | standalone    | todo    |                                                                                                                                     |
-| mangaup               | standalone    | todo    |                                                                                                                                     |
+| mangaup               | standalone    | done    | live: the newest chapter is paid (log in with the secret token to read it); older chapters read fine                                |
 | mango                 | standalone    | ported  | in pending/: self-hosted server (user-set address and login), cannot be tested here                                                 |
 | manhuarm              | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
 | manhwa18cc            | madara        | todo    |                                                                                                                                     |
