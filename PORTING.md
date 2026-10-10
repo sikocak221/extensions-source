@@ -1563,7 +1563,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | onisaga               | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                   |
 | ososedki              | standalone    | done    |                                                           |
 | pandachaika           | standalone    | todo    |                                                           |
-| pawchive              | standalone    | todo    |                                                           |
+| pawchive              | standalone    | done    |                                                           |
 | peppercarrot          | standalone    | todo    |                                                           |
 | photos18              | standalone    | todo    |                                                           |
 | pixiv                 | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                   |
