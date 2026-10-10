@@ -1,0 +1,183 @@
+{
+  "id": "hentaihand",
+  "name": "HentaiHand",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "bg",
+      "lang": "bg",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "ceb",
+      "lang": "ceb",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "other",
+      "lang": "other",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "tl",
+      "lang": "tl",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "el",
+      "lang": "el",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "sr",
+      "lang": "sr",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "jv",
+      "lang": "jv",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "uk",
+      "lang": "uk",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "la",
+      "lang": "la",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "mn",
+      "lang": "mn",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "eo",
+      "lang": "eo",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "sk",
+      "lang": "sk",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "cs",
+      "lang": "cs",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "vi",
+      "lang": "vi",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "nl",
+      "lang": "nl",
+      "name": "HentaiHand"
+    },
+    {
+      "key": "hi",
+      "lang": "hi",
+      "name": "HentaiHand"
+    }
+  ]
+}
