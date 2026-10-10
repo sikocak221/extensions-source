@@ -1,0 +1,223 @@
+{
+  "id": "mangaball",
+  "name": "Manga Ball",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "bg",
+      "lang": "bg",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "bn",
+      "lang": "bn",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ca",
+      "lang": "ca",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "cs",
+      "lang": "cs",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "da",
+      "lang": "da",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "el",
+      "lang": "el",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "fa",
+      "lang": "fa",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "he",
+      "lang": "he",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "hi",
+      "lang": "hi",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "is",
+      "lang": "is",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "kn",
+      "lang": "kn",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ml",
+      "lang": "ml",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ms",
+      "lang": "ms",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ne",
+      "lang": "ne",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "nl",
+      "lang": "nl",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "no",
+      "lang": "no",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ro",
+      "lang": "ro",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "sk",
+      "lang": "sk",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "sl",
+      "lang": "sl",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "sq",
+      "lang": "sq",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "sr",
+      "lang": "sr",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "sv",
+      "lang": "sv",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "ta",
+      "lang": "ta",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "uk",
+      "lang": "uk",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "vi",
+      "lang": "vi",
+      "name": "Manga Ball"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "Manga Ball"
+    }
+  ]
+}

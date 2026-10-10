@@ -1527,7 +1527,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | magicaltranslators    | guya          | todo    |                                                                                                                                     |
 | manga18fx             | standalone    | done    |                                                                                                                                     |
 | manga18me             | standalone    | done    |                                                                                                                                     |
-| mangaball             | standalone    | todo    |                                                                                                                                     |
+| mangaball             | standalone    | done    | live: lists are not language-filtered (sources with few translations find no manga with chapters); one en image host answers 403    |
 | mangacrazy            | madara        | todo    |                                                                                                                                     |
 | mangadex              | standalone    | done    | existing                                                                                                                            |
 | mangadna              | standalone    | done    |                                                                                                                                     |
