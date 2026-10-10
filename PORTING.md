@@ -1326,7 +1326,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | yomumangas          | standalone    | blocked | api.yomumangas.com answers 403 (Cloudflare) and the site moved to global.yomumangas.com                                                |
 | yugenmangas         | standalone    | blocked | probe 2026-10-11: dead:ENOTFOUND                                                                                                       |
 | yuriverso           | madara        | todo    |                                                                                                                                        |
-| zettahq             | standalone    | todo    |                                                                                                                                        |
+| zettahq             | standalone    | done    |                                                                                                                                        |
 
 ## ja
 
