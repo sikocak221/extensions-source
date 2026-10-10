@@ -1241,7 +1241,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | exhentainetbr       | standalone    | todo    |                                                                     |
 | fenixproject        | madara        | todo    |                                                                     |
 | fleurblanche        | madara        | done    |                                                                     |
-| flowermanga         | madara        | todo    |                                                                     |
+| flowermanga         | madara        | blocked | Cloudflare 403 on series pages                                      |
 | galaxscanlator      | zeistmanga    | todo    |                                                                     |
 | geasscomics         | standalone    | todo    |                                                                     |
 | ghostscan           | madara        | todo    |                                                                     |
@@ -1280,7 +1280,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manhastro           | standalone    | todo    |                                                                     |
 | mediocretoons       | standalone    | todo    |                                                                     |
 | minitwoscan         | madara        | todo    |                                                                     |
-| montetai            | madara        | todo    |                                                                     |
+| montetai            | madara        | done    | chapters via mt_get_summary_chapters (nonce)                        |
 | mrtenzus            | madara        | done    | live test: first page image 404 (site content)                      |
 | mugiwarasoficial    | aurora        | todo    |                                                                     |
 | muitohentai         | standalone    | todo    |                                                                     |
@@ -1296,7 +1296,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | pizzariascan        | mangawork     | todo    |                                                                     |
 | plumacomics         | standalone    | todo    |                                                                     |
 | pointzerotoons      | mangathemesia | todo    |                                                                     |
-| portalyaoi          | madara        | todo    |                                                                     |
+| portalyaoi          | madara        | blocked | Cloudflare 403                                                      |
 | randomscan          | standalone    | todo    |                                                                     |
 | remangas            | standalone    | todo    |                                                                     |
 | revistasequadrinhos | standalone    | todo    |                                                                     |
