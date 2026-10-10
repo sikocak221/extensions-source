@@ -56,13 +56,11 @@ export default defineExtension({
           type: 'group',
           id: group,
           label: title,
-          filters: doc
-            .select(`#${group} .axn-chip`)
-            .map((chip): Filter => ({
-              type: 'checkbox',
-              id: `${group}.${chip.attr('data-value') ?? ''}`,
-              label: chip.text(),
-            })),
+          filters: doc.select(`#${group} .axn-chip`).map((chip): Filter => ({
+            type: 'checkbox',
+            id: `${group}.${chip.attr('data-value') ?? ''}`,
+            label: chip.text(),
+          })),
         });
       }
       return filters;
