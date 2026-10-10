@@ -1568,7 +1568,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | photos18              | standalone    | todo    |                                                           |
 | pixiv                 | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                   |
 | playmatehunter        | masonry       | todo    |                                                           |
-| pornpics              | standalone    | todo    |                                                           |
+| pornpics              | standalone    | done    |                                                           |
 | projectsuki           | standalone    | todo    |                                                           |
 | rokuhentai            | standalone    | todo    |                                                           |
 | sandraandwoo          | standalone    | todo    |                                                           |

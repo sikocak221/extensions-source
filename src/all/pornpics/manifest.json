@@ -1,0 +1,53 @@
+{
+  "id": "pornpics",
+  "name": "PornPics",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "PornPics"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "PornPics"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "PornPics"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "PornPics"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "PornPics"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "PornPics"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "PornPics"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "PornPics"
+    }
+  ]
+}
