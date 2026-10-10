@@ -1550,7 +1550,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mayotune              | standalone    | todo    |                                                           |
 | metarthunter          | masonry       | todo    |                                                           |
 | miauscan              | mangathemesia | todo    |                                                           |
-| misskon               | standalone    | todo    |                                                           |
+| misskon               | standalone    | done    |                                                           |
 | mitaku                | standalone    | todo    |                                                           |
 | myreadingmanga        | standalone    | blocked | Cloudflare 'Verification Required' (probe 2026-10-11)     |
 | namicomi              | standalone    | todo    |                                                           |
