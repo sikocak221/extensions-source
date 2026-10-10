@@ -1,0 +1,53 @@
+{
+  "id": "hentaiera",
+  "name": "HentaiEra",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "HentaiEra"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "HentaiEra"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "HentaiEra"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "HentaiEra"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "HentaiEra"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "HentaiEra"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "HentaiEra"
+    },
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "HentaiEra"
+    }
+  ]
+}
