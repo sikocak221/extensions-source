@@ -1541,7 +1541,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangatoon             | standalone    | todo    |                                         |
 | mangaup               | standalone    | todo    |                                         |
 | mango                 | standalone    | todo    |                                         |
-| manhuarm              | standalone    | todo    |                                         |
+| manhuarm              | standalone    | blocked | Cloudflare challenge (probe 2026-10-11) |
 | manhwa18cc            | madara        | todo    |                                         |
 | manhwa18net           | standalone    | todo    |                                         |
 | manhwaclubnet         | madara        | todo    |                                         |
