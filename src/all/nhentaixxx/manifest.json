@@ -1,0 +1,33 @@
+{
+  "id": "nhentaixxx",
+  "name": "NHentai.xxx",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "NHentai.xxx"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "NHentai.xxx"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "NHentai.xxx"
+    },
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "NHentai.xxx"
+    }
+  ]
+}
