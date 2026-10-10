@@ -138,6 +138,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Galaxy Manga                                      | EN        | https://galaxymanga.io                     |      |
 | GalaxyDegenScans                                  | EN        | https://gdscans.com                        |      |
 | GantzVN                                           | VI        | https://gantzvn.com                        |      |
+| Geass Comics                                      | PT        | https://geasscomics.xyz                    |      |
 | GEDE Comix                                        | EN        | https://gedecomix.com                      | yes  |
 | Gensura                                           | EN        | https://gensura.net                        | yes  |
 | Genz Toons                                        | EN        | https://genztoons.org                      |      |
@@ -192,7 +193,9 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Holy Scans                                        | TR        | https://holyscans.com.tr                   | yes  |
 | HoneyManga                                        | UK        | https://honey-manga.com.ua                 |      |
 | HonkaiImpact3                                     | EN        | https://manga.honkaiimpact3.com            |      |
+| Hora Hentai                                       | PT        | https://horahentai.com                     | yes  |
 | House Of Otakus                                   | ES        | https://houseofotakusv2.xyz                |      |
+| HQ Now!                                           | PT        | https://www.hq-now.com                     |      |
 | Hunlight Comics                                   | EN        | https://hunlightcomics.com                 |      |
 | Hwago                                             | ID        | https://02.hwago.xyz                       |      |
 | I Roved Out                                       | EN        | https://www.irovedout.com                  | yes  |
@@ -250,6 +253,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | LeerCapitulo                                      | ES        | https://www.leercapitulo.co                |      |
 | LeerMangaEsp                                      | ES        | https://mangalect.org                      |      |
 | LeerManhwas                                       | ES        | https://leermanhwas.com                    | yes  |
+| Leitura Manga                                     | PT        | https://leituramanga.net                   |      |
 | Lelscan                                           | FR        | https://lelscans.net                       |      |
 | LepoyTL                                           | ID        | https://www.lepoytl.my.id                  |      |
 | Les Poroiniens                                    | FR        | https://lesporoiniens.org                  |      |
@@ -279,6 +283,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Manga District                                    | EN        | https://mangadistrict.com                  |      |
 | Manga Diyarı                                      | TR        | https://mangadiyari.com                    |      |
 | Manga Drama                                       | EN        | https://mangadrama.com                     | yes  |
+| Manga Livre Blog                                  | PT        | https://mangalivre.blog                    |      |
 | Manga Portalı                                     | TR        | https://www.mangaportali.com               |      |
 | Manga Tales                                       | AR        | https://www.mangatales.com                 |      |
 | Manga Trend                                       | EN        | https://mangatrend.org                     |      |
@@ -338,7 +343,9 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | MangaXiaoSi                                       | ZH        | https://www.jjmhw2.top                     | yes  |
 | MangaYi                                           | EN        | https://mangayi.com                        |      |
 | MangaYY                                           | EN        | https://mangayy.org                        |      |
+| ManGeek                                           | PT        | https://mangeek.app                        |      |
 | Mangitto                                          | TR        | https://mangtto.com                        | yes  |
+| Manhastro                                         | PT        | https://manhastro.net                      | yes  |
 | Manhatok                                          | AR        | https://manhatok.blogspot.com              |      |
 | Manhua Plus                                       | EN        | https://manhuaplus.com                     |      |
 | ManhuaHot                                         | EN        | https://manhuahot.com                      |      |
@@ -379,6 +386,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Monochrome Scans                                  | EN        | https://manga.d34d.one                     |      |
 | Monopoly Scan                                     | ES        | https://monopolymanhua.com                 |      |
 | Multporn                                          | EN        | https://multporn.net                       | yes  |
+| Mundo Hentai                                      | PT        | https://mundohentaioficial.com             | yes  |
 | Mundo Manhwa                                      | ES        | https://mundomanhwa.com                    | yes  |
 | MurimScan                                         | EN        | https://www.murimscans.site                |      |
 | MyAdultComics                                     | EN        | https://myadultcomics.com                  | yes  |
@@ -455,10 +463,12 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Real Life Comics                                  | EN        | https://reallifecomics.com                 |      |
 | ReaperTrans                                       | TH        | https://reapertrans.com                    |      |
 | Renascans                                         | EN        | https://renascans.net                      |      |
+| Revistas e Quadrinhos                             | PT        | https://revistasequadrinhos.com            | yes  |
 | Revival Scans                                     | EN        | https://www.revivalscans.com               | yes  |
 | ReYume                                            | ID        | https://www.re-yume.my.id                  |      |
 | Rimu Scans                                        | FR        | https://rimuscan.fr                        |      |
 | Rinko Comics                                      | EN        | https://rinkocomics.com                    |      |
+| Risentoons                                        | PT        | https://risentoons.xyz                     |      |
 | RitharScans                                       | EN        | https://ritharscans.com                    |      |
 | Riztranslation                                    | ID        | https://riztranslation.pages.dev           |      |
 | Rizz Comic                                        | EN        | https://rizzfables.com                     |      |
@@ -510,7 +520,9 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Sunshine Butterfly Scans                          | EN        | https://wings.sbs                          | yes  |
 | SUPER MEGA                                        | EN        | https://www.supermegacomics.com            |      |
 | Swords Comic                                      | EN        | https://swordscomic.com                    |      |
+| Taiyō                                             | PT        | https://taiyo.moe                          |      |
 | Tanuki-Manga                                      | TH        | https://www.tanuki-manga.net               |      |
+| Tao Sect                                          | PT        | https://taosect.com                        |      |
 | Tapas                                             | EN        | https://tapas.io                           |      |
 | TCB Scans                                         | EN        | https://tcbonepiecechapters.com            |      |
 | Team Lanh Lung                                    | VI        | https://lanhlungteam3.top                  |      |
@@ -531,6 +543,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | TimelessToons                                     | EN        | https://timelesstoons.org                  |      |
 | Tomilo-lib                                        | RU        | https://tomilo-lib.ru                      |      |
 | ToomTam-Manga                                     | TH        | https://toomtam-manga.com                  |      |
+| ToonBr                                            | PT        | https://beta.toonbr.com                    |      |
 | Toonily.me                                        | EN        | https://toontop.io                         | yes  |
 | Toonizy                                           | EN        | https://toonizy.com                        |      |
 | Toonkor                                           | KO        | https://toonkor1.org                       |      |
@@ -594,6 +607,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Zazhimi                                           | ZH        | https://www.zazhimi.net                    |      |
 | Zenko                                             | UK        | https://zenko.online                       |      |
 | zero搬运网                                        | ZH        | https://stevenyomi.github.io               |      |
+| ZettaHQ                                           | PT        | https://zettahq.com                        | yes  |
 | ZetTruyen                                         | VI        | https://www.zettruyen3.com                 |      |
 | Zinmanga                                          | EN        | https://mangazin.org                       |      |
 | ZonaTMO.org (unoriginal)                          | ES        | https://zonatmo.org                        |      |
