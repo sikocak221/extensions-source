@@ -50,7 +50,8 @@ const SORTS = [
 const get = async <T>(url: string, extra: Record<string, string> = {}): Promise<T> =>
   (await http.get<T>(url, { headers: { ...headers, ...extra }, responseType: 'json' })).body;
 
-const absolute = (path: string, base: string) => (/^https?:\/\//.test(path) ? path : `${base}${path.startsWith('/') ? '' : '/'}${path}`);
+const absolute = (path: string, base: string) =>
+  /^https?:\/\//.test(path) ? path : `${base}${path.startsWith('/') ? '' : '/'}${path}`;
 
 function summary(m: MangaDto): MangaSummary {
   return { url: `/obra/${m.id}`, title: m.nome, thumbnailUrl: m.imagem ? absolute(m.imagem, BASE_URL) : undefined };
@@ -91,11 +92,19 @@ export default defineExtension({
     getLatest: (page) => list(page, '', {}, 'recentes'),
     search: (query, page, filters) => list(page, query, filters, 'recentes'),
     async getFilters(): Promise<Filter[]> {
-      const filters: Filter[] = [{ type: 'select', id: 'sort', label: 'Ordenar por', options: SORTS, default: 'recentes' }];
+      const filters: Filter[] = [
+        { type: 'select', id: 'sort', label: 'Ordenar por', options: SORTS, default: 'recentes' },
+      ];
       const [formats, statuses, tags] = await Promise.all([
-        get<{ formatos: Option[] }>(`${BASE_URL}/api/filtros/formatos.js`).then((r) => r.formatos).catch(() => []),
-        get<{ status: Option[] }>(`${BASE_URL}/api/filtros/status.js`).then((r) => r.status).catch(() => []),
-        get<{ tags: Option[] }>(`${BASE_URL}/api/filtros/tags.js`).then((r) => r.tags).catch(() => []),
+        get<{ formatos: Option[] }>(`${BASE_URL}/api/filtros/formatos.js`)
+          .then((r) => r.formatos)
+          .catch(() => []),
+        get<{ status: Option[] }>(`${BASE_URL}/api/filtros/status.js`)
+          .then((r) => r.status)
+          .catch(() => []),
+        get<{ tags: Option[] }>(`${BASE_URL}/api/filtros/tags.js`)
+          .then((r) => r.tags)
+          .catch(() => []),
       ]);
       const select = (id: string, label: string, options: Option[]): Filter => ({
         type: 'select',
@@ -117,7 +126,11 @@ export default defineExtension({
     },
     async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {
       const { obra } = await get<{ obra: MangaDto }>(`${BASE_URL}/api/obras/${idOf(manga.url)}`);
-      const genres = [...new Set([obra.formato_nome, ...(obra.tags ?? []).map((t) => t.nome)].filter((g): g is string => !!g?.trim()))];
+      const genres = [
+        ...new Set(
+          [obra.formato_nome, ...(obra.tags ?? []).map((t) => t.nome)].filter((g): g is string => !!g?.trim()),
+        ),
+      ];
       return {
         ...summary(obra),
         description: obra.descricao ? htmlToText(obra.descricao) : undefined,
@@ -151,12 +164,13 @@ export default defineExtension({
       const detail = await get<{ capitulo: ChapterDto }>(`${BASE_URL}/api/obras/${id}/capitulos/${number}/index.js`);
       const referer = `${BASE_URL}/obra/${id}/capitulo/${number}`;
       const pages: Page[] = [];
-      for (let offset: number | null = 0; offset !== null; ) {
+      for (let offset: number | null = 0; offset !== null;) {
         const manifest: { pages: { index: number; url: string }[]; nextOffset?: number | null } = await get(
           `${API_URL}/api/leitor/capitulos/${detail.capitulo.id}/manifest?offset=${offset}&limit=${MANIFEST_PAGE_SIZE}`,
           { Referer: referer },
         );
-        for (const p of manifest.pages) pages.push({ index: p.index, imageUrl: absolute(p.url, API_URL), url: referer });
+        for (const p of manifest.pages)
+          pages.push({ index: p.index, imageUrl: absolute(p.url, API_URL), url: referer });
         offset = manifest.nextOffset ?? null;
       }
       return pages;

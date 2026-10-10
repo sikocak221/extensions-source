@@ -1,4 +1,11 @@
-import { type Chapter, type MangaDetails, type MangaPage, type MangaSummary, type Page, defineExtension } from '@matane/extension-sdk';
+import {
+  type Chapter,
+  type MangaDetails,
+  type MangaPage,
+  type MangaSummary,
+  type Page,
+  defineExtension,
+} from '@matane/extension-sdk';
 import { USER_AGENT, hostOf, relativeUrl } from './common/utils';
 
 const BASE_URL = 'https://bryaoi.com';
@@ -25,7 +32,10 @@ export default defineExtension({
     search: (query, page) => list(query, page),
     async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {
       const doc = await load(BASE_URL + manga.url);
-      const title = (doc.selectFirst('h1')?.text() ?? '').replace(/^.*?Ler/, '').replace(/Online[^]*$/, '').trim();
+      const title = (doc.selectFirst('h1')?.text() ?? '')
+        .replace(/^.*?Ler/, '')
+        .replace(/Online[^]*$/, '')
+        .trim();
       return {
         url: manga.url,
         title: title || manga.title,

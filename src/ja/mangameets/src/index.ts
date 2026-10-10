@@ -58,7 +58,11 @@ async function list(url: string): Promise<MangaPage> {
     const dir = comic.attributes.dir_name;
     if (!dir || seen.has(dir)) continue;
     seen.add(dir);
-    items.push({ url: `/comics/${dir}`, title: comic.attributes.title ?? '', thumbnailUrl: thumb?.attributes.url ?? undefined });
+    items.push({
+      url: `/comics/${dir}`,
+      title: comic.attributes.title ?? '',
+      thumbnailUrl: thumb?.attributes.url ?? undefined,
+    });
   }
   return { items, hasNextPage: result.data.attributes.current_page < result.data.attributes.total_page };
 }
@@ -70,10 +74,13 @@ export default defineExtension({
     getLatest: (page) => list(`${API}/episodes/latest.json?page=${page}&size=${PAGE_SIZE}`),
     async getFilters(): Promise<Filter[]> {
       const names = async (path: string, prefix: string) =>
-        (await get<{ data: { attributes: { name: string } }[] }>(`${API}/${path}`).catch(() => ({ data: [] }))).data.map(
-          (d) => ({ label: d.attributes.name, value: `${prefix}:${d.attributes.name}` }),
-        );
-      const [tags, genres] = await Promise.all([names('official_tags.json', 'tag'), names('comic_genres.json', 'genre')]);
+        (
+          await get<{ data: { attributes: { name: string } }[] }>(`${API}/${path}`).catch(() => ({ data: [] }))
+        ).data.map((d) => ({ label: d.attributes.name, value: `${prefix}:${d.attributes.name}` }));
+      const [tags, genres] = await Promise.all([
+        names('official_tags.json', 'tag'),
+        names('comic_genres.json', 'genre'),
+      ]);
       const filters: Filter[] = [{ type: 'select', id: 'sort', label: 'Sort By', options: SORTS, default: '' }];
       if (tags.length || genres.length)
         filters.push({
@@ -99,12 +106,19 @@ export default defineExtension({
       const r = await get<{
         data: {
           attributes: { title: string; authors?: string[] | null; outline?: string | null; finished?: boolean | null };
-          relationships: { comic_genre?: { data?: { id: string } | null }; thumbnail_image?: { data?: { id: string } | null } };
+          relationships: {
+            comic_genre?: { data?: { id: string } | null };
+            thumbnail_image?: { data?: { id: string } | null };
+          };
         };
         included: Included[];
       }>(`${API}/comics/${dirOf(manga.url)}.json`);
-      const genre = r.included.find((i) => i.type === 'comic_genre' && i.id === r.data.relationships.comic_genre?.data?.id);
-      const image = r.included.find((i) => i.type === 'image' && i.id === r.data.relationships.thumbnail_image?.data?.id);
+      const genre = r.included.find(
+        (i) => i.type === 'comic_genre' && i.id === r.data.relationships.comic_genre?.data?.id,
+      );
+      const image = r.included.find(
+        (i) => i.type === 'image' && i.id === r.data.relationships.thumbnail_image?.data?.id,
+      );
       const authors = r.data.attributes.authors?.join(', ');
       return {
         url: manga.url,
@@ -120,7 +134,13 @@ export default defineExtension({
     async getChapters(manga: MangaSummary): Promise<Chapter[]> {
       const r = await get<{
         data: {
-          attributes: { key: string; title?: string | null; volume: string; sort_volume: number; published_at?: string | null };
+          attributes: {
+            key: string;
+            title?: string | null;
+            volume: string;
+            sort_volume: number;
+            published_at?: string | null;
+          };
         }[];
       }>(`${API}/comics/${dirOf(manga.url)}/episodes.json`);
       return r.data
@@ -139,7 +159,9 @@ export default defineExtension({
       const r = await get<{ episode_pages: { order_index: number; image: { original_url: string } }[] }>(
         `${API}/comics/${chapter.url.split('/')[0]}/episodes/${chapter.url.split('/')[1]}/viewer.json`,
       );
-      return [...r.episode_pages].sort((a, b) => a.order_index - b.order_index).map((p, index) => ({ index, imageUrl: p.image.original_url }));
+      return [...r.episode_pages]
+        .sort((a, b) => a.order_index - b.order_index)
+        .map((p, index) => ({ index, imageUrl: p.image.original_url }));
     },
     imageHeaders: () => headers,
     resolveUrl(url: string): MangaSummary | null {

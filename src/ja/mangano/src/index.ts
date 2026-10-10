@@ -21,8 +21,22 @@ const PASSWORD = 'password_pref';
 const baseHeaders = { 'User-Agent': USER_AGENT, Referer: `${BASE_URL}/` };
 
 const TAGS = [
-  '日常', 'コメディ・ギャグ', 'ファンタジー', '恋愛', 'ヒューマンドラマ', '学園', 'ラブコメ', 'バトル', 'SF',
-  'ホラー', 'BL', 'カラー', 'サスペンス・ミステリー', '異世界', '縦読み', 'エッセイ',
+  '日常',
+  'コメディ・ギャグ',
+  'ファンタジー',
+  '恋愛',
+  'ヒューマンドラマ',
+  '学園',
+  'ラブコメ',
+  'バトル',
+  'SF',
+  'ホラー',
+  'BL',
+  'カラー',
+  'サスペンス・ミステリー',
+  '異世界',
+  '縦読み',
+  'エッセイ',
 ];
 
 const COVER = 'coverImage { url }';
@@ -45,7 +59,13 @@ let loginFailed = false;
 let cursor: string | null = null;
 
 const postJson = async <T>(url: string, json: unknown): Promise<T | undefined> => {
-  const response = await http.request<T>({ url, method: 'POST', headers: baseHeaders, body: { json }, responseType: 'json' });
+  const response = await http.request<T>({
+    url,
+    method: 'POST',
+    headers: baseHeaders,
+    body: { json },
+    responseType: 'json',
+  });
   return response.status >= 200 && response.status < 300 ? response.body : undefined;
 };
 
@@ -70,9 +90,12 @@ async function getToken(): Promise<string> {
     else loginFailed = true;
   }
   if (!tokens) {
-    const r = await postJson<{ idToken: string; refreshToken: string }>(`${LOGIN_URL}/accounts:signUp?key=${LOGIN_KEY}`, {
-      returnSecureToken: true,
-    });
+    const r = await postJson<{ idToken: string; refreshToken: string }>(
+      `${LOGIN_URL}/accounts:signUp?key=${LOGIN_KEY}`,
+      {
+        returnSecureToken: true,
+      },
+    );
     if (!r) throw new Error('Could not get an anonymous token');
     tokens = r;
   }
@@ -115,7 +138,11 @@ interface Connection {
 }
 
 const idOf = (url: string) => url.replace(/^\/works\//, '');
-const summary = (n: Node): MangaSummary => ({ url: `/works/${n.id}`, title: n.title, thumbnailUrl: n.coverImage?.url ?? undefined });
+const summary = (n: Node): MangaSummary => ({
+  url: `/works/${n.id}`,
+  title: n.title,
+  thumbnailUrl: n.coverImage?.url ?? undefined,
+});
 
 function connection(c: Connection): MangaPage {
   cursor = c.pageInfo.endCursor ?? null;
@@ -143,7 +170,13 @@ export default defineExtension({
       return connection((await graphql<{ newWorks2: Connection }>('NewWorks', { after: cursor })).newWorks2);
     },
     getFilters: (): Filter[] => [
-      { type: 'select', id: 'tag', label: '人気のタグ', options: TAGS.map((t) => ({ label: t, value: t })), default: TAGS[0]! },
+      {
+        type: 'select',
+        id: 'tag',
+        label: '人気のタグ',
+        options: TAGS.map((t) => ({ label: t, value: t })),
+        default: TAGS[0]!,
+      },
     ],
     async search(query: string, page: number, filters: FilterState): Promise<MangaPage> {
       if (page === 1) cursor = null;

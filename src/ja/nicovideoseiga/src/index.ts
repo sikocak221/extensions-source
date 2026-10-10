@@ -17,7 +17,13 @@ const IMAGE_REGEX = /^https:\/\/drm\.cdn\.nicomanga\.jp\/image\/([a-f0-9]+)_\d+\
 
 interface MangaDto {
   id: number;
-  meta: { title: string; display_author_name: string; description: string; serial_status: string; square_image_url?: string | null };
+  meta: {
+    title: string;
+    display_author_name: string;
+    description: string;
+    serial_status: string;
+    square_image_url?: string | null;
+  };
 }
 interface ApiResponse<T> {
   data: { result: T | T[]; extra?: { has_next?: boolean } };
@@ -54,7 +60,8 @@ export default defineExtension({
     },
     async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {
       const m = results(await get<ApiResponse<MangaDto>>(`${API}/contents/${idOf(manga.url)}`))[0]!;
-      const status: MangaStatus = m.meta.serial_status === 'serial' ? 'ongoing' : m.meta.serial_status === 'concluded' ? 'completed' : 'unknown';
+      const status: MangaStatus =
+        m.meta.serial_status === 'serial' ? 'ongoing' : m.meta.serial_status === 'concluded' ? 'completed' : 'unknown';
       return {
         ...summary(m),
         description: htmlToText(m.meta.description),
@@ -73,8 +80,18 @@ export default defineExtension({
       return results(r)
         .filter((c) => c.own_status.sell_status !== 'publication_finished')
         .map((c) => {
-          const prefix = c.own_status.sell_status === 'selling' ? '\u{1F4B4} ' : c.own_status.sell_status === 'pre_selling' ? '⏳\u{1F4B4} ' : '';
-          return { url: String(c.id), name: prefix + c.meta.title, number: c.meta.number, uploadedAt: c.meta.created_at * 1000 };
+          const prefix =
+            c.own_status.sell_status === 'selling'
+              ? '\u{1F4B4} '
+              : c.own_status.sell_status === 'pre_selling'
+                ? '⏳\u{1F4B4} '
+                : '';
+          return {
+            url: String(c.id),
+            name: prefix + c.meta.title,
+            number: c.meta.number,
+            uploadedAt: c.meta.created_at * 1000,
+          };
         })
         .sort((a, b) => b.number - a.number);
     },
@@ -84,11 +101,17 @@ export default defineExtension({
         headers,
         responseType: 'json',
       });
-      if (response.status === 403) throw new Error('公式アプリで購入してください / まず、WebViewでログインしてください');
+      if (response.status === 403)
+        throw new Error('公式アプリで購入してください / まず、WebViewでログインしてください');
       if (response.status !== 200) throw new Error(`HTTP error ${response.status}`);
       return results(response.body).map((frame, index) => ({ index, imageUrl: frame.meta.source_url }));
     },
-    imageHeaders: () => ({ ...headers, 'sec-fetch-dest': 'image', 'sec-fetch-mode': 'no-cors', 'sec-fetch-site': 'cross-site' }),
+    imageHeaders: () => ({
+      ...headers,
+      'sec-fetch-dest': 'image',
+      'sec-fetch-mode': 'no-cors',
+      'sec-fetch-site': 'cross-site',
+    }),
     /** Paid images (drm.cdn) are XOR-ed with the 8 bytes of the key found in their url. */
     transformImage(page: Page, bytes: Uint8Array): ImageTransform {
       const key = IMAGE_REGEX.exec(page.imageUrl ?? '')?.[1];

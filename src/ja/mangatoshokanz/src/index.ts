@@ -63,12 +63,27 @@ export default defineExtension({
   createSource: () => ({
     baseUrl: BASE_URL,
     async getPopular(): Promise<MangaPage> {
-      return { items: mangas((await open(`${BASE_URL}/ranking/views`)).doc, 'ul.rankingListThum > li, ul.itemList > li'), hasNextPage: false };
+      return {
+        items: mangas((await open(`${BASE_URL}/ranking/views`)).doc, 'ul.rankingListThum > li, ul.itemList > li'),
+        hasNextPage: false,
+      };
     },
     getLatest: (page) => listing(`${BASE_URL}/title/addpage_renewal?type=official&sort=new&page=${page}`),
     getFilters: (): Filter[] => [
-      { type: 'select', id: 'category', label: 'Category', options: CATEGORIES.map((c) => ({ label: c, value: c })), default: 'All' },
-      { type: 'select', id: 'sort', label: 'Sort', options: SORTS.map((c) => ({ label: c, value: c })), default: 'Popular' },
+      {
+        type: 'select',
+        id: 'category',
+        label: 'Category',
+        options: CATEGORIES.map((c) => ({ label: c, value: c })),
+        default: 'All',
+      },
+      {
+        type: 'select',
+        id: 'sort',
+        label: 'Sort',
+        options: SORTS.map((c) => ({ label: c, value: c })),
+        default: 'Popular',
+      },
     ],
     search(query: string, page: number, filters: FilterState): Promise<MangaPage> {
       const category = typeof filters.category === 'string' ? filters.category : 'All';
@@ -105,7 +120,13 @@ export default defineExtension({
       const { doc, url } = await open(`${BASE_URL}/series/detail/${idOf(manga.url)}`);
       // A single chapter redirects to book/detail/<id>.
       if (url.replace(/^https?:\/\/[^/]+/, '').startsWith('/book/')) {
-        return [{ url: url.slice(url.lastIndexOf('/') + 1), name: doc.selectFirst('.GA4_booktitle')?.text() ?? manga.title, number: 1 }];
+        return [
+          {
+            url: url.slice(url.lastIndexOf('/') + 1),
+            name: doc.selectFirst('.GA4_booktitle')?.text() ?? manga.title,
+            number: 1,
+          },
+        ];
       }
       return doc.select('.itemList li').map((li) => {
         const href = li.selectFirst('a')?.attr('href') ?? '';
@@ -117,7 +138,15 @@ export default defineExtension({
       const encoded = doc.selectFirst('#doc')?.text() ?? '';
       const viewer = JSON.parse(utf8.decode(Array.from(base64.decodeBytes(encoded)))) as {
         Location: { base: string; scramble_dir: string };
-        Orders: { no: number; name: string; scramble: { w: number; h: number; crops: { x: number; y: number; x2: number; y2: number; w: number; h: number }[] } }[];
+        Orders: {
+          no: number;
+          name: string;
+          scramble: {
+            w: number;
+            h: number;
+            crops: { x: number; y: number; x2: number; y2: number; w: number; h: number }[];
+          };
+        }[];
       };
       const dir = viewer.Location.base + viewer.Location.scramble_dir;
       return [...viewer.Orders]
@@ -125,7 +154,10 @@ export default defineExtension({
         .map((order, index) => {
           const s = order.scramble;
           // w,h;x,y,x2,y2,w,h;...
-          const encodedCrops = [`${s.w},${s.h}`, ...s.crops.map((c) => [c.x, c.y, c.x2, c.y2, c.w, c.h].join(','))].join(';');
+          const encodedCrops = [
+            `${s.w},${s.h}`,
+            ...s.crops.map((c) => [c.x, c.y, c.x2, c.y2, c.w, c.h].join(',')),
+          ].join(';');
           return { index, imageUrl: `${dir}/${order.name}#${encodedCrops}` };
         });
     },

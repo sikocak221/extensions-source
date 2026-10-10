@@ -30,15 +30,41 @@ const STATUSES = [
 ];
 const TYPES = ['Manga', 'Manhwa', 'Manhua', 'Webtoon'].map((t) => ({ label: t, value: t }));
 const TAGS = [
-  ['Ação', 'acao'], ['Artes Marciais', 'artes-marciais'], ['Aventura', 'aventura'], ['Comédia', 'comedia'],
-  ['Crime', 'crime'], ['Cultivo', 'cultivo'], ['Dança', 'danca'], ['Drama', 'drama'], ['Ecchi', 'ecchi'],
-  ['Esporte', 'esporte'], ['Fantasia', 'fantasia'], ['Harém', 'harem'], ['Histórico', 'historico'],
-  ['Isekai', 'isekai'], ['Iskai', 'iskai'], ['Magia', 'magia'], ['Mistério', 'misterio'], ['Monstros', 'monstros'],
-  ['Murim', 'murim'], ['Reencarnação', 'reencarnacao'], ['Regressão', 'regressao'], ['Romance', 'romance'],
-  ['Sci-fi', 'sci-fi'], ['Seinen', 'seinen'], ['Shounen', 'shounen'], ['Silence', 'silence'],
-  ['Slice of Life', 'slice-of-life'], ['Sobrenatural', 'sobrenatural'], ['Super poderes', 'super-poderes'],
-  ['Suspense', 'suspense'], ['Tragédia', 'tragedia'], ['Troca de gênero', 'troca-de-genero'],
-  ['Viagem no tempo', 'viagem-no-tempo'], ['Vida Cotidiana', 'vida-cotidiana'], ['Vida Escolar', 'vida-escolar'],
+  ['Ação', 'acao'],
+  ['Artes Marciais', 'artes-marciais'],
+  ['Aventura', 'aventura'],
+  ['Comédia', 'comedia'],
+  ['Crime', 'crime'],
+  ['Cultivo', 'cultivo'],
+  ['Dança', 'danca'],
+  ['Drama', 'drama'],
+  ['Ecchi', 'ecchi'],
+  ['Esporte', 'esporte'],
+  ['Fantasia', 'fantasia'],
+  ['Harém', 'harem'],
+  ['Histórico', 'historico'],
+  ['Isekai', 'isekai'],
+  ['Iskai', 'iskai'],
+  ['Magia', 'magia'],
+  ['Mistério', 'misterio'],
+  ['Monstros', 'monstros'],
+  ['Murim', 'murim'],
+  ['Reencarnação', 'reencarnacao'],
+  ['Regressão', 'regressao'],
+  ['Romance', 'romance'],
+  ['Sci-fi', 'sci-fi'],
+  ['Seinen', 'seinen'],
+  ['Shounen', 'shounen'],
+  ['Silence', 'silence'],
+  ['Slice of Life', 'slice-of-life'],
+  ['Sobrenatural', 'sobrenatural'],
+  ['Super poderes', 'super-poderes'],
+  ['Suspense', 'suspense'],
+  ['Tragédia', 'tragedia'],
+  ['Troca de gênero', 'troca-de-genero'],
+  ['Viagem no tempo', 'viagem-no-tempo'],
+  ['Vida Cotidiana', 'vida-cotidiana'],
+  ['Vida Escolar', 'vida-escolar'],
   ['Zumbis', 'zumbis'],
 ].map(([label, value]) => ({ label: label!, value: value! }));
 
@@ -109,7 +135,8 @@ export default defineExtension({
       const params = [`page=${page}`];
       if (query) params.push(`search=${encodeURIComponent(query)}`);
       if (typeof filters.sort === 'string') params.push(`sortBy=${encodeURIComponent(filters.sort)}`);
-      if (typeof filters.status === 'string' && filters.status) params.push(`status=${encodeURIComponent(filters.status)}`);
+      if (typeof filters.status === 'string' && filters.status)
+        params.push(`status=${encodeURIComponent(filters.status)}`);
       for (const [id, value] of Object.entries(filters)) {
         if (value !== true) continue;
         const [group, key] = id.split('.');
@@ -144,7 +171,10 @@ export default defineExtension({
         );
         const fragment = html.load(body.html, { baseUrl: BASE_URL });
         for (const a of fragment.select('a'))
-          chapters.push({ url: relativeUrl(a.absUrl('href') ?? ''), name: a.selectFirst('.text-lg')?.text() ?? 'Chapter' });
+          chapters.push({
+            url: relativeUrl(a.absUrl('href') ?? ''),
+            name: a.selectFirst('.text-lg')?.text() ?? 'Chapter',
+          });
         more = body.hasMore;
       }
       return chapters;

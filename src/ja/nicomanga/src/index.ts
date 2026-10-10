@@ -190,7 +190,11 @@ export default defineExtension({
         author: m.authors_list?.map((a) => a.n).join(', ') || undefined,
         artist: m.artists || m.authors_list?.[0]?.n,
         genres: m.genres_list?.map((g) => g.n),
-        status: (status === 'on going' || status === 'ongoing' ? 'ongoing' : status === 'completed' ? 'completed' : 'unknown') as MangaStatus,
+        status: (status === 'on going' || status === 'ongoing'
+          ? 'ongoing'
+          : status === 'completed'
+            ? 'completed'
+            : 'unknown') as MangaStatus,
         description: parts.join('\n\n'),
       };
     },

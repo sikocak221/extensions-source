@@ -33,7 +33,11 @@ interface DirectoryResponse {
 const slugOf = (url: string) => url.replace(/^\/manga\//, '');
 const get = async <T>(url: string): Promise<T> => (await http.get<T>(url, { headers, responseType: 'json' })).body;
 
-const summary = (s: SeriesDto): MangaSummary => ({ url: `/manga/${s.slug}`, title: s.title, thumbnailUrl: s.cover ?? undefined });
+const summary = (s: SeriesDto): MangaSummary => ({
+  url: `/manga/${s.slug}`,
+  title: s.title,
+  thumbnailUrl: s.cover ?? undefined,
+});
 
 function status(text: string | null | undefined): MangaStatus {
   const t = (text ?? '').toLowerCase();
@@ -46,13 +50,22 @@ function status(text: string | null | undefined): MangaStatus {
 
 const opts = (values: string[]) => values.map((v) => ({ label: v || 'All', value: v }));
 const FILTERS: Filter[] = [
-  { type: 'select', id: 'type', label: 'Type', options: [{ label: 'All', value: '' }, ...opts(['Manga', 'Manhua', 'Manhwa']).slice(1)], default: '' },
+  {
+    type: 'select',
+    id: 'type',
+    label: 'Type',
+    options: [{ label: 'All', value: '' }, ...opts(['Manga', 'Manhua', 'Manhwa']).slice(1)],
+    default: '',
+  },
   { type: 'select', id: 'status', label: 'Status', options: opts(['', 'Ongoing', 'Completed']), default: '' },
   {
     type: 'select',
     id: 'order',
     label: 'Order',
-    options: ['', 'A-Z', 'Z-A', 'Update', 'Added', 'Popular', 'Rating'].map((v) => ({ label: v || 'Default', value: v })),
+    options: ['', 'A-Z', 'Z-A', 'Update', 'Added', 'Popular', 'Rating'].map((v) => ({
+      label: v || 'Default',
+      value: v,
+    })),
     default: '',
   },
 ];
@@ -84,7 +97,12 @@ export default defineExtension({
       return {
         ...summary(s),
         description: s.description ?? undefined,
-        genres: s.genre ? s.genre.split(',').map((g) => g.trim()).filter(Boolean) : undefined,
+        genres: s.genre
+          ? s.genre
+              .split(',')
+              .map((g) => g.trim())
+              .filter(Boolean)
+          : undefined,
         status: status(s.status),
       };
     },
@@ -105,7 +123,8 @@ export default defineExtension({
       return hostOf(url) === hostOf(BASE_URL) && slug ? { url: `/manga/${slug}`, title: '' } : null;
     },
     getWebUrl(item): string {
-      if ('name' in item) return `${BASE_URL}/manga/${item.url.split('/')[0]}/chapter-${item.url.split('/').slice(1).join('/')}/`;
+      if ('name' in item)
+        return `${BASE_URL}/manga/${item.url.split('/')[0]}/chapter-${item.url.split('/').slice(1).join('/')}/`;
       return BASE_URL + item.url;
     },
   }),

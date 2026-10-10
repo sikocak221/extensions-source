@@ -92,7 +92,10 @@ export default defineExtension({
     baseUrl: BASE_URL,
     async getPopular(): Promise<MangaPage> {
       const list = await api<MangaDto[]>('/obras');
-      return { items: [...list].sort((a, b) => (b.viewCount ?? 0) - (a.viewCount ?? 0)).map(summary), hasNextPage: false };
+      return {
+        items: [...list].sort((a, b) => (b.viewCount ?? 0) - (a.viewCount ?? 0)).map(summary),
+        hasNextPage: false,
+      };
     },
     async getLatest(): Promise<MangaPage> {
       return { items: (await api<MangaDto[]>('/obras')).map(summary), hasNextPage: false };

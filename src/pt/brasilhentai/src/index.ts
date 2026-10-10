@@ -49,7 +49,15 @@ export default defineExtension({
         value: (a.absUrl('href') ?? '').split('/').filter(Boolean).pop() ?? '',
       }));
       return options.length
-        ? [{ type: 'select', id: 'category', label: 'Categoria', options: [{ label: '', value: '' }, ...options], default: '' }]
+        ? [
+            {
+              type: 'select',
+              id: 'category',
+              label: 'Categoria',
+              options: [{ label: '', value: '' }, ...options],
+              default: '',
+            },
+          ]
         : [];
     },
     async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {
@@ -76,7 +84,9 @@ export default defineExtension({
     imageHeaders: () => headers,
     resolveUrl(url: string): MangaSummary | null {
       const path = relativeUrl(url.replace(/[?#].*/, ''));
-      return hostOf(url) === hostOf(BASE_URL) && path.split('/').filter(Boolean).length === 1 ? { url: path, title: '' } : null;
+      return hostOf(url) === hostOf(BASE_URL) && path.split('/').filter(Boolean).length === 1
+        ? { url: path, title: '' }
+        : null;
     },
     getWebUrl: (item) => BASE_URL + item.url,
   }),

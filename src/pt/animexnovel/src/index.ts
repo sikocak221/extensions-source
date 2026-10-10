@@ -56,9 +56,13 @@ export default defineExtension({
           type: 'group',
           id: group,
           label: title,
-          filters: doc.select(`#${group} .axn-chip`).map(
-            (chip): Filter => ({ type: 'checkbox', id: `${group}.${chip.attr('data-value') ?? ''}`, label: chip.text() }),
-          ),
+          filters: doc
+            .select(`#${group} .axn-chip`)
+            .map((chip): Filter => ({
+              type: 'checkbox',
+              id: `${group}.${chip.attr('data-value') ?? ''}`,
+              label: chip.text(),
+            })),
         });
       }
       return filters;
@@ -66,9 +70,9 @@ export default defineExtension({
     async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {
       const doc = await load(BASE_URL + manga.url);
       const data = JSON.parse(decodeEntities(doc.selectFirst('#axn-data')?.html() ?? '{}')) as Record<string, any>;
-      const status = ({ ongoing: 'ongoing', completed: 'completed', published: 'completed' } as Record<string, MangaStatus>)[
-        String(data.creativeWorkStatus ?? '').toLowerCase()
-      ];
+      const status = (
+        { ongoing: 'ongoing', completed: 'completed', published: 'completed' } as Record<string, MangaStatus>
+      )[String(data.creativeWorkStatus ?? '').toLowerCase()];
       const alternate = clean(joined(data.alternateName));
       return {
         url: manga.url,
@@ -101,7 +105,9 @@ export default defineExtension({
     },
     async getPages(chapter: Chapter): Promise<Page[]> {
       const doc = await load(BASE_URL + chapter.url);
-      const container = doc.selectFirst('.spice-block-img-gallery, .wp-block-gallery, .spnc-entry-content, .leitor-cascata');
+      const container = doc.selectFirst(
+        '.spice-block-img-gallery, .wp-block-gallery, .spnc-entry-content, .leitor-cascata',
+      );
       return (container?.select('img') ?? []).map((img, index) => ({ index, imageUrl: img.absUrl('src') }));
     },
     imageHeaders: () => headers,
@@ -116,7 +122,12 @@ export default defineExtension({
 });
 
 async function doSearch(query: string, page: number, filters: FilterState): Promise<MangaPage> {
-  const form: Record<string, string> = { action: 'axn_filter_obras', posts_per_page: '21', search: query, paged: String(page) };
+  const form: Record<string, string> = {
+    action: 'axn_filter_obras',
+    posts_per_page: '21',
+    search: query,
+    paged: String(page),
+  };
   const terms: string[] = [];
   let anyType = false;
   for (const [id, value] of Object.entries(filters)) {

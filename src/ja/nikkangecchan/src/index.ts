@@ -77,7 +77,9 @@ export default defineExtension({
     imageHeaders: () => headers,
     resolveUrl(url: string): MangaSummary | null {
       const path = relativeUrl(url.replace(/[?#].*/, ''));
-      return hostOf(url) === hostOf(BASE_URL) && path.split('/').filter(Boolean).length >= 2 ? { url: path, title: '' } : null;
+      return hostOf(url) === hostOf(BASE_URL) && path.split('/').filter(Boolean).length >= 2
+        ? { url: path, title: '' }
+        : null;
     },
     getWebUrl: (item) => BASE_URL + item.url,
   }),

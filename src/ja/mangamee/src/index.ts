@@ -57,7 +57,11 @@ interface TitleDto {
   largeImage?: { src?: string | null } | null;
 }
 
-const summary = (t: TitleDto): MangaSummary => ({ url: `/detail/${t.id}`, title: t.name, thumbnailUrl: t.largeImage?.src ?? undefined });
+const summary = (t: TitleDto): MangaSummary => ({
+  url: `/detail/${t.id}`,
+  title: t.name,
+  thumbnailUrl: t.largeImage?.src ?? undefined,
+});
 
 const idOf = (url: string) => /(\d+)\/?$/.exec(url)?.[1] ?? url;
 
@@ -76,9 +80,8 @@ export default defineExtension({
     baseUrl: BASE_URL,
     async getPopular(): Promise<MangaPage> {
       const body = await rsc('/title-list/ranking');
-      const ranking = findRscObject<{ rankingList: { name?: string; titles: TitleDto[] }[] }>(
-        body,
-        (v) => Array.isArray(v.rankingList),
+      const ranking = findRscObject<{ rankingList: { name?: string; titles: TitleDto[] }[] }>(body, (v) =>
+        Array.isArray(v.rankingList),
       );
       const list = ranking?.rankingList.find((r) => r.name === '総合')?.titles ?? [];
       return { items: list.map(summary), hasNextPage: false };
@@ -103,17 +106,18 @@ export default defineExtension({
         author: text(first(t, 6)),
         description: `${text(first(t, 4)) ?? ''}${kana ? `\n\nAlternative Title: ${kana}` : ''}`,
         thumbnailUrl: text(first(t, 9)) ?? manga.thumbnailUrl,
-        genres: all(fields, 3).map((b) => text(first(read(b), 2)) ?? '').filter(Boolean),
+        genres: all(fields, 3)
+          .map((b) => text(first(read(b), 2)) ?? '')
+          .filter(Boolean),
         status: 'unknown',
       };
     },
     async getChapters(manga: MangaSummary): Promise<Chapter[]> {
       const hide = prefs.get<boolean>(HIDE_LOCKED) === true;
       const body = await rsc(`/all-episodes/${idOf(manga.url)}`);
-      const eps = findRscObject<{ allEpisodes: { episodes: { id: number; title: string; isFree?: boolean | null }[] } }>(
-        body,
-        (v) => 'allEpisodes' in v,
-      );
+      const eps = findRscObject<{
+        allEpisodes: { episodes: { id: number; title: string; isFree?: boolean | null }[] };
+      }>(body, (v) => 'allEpisodes' in v);
       return (eps?.allEpisodes.episodes ?? [])
         .filter((e) => !hide || e.isFree !== false)
         .map((e) => ({ url: `${idOf(manga.url)}/${e.id}`, name: (e.isFree === false ? '🔒 ' : '') + e.title }))

@@ -27,12 +27,14 @@ const getDoc = async (url: string) => {
 
 async function list(url: string): Promise<MangaPage> {
   const { doc } = await getDoc(url);
+  const items = doc.select('div.post-list > a').map((a) => ({
+    url: relativeUrl(a.absUrl('href') ?? ''),
+    title: a.selectFirst('span')?.text() ?? '',
+    thumbnailUrl: a.selectFirst('div.post-list-image > img')?.absUrl('src'),
+  }));
   return {
-    items: doc.select('div.post-list > a').map((a) => ({
-      url: relativeUrl(a.absUrl('href') ?? ''),
-      title: a.selectFirst('span')?.text() ?? '',
-      thumbnailUrl: a.selectFirst('div.post-list-image > img')?.absUrl('src'),
-    })),
+    // The popularity page lists some entries twice.
+    items: items.filter((m, i) => items.findIndex((o) => o.url === m.url) === i),
     hasNextPage: doc.selectFirst('div.wp-pagenavi > a.nextpostslink') !== null,
   };
 }
@@ -46,7 +48,8 @@ export default defineExtension({
     ],
     search(query: string, page: number, filters: FilterState): Promise<MangaPage> {
       const category = typeof filters.category === 'string' ? filters.category : 'fanzine';
-      let url = query && !query.includes('-') ? `${BASE_URL}/?s=${encodeURIComponent(query)}` : `${BASE_URL}/${category}`;
+      let url =
+        query && !query.includes('-') ? `${BASE_URL}/?s=${encodeURIComponent(query)}` : `${BASE_URL}/${category}`;
       if (page > 1) url = url.includes('?') ? url.replace('/?', `/page/${page}?`) : `${url}/page/${page}`;
       return list(url);
     },
@@ -80,7 +83,7 @@ export default defineExtension({
         {
           url: relativeUrl(url),
           name: '単一章',
-          uploadedAt: parseDate(doc.selectFirst('#post-time')?.text(), "yyyy年M月d日H時"),
+          uploadedAt: parseDate(doc.selectFirst('#post-time')?.text(), 'yyyy年M月d日H時'),
         },
       ];
     },

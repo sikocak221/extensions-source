@@ -35,7 +35,11 @@ interface ListResponse {
 async function list(path: string): Promise<MangaPage> {
   const data = await get<ListResponse>(path);
   return {
-    items: data.manga_list.map((m) => ({ url: `/g/ne${m.manga_id}`, title: m.manga_name, thumbnailUrl: m.manga_cover_img })),
+    items: data.manga_list.map((m) => ({
+      url: `/g/ne${m.manga_id}`,
+      title: m.manga_name,
+      thumbnailUrl: m.manga_cover_img,
+    })),
     hasNextPage: (data.pagi.button?.next ?? 0) !== 0,
   };
 }
@@ -62,7 +66,10 @@ export default defineExtension({
     async getFilters(): Promise<Filter[]> {
       const doc = html.load((await http.get(`${BASE_URL}/genre/all`, { headers })).body, { baseUrl: BASE_URL });
       const genres = doc.select('.genre-list a[id]').map((a) => ({
-        label: (a.attr('title') ?? a.text()).split(' ').map((s) => s.charAt(0).toUpperCase() + s.slice(1)).join(' '),
+        label: (a.attr('title') ?? a.text())
+          .split(' ')
+          .map((s) => s.charAt(0).toUpperCase() + s.slice(1))
+          .join(' '),
         value: a.attr('id') ?? '',
       }));
       return [

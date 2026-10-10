@@ -25,7 +25,10 @@ async function list(url: string): Promise<MangaPage> {
       thumbnailUrl: el.selectFirst('.manga-card-thumb img')?.absUrl('src'),
     };
   });
-  return { items, hasNextPage: items.length >= 40 && selectIgnoreCase(doc, '.pagination a:has(i.fa-chevron-right)').length > 0 };
+  return {
+    items,
+    hasNextPage: items.length >= 40 && selectIgnoreCase(doc, '.pagination a:has(i.fa-chevron-right)').length > 0,
+  };
 }
 
 function parseStatus(text: string | undefined): MangaStatus {
@@ -91,7 +94,9 @@ export default defineExtension({
     async getPages(chapter: Chapter): Promise<Page[]> {
       if (chapter.url.startsWith('http')) throw new Error('この章のURLは古くなっています。マンガを更新してください。');
       const doc = await load(BASE_URL + chapter.url);
-      return doc.select('.reader-page img').map((img, index) => ({ index, imageUrl: toProxyUrl(img.absUrl('src') ?? '') }));
+      return doc
+        .select('.reader-page img')
+        .map((img, index) => ({ index, imageUrl: toProxyUrl(img.absUrl('src') ?? '') }));
     },
     imageHeaders: () => headers,
     resolveUrl(url: string): MangaSummary | null {

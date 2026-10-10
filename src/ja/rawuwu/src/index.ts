@@ -38,7 +38,12 @@ interface ListResponse {
   pagi: { button: { next: number } };
 }
 
-async function doSearch(query: string, page: number, filters: FilterState, defaultSort = 'most_viewed'): Promise<MangaPage> {
+async function doSearch(
+  query: string,
+  page: number,
+  filters: FilterState,
+  defaultSort = 'most_viewed',
+): Promise<MangaPage> {
   let path: string;
   if (query) path = `/spa/search?query=${encodeURIComponent(query)}&page=${page}`;
   else {
@@ -49,7 +54,11 @@ async function doSearch(query: string, page: number, filters: FilterState, defau
   }
   const data = await get<ListResponse>(path);
   return {
-    items: data.manga_list.map((m) => ({ url: `/raw/${m.manga_id}`, title: m.manga_name, thumbnailUrl: m.manga_cover_img })),
+    items: data.manga_list.map((m) => ({
+      url: `/raw/${m.manga_id}`,
+      title: m.manga_name,
+      thumbnailUrl: m.manga_cover_img,
+    })),
     hasNextPage: (data.pagi?.button?.next ?? 0) > 0,
   };
 }
@@ -65,12 +74,20 @@ export default defineExtension({
     search: (query, page, filters) => doSearch(query, page, filters),
     async getFilters(): Promise<Filter[]> {
       const doc = html.load((await http.get(`${BASE_URL}/genre/all`, { headers })).body, { baseUrl: BASE_URL });
-      const genres = doc.select('.genre-list a[id]').map((a) => ({ label: genreName(a.attr('title') ?? ''), value: a.attr('id') ?? '' }));
+      const genres = doc
+        .select('.genre-list a[id]')
+        .map((a) => ({ label: genreName(a.attr('title') ?? ''), value: a.attr('id') ?? '' }));
       return [
         { type: 'header', label: 'Filters are ignored when using text search.' },
         { type: 'select', id: 'status', label: 'Status', options: STATUSES, default: '' },
         { type: 'select', id: 'sort', label: 'Sort by', options: SORTS, default: 'most_viewed' },
-        { type: 'select', id: 'genre', label: 'Genre', options: [{ label: 'All', value: 'all' }, ...genres], default: 'all' },
+        {
+          type: 'select',
+          id: 'genre',
+          label: 'Genre',
+          options: [{ label: 'All', value: 'all' }, ...genres],
+          default: 'all',
+        },
       ];
     },
     async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {

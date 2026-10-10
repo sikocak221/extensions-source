@@ -40,7 +40,10 @@ export default defineExtension({
   createSource: () => ({
     baseUrl: BASE_URL,
     async getPopular(): Promise<MangaPage> {
-      return { items: (await catalog()).map(({ url, title, thumbnailUrl }) => ({ url, title, thumbnailUrl })), hasNextPage: false };
+      return {
+        items: (await catalog()).map(({ url, title, thumbnailUrl }) => ({ url, title, thumbnailUrl })),
+        hasNextPage: false,
+      };
     },
     async search(query: string): Promise<MangaPage> {
       const q = query.toLowerCase();

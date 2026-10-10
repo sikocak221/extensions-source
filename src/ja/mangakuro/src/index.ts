@@ -21,7 +21,11 @@ async function list(path: string, page: number, param: string, value: string): P
   for (const el of doc.select('div.story_item')) {
     const a = el.selectFirst('div.mg_name a');
     if (!a) continue;
-    items.push({ url: relativeUrl(a.absUrl('href') ?? ''), title: a.text(), thumbnailUrl: el.selectFirst('img')?.absUrl('src') });
+    items.push({
+      url: relativeUrl(a.absUrl('href') ?? ''),
+      title: a.text(),
+      thumbnailUrl: el.selectFirst('img')?.absUrl('src'),
+    });
   }
   return { items, hasNextPage: doc.selectFirst("a[title='Last Page']") !== null };
 }
@@ -74,7 +78,10 @@ export default defineExtension({
       return {
         url: manga.url,
         title: doc.selectFirst('div.detail_name > h1')?.text() ?? manga.title,
-        author: joined(doc.select("div:has(.lnr-user) + .info_value a[href*='/authors/']"), (t) => t !== '未詳' && t !== '不明'),
+        author: joined(
+          doc.select("div:has(.lnr-user) + .info_value a[href*='/authors/']"),
+          (t) => t !== '未詳' && t !== '不明',
+        ),
         status: parseStatus(doc.selectFirst('div:has(.lnr-leaf) + .info_value')?.text()),
         genres: doc.select('div.detail_listInfo a.genres-el').map((a) => a.text()),
         description: doc.selectFirst('.detail_reviewContent')?.text(),
@@ -114,7 +121,9 @@ export default defineExtension({
     resolveUrl(url: string): MangaSummary | null {
       const slug = /\/manga\/([^/?#]+)/.exec(url)?.[1];
       const host = hostOf(url);
-      return slug && (host === hostOf(BASE_URL) || host.endsWith(`.${hostOf(BASE_URL)}`)) ? { url: `/manga/${slug}`, title: '' } : null;
+      return slug && (host === hostOf(BASE_URL) || host.endsWith(`.${hostOf(BASE_URL)}`))
+        ? { url: `/manga/${slug}`, title: '' }
+        : null;
     },
     getWebUrl: (item) => BASE_URL + item.url,
   }),

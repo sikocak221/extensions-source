@@ -117,7 +117,9 @@ export default defineExtension({
       } catch {
         throw new Error('You need to purchase this chapter.');
       }
-      return chapters.flatMap((c) => c.images).map((image, index) => ({ index, imageUrl: `${image.path}#${image.key}` }));
+      return chapters
+        .flatMap((c) => c.images)
+        .map((image, index) => ({ index, imageUrl: `${image.path}#${image.key}` }));
     },
     imageHeaders: () => headers,
     /** XOR with the (base64) key from the url fragment. */

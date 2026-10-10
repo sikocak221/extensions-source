@@ -53,7 +53,6 @@ const text = (v: number | Uint8Array | undefined): string | undefined =>
 const first = (fields: Field[], n: number) => fields.find((f) => f.n === n)?.v;
 const all = (fields: Field[], n: number) => fields.filter((f) => f.n === n).map((f) => f.v as Uint8Array);
 
-
 async function proto(query: string, post = false): Promise<Field[]> {
   const url = `${API}?${query}`;
   const response = post
@@ -110,7 +109,9 @@ export default defineExtension({
         const t = read(b);
         return { label: text(first(t, 2)) ?? '', value: String(first(t, 1)) };
       });
-      return tags.length ? [{ type: 'select', id: 'tag', label: 'ジャンル', options: tags, default: tags[0]!.value }] : [];
+      return tags.length
+        ? [{ type: 'select', id: 'tag', label: 'ジャンル', options: tags, default: tags[0]!.value }]
+        : [];
     },
     async search(query: string, _page: number, filters: FilterState): Promise<MangaPage> {
       const tag = typeof filters.tag === 'string' ? filters.tag : '';
