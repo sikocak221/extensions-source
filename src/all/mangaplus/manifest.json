@@ -1,0 +1,58 @@
+{
+  "id": "mangaplus",
+  "name": "MANGA Plus by SHUEISHA",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 2,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "MANGA Plus by SHUEISHA"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "MANGA Plus by SHUEISHA"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "MANGA Plus by SHUEISHA"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "MANGA Plus by SHUEISHA"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "MANGA Plus by SHUEISHA"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "MANGA Plus by SHUEISHA"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "MANGA Plus by SHUEISHA"
+    },
+    {
+      "key": "vi",
+      "lang": "vi",
+      "name": "MANGA Plus by SHUEISHA"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "MANGA Plus by SHUEISHA"
+    }
+  ]
+}
