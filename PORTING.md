@@ -1546,7 +1546,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manhwa18net           | standalone    | done    |                                                                                                                                     |
 | manhwaclubnet         | madara        | todo    |                                                                                                                                     |
 | manhwadashraw         | madara        | todo    |                                                                                                                                     |
-| manta                 | standalone    | todo    |                                                                                                                                     |
+| manta                 | standalone    | done    |                                                                                                                                     |
 | mayotune              | standalone    | done    |                                                                                                                                     |
 | metarthunter          | masonry       | todo    |                                                                                                                                     |
 | miauscan              | mangathemesia | todo    |                                                                                                                                     |
