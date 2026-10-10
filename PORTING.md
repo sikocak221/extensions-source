@@ -59,62 +59,63 @@ Status: `todo` → `ported` (code + build) → `done` (fixture test + live `mr-e
 
 ## Themes (lib-multisrc)
 
-| Theme         | Extensions (id) | Status  |
-| ------------- | --------------- | ------- |
-| mangathemesia | 29              | done    |
-| zeistmanga    | 9               | done    |
-| madara        | 5               | done    |
-| loneseal      | 5               | done    |
-| zmanga        | 3               | done    |
-| natsuid       | 3               | done    |
-| oceanwp       | 2               | done    |
-| hwalumi       | 2               | done    |
-| colorlibanime | 2               | ported  |
-| keyoapp       | 16 (en)         | done    |
-| mangacatalog  | 12 (en)         | done    |
-| mangahub      | 11 (en)         | ported  |
-| iken          | 10 (en)         | done    |
-| vinetheme     | 5 (en)          | done    |
-| guya          | 3 (en)          | done    |
-| manga18       | 3 (en)          | done    |
-| mangabox      | 3 (en)          | done    |
-| mangadventure | 2 (en)          | done    |
-| bakkin        | 2 (en)          | done    |
-| foolslide     | 2 (en)          | done    |
-| eromuse       | 2 (en)          | done    |
-| ezmanhwa      | 2 (en)          | done    |
-| heancms       | 2 (en)          | done    |
-| mangak        | 2 (en)          | done    |
-| mangataro     | 2 (en)          | done    |
-| manhwaz       | 2 (vi)          | done    | en sites blocked                                                |
-| monochrome    | 2 (en)          | done    |
-| goda          | 1 (en)          | ported  |
-| hiper         | 1 (en)          | done    |
-| singleseries  | Matane helper   | done    | one-series sites (webcomics); not a Tachiyomi theme             |
-| initmanga     | 1 (en)          | done    |
-| mangareader   | 1 (en)          | done    |
-| liliana       | 1 (en)          | done    |
-| mmrcms        | 3 (ar, es, fr)  | done    | en sites blocked                                                |
-| pam           | 1 (en)          | later   | every en site blocked; port with a language that has live sites |
-| madaralegacy  | 1 (en)          | blocked |
-| wpcomics      | 1 (en)          | done    |
-| fansubscat    | 2 (ca)          | done    |
-| fuzzydoodle   | 1 (ar)          | done    |
-| grouple       | 6 (ru)          | done    |
-| inkstory      | 2 (ru)          | done    |
-| mangaworld    | 2 (it)          | done    |
-| mccms         | 3 (zh)          | done    |
-| moonlighttl   | 2 (es)          | done    |
-| multichan     | 2 (ru)          | done    |
-| origines      | 1 (fr)          | done    |
-| pizzareader   | 7 (it, fr)      | done    |
-| scanreader    | 1 (fr)          | done    |
-| senkuro       | 2 (ru)          | done    |
-| uzaymanga     | 6 (tr)          | done    |
-| comiciviewer  | 29 (ja, all)    | done    | descrambled pages via transformImage tiles                      |
-| fmreader      | 4 (ja)          | done    |
-| galleryadults | 8 (all)         | done    |
-| aurora        | 4 (pt)          | later   | every site blocked (Cloudflare); port when one answers          |
+| Theme            | Extensions (id) | Status  |
+| ---------------- | --------------- | ------- |
+| mangathemesia    | 29              | done    |
+| zeistmanga       | 9               | done    |
+| madara           | 5               | done    |
+| loneseal         | 5               | done    |
+| zmanga           | 3               | done    |
+| natsuid          | 3               | done    |
+| oceanwp          | 2               | done    |
+| hwalumi          | 2               | done    |
+| colorlibanime    | 2               | ported  |
+| keyoapp          | 16 (en)         | done    |
+| mangacatalog     | 12 (en)         | done    |
+| mangahub         | 11 (en)         | ported  |
+| iken             | 10 (en)         | done    |
+| vinetheme        | 5 (en)          | done    |
+| guya             | 3 (en)          | done    |
+| manga18          | 3 (en)          | done    |
+| mangabox         | 3 (en)          | done    |
+| mangadventure    | 2 (en)          | done    |
+| bakkin           | 2 (en)          | done    |
+| foolslide        | 2 (en)          | done    |
+| eromuse          | 2 (en)          | done    |
+| ezmanhwa         | 2 (en)          | done    |
+| heancms          | 2 (en)          | done    |
+| mangak           | 2 (en)          | done    |
+| mangataro        | 2 (en)          | done    |
+| manhwaz          | 2 (vi)          | done    | en sites blocked                                                  |
+| monochrome       | 2 (en)          | done    |
+| goda             | 1 (en)          | ported  |
+| hiper            | 1 (en)          | done    |
+| singleseries     | Matane helper   | done    | one-series sites (webcomics); not a Tachiyomi theme               |
+| initmanga        | 1 (en)          | done    |
+| mangareader      | 1 (en)          | done    |
+| liliana          | 1 (en)          | done    |
+| mmrcms           | 3 (ar, es, fr)  | done    | en sites blocked                                                  |
+| pam              | 1 (en)          | later   | every en site blocked; port with a language that has live sites   |
+| madaralegacy     | 1 (en)          | blocked |
+| wpcomics         | 1 (en)          | done    |
+| fansubscat       | 2 (ca)          | done    |
+| fuzzydoodle      | 1 (ar)          | done    |
+| grouple          | 6 (ru)          | done    |
+| inkstory         | 2 (ru)          | done    |
+| mangaworld       | 2 (it)          | done    |
+| mccms            | 3 (zh)          | done    |
+| moonlighttl      | 2 (es)          | done    |
+| multichan        | 2 (ru)          | done    |
+| origines         | 1 (fr)          | done    |
+| pizzareader      | 7 (it, fr)      | done    |
+| scanreader       | 1 (fr)          | done    |
+| senkuro          | 2 (ru)          | done    |
+| uzaymanga        | 6 (tr)          | done    |
+| comiciviewer     | 29 (ja, all)    | done    | descrambled pages via transformImage tiles                        |
+| fmreader         | 4 (ja)          | done    |
+| clipstudioreader | 1 (ja)          | done    | reader helper (comic viewer only, no EPUB); FireCross geo-blocked |
+| galleryadults    | 8 (all)         | done    |
+| aurora           | 4 (pt)          | later   | every site blocked (Cloudflare); port when one answers            |
 
 ## id
 
@@ -1334,134 +1335,134 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## ja
 
-| Extension               | Theme            | Status | Notes                                                                                         |
-| ----------------------- | ---------------- | ------ | --------------------------------------------------------------------------------------------- |
-| alphapolis              | standalone       | todo   |                                                                                               |
-| amebamanga              | standalone       | todo   |                                                                                               |
-| asacomi                 | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| bibibicomic             | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| bigcomics               | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| booklistastudio         | comiciviewer     | done   |                                                                                               |
-| bookwalkerjp            | standalone       | todo   |                                                                                               |
-| championcross           | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| ciaoplus                | standalone       | todo   |                                                                                               |
-| cmoa                    | standalone       | todo   |                                                                                               |
-| comicboost              | standalone       | todo   |                                                                                               |
-| comicborder             | gigaviewer       | todo   |                                                                                               |
-| comicdays               | gigaviewer       | todo   |                                                                                               |
-| comicearthstar          | gigaviewer       | todo   |                                                                                               |
-| comicfesta              | clipstudioreader | todo   |                                                                                               |
-| comicfuz                | standalone       | todo   |                                                                                               |
-| comicgardo              | gigaviewer       | todo   |                                                                                               |
-| comicgrast              | standalone       | todo   |                                                                                               |
-| comicmeteor             | standalone       | todo   |                                                                                               |
-| comicnettai             | standalone       | todo   |                                                                                               |
-| comico                  | standalone       | todo   |                                                                                               |
-| comicpash               | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| comicride               | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| comicroombase           | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| comicryu                | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| comicyours              | gigaviewer       | todo   |                                                                                               |
-| comirela                | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| corocoroonline          | standalone       | todo   |                                                                                               |
-| coronaex                | standalone       | todo   |                                                                                               |
-| cycomi                  | standalone       | todo   |                                                                                               |
-| dmm                     | standalone       | todo   |                                                                                               |
-| docomo                  | standalone       | todo   |                                                                                               |
-| dokiraw                 | standalone       | todo   |                                                                                               |
-| drecomics               | standalone       | todo   |                                                                                               |
-| ebookjapan              | standalone       | todo   |                                                                                               |
-| firecross               | clipstudioreader | todo   |                                                                                               |
-| flowercomics            | standalone       | todo   |                                                                                               |
-| fodfuji                 | standalone       | todo   |                                                                                               |
-| ganganonline            | standalone       | todo   |                                                                                               |
-| ganma                   | standalone       | todo   |                                                                                               |
-| gaugaumonsterplus       | standalone       | todo   |                                                                                               |
-| gcomi                   | comiciviewer     | done   |                                                                                               |
-| gorakuweb               | standalone       | todo   |                                                                                               |
-| hachiraw                | standalone       | todo   |                                                                                               |
-| hanayume                | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| hayacomic               | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| herosweb                | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| ichicomi                | gigaviewer       | todo   |                                                                                               |
-| idolgravureprincessdate | standalone       | todo   |                                                                                               |
-| jmanga                  | mangareader      | todo   |                                                                                               |
-| jnbooks                 | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| jumprookie              | standalone       | todo   |                                                                                               |
-| jumptoon                | standalone       | todo   |                                                                                               |
-| kadocomi                | standalone       | todo   |                                                                                               |
-| kimicomi                | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| kisslove                | standalone       | todo   |                                                                                               |
-| klraw                   | mangareader      | todo   |                                                                                               |
-| klto9                   | standalone       | todo   |                                                                                               |
-| kmansin09               | madara           | todo   |                                                                                               |
-| kumaraw                 | standalone       | todo   |                                                                                               |
-| kuragebunch             | gigaviewer       | todo   |                                                                                               |
-| linemanga               | standalone       | todo   |                                                                                               |
-| magazinepocket          | standalone       | todo   |                                                                                               |
-| magcomi                 | gigaviewer       | todo   |                                                                                               |
-| magkan                  | comiciviewer     | done   |                                                                                               |
-| manga1000               | standalone       | todo   |                                                                                               |
-| mangabang               | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| mangabu                 | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| mangafive               | standalone       | todo   |                                                                                               |
-| mangagun                | fmreader         | done   |                                                                                               |
-| mangakingdom            | standalone       | todo   |                                                                                               |
-| mangakuro               | standalone       | todo   |                                                                                               |
-| mangalt                 | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| mangamee                | standalone       | todo   |                                                                                               |
-| mangameets              | standalone       | todo   |                                                                                               |
-| mangamura               | mangareader      | todo   |                                                                                               |
-| mangano                 | standalone       | todo   |                                                                                               |
-| mangaone                | standalone       | todo   |                                                                                               |
-| mangaparkpublisher      | standalone       | todo   |                                                                                               |
-| mangasaison             | standalone       | todo   |                                                                                               |
-| mangaspa                | comiciviewer     | done   |                                                                                               |
-| mangatoshokanz          | standalone       | todo   |                                                                                               |
-| mangaupjapan            | standalone       | todo   |                                                                                               |
-| mangazegra              | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| mechacomic              | standalone       | todo   |                                                                                               |
-| mokuro                  | standalone       | todo   |                                                                                               |
-| momonga                 | standalone       | todo   |                                                                                               |
-| musicbookjp             | standalone       | todo   |                                                                                               |
-| namicomic               | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| nicomanga               | standalone       | todo   |                                                                                               |
-| nicovideoseiga          | standalone       | todo   |                                                                                               |
-| nikkangecchan           | standalone       | todo   |                                                                                               |
-| ohtawebcomic            | standalone       | todo   |                                                                                               |
-| pashup                  | standalone       | todo   |                                                                                               |
-| piacomic                | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| piccoma                 | standalone       | todo   |                                                                                               |
-| pixivcomic              | standalone       | todo   |                                                                                               |
-| raw1001                 | liliana          | todo   |                                                                                               |
-| raw18                   | wpcomics         | todo   |                                                                                               |
-| rawbaka                 | madara           | todo   |                                                                                               |
-| rawdevartart            | standalone       | todo   |                                                                                               |
-| rawinu                  | fmreader         | done   |                                                                                               |
-| rawkuma                 | natsuid          | todo   |                                                                                               |
-| rawlh                   | fmreader         | done   | image requests need the chapter url as Referer (SDK imageHeaders is not per page)             |
-| rawotaku                | mangareader      | todo   |                                                                                               |
-| rawuwu                  | standalone       | todo   |                                                                                               |
-| rawxz                   | standalone       | todo   |                                                                                               |
-| readerstore             | standalone       | todo   |                                                                                               |
-| rimacomiplus            | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| senmanga                | standalone       | todo   |                                                                                               |
-| shonenjumpplus          | gigaviewer       | todo   |                                                                                               |
-| sokuyomi                | standalone       | todo   |                                                                                               |
-| sundaywebevery          | gigaviewer       | todo   |                                                                                               |
-| takecomic               | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| tonarinoyoungjump       | gigaviewer       | todo   |                                                                                               |
-| twi4                    | standalone       | todo   |                                                                                               |
-| unext                   | standalone       | todo   |                                                                                               |
-| welovemangaone          | fmreader         | done   |                                                                                               |
-| yanmaga                 | standalone       | todo   |                                                                                               |
-| ynjn                    | standalone       | todo   |                                                                                               |
-| yomonga                 | standalone       | todo   |                                                                                               |
-| younganimal             | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| youngchampion           | comiciviewer     | done   | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes |
-| zebrack                 | standalone       | todo   |                                                                                               |
-| zenon                   | gigaviewer       | todo   |                                                                                               |
-| zerosumonline           | standalone       | todo   |                                                                                               |
+| Extension               | Theme            | Status  | Notes                                                                                                                                         |
+| ----------------------- | ---------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| alphapolis              | standalone       | todo    |                                                                                                                                               |
+| amebamanga              | standalone       | todo    |                                                                                                                                               |
+| asacomi                 | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| bibibicomic             | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| bigcomics               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| booklistastudio         | comiciviewer     | done    |                                                                                                                                               |
+| bookwalkerjp            | standalone       | todo    |                                                                                                                                               |
+| championcross           | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| ciaoplus                | standalone       | todo    |                                                                                                                                               |
+| cmoa                    | standalone       | todo    |                                                                                                                                               |
+| comicboost              | standalone       | todo    |                                                                                                                                               |
+| comicborder             | gigaviewer       | todo    |                                                                                                                                               |
+| comicdays               | gigaviewer       | todo    |                                                                                                                                               |
+| comicearthstar          | gigaviewer       | todo    |                                                                                                                                               |
+| comicfesta              | clipstudioreader | done    | live: newest volumes are paid (login/purchase); free volumes verified (title 255922, pages unscrambled); test reads a title with free volumes |
+| comicfuz                | standalone       | todo    |                                                                                                                                               |
+| comicgardo              | gigaviewer       | todo    |                                                                                                                                               |
+| comicgrast              | standalone       | todo    |                                                                                                                                               |
+| comicmeteor             | standalone       | todo    |                                                                                                                                               |
+| comicnettai             | standalone       | todo    |                                                                                                                                               |
+| comico                  | standalone       | todo    |                                                                                                                                               |
+| comicpash               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| comicride               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| comicroombase           | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| comicryu                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| comicyours              | gigaviewer       | todo    |                                                                                                                                               |
+| comirela                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| corocoroonline          | standalone       | todo    |                                                                                                                                               |
+| coronaex                | standalone       | todo    |                                                                                                                                               |
+| cycomi                  | standalone       | todo    |                                                                                                                                               |
+| dmm                     | standalone       | todo    |                                                                                                                                               |
+| docomo                  | standalone       | todo    |                                                                                                                                               |
+| dokiraw                 | standalone       | todo    |                                                                                                                                               |
+| drecomics               | standalone       | todo    |                                                                                                                                               |
+| ebookjapan              | standalone       | todo    |                                                                                                                                               |
+| firecross               | clipstudioreader | blocked | geo-blocked: CloudFront answers 403 outside Japan                                                                                             |
+| flowercomics            | standalone       | todo    |                                                                                                                                               |
+| fodfuji                 | standalone       | todo    |                                                                                                                                               |
+| ganganonline            | standalone       | todo    |                                                                                                                                               |
+| ganma                   | standalone       | todo    |                                                                                                                                               |
+| gaugaumonsterplus       | standalone       | todo    |                                                                                                                                               |
+| gcomi                   | comiciviewer     | done    |                                                                                                                                               |
+| gorakuweb               | standalone       | todo    |                                                                                                                                               |
+| hachiraw                | standalone       | todo    |                                                                                                                                               |
+| hanayume                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| hayacomic               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| herosweb                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| ichicomi                | gigaviewer       | todo    |                                                                                                                                               |
+| idolgravureprincessdate | standalone       | todo    |                                                                                                                                               |
+| jmanga                  | mangareader      | todo    |                                                                                                                                               |
+| jnbooks                 | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| jumprookie              | standalone       | todo    |                                                                                                                                               |
+| jumptoon                | standalone       | todo    |                                                                                                                                               |
+| kadocomi                | standalone       | todo    |                                                                                                                                               |
+| kimicomi                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| kisslove                | standalone       | todo    |                                                                                                                                               |
+| klraw                   | mangareader      | todo    |                                                                                                                                               |
+| klto9                   | standalone       | todo    |                                                                                                                                               |
+| kmansin09               | madara           | todo    |                                                                                                                                               |
+| kumaraw                 | standalone       | todo    |                                                                                                                                               |
+| kuragebunch             | gigaviewer       | todo    |                                                                                                                                               |
+| linemanga               | standalone       | todo    |                                                                                                                                               |
+| magazinepocket          | standalone       | todo    |                                                                                                                                               |
+| magcomi                 | gigaviewer       | todo    |                                                                                                                                               |
+| magkan                  | comiciviewer     | done    |                                                                                                                                               |
+| manga1000               | standalone       | todo    |                                                                                                                                               |
+| mangabang               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| mangabu                 | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| mangafive               | standalone       | todo    |                                                                                                                                               |
+| mangagun                | fmreader         | done    |                                                                                                                                               |
+| mangakingdom            | standalone       | todo    |                                                                                                                                               |
+| mangakuro               | standalone       | todo    |                                                                                                                                               |
+| mangalt                 | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| mangamee                | standalone       | todo    |                                                                                                                                               |
+| mangameets              | standalone       | todo    |                                                                                                                                               |
+| mangamura               | mangareader      | todo    |                                                                                                                                               |
+| mangano                 | standalone       | todo    |                                                                                                                                               |
+| mangaone                | standalone       | todo    |                                                                                                                                               |
+| mangaparkpublisher      | standalone       | todo    |                                                                                                                                               |
+| mangasaison             | standalone       | todo    |                                                                                                                                               |
+| mangaspa                | comiciviewer     | done    |                                                                                                                                               |
+| mangatoshokanz          | standalone       | todo    |                                                                                                                                               |
+| mangaupjapan            | standalone       | todo    |                                                                                                                                               |
+| mangazegra              | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| mechacomic              | standalone       | todo    |                                                                                                                                               |
+| mokuro                  | standalone       | todo    |                                                                                                                                               |
+| momonga                 | standalone       | todo    |                                                                                                                                               |
+| musicbookjp             | standalone       | todo    |                                                                                                                                               |
+| namicomic               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| nicomanga               | standalone       | todo    |                                                                                                                                               |
+| nicovideoseiga          | standalone       | todo    |                                                                                                                                               |
+| nikkangecchan           | standalone       | todo    |                                                                                                                                               |
+| ohtawebcomic            | standalone       | todo    |                                                                                                                                               |
+| pashup                  | standalone       | todo    |                                                                                                                                               |
+| piacomic                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| piccoma                 | standalone       | todo    |                                                                                                                                               |
+| pixivcomic              | standalone       | todo    |                                                                                                                                               |
+| raw1001                 | liliana          | todo    |                                                                                                                                               |
+| raw18                   | wpcomics         | todo    |                                                                                                                                               |
+| rawbaka                 | madara           | todo    |                                                                                                                                               |
+| rawdevartart            | standalone       | todo    |                                                                                                                                               |
+| rawinu                  | fmreader         | done    |                                                                                                                                               |
+| rawkuma                 | natsuid          | todo    |                                                                                                                                               |
+| rawlh                   | fmreader         | done    | image requests need the chapter url as Referer (SDK imageHeaders is not per page)                                                             |
+| rawotaku                | mangareader      | todo    |                                                                                                                                               |
+| rawuwu                  | standalone       | todo    |                                                                                                                                               |
+| rawxz                   | standalone       | todo    |                                                                                                                                               |
+| readerstore             | standalone       | todo    |                                                                                                                                               |
+| rimacomiplus            | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| senmanga                | standalone       | todo    |                                                                                                                                               |
+| shonenjumpplus          | gigaviewer       | todo    |                                                                                                                                               |
+| sokuyomi                | standalone       | todo    |                                                                                                                                               |
+| sundaywebevery          | gigaviewer       | todo    |                                                                                                                                               |
+| takecomic               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| tonarinoyoungjump       | gigaviewer       | todo    |                                                                                                                                               |
+| twi4                    | standalone       | todo    |                                                                                                                                               |
+| unext                   | standalone       | todo    |                                                                                                                                               |
+| welovemangaone          | fmreader         | done    |                                                                                                                                               |
+| yanmaga                 | standalone       | todo    |                                                                                                                                               |
+| ynjn                    | standalone       | todo    |                                                                                                                                               |
+| yomonga                 | standalone       | todo    |                                                                                                                                               |
+| younganimal             | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| youngchampion           | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                 |
+| zebrack                 | standalone       | todo    |                                                                                                                                               |
+| zenon                   | gigaviewer       | todo    |                                                                                                                                               |
+| zerosumonline           | standalone       | todo    |                                                                                                                                               |
 
 ## all
 
