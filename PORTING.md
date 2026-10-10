@@ -1252,7 +1252,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hipertoon           | hiper         | todo    |                                                                                                          |
 | horahentai          | standalone    | done    |                                                                                                          |
 | hotcabaretscan      | madara        | todo    |                                                                                                          |
-| hqnow               | standalone    | todo    |                                                                                                          |
+| hqnow               | standalone    | done    |                                                                                                          |
 | huntersscans        | madara        | todo    |                                                                                                          |
 | imperiodabritannia  | mangotheme    | todo    |                                                                                                          |
 | inkapk              | madara        | todo    |                                                                                                          |
