@@ -1250,7 +1250,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hentaitokyo         | gattsu        | todo    |                                                                                                          |
 | hipercool           | hiper         | todo    |                                                                                                          |
 | hipertoon           | hiper         | todo    |                                                                                                          |
-| horahentai          | standalone    | todo    |                                                                                                          |
+| horahentai          | standalone    | done    |                                                                                                          |
 | hotcabaretscan      | madara        | todo    |                                                                                                          |
 | hqnow               | standalone    | todo    |                                                                                                          |
 | huntersscans        | madara        | todo    |                                                                                                          |
