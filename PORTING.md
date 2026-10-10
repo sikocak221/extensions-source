@@ -1299,7 +1299,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | portalyaoi          | madara        | todo    |                                                                                                                                        |
 | randomscan          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
 | remangas            | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
-| revistasequadrinhos | standalone    | todo    |                                                                                                                                        |
+| revistasequadrinhos | standalone    | done    |                                                                                                                                        |
 | rfdragonscan        | standalone    | blocked | every request needs an account login (Next.js server actions + access_token cookie); no cookie jar                                     |
 | risentoons          | standalone    | todo    |                                                                                                                                        |
 | roxinha             | standalone    | ported  | in pending/: chapter pages need an account (e-mail/password preferences)                                                               |
