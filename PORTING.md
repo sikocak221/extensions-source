@@ -1288,7 +1288,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | nebulosascan        | madara        | done   |       |
 | ninjascan           | madara        | done   |       |
 | nocturnesummer      | madara        | done   |       |
-| noindexscan         | madara        | todo   |       |
+| noindexscan         | madara        | done   |       |
 | onereader           | standalone    | todo   |       |
 | osakascan           | zeistmanga    | todo   |       |
 | pinkrosa            | zeistmanga    | todo   |       |
