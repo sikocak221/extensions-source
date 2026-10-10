@@ -1526,7 +1526,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | luscious              | standalone    | todo    |                                                           |
 | magicaltranslators    | guya          | todo    |                                                           |
 | manga18fx             | standalone    | done    |                                                           |
-| manga18me             | standalone    | todo    |                                                           |
+| manga18me             | standalone    | done    |                                                           |
 | mangaball             | standalone    | todo    |                                                           |
 | mangacrazy            | madara        | todo    |                                                           |
 | mangadex              | standalone    | done    | existing                                                  |
