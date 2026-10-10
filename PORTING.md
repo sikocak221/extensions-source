@@ -1213,120 +1213,120 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## pt
 
-| Extension           | Theme         | Status  | Notes                                                               |
-| ------------------- | ------------- | ------- | ------------------------------------------------------------------- |
-| acervoeremita       | standalone    | todo    |                                                                     |
-| acervohentai        | madara        | todo    |                                                                     |
-| amuy                | madara        | todo    |                                                                     |
-| animexnovel         | standalone    | todo    |                                                                     |
-| apecomics           | mangawork     | todo    |                                                                     |
-| apenasumafa         | zeistmanga    | todo    |                                                                     |
-| argoscomics         | standalone    | todo    |                                                                     |
-| argosscan           | standalone    | todo    |                                                                     |
-| arthurscan          | madara        | todo    |                                                                     |
-| astratoons          | standalone    | todo    |                                                                     |
-| azuretoons          | standalone    | todo    |                                                                     |
-| bakai               | standalone    | todo    |                                                                     |
-| blackoutcomics      | standalone    | todo    |                                                                     |
-| bladetoons          | mangotheme    | todo    |                                                                     |
-| borutoexplorer      | madara        | todo    |                                                                     |
-| brasilhentai        | standalone    | todo    |                                                                     |
-| bryaoi              | standalone    | todo    |                                                                     |
-| cafecomyaoi         | madara        | todo    |                                                                     |
-| cerisescans         | standalone    | todo    |                                                                     |
-| covenscan           | madara        | todo    |                                                                     |
-| egotoons            | standalone    | todo    |                                                                     |
-| erosect             | standalone    | todo    |                                                                     |
-| euphoriascan        | madara        | todo    |                                                                     |
-| exhentainetbr       | standalone    | todo    |                                                                     |
-| fenixproject        | madara        | todo    |                                                                     |
-| fleurblanche        | madara        | done    |                                                                     |
-| flowermanga         | madara        | blocked | Cloudflare 403 on series pages                                      |
-| galaxscanlator      | zeistmanga    | todo    |                                                                     |
-| geasscomics         | standalone    | todo    |                                                                     |
-| ghostscan           | madara        | todo    |                                                                     |
-| hanmokkuscan        | zeistmanga    | todo    |                                                                     |
-| hentaiseason        | gattsu        | todo    |                                                                     |
-| hentaitokyo         | gattsu        | todo    |                                                                     |
-| hipercool           | hiper         | todo    |                                                                     |
-| hipertoon           | hiper         | todo    |                                                                     |
-| horahentai          | standalone    | todo    |                                                                     |
-| hotcabaretscan      | madara        | done    |                                                                     |
-| hqnow               | standalone    | todo    |                                                                     |
-| huntersscans        | madara        | todo    |                                                                     |
-| imperiodabritannia  | mangotheme    | todo    |                                                                     |
-| inkapk              | madara        | done    |                                                                     |
-| kamisamaexplorer    | madara        | done    |                                                                     |
-| kivaratoons         | standalone    | todo    |                                                                     |
-| kuromangas          | standalone    | todo    |                                                                     |
-| leitordemangas      | aurora        | todo    |                                                                     |
-| leituramanga        | standalone    | todo    |                                                                     |
-| ler999              | zeistmanga    | todo    |                                                                     |
-| littletyrant        | madara        | todo    |                                                                     |
-| lycantoons          | standalone    | todo    |                                                                     |
-| maidscan            | greenshit     | todo    |                                                                     |
-| mangadash           | standalone    | todo    |                                                                     |
-| mangaflix           | standalone    | todo    |                                                                     |
-| mangalivre          | standalone    | todo    |                                                                     |
-| mangalivreblog      | standalone    | todo    |                                                                     |
-| mangalivreorg       | standalone    | todo    |                                                                     |
-| mangalivreto        | madara        | done    |                                                                     |
-| manganyx            | aurora        | todo    |                                                                     |
-| mangaonline         | standalone    | todo    |                                                                     |
-| mangasbrasuka       | aurora        | todo    |                                                                     |
-| mangastop           | standalone    | todo    |                                                                     |
-| mangeek             | standalone    | todo    |                                                                     |
-| mangotoons          | mangotheme    | todo    |                                                                     |
-| manhastro           | standalone    | todo    |                                                                     |
-| mediocretoons       | standalone    | todo    |                                                                     |
-| minitwoscan         | madara        | todo    |                                                                     |
-| montetai            | madara        | done    | chapters via mt_get_summary_chapters (nonce)                        |
-| mrtenzus            | madara        | done    | live test: first page image 404 (site content)                      |
-| mugiwarasoficial    | aurora        | todo    |                                                                     |
-| muitohentai         | standalone    | todo    |                                                                     |
-| mundohentai         | standalone    | todo    |                                                                     |
-| nebulosascan        | madara        | done    |                                                                     |
-| ninjascan           | madara        | done    |                                                                     |
-| nocturnesummer      | madara        | done    |                                                                     |
-| noindexscan         | madara        | done    |                                                                     |
-| onereader           | standalone    | todo    |                                                                     |
-| osakascan           | zeistmanga    | todo    |                                                                     |
-| pinkrosa            | zeistmanga    | todo    |                                                                     |
-| pinkseaunicorn      | madara        | blocked | site is behind a password-protection login page                     |
-| pizzariascan        | mangawork     | todo    |                                                                     |
-| plumacomics         | standalone    | todo    |                                                                     |
-| pointzerotoons      | mangathemesia | todo    |                                                                     |
-| portalyaoi          | madara        | blocked | Cloudflare 403                                                      |
-| randomscan          | standalone    | todo    |                                                                     |
-| remangas            | standalone    | todo    |                                                                     |
-| revistasequadrinhos | standalone    | todo    |                                                                     |
-| rfdragonscan        | standalone    | todo    |                                                                     |
-| risentoons          | standalone    | todo    |                                                                     |
-| roxinha             | standalone    | todo    |                                                                     |
-| saikaiscan          | standalone    | todo    |                                                                     |
-| shiraiscans         | standalone    | todo    |                                                                     |
-| slimereadunoriginal | standalone    | todo    |                                                                     |
-| spectralscan        | standalone    | todo    |                                                                     |
-| sssscanlator        | standalone    | todo    |                                                                     |
-| starlightscan       | mangathemesia | todo    |                                                                     |
-| taimumangas         | standalone    | todo    |                                                                     |
-| taiyo               | standalone    | todo    |                                                                     |
-| tankouhentai        | madara        | todo    |                                                                     |
-| taosect             | standalone    | todo    |                                                                     |
-| temakimangas        | zeistmanga    | todo    |                                                                     |
-| tiamanhwa           | madara        | todo    |                                                                     |
-| toonbr              | standalone    | todo    |                                                                     |
-| traducoesdolipe     | zeistmanga    | todo    |                                                                     |
-| tsundokutraducoes   | mangathemesia | todo    |                                                                     |
-| universohentai      | gattsu        | todo    |                                                                     |
-| vegitoons           | greenshit     | todo    |                                                                     |
-| verdinha            | greenshit     | todo    |                                                                     |
-| xxxyaoi             | madara        | todo    |                                                                     |
-| yaoifanclub         | zeistmanga    | todo    |                                                                     |
-| yomumangas          | standalone    | todo    |                                                                     |
-| yugenmangas         | standalone    | todo    |                                                                     |
-| yuriverso           | madara        | done    | listing from archive pages (MadaraNoAjax; admin-ajax answers empty) |
-| zettahq             | standalone    | todo    |                                                                     |
+| Extension           | Theme         | Status  | Notes                                                                                                     |
+| ------------------- | ------------- | ------- | --------------------------------------------------------------------------------------------------------- |
+| acervoeremita       | standalone    | todo    |                                                                                                           |
+| acervohentai        | madara        | todo    |                                                                                                           |
+| amuy                | madara        | todo    |                                                                                                           |
+| animexnovel         | standalone    | todo    |                                                                                                           |
+| apecomics           | mangawork     | todo    |                                                                                                           |
+| apenasumafa         | zeistmanga    | todo    |                                                                                                           |
+| argoscomics         | standalone    | todo    |                                                                                                           |
+| argosscan           | standalone    | todo    |                                                                                                           |
+| arthurscan          | madara        | todo    |                                                                                                           |
+| astratoons          | standalone    | todo    |                                                                                                           |
+| azuretoons          | standalone    | todo    |                                                                                                           |
+| bakai               | standalone    | todo    |                                                                                                           |
+| blackoutcomics      | standalone    | todo    |                                                                                                           |
+| bladetoons          | mangotheme    | todo    |                                                                                                           |
+| borutoexplorer      | madara        | todo    |                                                                                                           |
+| brasilhentai        | standalone    | todo    |                                                                                                           |
+| bryaoi              | standalone    | todo    |                                                                                                           |
+| cafecomyaoi         | madara        | todo    |                                                                                                           |
+| cerisescans         | standalone    | todo    |                                                                                                           |
+| covenscan           | madara        | todo    |                                                                                                           |
+| egotoons            | standalone    | todo    |                                                                                                           |
+| erosect             | standalone    | todo    |                                                                                                           |
+| euphoriascan        | madara        | todo    |                                                                                                           |
+| exhentainetbr       | standalone    | todo    |                                                                                                           |
+| fenixproject        | madara        | todo    |                                                                                                           |
+| fleurblanche        | madara        | done    |                                                                                                           |
+| flowermanga         | madara        | blocked | Cloudflare 403 on series pages                                                                            |
+| galaxscanlator      | zeistmanga    | todo    |                                                                                                           |
+| geasscomics         | standalone    | todo    |                                                                                                           |
+| ghostscan           | madara        | blocked | domain has no DNS record (dead)                                                                           |
+| hanmokkuscan        | zeistmanga    | todo    |                                                                                                           |
+| hentaiseason        | gattsu        | todo    |                                                                                                           |
+| hentaitokyo         | gattsu        | todo    |                                                                                                           |
+| hipercool           | hiper         | todo    |                                                                                                           |
+| hipertoon           | hiper         | todo    |                                                                                                           |
+| horahentai          | standalone    | todo    |                                                                                                           |
+| hotcabaretscan      | madara        | done    |                                                                                                           |
+| hqnow               | standalone    | todo    |                                                                                                           |
+| huntersscans        | madara        | blocked | images are block-scrambled (needs bitmap descrambling, unavailable in the sandbox); series pages time out |
+| imperiodabritannia  | mangotheme    | todo    |                                                                                                           |
+| inkapk              | madara        | done    |                                                                                                           |
+| kamisamaexplorer    | madara        | done    |                                                                                                           |
+| kivaratoons         | standalone    | todo    |                                                                                                           |
+| kuromangas          | standalone    | todo    |                                                                                                           |
+| leitordemangas      | aurora        | todo    |                                                                                                           |
+| leituramanga        | standalone    | todo    |                                                                                                           |
+| ler999              | zeistmanga    | todo    |                                                                                                           |
+| littletyrant        | madara        | blocked | Cloudflare challenge                                                                                      |
+| lycantoons          | standalone    | todo    |                                                                                                           |
+| maidscan            | greenshit     | todo    |                                                                                                           |
+| mangadash           | standalone    | todo    |                                                                                                           |
+| mangaflix           | standalone    | todo    |                                                                                                           |
+| mangalivre          | standalone    | todo    |                                                                                                           |
+| mangalivreblog      | standalone    | todo    |                                                                                                           |
+| mangalivreorg       | standalone    | todo    |                                                                                                           |
+| mangalivreto        | madara        | done    |                                                                                                           |
+| manganyx            | aurora        | todo    |                                                                                                           |
+| mangaonline         | standalone    | todo    |                                                                                                           |
+| mangasbrasuka       | aurora        | todo    |                                                                                                           |
+| mangastop           | standalone    | todo    |                                                                                                           |
+| mangeek             | standalone    | todo    |                                                                                                           |
+| mangotoons          | mangotheme    | todo    |                                                                                                           |
+| manhastro           | standalone    | todo    |                                                                                                           |
+| mediocretoons       | standalone    | todo    |                                                                                                           |
+| minitwoscan         | madara        | blocked | Cloudflare challenge                                                                                      |
+| montetai            | madara        | done    | chapters via mt_get_summary_chapters (nonce)                                                              |
+| mrtenzus            | madara        | done    | live test: first page image 404 (site content)                                                            |
+| mugiwarasoficial    | aurora        | todo    |                                                                                                           |
+| muitohentai         | standalone    | todo    |                                                                                                           |
+| mundohentai         | standalone    | todo    |                                                                                                           |
+| nebulosascan        | madara        | done    |                                                                                                           |
+| ninjascan           | madara        | done    |                                                                                                           |
+| nocturnesummer      | madara        | done    |                                                                                                           |
+| noindexscan         | madara        | done    |                                                                                                           |
+| onereader           | standalone    | todo    |                                                                                                           |
+| osakascan           | zeistmanga    | todo    |                                                                                                           |
+| pinkrosa            | zeistmanga    | todo    |                                                                                                           |
+| pinkseaunicorn      | madara        | blocked | site is behind a password-protection login page                                                           |
+| pizzariascan        | mangawork     | todo    |                                                                                                           |
+| plumacomics         | standalone    | todo    |                                                                                                           |
+| pointzerotoons      | mangathemesia | todo    |                                                                                                           |
+| portalyaoi          | madara        | blocked | Cloudflare 403                                                                                            |
+| randomscan          | standalone    | todo    |                                                                                                           |
+| remangas            | standalone    | todo    |                                                                                                           |
+| revistasequadrinhos | standalone    | todo    |                                                                                                           |
+| rfdragonscan        | standalone    | todo    |                                                                                                           |
+| risentoons          | standalone    | todo    |                                                                                                           |
+| roxinha             | standalone    | todo    |                                                                                                           |
+| saikaiscan          | standalone    | todo    |                                                                                                           |
+| shiraiscans         | standalone    | todo    |                                                                                                           |
+| slimereadunoriginal | standalone    | todo    |                                                                                                           |
+| spectralscan        | standalone    | todo    |                                                                                                           |
+| sssscanlator        | standalone    | todo    |                                                                                                           |
+| starlightscan       | mangathemesia | todo    |                                                                                                           |
+| taimumangas         | standalone    | todo    |                                                                                                           |
+| taiyo               | standalone    | todo    |                                                                                                           |
+| tankouhentai        | madara        | todo    |                                                                                                           |
+| taosect             | standalone    | todo    |                                                                                                           |
+| temakimangas        | zeistmanga    | todo    |                                                                                                           |
+| tiamanhwa           | madara        | blocked | bot verification page (403)                                                                               |
+| toonbr              | standalone    | todo    |                                                                                                           |
+| traducoesdolipe     | zeistmanga    | todo    |                                                                                                           |
+| tsundokutraducoes   | mangathemesia | todo    |                                                                                                           |
+| universohentai      | gattsu        | todo    |                                                                                                           |
+| vegitoons           | greenshit     | todo    |                                                                                                           |
+| verdinha            | greenshit     | todo    |                                                                                                           |
+| xxxyaoi             | madara        | blocked | 403 'Acesso Bloqueado' (region/bot block)                                                                 |
+| yaoifanclub         | zeistmanga    | todo    |                                                                                                           |
+| yomumangas          | standalone    | todo    |                                                                                                           |
+| yugenmangas         | standalone    | todo    |                                                                                                           |
+| yuriverso           | madara        | done    | listing from archive pages (MadaraNoAjax; admin-ajax answers empty)                                       |
+| zettahq             | standalone    | todo    |                                                                                                           |
 
 ## ja
 
