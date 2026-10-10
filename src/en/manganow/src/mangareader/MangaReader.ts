@@ -203,7 +203,8 @@ export abstract class MangaReader {
       headers: {
         ...this.headers(),
         Accept: 'application/json, text/javascript, */*; q=0.01',
-        Referer: absoluteUrl(this.baseUrl, path),
+        // Header values must be latin-1: percent-encode non-ASCII path characters.
+        Referer: absoluteUrl(this.baseUrl, path).replace(/[^\x00-\x7f]+/g, (c) => encodeURIComponent(c)),
         'X-Requested-With': 'XMLHttpRequest',
       },
       responseType: 'json',
