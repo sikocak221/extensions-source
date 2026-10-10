@@ -1286,7 +1286,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | muitohentai         | standalone    | todo   |       |
 | mundohentai         | standalone    | todo   |       |
 | nebulosascan        | madara        | done   |       |
-| ninjascan           | madara        | todo   |       |
+| ninjascan           | madara        | done   |       |
 | nocturnesummer      | madara        | todo   |       |
 | noindexscan         | madara        | todo   |       |
 | onereader           | standalone    | todo   |       |
