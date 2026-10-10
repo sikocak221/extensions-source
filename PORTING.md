@@ -1301,7 +1301,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | remangas            | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
 | revistasequadrinhos | standalone    | done    |                                                                                                                                        |
 | rfdragonscan        | standalone    | blocked | every request needs an account login (Next.js server actions + access_token cookie); no cookie jar                                     |
-| risentoons          | standalone    | todo    |                                                                                                                                        |
+| risentoons          | standalone    | done    |                                                                                                                                        |
 | roxinha             | standalone    | ported  | in pending/: chapter pages need an account (e-mail/password preferences)                                                               |
 | saikaiscan          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
 | shiraiscans         | standalone    | blocked | probe 2026-10-11: redirects to a Google page (dead)                                                                                    |
