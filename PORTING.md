@@ -1551,7 +1551,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | metarthunter          | masonry       | todo    |                                                           |
 | miauscan              | mangathemesia | todo    |                                                           |
 | misskon               | standalone    | done    |                                                           |
-| mitaku                | standalone    | todo    |                                                           |
+| mitaku                | standalone    | blocked | Cloudflare 403 (curl and Node fetch, 2026-10-11)          |
 | myreadingmanga        | standalone    | blocked | Cloudflare 'Verification Required' (probe 2026-10-11)     |
 | namicomi              | standalone    | todo    |                                                           |
 | nhentaicom            | hentaihand    | todo    |                                                           |
