@@ -287,7 +287,9 @@ export default defineExtension({
       },
 
       getWebUrl: (item: MangaSummary | Chapter) =>
-        'title' in item ? `${BASE_URL}/title-detail/${item.url.replace(/^\//, '')}` : `${BASE_URL}/chapter-detail/${item.url}`,
+        'title' in item
+          ? `${BASE_URL}/title-detail/${item.url.replace(/^\//, '')}`
+          : `${BASE_URL}/chapter-detail/${item.url}`,
     };
   },
 });

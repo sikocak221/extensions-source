@@ -178,7 +178,8 @@ export default defineExtension({
 
       // No resolveUrl: a web link only has the slug, the api needs the comic id.
 
-      getWebUrl: (item: MangaSummary | Chapter) => ('title' in item ? `${baseUrl}/comics${item.url.split('|')[0]}` : baseUrl),
+      getWebUrl: (item: MangaSummary | Chapter) =>
+        'title' in item ? `${baseUrl}/comics${item.url.split('|')[0]}` : baseUrl,
     };
   },
 });

@@ -39,7 +39,11 @@ const getJson = async <T>(url: string): Promise<T> =>
 /** Tweet times are Asia/Tokyo. */
 const tokyo = (text: string) => (parseDate(text, 'yyyy-MM-dd HH:mm:ss') ?? 0) - 9 * 3_600_000;
 
-const firstLine = (text: string) => text.split('\n').find((line) => line.trim())?.trim() ?? '';
+const firstLine = (text: string) =>
+  text
+    .split('\n')
+    .find((line) => line.trim())
+    ?.trim() ?? '';
 
 function tweetToManga(item: MangaListItem): MangaDetails {
   const { author, tweet } = item;

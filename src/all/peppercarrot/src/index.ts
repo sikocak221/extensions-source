@@ -153,10 +153,17 @@ export default defineExtension({
 
     async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {
       const key = manga.url.replace(/^\//, '');
-      if (key.startsWith('#')) return { ...artworkEntry(key.slice(1)), url: manga.url, status: 'ongoing', author: AUTHOR };
+      if (key.startsWith('#'))
+        return { ...artworkEntry(key.slice(1)), url: manga.url, status: 'ongoing', author: AUTHOR };
       const info = await langs();
       if (key.startsWith('miniFantasyTheater')) {
-        return { ...mft(key.split('#')[1]!), url: manga.url, author: AUTHOR, description: MFT_DESCRIPTION, status: 'ongoing' };
+        return {
+          ...mft(key.split('#')[1]!),
+          url: manga.url,
+          author: AUTHOR,
+          description: MFT_DESCRIPTION,
+          status: 'ongoing',
+        };
       }
       const lang = info.find((l) => l.key === key);
       return {

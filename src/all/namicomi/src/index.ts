@@ -263,7 +263,9 @@ export default defineExtension({
       },
 
       async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {
-        const result = await getJson<{ data?: Entity }>(`${API_URL}/title/${manga.url.split('/').pop()}?${query(COMMON_INCLUDES)}`);
+        const result = await getJson<{ data?: Entity }>(
+          `${API_URL}/title/${manga.url.split('/').pop()}?${query(COMMON_INCLUDES)}`,
+        );
         return result.data ? toManga(result.data) : { ...manga, status: 'unknown' };
       },
 

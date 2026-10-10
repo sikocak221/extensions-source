@@ -70,7 +70,9 @@ export default defineExtension({
     baseUrl: BASE_URL,
 
     async getPopular(page: number): Promise<MangaPage> {
-      return mangaParse(await fetchDocument(withQuery(`${BASE_URL}/hot-manga`, page > 1 ? { page: String(page) } : {})));
+      return mangaParse(
+        await fetchDocument(withQuery(`${BASE_URL}/hot-manga`, page > 1 ? { page: String(page) } : {})),
+      );
     },
 
     async getLatest(page: number): Promise<MangaPage> {
@@ -79,7 +81,12 @@ export default defineExtension({
 
     getFilters(): Filter[] {
       return [
-        { type: 'select', id: 'genre', label: 'Genre (not used with text search)', options: GENRES.map(([label, value]) => ({ label, value })) },
+        {
+          type: 'select',
+          id: 'genre',
+          label: 'Genre (not used with text search)',
+          options: GENRES.map(([label, value]) => ({ label, value })),
+        },
         {
           type: 'select',
           id: 'orderby',
@@ -110,14 +117,20 @@ export default defineExtension({
     async getMangaDetails(manga: MangaSummary): Promise<MangaDetails> {
       const document = await fetchDocument(`${BASE_URL}${manga.url}`);
       const names = (selector: string) => {
-        const text = document.select(selector).map((a) => a.text()).join(', ');
+        const text = document
+          .select(selector)
+          .map((a) => a.text())
+          .join(', ');
         return text && text !== 'Updating' ? text : undefined;
       };
       const description: string[] = [];
       const rate = document.selectFirst('#averagerate')?.text();
       const rateCount = Number.parseInt(document.selectFirst('#countrate')?.text() ?? '', 10) || 0;
       const rating = Number.parseFloat(rate ?? '');
-      if (rate && rating > 0) description.push(`Rating: ${'★'.repeat(Math.round(rating))}${'☆'.repeat(5 - Math.round(rating))} ${rate}${rateCount > 0 ? ` (${rateCount})` : ''}`);
+      if (rate && rating > 0)
+        description.push(
+          `Rating: ${'★'.repeat(Math.round(rating))}${'☆'.repeat(5 - Math.round(rating))} ${rate}${rateCount > 0 ? ` (${rateCount})` : ''}`,
+        );
       const comments = Number.parseInt(document.selectFirst('.list-comments > h4')?.text().split(' ')[0] ?? '', 10);
       if (!Number.isNaN(comments)) description.push(`Comments: ${comments}`);
       const bookmarks = Number.parseInt(document.selectFirst('.sumbmrk')?.text().split(' ')[0] ?? '', 10);
@@ -128,9 +141,12 @@ export default defineExtension({
         .selectFirst('.summary-heading:has(h5:contains(Alternative)) + .summary-content')
         ?.text()
         .split(' / ');
-      if (alternatives && alternatives[0] !== 'N/A') description.push(`Alternative titles:\n${alternatives.map((t) => `- ${t}`).join('\n')}`);
+      if (alternatives && alternatives[0] !== 'N/A')
+        description.push(`Alternative titles:\n${alternatives.map((t) => `- ${t}`).join('\n')}`);
       const type = document.selectFirst('.summary-heading:has(h5:contains(Type)) + .summary-content')?.text();
-      const genres = [...new Set([...(type ? [type] : []), ...document.select('.genres-content > a').map((a) => a.text())])];
+      const genres = [
+        ...new Set([...(type ? [type] : []), ...document.select('.genres-content > a').map((a) => a.text())]),
+      ];
       return {
         url: manga.url,
         title: document.selectFirst('.post-title > h1')?.text() || manga.title,

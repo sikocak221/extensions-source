@@ -89,7 +89,11 @@ export default defineExtension({
     const searchSeries = async (params: Record<string, string>): Promise<MangaPage> => {
       const data = await getJson<Series[]>(withQuery(`${API_URL}/manta/v1/search/series`, { ...params, lang }));
       return {
-        items: data.map((s) => ({ url: `/series/${s.id}`, title: asString(s.data.title, lang), thumbnailUrl: cover(s) })),
+        items: data.map((s) => ({
+          url: `/series/${s.id}`,
+          title: asString(s.data.title, lang),
+          thumbnailUrl: cover(s),
+        })),
         hasNextPage: false,
       };
     };
