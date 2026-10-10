@@ -1535,7 +1535,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangadraft            | standalone    | done    |                                                                                                                                     |
 | mangafire             | standalone    | done    | VRF-signed API; WAF captcha solver not ported; live: ja source has no chapters for the top titles (lists are not language-filtered) |
 | mangaforfree          | madara        | todo    |                                                                                                                                     |
-| mangamillion          | standalone    | todo    |                                                                                                                                     |
+| mangamillion          | standalone    | done    |                                                                                                                                     |
 | mangaplus             | standalone    | done    |                                                                                                                                     |
 | mangapluscreators     | standalone    | todo    |                                                                                                                                     |
 | mangatoon             | standalone    | todo    |                                                                                                                                     |

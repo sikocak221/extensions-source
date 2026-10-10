@@ -1,0 +1,553 @@
+{
+  "id": "mangamillion",
+  "name": "Manga Million",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Manga Million"
+    },
+    {
+      "key": "zh-tw",
+      "lang": "zh-TW",
+      "name": "Manga Million"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "Manga Million"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ko-kr",
+      "lang": "ko-KR",
+      "name": "Manga Million"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "Manga Million"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "Manga Million"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "Manga Million"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "Manga Million"
+    },
+    {
+      "key": "es-mx",
+      "lang": "es-MX",
+      "name": "Manga Million"
+    },
+    {
+      "key": "zh-cn",
+      "lang": "zh-CN",
+      "name": "Manga Million"
+    },
+    {
+      "key": "es-ar",
+      "lang": "es-AR",
+      "name": "Manga Million"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "Manga Million"
+    },
+    {
+      "key": "vi",
+      "lang": "vi",
+      "name": "Manga Million"
+    },
+    {
+      "key": "el",
+      "lang": "el",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sv",
+      "lang": "sv",
+      "name": "Manga Million"
+    },
+    {
+      "key": "tl",
+      "lang": "tl",
+      "name": "Manga Million"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "Manga Million"
+    },
+    {
+      "key": "hi",
+      "lang": "hi",
+      "name": "Manga Million"
+    },
+    {
+      "key": "km",
+      "lang": "km",
+      "name": "Manga Million"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "Manga Million"
+    },
+    {
+      "key": "zh-hk",
+      "lang": "zh-HK",
+      "name": "Manga Million"
+    },
+    {
+      "key": "cs",
+      "lang": "cs",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "Manga Million"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ca",
+      "lang": "ca",
+      "name": "Manga Million"
+    },
+    {
+      "key": "zu",
+      "lang": "zu",
+      "name": "Manga Million"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "Manga Million"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sr",
+      "lang": "sr",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ro",
+      "lang": "ro",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ms",
+      "lang": "ms",
+      "name": "Manga Million"
+    },
+    {
+      "key": "nl",
+      "lang": "nl",
+      "name": "Manga Million"
+    },
+    {
+      "key": "da",
+      "lang": "da",
+      "name": "Manga Million"
+    },
+    {
+      "key": "no",
+      "lang": "no",
+      "name": "Manga Million"
+    },
+    {
+      "key": "af",
+      "lang": "af",
+      "name": "Manga Million"
+    },
+    {
+      "key": "am",
+      "lang": "am",
+      "name": "Manga Million"
+    },
+    {
+      "key": "as",
+      "lang": "as",
+      "name": "Manga Million"
+    },
+    {
+      "key": "be",
+      "lang": "be",
+      "name": "Manga Million"
+    },
+    {
+      "key": "bg",
+      "lang": "bg",
+      "name": "Manga Million"
+    },
+    {
+      "key": "bho",
+      "lang": "bho",
+      "name": "Manga Million"
+    },
+    {
+      "key": "bo",
+      "lang": "bo",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ceb",
+      "lang": "ceb",
+      "name": "Manga Million"
+    },
+    {
+      "key": "cnr",
+      "lang": "cnr",
+      "name": "Manga Million"
+    },
+    {
+      "key": "cy",
+      "lang": "cy",
+      "name": "Manga Million"
+    },
+    {
+      "key": "doi",
+      "lang": "doi",
+      "name": "Manga Million"
+    },
+    {
+      "key": "dv",
+      "lang": "dv",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ee",
+      "lang": "ee",
+      "name": "Manga Million"
+    },
+    {
+      "key": "et",
+      "lang": "et",
+      "name": "Manga Million"
+    },
+    {
+      "key": "eu",
+      "lang": "eu",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ga",
+      "lang": "ga",
+      "name": "Manga Million"
+    },
+    {
+      "key": "gl",
+      "lang": "gl",
+      "name": "Manga Million"
+    },
+    {
+      "key": "gn",
+      "lang": "gn",
+      "name": "Manga Million"
+    },
+    {
+      "key": "gu",
+      "lang": "gu",
+      "name": "Manga Million"
+    },
+    {
+      "key": "haw",
+      "lang": "haw",
+      "name": "Manga Million"
+    },
+    {
+      "key": "he",
+      "lang": "he",
+      "name": "Manga Million"
+    },
+    {
+      "key": "hmn",
+      "lang": "hmn",
+      "name": "Manga Million"
+    },
+    {
+      "key": "hr",
+      "lang": "hr",
+      "name": "Manga Million"
+    },
+    {
+      "key": "hy",
+      "lang": "hy",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ig",
+      "lang": "ig",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ilo",
+      "lang": "ilo",
+      "name": "Manga Million"
+    },
+    {
+      "key": "is",
+      "lang": "is",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ka",
+      "lang": "ka",
+      "name": "Manga Million"
+    },
+    {
+      "key": "kn",
+      "lang": "kn",
+      "name": "Manga Million"
+    },
+    {
+      "key": "kok",
+      "lang": "kok",
+      "name": "Manga Million"
+    },
+    {
+      "key": "la",
+      "lang": "la",
+      "name": "Manga Million"
+    },
+    {
+      "key": "lb",
+      "lang": "lb",
+      "name": "Manga Million"
+    },
+    {
+      "key": "lg",
+      "lang": "lg",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ln",
+      "lang": "ln",
+      "name": "Manga Million"
+    },
+    {
+      "key": "lo",
+      "lang": "lo",
+      "name": "Manga Million"
+    },
+    {
+      "key": "lt",
+      "lang": "lt",
+      "name": "Manga Million"
+    },
+    {
+      "key": "lus",
+      "lang": "lus",
+      "name": "Manga Million"
+    },
+    {
+      "key": "lv",
+      "lang": "lv",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mai",
+      "lang": "mai",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mg",
+      "lang": "mg",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mi",
+      "lang": "mi",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mk",
+      "lang": "mk",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ml",
+      "lang": "ml",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mn",
+      "lang": "mn",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mni",
+      "lang": "mni",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mr",
+      "lang": "mr",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mt",
+      "lang": "mt",
+      "name": "Manga Million"
+    },
+    {
+      "key": "mww",
+      "lang": "mww",
+      "name": "Manga Million"
+    },
+    {
+      "key": "my",
+      "lang": "my",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ne",
+      "lang": "ne",
+      "name": "Manga Million"
+    },
+    {
+      "key": "nso",
+      "lang": "nso",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ny",
+      "lang": "ny",
+      "name": "Manga Million"
+    },
+    {
+      "key": "or",
+      "lang": "or",
+      "name": "Manga Million"
+    },
+    {
+      "key": "pa",
+      "lang": "pa",
+      "name": "Manga Million"
+    },
+    {
+      "key": "qu",
+      "lang": "qu",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ro-md",
+      "lang": "ro-MD",
+      "name": "Manga Million"
+    },
+    {
+      "key": "rw",
+      "lang": "rw",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sa",
+      "lang": "sa",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sd",
+      "lang": "sd",
+      "name": "Manga Million"
+    },
+    {
+      "key": "si",
+      "lang": "si",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sk",
+      "lang": "sk",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sl",
+      "lang": "sl",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sm",
+      "lang": "sm",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sn",
+      "lang": "sn",
+      "name": "Manga Million"
+    },
+    {
+      "key": "sw",
+      "lang": "sw",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ta",
+      "lang": "ta",
+      "name": "Manga Million"
+    },
+    {
+      "key": "te",
+      "lang": "te",
+      "name": "Manga Million"
+    },
+    {
+      "key": "ts",
+      "lang": "ts",
+      "name": "Manga Million"
+    },
+    {
+      "key": "uk",
+      "lang": "uk",
+      "name": "Manga Million"
+    },
+    {
+      "key": "xh",
+      "lang": "xh",
+      "name": "Manga Million"
+    },
+    {
+      "key": "yi",
+      "lang": "yi",
+      "name": "Manga Million"
+    },
+    {
+      "key": "yo",
+      "lang": "yo",
+      "name": "Manga Million"
+    }
+  ]
+}
