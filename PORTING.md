@@ -1557,7 +1557,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | nhentaicom            | hentaihand    | todo    |                                                                                                                                     |
 | nhentaito             | galleryadults | todo    |                                                                                                                                     |
 | nhentaixxx            | galleryadults | todo    |                                                                                                                                     |
-| niadd                 | standalone    | todo    |                                                                                                                                     |
+| niadd                 | standalone    | blocked | chapter links (/go/rds) redirect to unrelated ad domains; pages unreachable (2026-10-11)                                            |
 | novelcool             | standalone    | todo    |                                                                                                                                     |
 | onepiecefans          | standalone    | done    |                                                                                                                                     |
 | onisaga               | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                             |
