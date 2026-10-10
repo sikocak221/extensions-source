@@ -1545,7 +1545,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manhwa18cc            | madara        | todo    |                        |
 | manhwa18net           | standalone    | todo    |                        |
 | manhwaclubnet         | madara        | todo    |                        |
-| manhwadashraw         | madara        | todo    |                        |
+| manhwadashraw         | madara        | blocked | Cloudflare 403         |
 | manta                 | standalone    | todo    |                        |
 | mayotune              | standalone    | todo    |                        |
 | metarthunter          | masonry       | todo    |                        |
