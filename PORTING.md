@@ -1583,7 +1583,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | toomics               | standalone    | todo    |                                                                                                                                     |
 | twicomi               | standalone    | todo    |                                                                                                                                     |
 | v2ph                  | standalone    | todo    |                                                                                                                                     |
-| vinnieVeritas         | standalone    | todo    |                                                                                                                                     |
+| vinnieVeritas         | standalone    | done    |                                                                                                                                     |
 | webcomics             | standalone    | todo    |                                                                                                                                     |
 | webtoons              | standalone    | todo    |                                                                                                                                     |
 | xarthunter            | masonry       | todo    |                                                                                                                                     |
