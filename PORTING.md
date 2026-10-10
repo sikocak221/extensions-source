@@ -1277,7 +1277,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangastop           | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
 | mangeek             | standalone    | done    | image CDN serves images as application/octet-stream (mr-ext image check fails; bytes are images); requests signed with the server Date |
 | mangotoons          | mangotheme    | todo    |                                                                                                                                        |
-| manhastro           | standalone    | todo    |                                                                                                                                        |
+| manhastro           | standalone    | done    |                                                                                                                                        |
 | mediocretoons       | standalone    | ported  | in pending/: every API call needs an account (e-mail/password preferences)                                                             |
 | minitwoscan         | madara        | todo    |                                                                                                                                        |
 | montetai            | madara        | todo    |                                                                                                                                        |
