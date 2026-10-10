@@ -1284,7 +1284,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mrtenzus            | madara        | todo    |                                                                                                                                        |
 | mugiwarasoficial    | aurora        | todo    |                                                                                                                                        |
 | muitohentai         | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
-| mundohentai         | standalone    | todo    |                                                                                                                                        |
+| mundohentai         | standalone    | done    |                                                                                                                                        |
 | nebulosascan        | madara        | todo    |                                                                                                                                        |
 | ninjascan           | madara        | todo    |                                                                                                                                        |
 | nocturnesummer      | madara        | todo    |                                                                                                                                        |
