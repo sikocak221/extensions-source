@@ -1,0 +1,33 @@
+{
+  "id": "asmhentai",
+  "name": "AsmHentai",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "AsmHentai"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "AsmHentai"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "AsmHentai"
+    },
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "AsmHentai"
+    }
+  ]
+}
