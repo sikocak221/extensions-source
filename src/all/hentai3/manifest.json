@@ -1,0 +1,158 @@
+{
+  "id": "hentai3",
+  "name": "3Hentai",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "3Hentai"
+    },
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "3Hentai"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "3Hentai"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "3Hentai"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "3Hentai"
+    },
+    {
+      "key": "mo",
+      "lang": "mo",
+      "name": "3Hentai"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "3Hentai"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "3Hentai"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "3Hentai"
+    },
+    {
+      "key": "jv",
+      "lang": "jv",
+      "name": "3Hentai"
+    },
+    {
+      "key": "tl",
+      "lang": "tl",
+      "name": "3Hentai"
+    },
+    {
+      "key": "vi",
+      "lang": "vi",
+      "name": "3Hentai"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "3Hentai"
+    },
+    {
+      "key": "my",
+      "lang": "my",
+      "name": "3Hentai"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "3Hentai"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "3Hentai"
+    },
+    {
+      "key": "uk",
+      "lang": "uk",
+      "name": "3Hentai"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "3Hentai"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "3Hentai"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "3Hentai"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "3Hentai"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "3Hentai"
+    },
+    {
+      "key": "nl",
+      "lang": "nl",
+      "name": "3Hentai"
+    },
+    {
+      "key": "cs",
+      "lang": "cs",
+      "name": "3Hentai"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "3Hentai"
+    },
+    {
+      "key": "bg",
+      "lang": "bg",
+      "name": "3Hentai"
+    },
+    {
+      "key": "is",
+      "lang": "is",
+      "name": "3Hentai"
+    },
+    {
+      "key": "la",
+      "lang": "la",
+      "name": "3Hentai"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "3Hentai"
+    }
+  ]
+}

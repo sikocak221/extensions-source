@@ -21,7 +21,11 @@ class TraduesdoLipe extends ZeistManga {
   override mangaDetailsSelectorStatus = '.status';
 
   override getChapterFeedUrl(document: HtmlElement, mangaTitle: string): string {
-    const script = document.select('script').map((s) => s.html()).find((h) => h.includes('catNameProject')) ?? '';
+    const script =
+      document
+        .select('script')
+        .map((s) => s.html())
+        .find((h) => h.includes('catNameProject')) ?? '';
     const label = /=\s+?\('([^']+)/.exec(script)?.[1] ?? mangaTitle;
     return super.getChapterFeedUrl(document, label);
   }
