@@ -1,0 +1,38 @@
+{
+  "id": "webcomics",
+  "name": "Webcomics",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Webcomics"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "Webcomics"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "Webcomics"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "Webcomics"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "Webcomics"
+    }
+  ]
+}
