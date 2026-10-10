@@ -1537,7 +1537,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mangaforfree          | madara        | todo    |                                                                                                                                     |
 | mangamillion          | standalone    | done    |                                                                                                                                     |
 | mangaplus             | standalone    | done    |                                                                                                                                     |
-| mangapluscreators     | standalone    | todo    |                                                                                                                                     |
+| mangapluscreators     | standalone    | done    |                                                                                                                                     |
 | mangatoon             | standalone    | todo    |                                                                                                                                     |
 | mangaup               | standalone    | todo    |                                                                                                                                     |
 | mango                 | standalone    | ported  | in pending/: self-hosted server (user-set address and login), cannot be tested here                                                 |
