@@ -1312,7 +1312,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | taimumangas         | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
 | taiyo               | standalone    | done    |                                                                                                                                        |
 | tankouhentai        | madara        | todo    |                                                                                                                                        |
-| taosect             | standalone    | todo    |                                                                                                                                        |
+| taosect             | standalone    | done    | Google Drive view-limit pre-check not ported                                                                                           |
 | temakimangas        | zeistmanga    | todo    |                                                                                                                                        |
 | tiamanhwa           | madara        | todo    |                                                                                                                                        |
 | toonbr              | standalone    | todo    |                                                                                                                                        |
