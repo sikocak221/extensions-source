@@ -1575,7 +1575,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | saymanhwa             | standalone    | todo    |                                                       |
 | seraphicdeviltry      | madara        | todo    |                                                       |
 | simplycosplay         | standalone    | todo    |                                                       |
-| simplyhentai          | standalone    | todo    |                                                       |
+| simplyhentai          | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)               |
 | stashapp              | standalone    | todo    |                                                       |
 | taddyink              | standalone    | todo    |                                                       |
 | tappytoon             | standalone    | todo    |                                                       |
