@@ -1311,13 +1311,13 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | starlightscan       | mangathemesia | todo    |                                                                                                           |
 | taimumangas         | standalone    | todo    |                                                                                                           |
 | taiyo               | standalone    | todo    |                                                                                                           |
-| tankouhentai        | madara        | todo    |                                                                                                           |
+| tankouhentai        | madara        | done    |                                                                                                           |
 | taosect             | standalone    | todo    |                                                                                                           |
 | temakimangas        | zeistmanga    | todo    |                                                                                                           |
 | tiamanhwa           | madara        | blocked | bot verification page (403)                                                                               |
 | toonbr              | standalone    | todo    |                                                                                                           |
 | traducoesdolipe     | zeistmanga    | todo    |                                                                                                           |
-| tsundokutraducoes   | mangathemesia | todo    |                                                                                                           |
+| tsundokutraducoes   | mangathemesia | done    |                                                                                                           |
 | universohentai      | gattsu        | todo    |                                                                                                           |
 | vegitoons           | greenshit     | todo    |                                                                                                           |
 | verdinha            | greenshit     | todo    |                                                                                                           |
@@ -1434,7 +1434,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | rawbaka                 | madara           | todo   |       |
 | rawdevartart            | standalone       | todo   |       |
 | rawinu                  | fmreader         | todo   |       |
-| rawkuma                 | natsuid          | todo   |       |
+| rawkuma                 | natsuid          | done   |       |
 | rawlh                   | fmreader         | todo   |       |
 | rawotaku                | mangareader      | todo   |       |
 | rawuwu                  | standalone       | todo   |       |
@@ -1506,7 +1506,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hentailoop            | standalone    | todo   |          |
 | hentairox             | galleryadults | todo   |          |
 | hentaizap             | galleryadults | todo   |          |
-| hniscantrad           | pizzareader   | todo   |          |
+| hniscantrad           | pizzareader   | done   |          |
 | holonometria          | standalone    | todo   |          |
 | honeytoon             | standalone    | todo   |          |
 | imhentai              | galleryadults | todo   |          |
