@@ -113,7 +113,7 @@ Status: `todo` → `ported` (code + build) → `done` (fixture test + live `mr-e
 | uzaymanga     | 6 (tr)          | done    |
 | comiciviewer  | 29 (ja, all)    | done    | descrambled pages via transformImage tiles                      |
 | fmreader      | 4 (ja)          | done    |
-| galleryadults | 8 (all)         | ported  |
+| galleryadults | 8 (all)         | done    |
 | aurora        | 4 (pt)          | later   | every site blocked (Cloudflare); port when one answers          |
 
 ## id
@@ -1470,7 +1470,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | ahottie               | standalone    | todo    |                                                                                               |
 | akuma                 | standalone    | todo    |                                                                                               |
 | allporncomicsco       | madara        | todo    |                                                                                               |
-| asmhentai             | galleryadults | todo    |                                                                                               |
+| asmhentai             | galleryadults | done    |                                                                                               |
 | baobua                | standalone    | todo    |                                                                                               |
 | beauty3600000         | standalone    | todo    |                                                                                               |
 | buondua               | standalone    | todo    |                                                                                               |
@@ -1494,7 +1494,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | everiaclubcom         | standalone    | todo    |                                                                                               |
 | femjoyhunter          | masonry       | todo    |                                                                                               |
 | foamgirl              | standalone    | todo    |                                                                                               |
-| foolslidecustomizable | foolslide     | todo    |                                                                                               |
+| foolslidecustomizable | foolslide     | blocked | base URL is a user setting (Tachiyomi placeholder 127.0.0.1); no site to port                 |
 | fourkhd               | standalone    | todo    |                                                                                               |
 | ftvhunter             | masonry       | todo    |                                                                                               |
 | globalcomix           | standalone    | todo    |                                                                                               |
@@ -1503,13 +1503,13 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hennojin              | standalone    | todo    |                                                                                               |
 | hentai3               | standalone    | todo    |                                                                                               |
 | hentaicosplay         | standalone    | todo    |                                                                                               |
-| hentaienvy            | galleryadults | todo    |                                                                                               |
-| hentaiera             | galleryadults | todo    |                                                                                               |
-| hentaifox             | galleryadults | todo    |                                                                                               |
+| hentaienvy            | galleryadults | done    |                                                                                               |
+| hentaiera             | galleryadults | done    |                                                                                               |
+| hentaifox             | galleryadults | done    |                                                                                               |
 | hentaihand            | hentaihand    | todo    |                                                                                               |
 | hentailoop            | standalone    | todo    |                                                                                               |
-| hentairox             | galleryadults | todo    |                                                                                               |
-| hentaizap             | galleryadults | todo    |                                                                                               |
+| hentairox             | galleryadults | done    | zh dropped: the site has no Chinese listing any more (404)                                    |
+| hentaizap             | galleryadults | done    |                                                                                               |
 | hniscantrad           | pizzareader   | todo    |                                                                                               |
 | holonometria          | standalone    | todo    |                                                                                               |
 | honeytoon             | standalone    | todo    |                                                                                               |
@@ -1559,8 +1559,8 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | myreadingmanga        | standalone    | todo    |                                                                                               |
 | namicomi              | standalone    | todo    |                                                                                               |
 | nhentaicom            | hentaihand    | todo    |                                                                                               |
-| nhentaito             | galleryadults | todo    |                                                                                               |
-| nhentaixxx            | galleryadults | todo    |                                                                                               |
+| nhentaito             | galleryadults | done    | image mirrors (data-fallbacks) not used: the runtime has no per-request fallback              |
+| nhentaixxx            | galleryadults | done    |                                                                                               |
 | niadd                 | standalone    | todo    |                                                                                               |
 | novelcool             | standalone    | todo    |                                                                                               |
 | onepiecefans          | standalone    | todo    |                                                                                               |
