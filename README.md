@@ -12,15 +12,20 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | ------------------------------------------------- | --------- | ------------------------------------------ | ---- |
 | 11toon                                            | KO        | https://www.11toon.com                     |      |
 | 18 Porn Comic                                     | EN        | https://18porncomic.com                    | yes  |
+| 3600000 Beauty                                    | ALL       | https://3600000.xyz                        | yes  |
 | 3asq                                              | AR        | https://3asq.online                        |      |
+| 3Hentai                                           | ALL       | https://3hentai.net                        | yes  |
+| 4KHD                                              | ALL       | https://www.4khd.com                       | yes  |
 | 6Manhua                                           | ZH        | https://www.liumanhua.com                  | yes  |
 | 8Muses                                            | EN        | https://comics.8muses.com                  | yes  |
 | Aarlas                                            | ID        | https://www.arlas.online                   |      |
 | AComics                                           | RU        | https://acomics.ru                         |      |
 | Afrodit Scans                                     | TR        | https://afroditscans.com                   |      |
+| AHottie                                           | ALL       | https://ahottie.top                        | yes  |
 | Ainz Scans ID                                     | ID        | https://v3.ainzscans01.com                 |      |
 | AKAYA                                             | ES        | https://akaya.io                           |      |
 | Akaza Scans                                       | EN        | https://akazascans.org                     |      |
+| Akuma                                             | ALL       | https://akuma.moe                          | yes  |
 | AllHentai                                         | RU        | https://20.allhen.online                   | yes  |
 | AllPornComic.io                                   | EN        | https://allporncomic.io                    | yes  |
 | Amanga Planet                                     | TR        | https://www.amangaplanet.com.tr            |      |
@@ -47,6 +52,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | aurora                                            | EN        | https://comicaurora.com                    |      |
 | Azora                                             | AR        | https://azorafly.com                       |      |
 | Bakkin                                            | EN        | https://bakkin.moe                         |      |
+| BaoBua                                            | ALL       | https://baobua.net                         | yes  |
 | Battle In 5 Seconds After Meeting                 | EN        | https://www.deatte5.com                    |      |
 | Bbato                                             | EN        | https://bato1.com                          |      |
 | BH3                                               | ZH        | https://comic.bh3.com                      |      |
@@ -54,6 +60,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Blue Solo                                         | FR        | https://bluesolo.org                       |      |
 | Broccoli Soup                                     | EN        | https://politeandgood.com                  |      |
 | Bun Manga                                         | EN        | https://bunmanga.com                       |      |
+| Buon Dua                                          | ALL       | https://buondua.com                        | yes  |
 | buttsmithy                                        | EN        | https://incase.buttsmithy.com              | yes  |
 | Bymichi Scan                                      | ES        | https://bymichiby.com                      | yes  |
 | Cartoon18                                         | ZH        | https://www.cartoon18.com                  | yes  |
@@ -74,17 +81,24 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Comic Asura                                       | EN        | https://comicasura.net                     |      |
 | Comic Verse                                       | AR        | https://arcomixverse.blogspot.com          |      |
 | Comicabc                                          | ZH        | https://www.8comic.com                     |      |
+| Comick (Unoriginal)                               | ALL       | https://comick.live                        |      |
 | ComicLand                                         | EN        | https://comicland.org                      |      |
+| ComicsKingdom                                     | ALL       | https://wp.comicskingdom.com               |      |
+| Comikey                                           | ALL       | https://comikey.com                        |      |
 | Comivex                                           | EN        | https://comivex.com                        |      |
 | ComixTopia                                        | UK        | https://comixtopia.in.ua                   |      |
+| Commit Strip                                      | ALL       | https://www.commitstrip.com                |      |
 | Coolmic                                           | EN        | https://coolmic.me                         |      |
 | CosmicScans                                       | ID        | https://04.cosmicscans.to                  |      |
+| CosplayTele                                       | ALL       | https://cosplaytele.com                    | yes  |
 | CrotPedia                                         | ID        | https://crotpedia.net                      | yes  |
+| Cubari                                            | ALL       | https://cubari.moe                         |      |
 | Cucumber Manga                                    | EN        | https://cucumbermanga.com                  | yes  |
 | CulturedWorks                                     | EN        | https://culturedworks.com                  |      |
 | Cutie Comics                                      | EN        | https://cutiecomics.com                    | yes  |
 | CuuTruyen                                         | VI        | https://cuutruyen.net                      |      |
 | Cyanide & Happiness                               | EN        | https://explosm.net                        |      |
+| Danbooru                                          | ALL       | https://danbooru.donmai.us                 | yes  |
 | Danke fürs Lesen                                  | EN        | https://danke.moe                          |      |
 | DaoMeoDen                                         | VI        | https://daomeoden.net                      |      |
 | Dark Legacy Comics                                | EN        | https://images2.imgbox.com                 |      |
@@ -97,6 +111,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Decadence Scans                                   | EN        | https://reader.decadencescans.com          |      |
 | Despair Manga                                     | AR        | https://despair-world.com                  |      |
 | Desu                                              | RU        | https://desu.uno                           |      |
+| DeviantArt                                        | ALL       | https://www.deviantart.com                 |      |
 | DGManga                                           | UK        | https://dgmanga.app                        |      |
 | DiamondFansub                                     | TR        | https://diamondfansub.com                  |      |
 | Diva Scans                                        | EN        | https://divascans.org                      |      |
@@ -109,11 +124,13 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Doujinku                                          | ID        | https://doujinku.org                       | yes  |
 | Doujins                                           | EN        | https://doujins.com                        | yes  |
 | DoujinsHell                                       | ES        | https://doujinshell.net                    | yes  |
+| Doujiva                                           | ALL       | https://doujiva.com                        | yes  |
 | Drake Scans                                       | EN        | https://drakecomic.net                     |      |
 | DreamTeams Scans                                  | ID        | https://dreamteams.space                   | yes  |
 | Dua Leo Truyen                                    | VI        | https://dualeotruyenpet.com                | yes  |
 | Dynasty                                           | ES        | https://manhuako.net                       |      |
 | Dynasty Scans                                     | EN        | https://dynasty-scans.com                  |      |
+| e621                                              | ALL       | https://e621.net                           | yes  |
 | Ecchi-Doujin                                      | TH        | https://ecchi-doujin.com                   | yes  |
 | Eggporncomics                                     | EN        | https://eggporncomics.com                  | yes  |
 | El Goonish Shive                                  | EN        | https://static.tumblr.com                  |      |
@@ -126,12 +143,15 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Eski Mangalar                                     | TR        | https://eskimangalar.com                   |      |
 | EternalMangas                                     | ES        | https://eternalmangas.org                  |      |
 | Eva Scans                                         | EN        | https://evascans.net                       |      |
+| Everia.club                                       | ALL       | https://everia.club                        | yes  |
+| EveriaClub (unoriginal)                           | ALL       | https://www.everiaclub.com                 | yes  |
 | Existential Comics                                | EN        | https://existentialcomics.com              |      |
 | Falco Scan                                        | ES        | https://falcoscan.net                      | yes  |
 | Fansubs.cat                                       | CA        | https://manga.fansubs.cat                  |      |
 | Faust                                             | UK        | https://faust-web.com                      |      |
 | Fin Manga                                         | TH        | https://www.fin-manga.com                  |      |
 | FMTEAM                                            | FR        | https://fmteam.fr                          |      |
+| FoamGirl                                          | ALL       | https://foamgirl.net                       | yes  |
 | Frieren Online                                    | EN        | https://www.frieren.online                 |      |
 | FuryoSquad                                        | FR        | https://www.furyosociety.com               |      |
 | GakaMangas                                        | EN        | https://gakamangas.com                     |      |
@@ -143,6 +163,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Genz Toons                                        | EN        | https://genztoons.org                      |      |
 | GhosToon                                          | TR        | https://ghostoon.com                       |      |
 | GirlsTop                                          | EN        | https://en.girlstop.info                   | yes  |
+| GlobalComix                                       | ALL       | https://globalcomix.com                    |      |
 | Go Manga                                          | TH        | https://www.go-manga.com                   |      |
 | Goc Truyen Tranh                                  | VI        | https://goctruyentranh.com                 |      |
 | God-Doujin                                        | TH        | https://god-doujin.com                     | yes  |
@@ -162,8 +183,11 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | HANMAN18                                          | ZH        | https://hanman18.com                       | yes  |
 | Harem de Kira                                     | ES        | https://kiraproject.lat                    |      |
 | Harmony-Scan                                      | FR        | https://harmony-scan.fr                    |      |
+| HDoujin                                           | ALL       | https://hdoujin.org                        | yes  |
 | HeavenManga                                       | ES        | https://heavenmanga.com                    |      |
 | HenChan                                           | RU        | https://xxl.hentaichan.live                | yes  |
+| Hennojin                                          | ALL       | https://hennojin.com                       | yes  |
+| Hentai Cosplay                                    | ALL       | https://hentai-cosplay-xxx.com             | yes  |
 | Hentai Crot                                       | ID        | https://hentaicrot.com                     | yes  |
 | Hentai Lek                                        | AR        | https://hentailek.com                      | yes  |
 | Hentai Origines                                   | FR        | https://hentai-origines.com                | yes  |
@@ -176,6 +200,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | HentaiFantasy                                     | IT        | https://hentaifantasy.it                   | yes  |
 | HentaiKisu                                        | EN        | https://hentaikisu.com                     | yes  |
 | HentaiKun                                         | EN        | https://hentaikun.com                      | yes  |
+| HentaiLoop                                        | ALL       | https://hentailoop.com                     | yes  |
 | HentaiMode                                        | ES        | https://hentaimode.com                     | yes  |
 | HentaiNexus                                       | EN        | https://hentainexus.com                    | yes  |
 | HentaiTnT                                         | EN        | https://hentaitnt.net                      | yes  |
@@ -189,8 +214,10 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Hive Scans                                        | EN        | https://hivetoons.org                      |      |
 | Hiveworks Comics                                  | EN        | https://hiveworkscomics.com                |      |
 | HizoManga                                         | AR        | https://hizomanga.net                      |      |
+| HOLONOMETRIA                                      | ALL       | https://holoearth.com                      |      |
 | Holy Scans                                        | TR        | https://holyscans.com.tr                   | yes  |
 | HoneyManga                                        | UK        | https://honey-manga.com.ua                 |      |
+| Honeytoon                                         | ALL       | https://honeytoon.com                      |      |
 | HonkaiImpact3                                     | EN        | https://manga.honkaiimpact3.com            |      |
 | House Of Otakus                                   | ES        | https://houseofotakusv2.xyz                |      |
 | Hunlight Comics                                   | EN        | https://hunlightcomics.com                 |      |
@@ -207,11 +234,15 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Inventario Oculto                                 | ES        | https://inventariooculto.com               |      |
 | IsekaiKomik                                       | ID        | https://ch1.isekaikomik.site               |      |
 | Izanami Scans                                     | ID        | https://izanamiscans.my.id                 |      |
+| izneo (webtoons)                                  | ALL       | https://www.izneo.com                      |      |
 | JComic                                            | ZH        | https://jcomic.net                         | yes  |
 | Jeaz Scans                                        | ES        | https://lectorhub.j5z.xyz                  |      |
+| JJCOS                                             | ALL       | https://jjcos.com                          | yes  |
 | Juin Jutsu Team Reader                            | IT        | https://www.juinjutsureader.ovh            |      |
+| Junmeitu                                          | ALL       | https://meijuntu.com                       | yes  |
 | JuraTempest                                       | TR        | https://juratempe.st                       |      |
 | K Manga                                           | EN        | https://kmanga.kodansha.com                |      |
+| Kagane                                            | ALL       | https://kagane.to                          |      |
 | Kanzenin                                          | ID        | https://kanzenin.info                      | yes  |
 | Kawii Manga                                       | AR        | https://kawaiimanga.org                    |      |
 | Kayn Scans                                        | EN        | https://kaynscans.com                      |      |
@@ -224,8 +255,10 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | KingComiX                                         | EN        | https://kingcomix.com                      | yes  |
 | KiraKira                                          | VI        | https://truyenkira.net                     |      |
 | Kiryuu                                            | ID        | https://v7.kiryuu.to                       |      |
+| Kiutaku                                           | ALL       | https://kiutaku.com                        | yes  |
 | KlikManga                                         | ID        | https://klikmanga.org                      |      |
 | KokoMangas                                        | EN        | https://kokomangas.com                     |      |
+| Komga                                             | ALL       | https://127.0.0.1                          |      |
 | Komik Dewasa                                      | ID        | https://komikdewasa.mom                    | yes  |
 | Komik Next G Online                               | ID        | https://komiknextgonline.com               |      |
 | Komikindo                                         | ID        | https://1.komikindo.shop                   | yes  |
@@ -243,7 +276,9 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Kuro Manga                                        | ID        | https://kuromanga.id                       |      |
 | Lagoon Scans                                      | EN        | https://lagoonscans.com                    |      |
 | LanorTrad                                         | FR        | https://lanortrad.com                      |      |
+| LANraragi                                         | ALL       |                                            |      |
 | Lava Scans                                        | AR        | https://lavascans.com                      |      |
+| League of Legends                                 | ALL       | https://universe.leagueoflegends.com       |      |
 | Lector Asteria                                    | ES        | https://visor.chifa-tong.online            |      |
 | LectorJPG                                         | ES        | https://visorjpg.lat                       |      |
 | LectorManga.lat                                   | ES        | https://lector-mangas.lat                  |      |
@@ -252,6 +287,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | LeerManhwas                                       | ES        | https://leermanhwas.com                    | yes  |
 | Lelscan                                           | FR        | https://lelscans.net                       |      |
 | LepoyTL                                           | ID        | https://www.lepoytl.my.id                  |      |
+| Ler 999                                           | PT        | https://ler999.blogspot.com                |      |
 | Les Poroiniens                                    | FR        | https://lesporoiniens.org                  |      |
 | Leslie&Victims                                    | EN        | https://leslie-victims.pages.dev           |      |
 | LHTranslation                                     | EN        | https://lhtranslation.net                  |      |
@@ -267,7 +303,9 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Lua Scans                                         | EN        | https://luacomic.org                       |      |
 | Luminare Translations                             | EN        | https://luminaretranslations.com           |      |
 | LumosKomik                                        | ID        | https://03.lumosgg.com                     |      |
+| Lunar Manga                                       | ALL       | https://lunarx.to                          |      |
 | LupiTeam                                          | IT        | https://lupiteam.net                       |      |
+| Luscious                                          | ALL       | https://www.luscious.net                   | yes  |
 | LustToon                                          | EN        | https://lustoon.com                        |      |
 | LxManga.org (unoriginal)                          | VI        | https://lxmanga.org                        | yes  |
 | Maid - Manga                                      | ID        | https://www.maid.my.id                     |      |
@@ -425,6 +463,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Petrotechsociety                                  | EN        | https://www.petrotechsociety.org           | yes  |
 | Philia Scans                                      | EN        | https://philiascans.org                    |      |
 | Phoenix Scans                                     | IT        | https://www.phoenixscans.com               |      |
+| Pink Rosa                                         | PT        | https://scanpinkrosa.blogspot.com          |      |
 | Pix Hentai                                        | ID        | https://pixhentai.com                      | yes  |
 | Pornhwa18                                         | EN        | https://pornhwa18.com                      | yes  |
 | Poseidon Scans                                    | FR        | https://poseidon-scans.net                 |      |
@@ -481,6 +520,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | ScanR                                             | FR        | https://teamscanr.fr                       |      |
 | ScansGG                                           | EN        | https://scans.gg                           |      |
 | Scantrad Union                                    | FR        | https://scantrad-union.com                 |      |
+| SchaleNetwork                                     | ALL       | https://schale.network                     | yes  |
 | Schlock Mercenary                                 | EN        | https://www.schlockmercenary.com           |      |
 | Scythe Scans                                      | EN        | https://scythescans.com                    |      |
 | SeiManga                                          | RU        | https://1.seimanga.me                      |      |
@@ -542,6 +582,7 @@ Every index of this repository is signed (ed25519) with this repository's own ke
 | Tortuga Ceviri                                    | TR        | https://tortugaceviri.com                  |      |
 | Tr Manga                                          | TR        | https://trmanga.com                        |      |
 | Traducciones Moonlight                            | ES        | https://traduccionesmoonlight.com          |      |
+| Traduções do Lipe                                 | PT        | https://traducoesdolipe.blogspot.com       |      |
 | Tranh18                                           | VI        | https://tranh18.cc                         | yes  |
 | TritiniaScans                                     | EN        | https://tritinia.org                       |      |
 | Truyen Hentai 18+                                 | VI        | https://truyenhentai18.net                 | yes  |
