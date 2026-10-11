@@ -1384,7 +1384,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | jmanga                  | mangareader      | todo    |                                |
 | jnbooks                 | comiciviewer     | todo    |                                |
 | jumprookie | standalone | done |  |
-| jumptoon                | standalone       | todo    |                                |
+| jumptoon | standalone | done | column-shuffle descrambling via transformImage; no login |
 | kadocomi | standalone | done | XOR-encrypted pages decrypted by transformImage |
 | kimicomi                | comiciviewer     | todo    |                                |
 | kisslove | standalone | done |  |
