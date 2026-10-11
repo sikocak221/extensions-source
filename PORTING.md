@@ -1252,7 +1252,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | erosect             | standalone    | blocked | Cloudflare challenge                                                                                                                   |
 | euphoriascan        | madara        | done    |                                                                                                                                        |
 | exhentainetbr       | standalone    | done    |                                                                                                                                        |
-| fenixproject        | madara        | todo    |                                                                                                                                        |
+| fenixproject        | madara        | done    | standalone on common (custom KeiSource, not madara); urls are /manga/<slug>                                                            |
 | fleurblanche        | madara        | done    |                                                                                                                                        |
 | flowermanga         | madara        | blocked | Cloudflare 403 on series pages                                                                                                         |
 | galaxscanlator      | zeistmanga    | blocked | chapter pages are AES-encrypted behind a reader password (zeist-raw-data); Tachiyomi source outdated                                   |
