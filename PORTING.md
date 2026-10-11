@@ -1397,7 +1397,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | magazinepocket          | standalone       | todo    |                                |
 | magcomi                 | gigaviewer       | todo    |                                |
 | magkan                  | comiciviewer     | todo    |                                |
-| manga1000               | standalone       | todo    |                                |
+| manga1000 | standalone | done |  |
 | mangabang               | comiciviewer     | todo    |                                |
 | mangabu                 | comiciviewer     | todo    |                                |
 | mangafive               | standalone       | todo    |                                |
