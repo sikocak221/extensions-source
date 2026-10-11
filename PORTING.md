@@ -1338,7 +1338,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | bibibicomic             | comiciviewer     | todo    |                                |
 | bigcomics               | comiciviewer     | todo    |                                |
 | booklistastudio         | comiciviewer     | todo    |                                |
-| bookwalkerjp            | standalone       | todo    |                                |
+| bookwalkerjp | standalone | blocked | reader flow needs per-session cookies (u1/u2), a scraped loader script and signed viewer requests; no cookie jar in the sandbox |
 | championcross           | comiciviewer     | todo    |                                |
 | ciaoplus | standalone | done | scrambled pages restored via transformImage tiles (verified visually); SHA-512 in JS |
 | cmoa | standalone | ported | in pending/: page images answer 403 (SpeedBinb SBC token) so descrambling is unverified; fixture test passes |
