@@ -1,0 +1,38 @@
+{
+  "id": "hentaifox",
+  "name": "HentaiFox",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "HentaiFox"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "HentaiFox"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "HentaiFox"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "HentaiFox"
+    },
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "HentaiFox"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "hentaienvy",
+  "name": "HentaiEnvy",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "HentaiEnvy"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "HentaiEnvy"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "HentaiEnvy"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "HentaiEnvy"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "HentaiEnvy"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "HentaiEnvy"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "HentaiEnvy"
+    },
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "HentaiEnvy"
+    }
+  ]
+}

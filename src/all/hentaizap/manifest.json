@@ -1,0 +1,53 @@
+{
+  "id": "hentaizap",
+  "name": "HentaiZap",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": true,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "HentaiZap"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "HentaiZap"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "HentaiZap"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "HentaiZap"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "HentaiZap"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "HentaiZap"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "HentaiZap"
+    },
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "HentaiZap"
+    }
+  ]
+}
