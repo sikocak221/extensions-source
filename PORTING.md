@@ -59,58 +59,66 @@ Status: `todo` → `ported` (code + build) → `done` (fixture test + live `mr-e
 
 ## Themes (lib-multisrc)
 
-| Theme         | Extensions (id) | Status  |
-| ------------- | --------------- | ------- |
-| mangathemesia | 29              | done    |
-| zeistmanga    | 9               | done    |
-| madara        | 5               | done    |
-| loneseal      | 5               | done    |
-| zmanga        | 3               | done    |
-| natsuid       | 3               | done    |
-| oceanwp       | 2               | done    |
-| hwalumi       | 2               | done    |
-| colorlibanime | 2               | ported  |
-| keyoapp       | 16 (en)         | done    |
-| mangacatalog  | 12 (en)         | done    |
-| mangahub      | 11 (en)         | ported  |
-| iken          | 10 (en)         | done    |
-| vinetheme     | 5 (en)          | done    |
-| guya          | 3 (en)          | done    |
-| manga18       | 3 (en)          | done    |
-| mangabox      | 3 (en)          | done    |
-| mangadventure | 2 (en)          | done    |
-| bakkin        | 2 (en)          | done    |
-| foolslide     | 2 (en)          | done    |
-| eromuse       | 2 (en)          | done    |
-| ezmanhwa      | 2 (en)          | done    |
-| heancms       | 2 (en)          | done    |
-| mangak        | 2 (en)          | done    |
-| mangataro     | 2 (en)          | done    |
-| manhwaz       | 2 (vi)          | done    | en sites blocked                                                |
-| monochrome    | 2 (en)          | done    |
-| goda          | 1 (en)          | ported  |
-| hiper         | 1 (en)          | done    |
-| singleseries  | Matane helper   | done    | one-series sites (webcomics); not a Tachiyomi theme             |
-| initmanga     | 1 (en)          | done    |
-| mangareader   | 1 (en)          | done    |
-| liliana       | 1 (en)          | done    |
-| mmrcms        | 3 (ar, es, fr)  | done    | en sites blocked                                                |
-| pam           | 1 (en)          | later   | every en site blocked; port with a language that has live sites |
-| madaralegacy  | 1 (en)          | blocked |
-| wpcomics      | 1 (en)          | done    |
-| fansubscat    | 2 (ca)          | done    |
-| fuzzydoodle   | 1 (ar)          | done    |
-| grouple       | 6 (ru)          | done    |
-| inkstory      | 2 (ru)          | done    |
-| mangaworld    | 2 (it)          | done    |
-| mccms         | 3 (zh)          | done    |
-| moonlighttl   | 2 (es)          | done    |
-| multichan     | 2 (ru)          | done    |
-| origines      | 1 (fr)          | done    |
-| pizzareader   | 7 (it, fr)      | done    |
-| scanreader    | 1 (fr)          | done    |
-| senkuro       | 2 (ru)          | done    |
-| uzaymanga     | 6 (tr)          | done    |
+| Theme            | Extensions (id) | Status  |
+| ---------------- | --------------- | ------- |
+| mangathemesia    | 29              | done    |
+| zeistmanga       | 9               | done    |
+| madara           | 5               | done    |
+| loneseal         | 5               | done    |
+| zmanga           | 3               | done    |
+| natsuid          | 3               | done    |
+| oceanwp          | 2               | done    |
+| hwalumi          | 2               | done    |
+| colorlibanime    | 2               | ported  |
+| keyoapp          | 16 (en)         | done    |
+| mangacatalog     | 12 (en)         | done    |
+| mangahub         | 11 (en)         | ported  |
+| iken             | 10 (en)         | done    |
+| vinetheme        | 5 (en)          | done    |
+| guya             | 3 (en)          | done    |
+| manga18          | 3 (en)          | done    |
+| mangabox         | 3 (en)          | done    |
+| mangadventure    | 2 (en)          | done    |
+| bakkin           | 2 (en)          | done    |
+| foolslide        | 2 (en)          | done    |
+| eromuse          | 2 (en)          | done    |
+| ezmanhwa         | 2 (en)          | done    |
+| heancms          | 2 (en)          | done    |
+| mangak           | 2 (en)          | done    |
+| mangataro        | 2 (en)          | done    |
+| manhwaz          | 2 (vi)          | done    | en sites blocked                                                  |
+| monochrome       | 2 (en)          | done    |
+| goda             | 1 (en)          | ported  |
+| hiper            | 1 (en)          | done    |
+| singleseries     | Matane helper   | done    | one-series sites (webcomics); not a Tachiyomi theme               |
+| initmanga        | 1 (en)          | done    |
+| mangareader      | 1 (en)          | done    |
+| liliana          | 1 (en)          | done    |
+| mmrcms           | 3 (ar, es, fr)  | done    | en sites blocked                                                  |
+| pam              | 1 (en)          | later   | every en site blocked; port with a language that has live sites   |
+| madaralegacy     | 1 (en)          | blocked |
+| wpcomics         | 1 (en)          | done    |
+| fansubscat       | 2 (ca)          | done    |
+| fuzzydoodle      | 1 (ar)          | done    |
+| grouple          | 6 (ru)          | done    |
+| inkstory         | 2 (ru)          | done    |
+| mangaworld       | 2 (it)          | done    |
+| mccms            | 3 (zh)          | done    |
+| moonlighttl      | 2 (es)          | done    |
+| multichan        | 2 (ru)          | done    |
+| origines         | 1 (fr)          | done    |
+| pizzareader      | 7 (it, fr)      | done    |
+| scanreader       | 1 (fr)          | done    |
+| senkuro          | 2 (ru)          | done    |
+| uzaymanga        | 6 (tr)          | done    |
+| comiciviewer     | 29 (ja, all)    | done    | descrambled pages via transformImage tiles                        |
+| fmreader         | 4 (ja)          | done    |
+| clipstudioreader | 1 (ja)          | done    | reader helper (comic viewer only, no EPUB); FireCross geo-blocked |
+| galleryadults    | 8 (all)         | done    |
+| aurora           | 4 (pt)          | later   | every site blocked (Cloudflare); port when one answers            |
+| masonry          | 7 (all)         | ported  | in pending/: text search is behind a Cloudflare challenge         |
+| mangawork        | 2 (pt)          | done    |
+| mangotheme       | 1 (pt)          | done    | no login or x-encrypted decryption; 2 pt sites blocked            |
 
 ## id
 
@@ -1046,7 +1054,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | luvevaland        | standalone | blocked | probe 2026-10-05: http:403                                                                                                          |
 | lxhentai          | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | lxmangaorg        | standalone | done    |                                                                                                                                     |
-| medamtruyen       | standalone | todo    |                                                                                                                                     |
+| medamtruyen       | standalone | blocked | page html is encrypted with PBKDF2-HMAC-SHA512 + AES-CBC; the host has no SHA-512                                                   |
 | mehentai          | manhwaz    | done    | manhwaz theme (also unblocks en manhwaz/manhwahub/manhwazone if their sites return)                                                 |
 | meosss            | standalone | done    |                                                                                                                                     |
 | meosua            | standalone | done    | chapter list is paged (one request per page)                                                                                        |
@@ -1055,7 +1063,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | mimihentai        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | minotruyen        | standalone | done    | three sources; api host read from the bundle; strip descrambling via tiles; legacy CryptoJS page blob not ported (unused now)       |
 | moetruyen         | standalone | blocked | Cloudflare challenge on every page (both mirrors)                                                                                   |
-| moetruyensuicao   | standalone | todo    |                                                                                                                                     |
+| moetruyensuicao   | standalone | blocked | IMGX image encryption (AES-GCM, key grants, shuffle) not ported                                                                     |
 | nettruyenco       | wpcomics   | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | nettruyens        | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | nettruyenviet     | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
@@ -1067,7 +1075,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | panomic           | standalone | blocked | probe 2026-10-05: cloudflare                                                                                                        |
 | sangchanhteam     | standalone | done    | reader markup changed: pages are /init-manga/ images                                                                                |
 | sayhentai         | manhwaz    | done    |                                                                                                                                     |
-| seikowo           | standalone | todo    |                                                                                                                                     |
+| seikowo           | standalone | blocked | chapter pages are AES-GCM + gzip encrypted payloads from a worker API; gzip is not available in the sandbox                         |
 | sinhsieusao       | standalone | done    |                                                                                                                                     |
 | soaicacomic       | standalone | done    | same engine as TuSachXinhXinh/Team Lanh Lung                                                                                        |
 | teamlanhlung      | standalone | done    | same engine as TuSachXinhXinh (encrypted pages); password chapters via a text pref                                                  |
@@ -1089,14 +1097,14 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | truyentranhdammy  | madara     | done    |                                                                                                                                     |
 | truyentuoitho     | madara     | done    | protected image payload (XOR) decoded in TS                                                                                         |
 | truyentvn         | standalone | done    |                                                                                                                                     |
-| tuitruyen         | standalone | todo    |                                                                                                                                     |
+| tuitruyen         | standalone | blocked | IMGX image encryption (AES-GCM, key grants, shuffle) not ported                                                                     |
 | tusachxinhxinh    | standalone | done    | pages AES-CBC (PBKDF2-SHA512) like InitManga                                                                                        |
 | umetruyen         | manhwaz    | blocked | umetruyenz.org serves the nginx default page (domain gone)                                                                          |
 | vihentai          | standalone | blocked | Cloudflare challenge on every page (both mirrors)                                                                                   |
 | vinahentai        | standalone | done    | moved to vinahentai.pics                                                                                                            |
 | vitruyen          | standalone | done    | no login token (WebView localStorage in Tachiyomi): guests read the images in the reader page                                       |
-| yurigarden        | standalone | todo    |                                                                                                                                     |
-| yurineko          | standalone | todo    |                                                                                                                                     |
+| yurigarden        | standalone | blocked | needs a WebView login to read the API access token                                                                                  |
+| yurineko          | standalone | blocked | /api/img answers 403 to every request (Tachiyomi's url                                                                              | key scheme is outdated) |
 | zettruyen         | standalone | done    | domain zettruyen3.com                                                                                                               |
 
 ## es
@@ -1213,389 +1221,389 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 
 ## pt
 
-| Extension           | Theme         | Status  | Notes                                                                                                              |
-| ------------------- | ------------- | ------- | ------------------------------------------------------------------------------------------------------------------ |
-| acervoeremita       | standalone    | done    | live: image host answers 502 (site-side)                                                                           |
-| acervohentai        | madara        | todo    |                                                                                                                    |
-| amuy                | madara        | todo    |                                                                                                                    |
-| animexnovel         | standalone    | done    |                                                                                                                    |
-| apecomics           | mangawork     | todo    |                                                                                                                    |
-| apenasumafa         | zeistmanga    | todo    |                                                                                                                    |
-| argoscomics         | standalone    | ported  | in pending/: the reader redirects anonymous visitors to /login (account needed); browse, details and chapters work |
-| argosscan           | standalone    | blocked | needs a Discord login session cookie                                                                               |
-| arthurscan          | madara        | todo    |                                                                                                                    |
-| astratoons          | standalone    | done    |                                                                                                                    |
-| azuretoons          | standalone    | done    | optional email/password login preferences                                                                          |
-| bakai               | standalone    | blocked | Cloudflare challenge                                                                                               |
-| blackoutcomics      | standalone    | blocked | Cloudflare 403                                                                                                     |
-| bladetoons          | mangotheme    | todo    |                                                                                                                    |
-| borutoexplorer      | madara        | todo    |                                                                                                                    |
-| brasilhentai        | standalone    | done    | first popular entry is a promo post without pages; regular posts fine                                              |
-| bryaoi              | standalone    | done    |                                                                                                                    |
-| cafecomyaoi         | madara        | todo    |                                                                                                                    |
-| cerisescans         | standalone    | blocked | site shows 'o site está dormindo' (offline)                                                                        |
-| covenscan           | madara        | todo    |                                                                                                                    |
-| egotoons            | standalone    | done    |                                                                                                                    |
-| erosect             | standalone    | blocked | Cloudflare challenge                                                                                               |
-| euphoriascan        | madara        | todo    |                                                                                                                    |
-| exhentainetbr       | standalone    | done    |                                                                                                                    |
-| fenixproject        | madara        | todo    |                                                                                                                    |
-| fleurblanche        | madara        | todo    |                                                                                                                    |
-| flowermanga         | madara        | todo    |                                                                                                                    |
-| galaxscanlator      | zeistmanga    | todo    |                                                                                                                    |
-| geasscomics         | standalone    | todo    |                                                                                                                    |
-| ghostscan           | madara        | todo    |                                                                                                                    |
-| hanmokkuscan        | zeistmanga    | todo    |                                                                                                                    |
-| hentaiseason        | gattsu        | todo    |                                                                                                                    |
-| hentaitokyo         | gattsu        | todo    |                                                                                                                    |
-| hipercool           | hiper         | todo    |                                                                                                                    |
-| hipertoon           | hiper         | todo    |                                                                                                                    |
-| horahentai          | standalone    | todo    |                                                                                                                    |
-| hotcabaretscan      | madara        | todo    |                                                                                                                    |
-| hqnow               | standalone    | todo    |                                                                                                                    |
-| huntersscans        | madara        | todo    |                                                                                                                    |
-| imperiodabritannia  | mangotheme    | todo    |                                                                                                                    |
-| inkapk              | madara        | todo    |                                                                                                                    |
-| kamisamaexplorer    | madara        | todo    |                                                                                                                    |
-| kivaratoons         | standalone    | todo    |                                                                                                                    |
-| kuromangas          | standalone    | todo    |                                                                                                                    |
-| leitordemangas      | aurora        | todo    |                                                                                                                    |
-| leituramanga        | standalone    | todo    |                                                                                                                    |
-| ler999              | zeistmanga    | todo    |                                                                                                                    |
-| littletyrant        | madara        | todo    |                                                                                                                    |
-| lycantoons          | standalone    | todo    |                                                                                                                    |
-| maidscan            | greenshit     | todo    |                                                                                                                    |
-| mangadash           | standalone    | todo    |                                                                                                                    |
-| mangaflix           | standalone    | todo    |                                                                                                                    |
-| mangalivre          | standalone    | todo    |                                                                                                                    |
-| mangalivreblog      | standalone    | todo    |                                                                                                                    |
-| mangalivreorg       | standalone    | todo    |                                                                                                                    |
-| mangalivreto        | madara        | todo    |                                                                                                                    |
-| manganyx            | aurora        | todo    |                                                                                                                    |
-| mangaonline         | standalone    | todo    |                                                                                                                    |
-| mangasbrasuka       | aurora        | todo    |                                                                                                                    |
-| mangastop           | standalone    | todo    |                                                                                                                    |
-| mangeek             | standalone    | todo    |                                                                                                                    |
-| mangotoons          | mangotheme    | todo    |                                                                                                                    |
-| manhastro           | standalone    | todo    |                                                                                                                    |
-| mediocretoons       | standalone    | todo    |                                                                                                                    |
-| minitwoscan         | madara        | todo    |                                                                                                                    |
-| montetai            | madara        | todo    |                                                                                                                    |
-| mrtenzus            | madara        | todo    |                                                                                                                    |
-| mugiwarasoficial    | aurora        | todo    |                                                                                                                    |
-| muitohentai         | standalone    | todo    |                                                                                                                    |
-| mundohentai         | standalone    | todo    |                                                                                                                    |
-| nebulosascan        | madara        | todo    |                                                                                                                    |
-| ninjascan           | madara        | todo    |                                                                                                                    |
-| nocturnesummer      | madara        | todo    |                                                                                                                    |
-| noindexscan         | madara        | todo    |                                                                                                                    |
-| onereader           | standalone    | todo    |                                                                                                                    |
-| osakascan           | zeistmanga    | todo    |                                                                                                                    |
-| pinkrosa            | zeistmanga    | todo    |                                                                                                                    |
-| pinkseaunicorn      | madara        | todo    |                                                                                                                    |
-| pizzariascan        | mangawork     | todo    |                                                                                                                    |
-| plumacomics         | standalone    | todo    |                                                                                                                    |
-| pointzerotoons      | mangathemesia | todo    |                                                                                                                    |
-| portalyaoi          | madara        | todo    |                                                                                                                    |
-| randomscan          | standalone    | todo    |                                                                                                                    |
-| remangas            | standalone    | todo    |                                                                                                                    |
-| revistasequadrinhos | standalone    | todo    |                                                                                                                    |
-| rfdragonscan        | standalone    | todo    |                                                                                                                    |
-| risentoons          | standalone    | todo    |                                                                                                                    |
-| roxinha             | standalone    | todo    |                                                                                                                    |
-| saikaiscan          | standalone    | todo    |                                                                                                                    |
-| shiraiscans         | standalone    | todo    |                                                                                                                    |
-| slimereadunoriginal | standalone    | todo    |                                                                                                                    |
-| spectralscan        | standalone    | todo    |                                                                                                                    |
-| sssscanlator        | standalone    | todo    |                                                                                                                    |
-| starlightscan       | mangathemesia | todo    |                                                                                                                    |
-| taimumangas         | standalone    | todo    |                                                                                                                    |
-| taiyo               | standalone    | todo    |                                                                                                                    |
-| tankouhentai        | madara        | todo    |                                                                                                                    |
-| taosect             | standalone    | todo    |                                                                                                                    |
-| temakimangas        | zeistmanga    | todo    |                                                                                                                    |
-| tiamanhwa           | madara        | todo    |                                                                                                                    |
-| toonbr              | standalone    | todo    |                                                                                                                    |
-| traducoesdolipe     | zeistmanga    | todo    |                                                                                                                    |
-| tsundokutraducoes   | mangathemesia | todo    |                                                                                                                    |
-| universohentai      | gattsu        | todo    |                                                                                                                    |
-| vegitoons           | greenshit     | todo    |                                                                                                                    |
-| verdinha            | greenshit     | todo    |                                                                                                                    |
-| xxxyaoi             | madara        | todo    |                                                                                                                    |
-| yaoifanclub         | zeistmanga    | todo    |                                                                                                                    |
-| yomumangas          | standalone    | todo    |                                                                                                                    |
-| yugenmangas         | standalone    | todo    |                                                                                                                    |
-| yuriverso           | madara        | todo    |                                                                                                                    |
-| zettahq             | standalone    | todo    |                                                                                                                    |
+| Extension           | Theme         | Status  | Notes                                                                                                                                  |
+| ------------------- | ------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| acervoeremita       | standalone    | done    | live: image host answers 502 (site-side)                                                                                               |
+| acervohentai        | madara        | todo    |                                                                                                                                        |
+| amuy                | madara        | todo    |                                                                                                                                        |
+| animexnovel         | standalone    | done    |                                                                                                                                        |
+| apecomics           | mangawork     | done    | live: newest chapter page answers 500 (site)                                                                                           |
+| apenasumafa         | zeistmanga    | done    |                                                                                                                                        |
+| argoscomics         | standalone    | ported  | in pending/: the reader redirects anonymous visitors to /login (account needed); browse, details and chapters work                     |
+| argosscan           | standalone    | blocked | needs a Discord login session cookie                                                                                                   |
+| arthurscan          | madara        | todo    |                                                                                                                                        |
+| astratoons          | standalone    | done    |                                                                                                                                        |
+| azuretoons          | standalone    | done    | optional email/password login preferences                                                                                              |
+| bakai               | standalone    | blocked | Cloudflare challenge                                                                                                                   |
+| blackoutcomics      | standalone    | blocked | Cloudflare 403                                                                                                                         |
+| bladetoons          | mangotheme    | blocked | site returns 404 (api gone)                                                                                                            |
+| borutoexplorer      | madara        | todo    |                                                                                                                                        |
+| brasilhentai        | standalone    | done    | first popular entry is a promo post without pages; regular posts fine                                                                  |
+| bryaoi              | standalone    | done    |                                                                                                                                        |
+| cafecomyaoi         | madara        | todo    |                                                                                                                                        |
+| cerisescans         | standalone    | blocked | site shows 'o site está dormindo' (offline)                                                                                            |
+| covenscan           | madara        | todo    |                                                                                                                                        |
+| egotoons            | standalone    | done    |                                                                                                                                        |
+| erosect             | standalone    | blocked | Cloudflare challenge                                                                                                                   |
+| euphoriascan        | madara        | todo    |                                                                                                                                        |
+| exhentainetbr       | standalone    | done    |                                                                                                                                        |
+| fenixproject        | madara        | todo    |                                                                                                                                        |
+| fleurblanche        | madara        | done    |                                                                                                                                        |
+| flowermanga         | madara        | blocked | Cloudflare 403 on series pages                                                                                                         |
+| galaxscanlator      | zeistmanga    | blocked | chapter pages are AES-encrypted behind a reader password (zeist-raw-data); Tachiyomi source outdated                                   |
+| geasscomics         | standalone    | done    |                                                                                                                                        |
+| ghostscan           | madara        | blocked | domain has no DNS record (dead)                                                                                                        |
+| hanmokkuscan        | zeistmanga    | done    | text search reads the html /search page                                                                                                |
+| hentaiseason        | gattsu        | todo    |                                                                                                                                        |
+| hentaitokyo         | gattsu        | todo    |                                                                                                                                        |
+| hipercool           | hiper         | todo    |                                                                                                                                        |
+| hipertoon           | hiper         | todo    |                                                                                                                                        |
+| horahentai          | standalone    | done    |                                                                                                                                        |
+| hotcabaretscan      | madara        | done    |                                                                                                                                        |
+| hqnow               | standalone    | done    |                                                                                                                                        |
+| huntersscans        | madara        | blocked | images are block-scrambled (needs bitmap descrambling, unavailable in the sandbox); series pages time out                              |
+| imperiodabritannia  | mangotheme    | done    | no login / x-encrypted support (api answers plain JSON with X-Noencryptionbritta)                                                      |
+| inkapk              | madara        | done    |                                                                                                                                        |
+| kamisamaexplorer    | madara        | done    |                                                                                                                                        |
+| kivaratoons         | standalone    | blocked | site unreachable (connection fails, 2026-10-11)                                                                                        |
+| kuromangas          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| leitordemangas      | aurora        | blocked | Cloudflare challenge                                                                                                                   |
+| leituramanga        | standalone    | done    |                                                                                                                                        |
+| ler999              | zeistmanga    | done    |                                                                                                                                        |
+| littletyrant        | madara        | blocked | Cloudflare challenge                                                                                                                   |
+| lycantoons          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| maidscan            | greenshit     | todo    |                                                                                                                                        |
+| mangadash           | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| mangaflix           | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| mangalivre          | standalone    | blocked | probe 2026-10-11: dead:ENOTFOUND                                                                                                       |
+| mangalivreblog      | standalone    | done    |                                                                                                                                        |
+| mangalivreorg       | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| mangalivreto        | madara        | done    |                                                                                                                                        |
+| manganyx            | aurora        | blocked | Cloudflare challenge                                                                                                                   |
+| mangaonline         | standalone    | blocked | redesigned (2026-10-11): /catalogo is 404, now the MangaLivre WordPress theme; Tachiyomi source outdated                               |
+| mangasbrasuka       | aurora        | blocked | Cloudflare challenge                                                                                                                   |
+| mangastop           | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| mangeek             | standalone    | done    | image CDN serves images as application/octet-stream (mr-ext image check fails; bytes are images); requests signed with the server Date |
+| mangotoons          | mangotheme    | blocked | 521 web server is down                                                                                                                 |
+| manhastro           | standalone    | done    |                                                                                                                                        |
+| mediocretoons       | standalone    | ported  | in pending/: every API call needs an account (e-mail/password preferences)                                                             |
+| minitwoscan         | madara        | blocked | Cloudflare challenge                                                                                                                   |
+| montetai            | madara        | done    | chapters via mt_get_summary_chapters (nonce)                                                                                           |
+| mrtenzus            | madara        | done    | live test: first page image 404 (site content)                                                                                         |
+| mugiwarasoficial    | aurora        | blocked | Cloudflare challenge                                                                                                                   |
+| muitohentai         | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| mundohentai         | standalone    | done    |                                                                                                                                        |
+| nebulosascan        | madara        | done    |                                                                                                                                        |
+| ninjascan           | madara        | done    |                                                                                                                                        |
+| nocturnesummer      | madara        | done    |                                                                                                                                        |
+| noindexscan         | madara        | done    |                                                                                                                                        |
+| onereader           | standalone    | ported  | in pending/: site under maintenance (503, 2026-10-11)                                                                                  |
+| osakascan           | zeistmanga    | blocked | site redesigned (JS-rendered custom theme, no Blogger chapter markup); Tachiyomi source outdated                                       |
+| pinkrosa            | zeistmanga    | done    | live: first image of the oldest chapter answers 404 (site side)                                                                        |
+| pinkseaunicorn      | madara        | blocked | site is behind a password-protection login page                                                                                        |
+| pizzariascan        | mangawork     | done    |                                                                                                                                        |
+| plumacomics         | standalone    | ported  | in pending/: site under maintenance (503, 2026-10-11)                                                                                  |
+| pointzerotoons      | mangathemesia | todo    |                                                                                                                                        |
+| portalyaoi          | madara        | blocked | Cloudflare 403                                                                                                                         |
+| randomscan          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| remangas            | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| revistasequadrinhos | standalone    | done    |                                                                                                                                        |
+| rfdragonscan        | standalone    | blocked | every request needs an account login (Next.js server actions + access_token cookie); no cookie jar                                     |
+| risentoons          | standalone    | done    |                                                                                                                                        |
+| roxinha             | standalone    | ported  | in pending/: chapter pages need an account (e-mail/password preferences)                                                               |
+| saikaiscan          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| shiraiscans         | standalone    | blocked | probe 2026-10-11: redirects to a Google page (dead)                                                                                    |
+| slimereadunoriginal | standalone    | blocked | probe 2026-10-11: dead:ENOTFOUND                                                                                                       |
+| spectralscan        | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| sssscanlator        | standalone    | ported  | in pending/: list API answers 502 (2026-10-11)                                                                                         |
+| starlightscan       | mangathemesia | blocked | Cloudflare challenge                                                                                                                   |
+| taimumangas         | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
+| taiyo               | standalone    | done    |                                                                                                                                        |
+| tankouhentai        | madara        | done    |                                                                                                                                        |
+| taosect             | standalone    | done    | Google Drive view-limit pre-check not ported                                                                                           |
+| temakimangas        | zeistmanga    | blocked | blog has no posts (feed empty)                                                                                                         |
+| tiamanhwa           | madara        | blocked | bot verification page (403)                                                                                                            |
+| toonbr              | standalone    | done    | login (e-mail/password) optional                                                                                                       |
+| traducoesdolipe     | zeistmanga    | done    |                                                                                                                                        |
+| tsundokutraducoes   | mangathemesia | done    |                                                                                                                                        |
+| universohentai      | gattsu        | todo    |                                                                                                                                        |
+| vegitoons           | greenshit     | todo    |                                                                                                                                        |
+| verdinha            | greenshit     | todo    |                                                                                                                                        |
+| xxxyaoi             | madara        | blocked | 403 'Acesso Bloqueado' (region/bot block)                                                                                              |
+| yaoifanclub         | zeistmanga    | blocked | moved to yaoifanclub.com, no longer Blogger (no feeds)                                                                                 |
+| yomumangas          | standalone    | blocked | api.yomumangas.com answers 403 (Cloudflare) and the site moved to global.yomumangas.com                                                |
+| yugenmangas         | standalone    | blocked | probe 2026-10-11: dead:ENOTFOUND                                                                                                       |
+| yuriverso           | madara        | done    | listing from archive pages (MadaraNoAjax; admin-ajax answers empty)                                                                    |
+| zettahq             | standalone    | done    |                                                                                                                                        |
 
 ## ja
 
 | Extension               | Theme            | Status  | Notes                                                                                                                                                                                                          |
 | ----------------------- | ---------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| alphapolis              | standalone       | todo    |                                                                                                                                                                                                                |
-| amebamanga              | standalone       | todo    |                                                                                                                                                                                                                |
-| asacomi                 | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| bibibicomic             | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| bigcomics               | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| booklistastudio         | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| bookwalkerjp            | standalone       | todo    |                                                                                                                                                                                                                |
-| championcross           | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| ciaoplus                | standalone       | todo    |                                                                                                                                                                                                                |
-| cmoa                    | standalone       | todo    |                                                                                                                                                                                                                |
-| comicboost              | standalone       | todo    |                                                                                                                                                                                                                |
+| alphapolis              | standalone       | blocked | pages are scrambled with per-tile rotation/flip (not expressible as TileOp), XSRF cookie flow, most chapters rental                                                                                            |
+| amebamanga              | standalone       | ported  | in pending/: works (descrambling verified on a free volume) but the generic test's oldest chapter is locked, so getPages fails the fixture test                                                                |
+| asacomi                 | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| bibibicomic             | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| bigcomics               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| booklistastudio         | comiciviewer     | done    |                                                                                                                                                                                                                |
+| bookwalkerjp            | standalone       | blocked | reader flow needs per-session cookies (u1/u2), a scraped loader script and signed viewer requests; no cookie jar in the sandbox                                                                                |
+| championcross           | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| ciaoplus                | standalone       | done    | scrambled pages restored via transformImage tiles (verified visually); SHA-512 in JS                                                                                                                           |
+| cmoa                    | standalone       | ported  | in pending/: page images answer 403 (SpeedBinb SBC token) so descrambling is unverified; fixture test passes                                                                                                   |
+| comicboost              | standalone       | blocked | reader session needs the access_id cookie, which is only set on a redirect response; the sandbox http follows redirects and exposes only the final response                                                    |
 | comicborder             | gigaviewer       | todo    |                                                                                                                                                                                                                |
 | comicdays               | gigaviewer       | todo    |                                                                                                                                                                                                                |
 | comicearthstar          | gigaviewer       | todo    |                                                                                                                                                                                                                |
-| comicfesta              | clipstudioreader | todo    |                                                                                                                                                                                                                |
-| comicfuz                | standalone       | todo    |                                                                                                                                                                                                                |
+| comicfesta              | clipstudioreader | done    | live: newest volumes are paid (login/purchase); free volumes verified (title 255922, pages unscrambled); test reads a title with free volumes                                                                  |
+| comicfuz                | standalone       | blocked | API speaks protobuf (binary request bodies); the sandbox http cannot send binary bodies                                                                                                                        |
 | comicgardo              | gigaviewer       | todo    |                                                                                                                                                                                                                |
-| comicgrast              | standalone       | todo    |                                                                                                                                                                                                                |
-| comicmeteor             | standalone       | todo    |                                                                                                                                                                                                                |
-| comicnettai             | standalone       | todo    |                                                                                                                                                                                                                |
-| comico                  | standalone       | todo    |                                                                                                                                                                                                                |
-| comicpash               | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| comicride               | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| comicroombase           | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| comicryu                | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| comicgrast              | standalone       | done    | tile shuffle (seedrandom/ARC4) via transformImage (verified visually)                                                                                                                                          |
+| comicmeteor             | standalone       | done    | SpeedBinb descrambling via transformImage tiles (verified visually); filter list parsed from the /titles page                                                                                                  |
+| comicnettai             | standalone       | done    | Publus configuration_pack decoding + keyed tile descrambling ported (verified visually)                                                                                                                        |
+| comico                  | standalone       | blocked | API returns empty lists outside Japan (geo-restricted); port untested                                                                                                                                          |
+| comicpash               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| comicride               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| comicroombase           | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| comicryu                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | comicyours              | gigaviewer       | todo    |                                                                                                                                                                                                                |
-| comirela                | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| corocoroonline          | standalone       | todo    |                                                                                                                                                                                                                |
-| coronaex                | standalone       | todo    |                                                                                                                                                                                                                |
-| cycomi                  | standalone       | todo    |                                                                                                                                                                                                                |
-| dmm                     | standalone       | todo    |                                                                                                                                                                                                                |
-| docomo                  | standalone       | todo    |                                                                                                                                                                                                                |
-| dokiraw                 | standalone       | todo    |                                                                                                                                                                                                                |
-| drecomics               | standalone       | todo    |                                                                                                                                                                                                                |
-| ebookjapan              | standalone       | todo    |                                                                                                                                                                                                                |
-| firecross               | clipstudioreader | todo    |                                                                                                                                                                                                                |
-| flowercomics            | standalone       | todo    |                                                                                                                                                                                                                |
-| fodfuji                 | standalone       | todo    |                                                                                                                                                                                                                |
-| ganganonline            | standalone       | todo    |                                                                                                                                                                                                                |
-| ganma                   | standalone       | todo    |                                                                                                                                                                                                                |
-| gaugaumonsterplus       | standalone       | todo    |                                                                                                                                                                                                                |
-| gcomi                   | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| gorakuweb               | standalone       | todo    |                                                                                                                                                                                                                |
-| hachiraw                | standalone       | todo    |                                                                                                                                                                                                                |
-| hanayume                | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| hayacomic               | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| herosweb                | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| comirela                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| corocoroonline          | standalone       | done    | protobuf (GET + empty PUT) read with a small wire decoder; AES-CBC page decryption not exercised live (newest chapter is paid)                                                                                 |
+| coronaex                | standalone       | blocked | reading needs a subscribed account (login with Firebase tokens; 402 otherwise); untestable without credentials                                                                                                 |
+| cycomi                  | standalone       | done    | live: newest chapter is locked (by design); image descrambling not exercised live                                                                                                                              |
+| dmm                     | standalone       | blocked | redirects to login (geo-block)                                                                                                                                                                                 |
+| docomo                  | standalone       | done    | Publus (trial/free volumes); images verified through the fixture test                                                                                                                                          |
+| dokiraw                 | standalone       | done    |                                                                                                                                                                                                                |
+| drecomics               | standalone       | blocked | site answers 403                                                                                                                                                                                               |
+| ebookjapan              | standalone       | blocked | needs AES-GCM (sandbox has only cbc/ctr/ecb) and per-tile rotation (not expressible as TileOp)                                                                                                                 |
+| firecross               | clipstudioreader | blocked | geo-blocked: CloudFront answers 403 outside Japan                                                                                                                                                              |
+| flowercomics            | standalone       | done    | live: newest chapter is locked (by design)                                                                                                                                                                     |
+| fodfuji                 | standalone       | blocked | site answers 403                                                                                                                                                                                               |
+| ganganonline            | standalone       | done    |                                                                                                                                                                                                                |
+| ganma                   | standalone       | done    | live: newest chapter is coin-locked (by design)                                                                                                                                                                |
+| gaugaumonsterplus       | standalone       | done    | SpeedBinb descrambling via transformImage tiles (verified visually); text 'buy' page not ported                                                                                                                |
+| gcomi                   | comiciviewer     | done    |                                                                                                                                                                                                                |
+| gorakuweb               | standalone       | done    | RSC payload parsed; AES-CBC page decryption in transformImage not exercised live (newest chapter is locked)                                                                                                    |
+| hachiraw                | standalone       | blocked | Cloudflare challenge                                                                                                                                                                                           |
+| hanayume                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| hayacomic               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| herosweb                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | ichicomi                | gigaviewer       | todo    |                                                                                                                                                                                                                |
-| idolgravureprincessdate | standalone       | todo    |                                                                                                                                                                                                                |
-| jmanga                  | mangareader      | todo    |                                                                                                                                                                                                                |
-| jnbooks                 | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| jumprookie              | standalone       | todo    |                                                                                                                                                                                                                |
-| jumptoon                | standalone       | todo    |                                                                                                                                                                                                                |
-| kadocomi                | standalone       | todo    |                                                                                                                                                                                                                |
-| kimicomi                | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| kisslove                | standalone       | todo    |                                                                                                                                                                                                                |
-| klraw                   | mangareader      | todo    |                                                                                                                                                                                                                |
-| klto9                   | standalone       | todo    |                                                                                                                                                                                                                |
+| idolgravureprincessdate | standalone       | done    | no genres in details                                                                                                                                                                                           |
+| jmanga                  | mangareader      | done    | moved to jmanga.media; page number in 'p'                                                                                                                                                                      |
+| jnbooks                 | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| jumprookie              | standalone       | done    |                                                                                                                                                                                                                |
+| jumptoon                | standalone       | done    | column-shuffle descrambling via transformImage; no login                                                                                                                                                       |
+| kadocomi                | standalone       | done    | XOR-encrypted pages decrypted by transformImage                                                                                                                                                                |
+| kimicomi                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| kisslove                | standalone       | done    |                                                                                                                                                                                                                |
+| klraw                   | mangareader      | blocked | connection reset (dead?)                                                                                                                                                                                       |
+| klto9                   | standalone       | done    |                                                                                                                                                                                                                |
 | kmansin09               | madara           | todo    |                                                                                                                                                                                                                |
-| kumaraw                 | standalone       | todo    |                                                                                                                                                                                                                |
+| kumaraw                 | standalone       | blocked | Cloudflare challenge                                                                                                                                                                                           |
 | kuragebunch             | gigaviewer       | todo    |                                                                                                                                                                                                                |
-| linemanga               | standalone       | todo    |                                                                                                                                                                                                                |
-| magazinepocket          | standalone       | todo    |                                                                                                                                                                                                                |
+| linemanga               | standalone       | blocked | site answers 412                                                                                                                                                                                               |
+| magazinepocket          | standalone       | done    | descrambling via transformImage tiles (verified visually); live: newest chapter is locked                                                                                                                      |
 | magcomi                 | gigaviewer       | todo    |                                                                                                                                                                                                                |
-| magkan                  | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| manga1000               | standalone       | todo    |                                                                                                                                                                                                                |
-| mangabang               | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| mangabu                 | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| mangafive               | standalone       | todo    |                                                                                                                                                                                                                |
-| mangagun                | fmreader         | todo    |                                                                                                                                                                                                                |
+| magkan                  | comiciviewer     | done    |                                                                                                                                                                                                                |
+| manga1000               | standalone       | done    |                                                                                                                                                                                                                |
+| mangabang               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| mangabu                 | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| mangafive               | standalone       | ported  | in pending/: works (free 'unscrambled' volume verified live) but the oldest chapter is locked so the generic fixture test's getPages fails; Publus keyed-scramble path not exercised                           |
+| mangagun                | fmreader         | done    |                                                                                                                                                                                                                |
 | mangakingdom            | standalone       | blocked | pages are base64 json (descrambled into a re-gridded image) behind a viewer-launcher redirect; needs no-redirect request and decode-then-tile                                                                  |
 | mangakuro               | standalone       | done    |                                                                                                                                                                                                                |
-| mangalt                 | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| mangalt                 | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | mangamee                | standalone       | done    |                                                                                                                                                                                                                |
 | mangameets              | standalone       | done    |                                                                                                                                                                                                                |
-| mangamura               | mangareader      | todo    |                                                                                                                                                                                                                |
+| mangamura               | mangareader      | blocked | mangamura.me returns 522                                                                                                                                                                                       |
 | mangano                 | standalone       | done    |                                                                                                                                                                                                                |
 | mangaone                | standalone       | done    | live: the oldest chapter of the first title needs a purchase (by design)                                                                                                                                       |
 | mangaparkpublisher      | standalone       | done    | live: the oldest chapter of the first title needs a purchase (by design)                                                                                                                                       |
 | mangasaison             | standalone       | blocked | pages are read from a zip with HTTP Range + zip directory; no sandbox support                                                                                                                                  |
-| mangaspa                | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| mangaspa                | comiciviewer     | done    |                                                                                                                                                                                                                |
 | mangatoshokanz          | standalone       | done    | ranking page redesigned (ul.itemList)                                                                                                                                                                          |
 | mangaupjapan            | standalone       | done    |                                                                                                                                                                                                                |
-| mangazegra              | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| mangazegra              | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | mechacomic              | standalone       | blocked | needs site cookies and a no-redirect request (Location header); chapters are paid                                                                                                                              |
 | mokuro                  | standalone       | blocked | pages are read from CBZ files with HTTP Range + zip directory; no sandbox support                                                                                                                              |
 | momonga                 | standalone       | done    |                                                                                                                                                                                                                |
 | musicbookjp             | standalone       | blocked | pages are composited from extra _b1/_b2 png layers fetched inside the image interceptor; not possible in transformImage                                                                                        |
-| namicomic               | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| namicomic               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | nicomanga               | standalone       | done    |                                                                                                                                                                                                                |
 | nicovideoseiga          | standalone       | done    |                                                                                                                                                                                                                |
 | nikkangecchan           | standalone       | done    |                                                                                                                                                                                                                |
 | ohtawebcomic            | standalone       | done    |                                                                                                                                                                                                                |
 | pashup                  | standalone       | blocked | Publus DRM reader (config pack decoder, RC4, scramble); not ported                                                                                                                                             |
-| piacomic                | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| piacomic                | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | piccoma                 | standalone       | ported  | in pending/: episode and viewer pages are served to Japanese IPs only; scrambled-tile descrambling (seedrandom) is ported but untested                                                                         |
 | pixivcomic              | standalone       | blocked | Publus DRM reader (config pack decoder, RC4, scramble); not ported                                                                                                                                             |
 | raw1001                 | liliana          | todo    |                                                                                                                                                                                                                |
-| raw18                   | wpcomics         | todo    |                                                                                                                                                                                                                |
+| raw18                   | wpcomics         | done    | moved to raw18.bar                                                                                                                                                                                             |
 | rawbaka                 | madara           | todo    |                                                                                                                                                                                                                |
 | rawdevartart            | standalone       | done    |                                                                                                                                                                                                                |
-| rawinu                  | fmreader         | todo    |                                                                                                                                                                                                                |
-| rawkuma                 | natsuid          | todo    |                                                                                                                                                                                                                |
-| rawlh                   | fmreader         | todo    |                                                                                                                                                                                                                |
-| rawotaku                | mangareader      | todo    |                                                                                                                                                                                                                |
+| rawinu                  | fmreader         | done    |                                                                                                                                                                                                                |
+| rawkuma                 | natsuid          | done    |                                                                                                                                                                                                                |
+| rawlh                   | fmreader         | done    | image requests need the chapter url as Referer (SDK imageHeaders is not per page)                                                                                                                              |
+| rawotaku                | mangareader      | done    | page number in 'p'                                                                                                                                                                                             |
 | rawuwu                  | standalone       | done    |                                                                                                                                                                                                                |
 | rawxz                   | standalone       | done    | moved to miuraw.com                                                                                                                                                                                            |
 | readerstore             | standalone       | blocked | custom block cipher DRM (Sony Reader Store) and scrambled frames; paid                                                                                                                                         |
-| rimacomiplus            | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| rimacomiplus            | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | senmanga                | standalone       | done    |                                                                                                                                                                                                                |
 | shonenjumpplus          | gigaviewer       | todo    |                                                                                                                                                                                                                |
 | sokuyomi                | standalone       | blocked | site answers HTTP 405 (probe 2026-10-11)                                                                                                                                                                       |
 | sundaywebevery          | gigaviewer       | todo    |                                                                                                                                                                                                                |
-| takecomic               | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| takecomic               | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | tonarinoyoungjump       | gigaviewer       | todo    |                                                                                                                                                                                                                |
 | twi4                    | standalone       | done    |                                                                                                                                                                                                                |
 | unext                   | standalone       | blocked | paid streaming GraphQL with AES page encryption; login needed                                                                                                                                                  |
-| welovemangaone          | fmreader         | todo    |                                                                                                                                                                                                                |
+| welovemangaone          | fmreader         | done    |                                                                                                                                                                                                                |
 | yanmaga                 | standalone       | ported  | in pending/: same CloudFront signed-cookie limitation as yomonga (SpeedBinb REST); two sources (manga, gravure)                                                                                                |
 | ynjn                    | standalone       | done    |                                                                                                                                                                                                                |
 | yomonga                 | standalone       | ported  | in pending/: REST content server needs several CloudFront signed cookies from separate Set-Cookie headers, but the runtime's http response keeps only the last one (see mangaplaza). Reuses the SpeedBinb port |
-| younganimal             | comiciviewer     | todo    |                                                                                                                                                                                                                |
-| youngchampion           | comiciviewer     | todo    |                                                                                                                                                                                                                |
+| younganimal             | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
+| youngchampion           | comiciviewer     | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                                                                  |
 | zebrack                 | standalone       | blocked | protobuf API with session secret, magazine backnumbers and volumes; paid, not ported                                                                                                                           |
 | zenon                   | gigaviewer       | todo    |                                                                                                                                                                                                                |
 | zerosumonline           | standalone       | done    |                                                                                                                                                                                                                |
 
 ## all
 
-| Extension             | Theme         | Status  | Notes                                                                                                                                   |
-| --------------------- | ------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| ahottie               | standalone    | todo    |                                                                                                                                         |
-| akuma                 | standalone    | todo    |                                                                                                                                         |
-| allporncomicsco       | madara        | todo    |                                                                                                                                         |
-| asmhentai             | galleryadults | todo    |                                                                                                                                         |
-| baobua                | standalone    | todo    |                                                                                                                                         |
-| beauty3600000         | standalone    | todo    |                                                                                                                                         |
-| buondua               | standalone    | todo    |                                                                                                                                         |
-| comicfury             | standalone    | todo    |                                                                                                                                         |
-| comicgrowl            | comiciviewer  | todo    |                                                                                                                                         |
-| comicklive            | standalone    | todo    |                                                                                                                                         |
-| comicskingdom         | standalone    | todo    |                                                                                                                                         |
-| comicsvalley          | madara        | todo    |                                                                                                                                         |
-| comikey               | standalone    | todo    |                                                                                                                                         |
-| commitstrip           | standalone    | todo    |                                                                                                                                         |
-| coomer                | kemono        | todo    |                                                                                                                                         |
-| cosplaytele           | standalone    | todo    |                                                                                                                                         |
-| cubari                | standalone    | todo    |                                                                                                                                         |
-| danbooru              | standalone    | todo    |                                                                                                                                         |
-| deviantart            | standalone    | todo    |                                                                                                                                         |
-| doujiva               | standalone    | todo    |                                                                                                                                         |
-| dragonballmultiverse  | standalone    | todo    |                                                                                                                                         |
-| e621                  | standalone    | todo    |                                                                                                                                         |
-| elitebabes            | masonry       | todo    |                                                                                                                                         |
-| everiaclub            | standalone    | todo    |                                                                                                                                         |
-| everiaclubcom         | standalone    | todo    |                                                                                                                                         |
-| femjoyhunter          | masonry       | todo    |                                                                                                                                         |
-| foamgirl              | standalone    | todo    |                                                                                                                                         |
-| foolslidecustomizable | foolslide     | todo    |                                                                                                                                         |
-| fourkhd               | standalone    | todo    |                                                                                                                                         |
-| ftvhunter             | masonry       | todo    |                                                                                                                                         |
-| globalcomix           | standalone    | todo    |                                                                                                                                         |
-| grabberzone           | madara        | todo    |                                                                                                                                         |
-| hdoujin               | standalone    | todo    |                                                                                                                                         |
-| hennojin              | standalone    | todo    |                                                                                                                                         |
-| hentai3               | standalone    | todo    |                                                                                                                                         |
-| hentaicosplay         | standalone    | todo    |                                                                                                                                         |
-| hentaienvy            | galleryadults | todo    |                                                                                                                                         |
-| hentaiera             | galleryadults | todo    |                                                                                                                                         |
-| hentaifox             | galleryadults | todo    |                                                                                                                                         |
-| hentaihand            | hentaihand    | todo    |                                                                                                                                         |
-| hentailoop            | standalone    | todo    |                                                                                                                                         |
-| hentairox             | galleryadults | todo    |                                                                                                                                         |
-| hentaizap             | galleryadults | todo    |                                                                                                                                         |
-| hniscantrad           | pizzareader   | todo    |                                                                                                                                         |
-| holonometria          | standalone    | todo    |                                                                                                                                         |
-| honeytoon             | standalone    | todo    |                                                                                                                                         |
-| imhentai              | galleryadults | todo    |                                                                                                                                         |
-| izneo                 | standalone    | todo    |                                                                                                                                         |
-| jjcos                 | standalone    | todo    |                                                                                                                                         |
-| joymiihub             | masonry       | todo    |                                                                                                                                         |
-| junmeitu              | standalone    | todo    |                                                                                                                                         |
-| kagane                | standalone    | todo    |                                                                                                                                         |
-| kemono                | kemono        | todo    |                                                                                                                                         |
-| kiutaku               | standalone    | todo    |                                                                                                                                         |
-| kodokustudio          | madara        | todo    |                                                                                                                                         |
-| koharu                | standalone    | todo    |                                                                                                                                         |
-| komga                 | standalone    | todo    |                                                                                                                                         |
-| lanraragi             | standalone    | todo    |                                                                                                                                         |
-| leagueoflegends       | standalone    | todo    |                                                                                                                                         |
-| lunaranime            | standalone    | todo    |                                                                                                                                         |
-| luscious              | standalone    | todo    |                                                                                                                                         |
-| magicaltranslators    | guya          | todo    |                                                                                                                                         |
-| manga18fx             | standalone    | done    |                                                                                                                                         |
-| manga18me             | standalone    | done    |                                                                                                                                         |
-| mangaball             | standalone    | done    | live: lists are not language-filtered (sources with few translations find no manga with chapters); one en image host answers 403        |
-| mangacrazy            | madara        | todo    |                                                                                                                                         |
-| mangadex              | standalone    | done    | existing                                                                                                                                |
-| mangadna              | standalone    | done    |                                                                                                                                         |
-| mangadotnet           | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                 |
-| mangadraft            | standalone    | done    |                                                                                                                                         |
-| mangafire             | standalone    | done    | VRF-signed API; WAF captcha solver not ported; live: ja source has no chapters for the top titles (lists are not language-filtered)     |
-| mangaforfree          | madara        | todo    |                                                                                                                                         |
-| mangamillion          | standalone    | done    |                                                                                                                                         |
-| mangaplus             | standalone    | done    |                                                                                                                                         |
-| mangapluscreators     | standalone    | done    |                                                                                                                                         |
-| mangatoon             | standalone    | done    | live: the fr site lists links without a language path (404)                                                                             |
-| mangaup               | standalone    | done    | live: the newest chapter is paid (log in with the secret token to read it); older chapters read fine                                    |
-| mango                 | standalone    | ported  | in pending/: self-hosted server (user-set address and login), cannot be tested here                                                     |
-| manhuarm              | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                 |
-| manhwa18cc            | madara        | todo    |                                                                                                                                         |
-| manhwa18net           | standalone    | done    |                                                                                                                                         |
-| manhwaclubnet         | madara        | todo    |                                                                                                                                         |
-| manhwadashraw         | madara        | todo    |                                                                                                                                         |
-| manta                 | standalone    | done    |                                                                                                                                         |
-| mayotune              | standalone    | done    |                                                                                                                                         |
-| metarthunter          | masonry       | todo    |                                                                                                                                         |
-| miauscan              | mangathemesia | todo    |                                                                                                                                         |
-| misskon               | standalone    | done    |                                                                                                                                         |
-| mitaku                | standalone    | blocked | Cloudflare 403 (curl and Node fetch, 2026-10-11)                                                                                        |
-| myreadingmanga        | standalone    | blocked | Cloudflare 'Verification Required' (probe 2026-10-11)                                                                                   |
-| namicomi              | standalone    | done    | live: passes for en/es/fr/ja; sources with few translations can find no manga with chapters in the (not language-filtered) popular list |
-| nhentaicom            | hentaihand    | todo    |                                                                                                                                         |
-| nhentaito             | galleryadults | todo    |                                                                                                                                         |
-| nhentaixxx            | galleryadults | todo    |                                                                                                                                         |
-| niadd                 | standalone    | blocked | chapter links (/go/rds) redirect to unrelated ad domains; pages unreachable (2026-10-11)                                                |
-| novelcool             | standalone    | blocked | chapter links (/go/rds) redirect to the site home / unrelated ad domains; pages unreachable (2026-10-11)                                |
-| onepiecefans          | standalone    | done    |                                                                                                                                         |
-| onisaga               | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                 |
-| ososedki              | standalone    | done    |                                                                                                                                         |
-| pandachaika           | standalone    | blocked | pages are entries of a remote zip read by range requests and inflated on the fly; the sandbox has no zip/deflate support                |
-| pawchive              | standalone    | done    |                                                                                                                                         |
-| peppercarrot          | standalone    | done    |                                                                                                                                         |
-| photos18              | standalone    | done    |                                                                                                                                         |
-| pixiv                 | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                 |
-| playmatehunter        | masonry       | todo    |                                                                                                                                         |
-| pornpics              | standalone    | done    |                                                                                                                                         |
-| projectsuki           | standalone    | done    |                                                                                                                                         |
-| rokuhentai            | standalone    | done    | live: image host answers without a content type (mr-ext image check fails; bytes are images)                                            |
-| sandraandwoo          | standalone    | done    |                                                                                                                                         |
-| saymanhwa             | standalone    | done    | live: the site answers 429 on chapter pages when several languages are tested in a row (single-language runs pass)                      |
-| seraphicdeviltry      | madara        | todo    |                                                                                                                                         |
-| simplycosplay         | standalone    | blocked | site answers 502 Bad gateway (probe 2026-10-11)                                                                                         |
-| simplyhentai          | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                 |
-| stashapp              | standalone    | ported  | in pending/: self-hosted server (user-set address and API key), cannot be tested here                                                   |
-| taddyink              | standalone    | done    | live: the image CDN answers application/octet-stream (mr-ext image check fails; bytes are images)                                       |
-| tappytoon             | standalone    | done    | live: the newest chapter is locked (Tachiyomi behaves the same); older chapters read fine                                               |
-| thelibraryofohara     | standalone    | blocked | Cloudflare 'Checking your browser' 403 (probe 2026-10-11)                                                                               |
-| toomics               | standalone    | done    |                                                                                                                                         |
-| twicomi               | standalone    | done    |                                                                                                                                         |
-| v2ph                  | standalone    | blocked | Cloudflare 403 (curl and Node fetch, 2026-10-11)                                                                                        |
-| vinnieVeritas         | standalone    | done    |                                                                                                                                         |
-| webcomics             | standalone    | todo    |                                                                                                                                         |
-| webtoons              | standalone    | todo    |                                                                                                                                         |
-| xarthunter            | masonry       | todo    |                                                                                                                                         |
-| xasiatalbums          | standalone    | todo    |                                                                                                                                         |
-| xcomic                | standalone    | todo    |                                                                                                                                         |
-| xgmn                  | standalone    | todo    |                                                                                                                                         |
-| xiutaku               | standalone    | todo    |                                                                                                                                         |
-| xkcd                  | standalone    | todo    |                                                                                                                                         |
-| yabai                 | standalone    | todo    |                                                                                                                                         |
-| yaoimangaonline       | standalone    | todo    |                                                                                                                                         |
-| yellownote            | standalone    | todo    |                                                                                                                                         |
-| yskcomics             | standalone    | todo    |                                                                                                                                         |
+| Extension             | Theme         | Status  | Notes                                                                                                                                                                    |
+| --------------------- | ------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ahottie               | standalone    | done    |                                                                                                                                                                          |
+| akuma                 | standalone    | blocked | DDoS-Guard 403 (probe 2026-10-11)                                                                                                                                        |
+| allporncomicsco       | madara        | todo    |                                                                                                                                                                          |
+| asmhentai             | galleryadults | done    |                                                                                                                                                                          |
+| baobua                | standalone    | done    |                                                                                                                                                                          |
+| beauty3600000         | standalone    | blocked | wp-json API times out (home page answers; probe 2026-10-11)                                                                                                              |
+| buondua               | standalone    | done    |                                                                                                                                                                          |
+| comicfury             | standalone    | done    | author's notes (text rendering) not supported                                                                                                                            |
+| comicgrowl            | comiciviewer  | done    | live: newest chapter is locked (login/purchase) by design; oldest chapter fixture test passes                                                                            |
+| comicklive            | standalone    | blocked | search API behind a Cloudflare challenge; catalogue almost empty (top lists one comic, chapter lists are empty)                                                          |
+| comicskingdom         | standalone    | done    | baseUrl stays wp.comicskingdom.com (the wp-json API); comicskingdom.com is a Next.js app                                                                                 |
+| comicsvalley          | madara        | todo    |                                                                                                                                                                          |
+| comikey               | standalone    | blocked | page images need a WebView to decrypt the reader manifest                                                                                                                |
+| commitstrip           | standalone    | done    | strips on hold since 2024 (newest years answer 404); test uses the 2022 year                                                                                             |
+| coomer                | kemono        | todo    |                                                                                                                                                                          |
+| cosplaytele           | standalone    | done    |                                                                                                                                                                          |
+| cubari                | standalone    | blocked | library (history/pins) is only readable through the site's JS in a WebView; no catalogue API                                                                             |
+| danbooru              | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| deviantart            | standalone    | blocked | search-only source (popular/latest unsupported, needs gallery:<user> queries); not testable                                                                              |
+| doujiva               | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| dragonballmultiverse  | standalone    | done    | speech-balloon texts are not drawn onto the images (no canvas in the sandbox)                                                                                            |
+| e621                  | standalone    | done    | pools only (no tag-search mode, no per-sub-pool chapter splitting, no better-details)                                                                                    |
+| elitebabes            | masonry       | ported  | in pending/: text search is behind a Cloudflare challenge (403 to Node fetch); browsing works                                                                            |
+| everiaclub            | standalone    | done    |                                                                                                                                                                          |
+| everiaclubcom         | standalone    | done    | mr-ext test: image CDN answers 403 to Node fetch (curl and browsers OK)                                                                                                  |
+| femjoyhunter          | masonry       | ported  | in pending/: text search is behind a Cloudflare challenge (403 to Node fetch); browsing works                                                                            |
+| foamgirl              | standalone    | done    | mr-ext test: the image CDN serves images as application/octet-stream (bytes are images)                                                                                  |
+| foolslidecustomizable | foolslide     | blocked | base URL is a user setting (Tachiyomi placeholder 127.0.0.1); no site to port                                                                                            |
+| fourkhd               | standalone    | done    | images served through the Jetpack proxy (the img.uuss.uk remap now redirects to html); search drops parentheses (firewall 403)                                           |
+| ftvhunter             | masonry       | ported  | in pending/: text search is behind a Cloudflare challenge (403 to Node fetch); browsing works                                                                            |
+| globalcomix           | standalone    | done    | live: languages without any comic list 0 items (site side)                                                                                                               |
+| grabberzone           | madara        | todo    |                                                                                                                                                                          |
+| hdoujin               | standalone    | blocked | needs a clearance token read from the site's localStorage (WebView)                                                                                                      |
+| hennojin              | standalone    | blocked | connect timeout (dead?)                                                                                                                                                  |
+| hentai3               | standalone    | done    | live: image host s2.3hentai.net times out from Node fetch now and then (curl OK); gallery images come from the lazy-loaded thumbnails (the plain copies sit in noscript) |
+| hentaicosplay         | standalone    | done    |                                                                                                                                                                          |
+| hentaienvy            | galleryadults | done    |                                                                                                                                                                          |
+| hentaiera             | galleryadults | done    |                                                                                                                                                                          |
+| hentaifox             | galleryadults | done    |                                                                                                                                                                          |
+| hentaihand            | hentaihand    | todo    |                                                                                                                                                                          |
+| hentailoop            | standalone    | done    | filters limited to release/language/tag/genre (single directory filter); advanced search (captcha) not ported                                                            |
+| hentairox             | galleryadults | done    | zh dropped: the site has no Chinese listing any more (404)                                                                                                               |
+| hentaizap             | galleryadults | done    |                                                                                                                                                                          |
+| hniscantrad           | pizzareader   | done    |                                                                                                                                                                          |
+| holonometria          | standalone    | done    |                                                                                                                                                                          |
+| honeytoon             | standalone    | blocked | scrambled images are rebuilt from the X-Part-Sizes response header (not available to the sandbox)                                                                        |
+| imhentai              | galleryadults | blocked | Cloudflare challenge                                                                                                                                                     |
+| izneo                 | standalone    | blocked | webtoon section removed (/webtoon answers 404, catalogue API returns no series)                                                                                          |
+| jjcos                 | standalone    | done    |                                                                                                                                                                          |
+| joymiihub             | masonry       | ported  | in pending/: text search is behind a Cloudflare challenge (403 to Node fetch); browsing works                                                                            |
+| junmeitu              | standalone    | done    | test searches with the latin word of the title (site search misses traditional-character titles)                                                                         |
+| kagane                | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| kemono                | kemono        | todo    |                                                                                                                                                                          |
+| kiutaku               | standalone    | done    |                                                                                                                                                                          |
+| kodokustudio          | madara        | todo    |                                                                                                                                                                          |
+| koharu                | standalone    | blocked | needs a clearance token obtained in a WebView                                                                                                                            |
+| komga                 | standalone    | ported  | in pending/: self-hosted server (address/API key or user preferences), nothing to test against; session-token login replaced by Basic auth                               |
+| lanraragi             | standalone    | ported  | in pending/: self-hosted server (address/API key preferences), nothing to test against                                                                                   |
+| leagueoflegends       | standalone    | done    | live: image CDN slow (first image timed out)                                                                                                                             |
+| lunaranime            | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| luscious              | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| magicaltranslators    | guya          | todo    |                                                                                                                                                                          |
+| manga18fx             | standalone    | done    |                                                                                                                                                                          |
+| manga18me             | standalone    | done    |                                                                                                                                                                          |
+| mangaball             | standalone    | done    | live: lists are not language-filtered (sources with few translations find no manga with chapters); one en image host answers 403                                         |
+| mangacrazy            | madara        | todo    |                                                                                                                                                                          |
+| mangadex              | standalone    | done    | existing                                                                                                                                                                 |
+| mangadna              | standalone    | done    |                                                                                                                                                                          |
+| mangadotnet           | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| mangadraft            | standalone    | done    |                                                                                                                                                                          |
+| mangafire             | standalone    | done    | VRF-signed API; WAF captcha solver not ported; live: ja source has no chapters for the top titles (lists are not language-filtered)                                      |
+| mangaforfree          | madara        | todo    |                                                                                                                                                                          |
+| mangamillion          | standalone    | done    |                                                                                                                                                                          |
+| mangaplus             | standalone    | done    |                                                                                                                                                                          |
+| mangapluscreators     | standalone    | done    |                                                                                                                                                                          |
+| mangatoon             | standalone    | done    | live: the fr site lists links without a language path (404)                                                                                                              |
+| mangaup               | standalone    | done    | live: the newest chapter is paid (log in with the secret token to read it); older chapters read fine                                                                     |
+| mango                 | standalone    | ported  | in pending/: self-hosted server (user-set address and login), cannot be tested here                                                                                      |
+| manhuarm              | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| manhwa18cc            | madara        | todo    |                                                                                                                                                                          |
+| manhwa18net           | standalone    | done    |                                                                                                                                                                          |
+| manhwaclubnet         | madara        | todo    |                                                                                                                                                                          |
+| manhwadashraw         | madara        | todo    |                                                                                                                                                                          |
+| manta                 | standalone    | done    |                                                                                                                                                                          |
+| mayotune              | standalone    | done    |                                                                                                                                                                          |
+| metarthunter          | masonry       | ported  | in pending/: text search is behind a Cloudflare challenge (403 to Node fetch); browsing works                                                                            |
+| miauscan              | mangathemesia | done    | es + pt-BR sources; live: one pt image answers html                                                                                                                      |
+| misskon               | standalone    | done    |                                                                                                                                                                          |
+| mitaku                | standalone    | blocked | Cloudflare 403 (curl and Node fetch, 2026-10-11)                                                                                                                         |
+| myreadingmanga        | standalone    | blocked | Cloudflare 'Verification Required' (probe 2026-10-11)                                                                                                                    |
+| namicomi              | standalone    | done    | live: passes for en/es/fr/ja; sources with few translations can find no manga with chapters in the (not language-filtered) popular list                                  |
+| nhentaicom            | hentaihand    | todo    |                                                                                                                                                                          |
+| nhentaito             | galleryadults | done    | image mirrors (data-fallbacks) not used: the runtime has no per-request fallback                                                                                         |
+| nhentaixxx            | galleryadults | done    |                                                                                                                                                                          |
+| niadd                 | standalone    | blocked | chapter links (/go/rds) redirect to unrelated ad domains; pages unreachable (2026-10-11)                                                                                 |
+| novelcool             | standalone    | blocked | chapter links (/go/rds) redirect to the site home / unrelated ad domains; pages unreachable (2026-10-11)                                                                 |
+| onepiecefans          | standalone    | done    |                                                                                                                                                                          |
+| onisaga               | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| ososedki              | standalone    | done    |                                                                                                                                                                          |
+| pandachaika           | standalone    | blocked | pages are entries of a remote zip read by range requests and inflated on the fly; the sandbox has no zip/deflate support                                                 |
+| pawchive              | standalone    | done    |                                                                                                                                                                          |
+| peppercarrot          | standalone    | done    |                                                                                                                                                                          |
+| photos18              | standalone    | done    |                                                                                                                                                                          |
+| pixiv                 | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| playmatehunter        | masonry       | ported  | in pending/: text search is behind a Cloudflare challenge (403 to Node fetch); browsing works                                                                            |
+| pornpics              | standalone    | done    |                                                                                                                                                                          |
+| projectsuki           | standalone    | done    |                                                                                                                                                                          |
+| rokuhentai            | standalone    | done    | live: image host answers without a content type (mr-ext image check fails; bytes are images)                                                                             |
+| sandraandwoo          | standalone    | done    |                                                                                                                                                                          |
+| saymanhwa             | standalone    | done    | live: the site answers 429 on chapter pages when several languages are tested in a row (single-language runs pass)                                                       |
+| seraphicdeviltry      | madara        | todo    |                                                                                                                                                                          |
+| simplycosplay         | standalone    | blocked | site answers 502 Bad gateway (probe 2026-10-11)                                                                                                                          |
+| simplyhentai          | standalone    | blocked | Cloudflare challenge (probe 2026-10-11)                                                                                                                                  |
+| stashapp              | standalone    | ported  | in pending/: self-hosted server (user-set address and API key), cannot be tested here                                                                                    |
+| taddyink              | standalone    | done    | live: the image CDN answers application/octet-stream (mr-ext image check fails; bytes are images)                                                                        |
+| tappytoon             | standalone    | done    | live: the newest chapter is locked (Tachiyomi behaves the same); older chapters read fine                                                                                |
+| thelibraryofohara     | standalone    | blocked | Cloudflare 'Checking your browser' 403 (probe 2026-10-11)                                                                                                                |
+| toomics               | standalone    | done    |                                                                                                                                                                          |
+| twicomi               | standalone    | done    |                                                                                                                                                                          |
+| v2ph                  | standalone    | blocked | Cloudflare 403 (curl and Node fetch, 2026-10-11)                                                                                                                         |
+| vinnieVeritas         | standalone    | done    |                                                                                                                                                                          |
+| webcomics             | standalone    | done    |                                                                                                                                                                          |
+| webtoons              | standalone    | done    | author's notes (text page) not ported                                                                                                                                    |
+| xarthunter            | masonry       | ported  | in pending/: text search is behind a Cloudflare challenge (403 to Node fetch); browsing works                                                                            |
+| xasiatalbums          | standalone    | done    | tags are a static list (no runtime discovery)                                                                                                                            |
+| xcomic                | standalone    | done    | no dynamic genre/type filters, no edition prefs, no id lookup                                                                                                            |
+| xgmn                  | standalone    | blocked | site answers 404 (dead)                                                                                                                                                  |
+| xiutaku               | standalone    | done    |                                                                                                                                                                          |
+| xkcd                  | standalone    | done    | alt-text page (text interceptor) not ported; search matches series titles                                                                                                |
+| yabai                 | standalone    | blocked | Cloudflare challenge                                                                                                                                                     |
+| yaoimangaonline       | standalone    | done    |                                                                                                                                                                          |
+| yellownote            | standalone    | blocked | Cloudflare challenge                                                                                                                                                     |
+| yskcomics             | standalone    | done    |                                                                                                                                                                          |
 
 ## Pending
 
