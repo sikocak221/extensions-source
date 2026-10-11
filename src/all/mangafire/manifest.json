@@ -1,0 +1,48 @@
+{
+  "id": "mangafire",
+  "name": "MangaFire",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "MangaFire"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "MangaFire"
+    },
+    {
+      "key": "es-419",
+      "lang": "es-419",
+      "name": "MangaFire"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "MangaFire"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "MangaFire"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "MangaFire"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "MangaFire"
+    }
+  ]
+}

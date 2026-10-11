@@ -1,0 +1,78 @@
+{
+  "id": "saymanhwa",
+  "name": "SayManhwa",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 2,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "fil",
+      "lang": "fil",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "vi",
+      "lang": "vi",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "zh-hans",
+      "lang": "zh-Hans",
+      "name": "SayManhwa"
+    },
+    {
+      "key": "zh-hant",
+      "lang": "zh-Hant",
+      "name": "SayManhwa"
+    }
+  ]
+}
