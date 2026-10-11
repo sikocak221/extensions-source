@@ -1400,7 +1400,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | manga1000 | standalone | done |  |
 | mangabang               | comiciviewer     | todo    |                                |
 | mangabu                 | comiciviewer     | todo    |                                |
-| mangafive               | standalone       | todo    |                                |
+| mangafive | standalone | ported | in pending/: works (free 'unscrambled' volume verified live) but the oldest chapter is locked so the generic fixture test's getPages fails; Publus keyed-scramble path not exercised |
 | mangagun                | fmreader         | todo    |                                |
 | mangakingdom            | standalone       | todo    |                                |
 | mangakuro               | standalone       | todo    |                                |
