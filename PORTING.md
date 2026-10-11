@@ -1308,7 +1308,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | pinkseaunicorn      | madara        | blocked | site is behind a password-protection login page                                                                                        |
 | pizzariascan        | mangawork     | done    |                                                                                                                                        |
 | plumacomics         | standalone    | ported  | in pending/: site under maintenance (503, 2026-10-11)                                                                                  |
-| pointzerotoons      | mangathemesia | todo    |                                                                                                                                        |
+| pointzerotoons      | mangathemesia | done    | custom inkra theme (not mangathemesia); common                                                                                         |
 | portalyaoi          | madara        | blocked | Cloudflare 403                                                                                                                         |
 | randomscan          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
 | remangas            | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
