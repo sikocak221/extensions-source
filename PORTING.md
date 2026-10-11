@@ -1380,7 +1380,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | hayacomic               | comiciviewer     | todo    |                                |
 | herosweb                | comiciviewer     | todo    |                                |
 | ichicomi                | gigaviewer       | todo    |                                |
-| idolgravureprincessdate | standalone       | todo    |                                |
+| idolgravureprincessdate | standalone | done | no genres in details |
 | jmanga                  | mangareader      | todo    |                                |
 | jnbooks                 | comiciviewer     | todo    |                                |
 | jumprookie              | standalone       | todo    |                                |
