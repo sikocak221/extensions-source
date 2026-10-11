@@ -118,7 +118,11 @@ export abstract class MangoTheme {
 
   /** Headers of every api request (override to add tokens). */
   async requestHeaders(): Promise<Record<string, string>> {
-    return { 'User-Agent': this.userAgent, Referer: `${this.baseUrl}/`, 'Accept-Language': `${this.lang}, en-US;q=0.8, en;q=0.7` };
+    return {
+      'User-Agent': this.userAgent,
+      Referer: `${this.baseUrl}/`,
+      'Accept-Language': `${this.lang}, en-US;q=0.8, en;q=0.7`,
+    };
   }
 
   async api<T>(path: string): Promise<Response<T>> {
@@ -136,7 +140,9 @@ export abstract class MangoTheme {
   }
 
   async getLatest(page: number): Promise<MangaPage> {
-    return this.parseMangaPage(await this.api<MangaDto[]>(`/capitulos/recentes?pagina=${page}&limite=${this.latestPageSize}`));
+    return this.parseMangaPage(
+      await this.api<MangaDto[]>(`/capitulos/recentes?pagina=${page}&limite=${this.latestPageSize}`),
+    );
   }
 
   async search(query: string, page: number, filters: FilterState): Promise<MangaPage> {

@@ -85,15 +85,11 @@ export abstract class Masonry {
       if (!tag) {
         // "Popular" has no sort segment on the updates listing.
         const part = sort === 2 ? '' : sortValue;
-        url = part
-          ? `${this.baseUrl}/updates/${part}/mpage/${page}/`
-          : `${this.baseUrl}/updates/page/${page}/`;
+        url = part ? `${this.baseUrl}/updates/${part}/mpage/${page}/` : `${this.baseUrl}/updates/page/${page}/`;
       } else {
         // "Trending" is the default of tag listings.
         const part = sort === 0 ? '' : sortValue;
-        url = part
-          ? `${this.baseUrl}/tag/${tag}/${part}/mpage/${page}/`
-          : `${this.baseUrl}/tag/${tag}/page/${page}/`;
+        url = part ? `${this.baseUrl}/tag/${tag}/${part}/mpage/${page}/` : `${this.baseUrl}/tag/${tag}/page/${page}/`;
       }
     }
     return this.parseMangaList(await this.fetchDocument(url));
