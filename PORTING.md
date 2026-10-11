@@ -1363,7 +1363,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | coronaex | standalone | blocked | reading needs a subscribed account (login with Firebase tokens; 402 otherwise); untestable without credentials |
 | cycomi | standalone | done | live: newest chapter is locked (by design); image descrambling not exercised live |
 | dmm                     | standalone       | blocked | redirects to login (geo-block) |
-| docomo                  | standalone       | todo    |                                |
+| docomo | standalone | done | Publus (trial/free volumes); images verified through the fixture test |
 | dokiraw | standalone | done |  |
 | drecomics               | standalone       | blocked | site answers 403               |
 | ebookjapan | standalone | blocked | needs AES-GCM (sandbox has only cbc/ctr/ecb) and per-tile rotation (not expressible as TileOp) |
