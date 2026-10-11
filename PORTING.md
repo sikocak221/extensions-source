@@ -1374,7 +1374,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | ganma | standalone | done | live: newest chapter is coin-locked (by design) |
 | gaugaumonsterplus | standalone | done | SpeedBinb descrambling via transformImage tiles (verified visually); text 'buy' page not ported |
 | gcomi                   | comiciviewer     | todo    |                                |
-| gorakuweb               | standalone       | todo    |                                |
+| gorakuweb | standalone | done | RSC payload parsed; AES-CBC page decryption in transformImage not exercised live (newest chapter is locked) |
 | hachiraw                | standalone       | blocked | Cloudflare challenge           |
 | hanayume                | comiciviewer     | todo    |                                |
 | hayacomic               | comiciviewer     | todo    |                                |
