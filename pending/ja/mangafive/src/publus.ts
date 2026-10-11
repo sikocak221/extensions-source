@@ -929,7 +929,7 @@ export async function publusPages(
   const contents = (config.configuration as { contents: { index: number; file: string }[] } | undefined)?.contents;
   if (!contents) throw new Error('Configuration not found in decrypted JSON');
   const filenameKeys = hashFilenames ? keys : [];
-  return contents.map((entry) => {
+  return contents.map((entry, position) => {
     const info = config[entry.file]?.FileLinkInfo?.PageLinkInfoList?.[0]?.Page;
     if (!info) throw new Error(`Page config not found for ${entry.file}`);
     const imageUrl = sep(`${base}/${generateFilename(entry.file, KEY_BYTES(filenameKeys), info.No ?? 0)}`);
@@ -949,7 +949,7 @@ export async function publusPages(
       extra: extra ?? null,
       s: info.DummyWidth != null,
     };
-    return { index: entry.index, imageUrl: `${imageUrl}#${JSON.stringify(fragment)}` };
+    return { index: position, imageUrl: `${imageUrl}#${JSON.stringify(fragment)}` };
   });
 }
 
@@ -1018,6 +1018,15 @@ export function publusTransform(page: Page, bytes: Uint8Array): ImageTransform {
   }
   const crop = params.cw > 0 && params.ch > 0;
   // Kotlin copies the rect at (destX, destY) of the scrambled image to (srcX, srcY).
-  const ops: TileOp[] = moves.map((m) => ({ sx: m.destX, sy: m.destY, w: m.width, h: m.height, dx: m.srcX, dy: m.srcY }));
-  return { tiles: { width: crop ? params.cw : width, height: crop ? params.ch : height, ops } };
+  const canvasW = crop ? params.cw : width;
+  const canvasH = crop ? params.ch : height;
+  const ops: TileOp[] = [];
+  for (const m of moves) {
+    // The picture is cropped to the content size afterwards: clip tiles to the canvas.
+    const w = Math.min(m.width, canvasW - m.srcX);
+    const h = Math.min(m.height, canvasH - m.srcY);
+    if (w <= 0 || h <= 0) continue;
+    ops.push({ sx: m.destX, sy: m.destY, w, h, dx: m.srcX, dy: m.srcY });
+  }
+  return { tiles: { width: canvasW, height: canvasH, ops } };
 }

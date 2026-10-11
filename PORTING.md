@@ -1351,7 +1351,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | comicgardo              | gigaviewer       | todo    |                                |
 | comicgrast | standalone | done | tile shuffle (seedrandom/ARC4) via transformImage (verified visually) |
 | comicmeteor | standalone | done | SpeedBinb descrambling via transformImage tiles (verified visually); filter list parsed from the /titles page |
-| comicnettai             | standalone       | todo    |                                |
+| comicnettai | standalone | done | Publus configuration_pack decoding + keyed tile descrambling ported (verified visually) |
 | comico | standalone | blocked | API returns empty lists outside Japan (geo-restricted); port untested |
 | comicpash               | comiciviewer     | todo    |                                |
 | comicride               | comiciviewer     | todo    |                                |
