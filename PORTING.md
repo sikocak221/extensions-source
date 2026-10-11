@@ -1370,7 +1370,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | firecross               | clipstudioreader | todo    |                                |
 | flowercomics            | standalone       | todo    |                                |
 | fodfuji                 | standalone       | blocked | site answers 403               |
-| ganganonline            | standalone       | todo    |                                |
+| ganganonline | standalone | done |  |
 | ganma | standalone | done | live: newest chapter is coin-locked (by design) |
 | gaugaumonsterplus | standalone | done | SpeedBinb descrambling via transformImage tiles (verified visually); text 'buy' page not ported |
 | gcomi                   | comiciviewer     | todo    |                                |
