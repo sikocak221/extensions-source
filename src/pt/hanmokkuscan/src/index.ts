@@ -1,11 +1,17 @@
-import { type FilterOption, type FilterState, type HtmlElement, type MangaPage, defineExtension } from '@matane/extension-sdk';
+import {
+  type FilterOption,
+  type FilterState,
+  type HtmlElement,
+  type MangaPage,
+  defineExtension,
+} from '@matane/extension-sdk';
 import { ZeistManga } from './zeistmanga/ZeistManga';
 
 const PAGE_SIZE = 20;
 
 class HanmokkuScan extends ZeistManga {
-  readonly name = "Hanmokku Scan";
-  readonly baseUrl = "https://hanmokkuscan.blogspot.com";
+  readonly name = 'Hanmokku Scan';
+  readonly baseUrl = 'https://hanmokkuscan.blogspot.com';
 
   override mangaCategory = 'Todos os Projetos';
   override chapterCategory = 'Capítulo';

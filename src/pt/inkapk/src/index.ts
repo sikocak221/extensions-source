@@ -2,8 +2,8 @@ import { defineExtension } from '@matane/extension-sdk';
 import { Madara } from './madara/Madara';
 
 class Inkapk extends Madara {
-  readonly name = "Inkapk";
-  readonly baseUrl = "https://inkapk.net";
+  readonly name = 'Inkapk';
+  readonly baseUrl = 'https://inkapk.net';
 
   override chapterDatePattern = 'MMMM d, yyyy';
   override mangaSubString = 'obras';

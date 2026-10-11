@@ -2,8 +2,8 @@ import { defineExtension } from '@matane/extension-sdk';
 import { MangaThemesia } from './mangathemesia/MangaThemesia';
 
 class TsundokuTradues extends MangaThemesia {
-  readonly name = "Tsundoku Traduções";
-  readonly baseUrl = "https://tsundoku.com.br";
+  readonly name = 'Tsundoku Traduções';
+  readonly baseUrl = 'https://tsundoku.com.br';
 
   override altNamePrefix = 'Nome alternativo: ';
   override searchMangaSelector(): string {

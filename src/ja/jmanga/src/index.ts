@@ -2,8 +2,8 @@ import { type FilterState, defineExtension } from '@matane/extension-sdk';
 import { MangaReader } from './mangareader/MangaReader';
 
 class Jmanga extends MangaReader {
-  readonly name = "Jmanga";
-  readonly baseUrl = "https://jmanga.media";
+  readonly name = 'Jmanga';
+  readonly baseUrl = 'https://jmanga.media';
 
   override searchPathSegment = '';
   override searchKeyword = 'q';

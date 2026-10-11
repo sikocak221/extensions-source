@@ -2,8 +2,8 @@ import { defineExtension } from '@matane/extension-sdk';
 import { Madara } from './madara/Madara';
 
 class FleurBlanche extends Madara {
-  readonly name = "Fleur Blanche";
-  readonly baseUrl = "https://fbsquadx.com";
+  readonly name = 'Fleur Blanche';
+  readonly baseUrl = 'https://fbsquadx.com';
 
   override chapterDatePattern = 'dd/MM/yyyy';
   override chapterMode = 'MangaAjax' as const;

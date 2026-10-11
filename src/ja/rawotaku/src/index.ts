@@ -2,8 +2,8 @@ import { type FilterState, defineExtension } from '@matane/extension-sdk';
 import { MangaReader } from './mangareader/MangaReader';
 
 class RawOtaku extends MangaReader {
-  readonly name = "Raw Otaku";
-  readonly baseUrl = "https://rawotaku.com";
+  readonly name = 'Raw Otaku';
+  readonly baseUrl = 'https://rawotaku.com';
 
   override searchPathSegment = '';
   override searchKeyword = 'q';

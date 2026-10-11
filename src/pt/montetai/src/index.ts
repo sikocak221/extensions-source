@@ -3,8 +3,8 @@ import { Madara } from './madara/Madara';
 import { mangaIdOf, pathOf } from './madara/MadaraBase';
 
 class MonteTai extends Madara {
-  readonly name = "Monte Tai";
-  readonly baseUrl = "https://montetaiscanlator.xyz";
+  readonly name = 'Monte Tai';
+  readonly baseUrl = 'https://montetaiscanlator.xyz';
 
   override chapterDatePattern = 'dd/MM/yyyy';
   override pageSize = 16;
