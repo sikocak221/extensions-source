@@ -1387,7 +1387,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | jumptoon                | standalone       | todo    |                                |
 | kadocomi                | standalone       | todo    |                                |
 | kimicomi                | comiciviewer     | todo    |                                |
-| kisslove                | standalone       | todo    |                                |
+| kisslove | standalone | done |  |
 | klraw                   | mangareader      | todo    |                                |
 | klto9                   | standalone       | todo    |                                |
 | kmansin09               | madara           | todo    |                                |
