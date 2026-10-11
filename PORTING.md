@@ -1359,7 +1359,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | comicryu                | comiciviewer     | todo    |                                |
 | comicyours              | gigaviewer       | todo    |                                |
 | comirela                | comiciviewer     | todo    |                                |
-| corocoroonline          | standalone       | todo    |                                |
+| corocoroonline | standalone | done | protobuf (GET + empty PUT) read with a small wire decoder; AES-CBC page decryption not exercised live (newest chapter is paid) |
 | coronaex | standalone | blocked | reading needs a subscribed account (login with Firebase tokens; 402 otherwise); untestable without credentials |
 | cycomi | standalone | done | live: newest chapter is locked (by design); image descrambling not exercised live |
 | dmm                     | standalone       | blocked | redirects to login (geo-block) |
