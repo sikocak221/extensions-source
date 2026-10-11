@@ -9764,6 +9764,21 @@ importers:
         specifier: 'catalog:'
         version: 24.19.0
 
+  src/pt/fenixproject:
+    devDependencies:
+      '@matane/extension-cli':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-runtime':
+        specifier: 'catalog:'
+        version: 0.2.0(@types/node@24.19.0)
+      '@matane/extension-sdk':
+        specifier: 'catalog:'
+        version: 0.2.0
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.19.0
+
   src/pt/fleurblanche:
     devDependencies:
       '@matane/extension-cli':

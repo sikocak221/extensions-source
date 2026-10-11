@@ -1252,7 +1252,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | erosect             | standalone    | blocked | Cloudflare challenge                                                                                                                   |
 | euphoriascan        | madara        | done    |                                                                                                                                        |
 | exhentainetbr       | standalone    | done    |                                                                                                                                        |
-| fenixproject        | madara        | done    | standalone on common (custom KeiSource, not madara); urls are /manga/<slug>                                                            |
+| fenixproject        | standalone    | done    | standalone on common (custom KeiSource, not madara); urls are /manga/<slug>                                                            |
 | fleurblanche        | madara        | done    |                                                                                                                                        |
 | flowermanga         | madara        | blocked | Cloudflare 403 on series pages                                                                                                         |
 | galaxscanlator      | zeistmanga    | blocked | chapter pages are AES-encrypted behind a reader password (zeist-raw-data); Tachiyomi source outdated                                   |
@@ -1308,7 +1308,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | pinkseaunicorn      | madara        | blocked | site is behind a password-protection login page                                                                                        |
 | pizzariascan        | mangawork     | done    |                                                                                                                                        |
 | plumacomics         | standalone    | ported  | in pending/: site under maintenance (503, 2026-10-11)                                                                                  |
-| pointzerotoons      | mangathemesia | done    | custom inkra theme (not mangathemesia); common                                                                                         |
+| pointzerotoons      | standalone    | done    | custom inkra theme (not mangathemesia); common                                                                                         |
 | portalyaoi          | madara        | blocked | Cloudflare 403                                                                                                                         |
 | randomscan          | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
 | remangas            | standalone    | blocked | probe 2026-10-11: http:403 (Cloudflare)                                                                                                |
