@@ -1368,7 +1368,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | drecomics               | standalone       | blocked | site answers 403               |
 | ebookjapan              | standalone       | todo    |                                |
 | firecross               | clipstudioreader | todo    |                                |
-| flowercomics            | standalone       | todo    |                                |
+| flowercomics | standalone | done | live: newest chapter is locked (by design) |
 | fodfuji                 | standalone       | blocked | site answers 403               |
 | ganganonline | standalone | done |  |
 | ganma | standalone | done | live: newest chapter is coin-locked (by design) |
