@@ -1349,7 +1349,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | comicfesta              | clipstudioreader | todo    |                                |
 | comicfuz | standalone | blocked | API speaks protobuf (binary request bodies); the sandbox http cannot send binary bodies |
 | comicgardo              | gigaviewer       | todo    |                                |
-| comicgrast              | standalone       | todo    |                                |
+| comicgrast | standalone | done | tile shuffle (seedrandom/ARC4) via transformImage (verified visually) |
 | comicmeteor | standalone | done | SpeedBinb descrambling via transformImage tiles (verified visually); filter list parsed from the /titles page |
 | comicnettai             | standalone       | todo    |                                |
 | comico | standalone | blocked | API returns empty lists outside Japan (geo-restricted); port untested |
