@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://sbc.yanmaga.jp/books/06A0000000001030315A/20260604133104/2/content?Signature=FyjyMdw%257EUADBQNovlM48n7TSBO7iAwqQzXjVe1OpcmMNYq2sPy79IIE1skyV7wRzdlSEMG3i78LqLURior1xV5DCaObV0rL5ulWdm074%257ElOUkEN7JY9DJcoWDKOnuFRbNXsyQW89AxNY6Ii0P6-nom6fdHu2Hz6ABpY4grqraiqQrqPDDzWo4btQGXp9DiOEIREgrCNiu4-WrIgt%257EON6e-xT4PeS3vkbBpYBCGMmiULqr8JYCoZXABAqRe7VVGYmENx5lPkY0M6kWUu6wa5rkNCViRk6Z9Suunao0RxtfsEJhUTJbRfWgkiW3TxZ30dOycN-BGPkoxOy%257EZQ4lrk5og__"
+  },
+  "response": {
+    "status": 404,
+    "url": "https://sbc.yanmaga.jp/books/06A0000000001030315A/20260604133104/2/content?Signature=FyjyMdw%257EUADBQNovlM48n7TSBO7iAwqQzXjVe1OpcmMNYq2sPy79IIE1skyV7wRzdlSEMG3i78LqLURior1xV5DCaObV0rL5ulWdm074%257ElOUkEN7JY9DJcoWDKOnuFRbNXsyQW89AxNY6Ii0P6-nom6fdHu2Hz6ABpY4grqraiqQrqPDDzWo4btQGXp9DiOEIREgrCNiu4-WrIgt%257EON6e-xT4PeS3vkbBpYBCGMmiULqr8JYCoZXABAqRe7VVGYmENx5lPkY0M6kWUu6wa5rkNCViRk6Z9Suunao0RxtfsEJhUTJbRfWgkiW3TxZ30dOycN-BGPkoxOy%257EZQ4lrk5og__",
+    "headers": { "content-type": "text/html; charset=iso-8859-1" },
+    "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n"
+  }
+}
