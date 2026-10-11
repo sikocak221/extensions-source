@@ -1,0 +1,93 @@
+{
+  "id": "leagueoflegends",
+  "name": "League of Legends",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "League of Legends"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "League of Legends"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "League of Legends"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "League of Legends"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "League of Legends"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "League of Legends"
+    },
+    {
+      "key": "el",
+      "lang": "el",
+      "name": "League of Legends"
+    },
+    {
+      "key": "ro",
+      "lang": "ro",
+      "name": "League of Legends"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "League of Legends"
+    },
+    {
+      "key": "cs",
+      "lang": "cs",
+      "name": "League of Legends"
+    },
+    {
+      "key": "es-419",
+      "lang": "es-419",
+      "name": "League of Legends"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "League of Legends"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "League of Legends"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "League of Legends"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "League of Legends"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "League of Legends"
+    }
+  ]
+}

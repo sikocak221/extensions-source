@@ -1,0 +1,218 @@
+{
+  "id": "globalcomix",
+  "name": "GlobalComix",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "sq",
+      "lang": "sq",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "bg",
+      "lang": "bg",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "bn",
+      "lang": "bn",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "zh-hans",
+      "lang": "zh-Hans",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "cs",
+      "lang": "cs",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "da",
+      "lang": "da",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "el",
+      "lang": "el",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "fa",
+      "lang": "fa",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "fil",
+      "lang": "fil",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "hi",
+      "lang": "hi",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "he",
+      "lang": "he",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "lv",
+      "lang": "lv",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "ms",
+      "lang": "ms",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "nl",
+      "lang": "nl",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "no",
+      "lang": "no",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "ro",
+      "lang": "ro",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "sv",
+      "lang": "sv",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "sk",
+      "lang": "sk",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "sl",
+      "lang": "sl",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "ta",
+      "lang": "ta",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "uk",
+      "lang": "uk",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "ur",
+      "lang": "ur",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "vi",
+      "lang": "vi",
+      "name": "GlobalComix"
+    },
+    {
+      "key": "zh-hant",
+      "lang": "zh-Hant",
+      "name": "GlobalComix"
+    }
+  ]
+}

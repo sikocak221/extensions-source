@@ -1,0 +1,198 @@
+{
+  "id": "dragonballmultiverse",
+  "name": "Dragon Ball Multiverse",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "pt",
+      "lang": "pt",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "nl",
+      "lang": "nl",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "tr",
+      "lang": "tr",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "hu",
+      "lang": "hu",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "ga",
+      "lang": "ga",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "ca",
+      "lang": "ca",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "no",
+      "lang": "no",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "ro",
+      "lang": "ro",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "eu",
+      "lang": "eu",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "lt",
+      "lang": "lt",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "hr",
+      "lang": "hr",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "ko",
+      "lang": "ko",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "he",
+      "lang": "he",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "bg",
+      "lang": "bg",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "sv",
+      "lang": "sv",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "el",
+      "lang": "el",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "es-419",
+      "lang": "es-419",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "ar",
+      "lang": "ar",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "fil",
+      "lang": "fil",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "la",
+      "lang": "la",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "da",
+      "lang": "da",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "co",
+      "lang": "co",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "br",
+      "lang": "br",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "vec",
+      "lang": "vec",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "lmo",
+      "lang": "lmo",
+      "name": "Dragon Ball Multiverse"
+    },
+    {
+      "key": "fr-parody",
+      "lang": "fr",
+      "name": "Dragon Ball Multiverse Parody"
+    }
+  ]
+}

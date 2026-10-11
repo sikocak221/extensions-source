@@ -1,0 +1,83 @@
+{
+  "id": "comicfury",
+  "name": "Comic Fury",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "all",
+      "lang": "all",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "pt-br",
+      "lang": "pt-BR",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "it",
+      "lang": "it",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "pl",
+      "lang": "pl",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "ja",
+      "lang": "ja",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "fi",
+      "lang": "fi",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "other",
+      "lang": "other",
+      "name": "Comic Fury"
+    },
+    {
+      "key": "other-notext",
+      "lang": "other",
+      "name": "Comic Fury (No Text)"
+    }
+  ]
+}
