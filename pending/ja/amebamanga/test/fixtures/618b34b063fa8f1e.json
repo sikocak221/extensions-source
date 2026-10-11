@@ -1,0 +1,52 @@
+{
+  "request": { "method": "GET", "url": "https://api.dokusho-ojikan.jp/dokusho-server/titles/163032?ac=1" },
+  "response": {
+    "status": 200,
+    "url": "https://api.dokusho-ojikan.jp/dokusho-server/titles/163032?ac=1",
+    "headers": { "content-type": "application/json;charset=UTF-8" },
+    "body": {
+      "id": 163032,
+      "name": "地味で目立たない私は、今日で終わりにします。",
+      "imageUrl": "https://stat.dokusho-ojikan.jp/10f825d5-073a-4863-abe7-be4ca70a3e8a.jpg",
+      "mangaLevel": "UNIQUE",
+      "wishCount": 872,
+      "categories": [
+        { "id": "isekai", "name": "異世界", "sequence": 8 },
+        { "id": "serial_fantasy", "name": "異世界・ファンタジー", "sequence": 192 }
+      ],
+      "newTags": [{ "id": 240, "name": "完結", "kana": "かんけつ", "categoryId": 14, "genreId": null, "groupId": 5 }],
+      "pub": { "id": 1223, "name": "KADOKAWA" },
+      "maxVol": 9,
+      "magazineFlg": false,
+      "magazineId": null,
+      "magazineName": null,
+      "description": "公爵令嬢エレイン・ラナ・ノリスは、\n聖女を苛めたという無実の罪を着せられ、婚約破棄されてしまった。\nさながら悪役令嬢に仕立てられたラナは、実家からも追い出されてしまう。\nしかし――ラナは異世界からの転生者だった。\n\n「これからは自由に生きるわ！」\n\n前世のコスプレ趣味を活かし、「地味」だと揶揄された見た目も大変身！\n下町の宿屋の女将として第二の人生をスタート！\nこの国では珍しい「オニギリ」は評判だし、\n宿屋では新しく仲間もでき、出だしは上々♪\nそんなある日、ラナを裏切った幼馴染の騎士が宿を訪れて――！？",
+      "authors": [
+        { "authorId": 12724, "name": "住吉文子", "kana": "スミヨシユキコ", "initial": "す" },
+        { "authorId": 39109, "name": "大森蜜柑", "kana": "オオモリミカン", "initial": "お" },
+        { "authorId": 39110, "name": "れいた", "kana": "レイタ", "initial": "れ" }
+      ],
+      "completeFlg": true,
+      "pageType": "female",
+      "genreName": "女性",
+      "genreId": 5,
+      "minVolBookId": 963043,
+      "maxVolBookId": 3742770,
+      "minVolOrderableBookId": 963043,
+      "maxVolOrderableBookId": 3742770,
+      "metaList": [
+        { "id": 1, "label": "コミカライズ化", "theme": "コミカライズ化された人気マンガ", "eroticType": 0 },
+        { "id": 108, "label": "純愛", "theme": "純愛を描いた恋愛マンガ", "eroticType": 0 },
+        { "id": 116, "label": "逆ハーレム", "theme": "イケメンだらけ！逆ハーレム作品", "eroticType": 0 },
+        { "id": 136, "label": "ファンタジー", "theme": "人気の恋愛ファンタジーマンガ", "eroticType": 0 },
+        { "id": 159, "label": "転生", "theme": "転生世界が舞台の恋愛マンガ", "eroticType": 0 },
+        { "id": 425, "label": "上司・部下", "theme": "上司と部下の恋愛マンガ", "eroticType": 0 },
+        { "id": 1936, "label": "異世界", "theme": "異世界が舞台の恋愛マンガ", "eroticType": 0 },
+        { "id": 177, "label": "主人公が愛される", "theme": "主人公が愛される恋愛マンガ", "eroticType": 0 },
+        { "id": 357, "label": "シェフとの恋愛", "theme": "シェフとの恋愛マンガ", "eroticType": 0 },
+        { "id": 453, "label": "クール男子", "theme": "クール男子との恋愛マンガ", "eroticType": 0 }
+      ],
+      "eroticType": 0
+    }
+  }
+}

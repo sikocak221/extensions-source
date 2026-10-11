@@ -1,0 +1,38 @@
+{
+  "id": "xkcd",
+  "name": "xkcd",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "xkcd"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "xkcd"
+    },
+    {
+      "key": "zh",
+      "lang": "zh",
+      "name": "xkcd"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "xkcd"
+    },
+    {
+      "key": "ru",
+      "lang": "ru",
+      "name": "xkcd"
+    }
+  ]
+}

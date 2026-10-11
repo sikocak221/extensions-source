@@ -1,0 +1,48 @@
+{
+  "id": "webtoons",
+  "name": "Webtoons.com",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "nsfw": false,
+  "rateLimit": {
+    "requests": 5,
+    "perMs": 1000
+  },
+  "sources": [
+    {
+      "key": "en",
+      "lang": "en",
+      "name": "Webtoons.com"
+    },
+    {
+      "key": "id",
+      "lang": "id",
+      "name": "Webtoons.com"
+    },
+    {
+      "key": "th",
+      "lang": "th",
+      "name": "Webtoons.com"
+    },
+    {
+      "key": "es",
+      "lang": "es",
+      "name": "Webtoons.com"
+    },
+    {
+      "key": "fr",
+      "lang": "fr",
+      "name": "Webtoons.com"
+    },
+    {
+      "key": "zh-hant",
+      "lang": "zh-Hant",
+      "name": "Webtoons.com"
+    },
+    {
+      "key": "de",
+      "lang": "de",
+      "name": "Webtoons.com"
+    }
+  ]
+}

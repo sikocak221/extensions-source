@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.dokusho-ojikan.jp/dokusho-server/browser/bookinfo/v3?bookId=963043"
+  },
+  "response": {
+    "status": 500,
+    "url": "https://api.dokusho-ojikan.jp/dokusho-server/browser/bookinfo/v3?bookId=963043",
+    "headers": { "content-type": "application/json;charset=UTF-8" },
+    "body": { "errorCode": "INTERNAL_SERVER_ERROR", "messages": ["閲覧不可のbookIdです"] }
+  }
+}
