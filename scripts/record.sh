@@ -6,7 +6,7 @@ for dir in "$@"; do
   (
     cd "$dir" || exit
     [ "$KEEP" = 1 ] || rm -rf test/fixtures
-    out=$(NODE_OPTIONS="--import $root/scripts/public-dns.mjs" MR_RECORD=1 timeout 300 pnpm test 2>&1)
+    out=$(NODE_OPTIONS="--import \"$root/scripts/public-dns.mjs\"" MR_RECORD=1 timeout 300 pnpm test 2>&1)
     summary=$(echo "$out" | grep -E '^\s+Tests ' | sed 's/^ *//')
     failed=$(echo "$out" | grep -E '^\s+× ' | sed 's/^ *× //; s/ [0-9]*ms$//' | tr '\n' ';')
     error=$(echo "$out" | grep -m1 -E '(Error|Expected|expected).*' | sed 's/^ *//' | cut -c1-160)
