@@ -111,9 +111,9 @@ Status: `todo` → `ported` (code + build) → `done` (fixture test + live `mr-e
 | scanreader    | 1 (fr)          | done    |
 | senkuro       | 2 (ru)          | done    |
 | uzaymanga     | 6 (tr)          | done    |
-| masonry       | 7 (all)        | ported  | in pending/: text search is behind a Cloudflare challenge |
-| mangawork     | 2 (pt)         | done    |
-| mangotheme    | 1 (pt)         | done    | no login or x-encrypted decryption; 2 pt sites blocked |
+| masonry       | 7 (all)         | ported  | in pending/: text search is behind a Cloudflare challenge       |
+| mangawork     | 2 (pt)          | done    |
+| mangotheme    | 1 (pt)          | done    | no login or x-encrypted decryption; 2 pt sites blocked          |
 
 ## id
 
