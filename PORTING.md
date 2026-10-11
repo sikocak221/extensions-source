@@ -1383,7 +1383,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | idolgravureprincessdate | standalone | done | no genres in details |
 | jmanga                  | mangareader      | todo    |                                |
 | jnbooks                 | comiciviewer     | todo    |                                |
-| jumprookie              | standalone       | todo    |                                |
+| jumprookie | standalone | done |  |
 | jumptoon                | standalone       | todo    |                                |
 | kadocomi                | standalone       | todo    |                                |
 | kimicomi                | comiciviewer     | todo    |                                |
