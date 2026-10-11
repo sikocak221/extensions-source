@@ -57,10 +57,12 @@ export abstract class Gattsu {
   }
 
   parseList(document: HtmlElement, selector: string, parse: (element: HtmlElement) => MangaSummary | null): MangaPage {
+    const seen = new Set<string>();
     const items = document
       .select(selector)
       .map(parse)
-      .filter((m): m is MangaSummary => m !== null);
+      .filter((m): m is MangaSummary => m !== null)
+      .filter((m) => !seen.has(m.url) && seen.add(m.url) !== undefined);
     return { items, hasNextPage: document.selectFirst(this.latestUpdatesNextPageSelector()) != null };
   }
 

@@ -8,7 +8,7 @@ import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 
 // Generic reading-flow test (scripts/templates/extension.test.ts): the manga under test is the first
 // popular one, so recording fixtures needs no hand-picked urls.
-const NAME = "Ichicomi";
+const NAME = 'Ichicomi';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FIXTURES = path.join(root, 'test/fixtures');
 const RECORD = process.env.MR_RECORD === '1';
@@ -129,7 +129,10 @@ suite(NAME, { timeout: 60_000 }, () => {
   });
 
   it('getPages', async () => {
-    const pages = await call<Page[]>('getPages', [chapters[chapters.length - 1]]);
+    const pages = await call<Page[]>('getPages', [
+      // The oldest volume is paid: read the oldest episode.
+      [...chapters].reverse().find((c) => c.url.startsWith('/episode/')) ?? chapters[chapters.length - 1],
+    ]);
     expect(pages.length).toBeGreaterThan(0);
     expect(pages[0]?.index).toBe(0);
     expect(pages[0]?.imageUrl ?? pages[0]?.url).toMatch(/^https?:\/\//);

@@ -319,7 +319,7 @@ export abstract class HentaiHand {
     const dto = await this.api<{ images: { page: number; source_url: string }[] }>(
       `${this.baseUrl}/api/comics/${chapter.url}/images`,
     );
-    return dto.images.map((image) => ({ index: image.page, imageUrl: image.source_url }));
+    return dto.images.map((image, index) => ({ index, imageUrl: image.source_url }));
   }
 
   imageHeaders(): Record<string, string> {

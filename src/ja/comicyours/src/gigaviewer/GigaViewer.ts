@@ -2,7 +2,7 @@
 // lib-multisrc/gigaviewer. This directory is a template: every extension using the theme keeps an identical copy in
 // src/gigaviewer/ (`node scripts/sync-multisrc.mjs`).
 //
-// Manga urls are "<series id>#<path of its first episode>" (or just the episode path for old urls), chapter urls
+// Manga urls are the path of the first episode of the series, chapter urls
 // "/<episode|volume>/<readable product id>".
 import type {
   Chapter,
@@ -212,32 +212,21 @@ export abstract class GigaViewer {
     const permalink = (s.firstEpisode ?? s.firstVolume)?.permalink;
     if (!permalink) return null;
     return {
-      url: `${s.databaseId}#${pathOf(permalink)}`,
+      url: pathOf(permalink),
       title: s.title,
       thumbnailUrl: s.thumbnailUri ?? s.latestVolume?.thumbnailUri ?? undefined,
     };
   }
 
-  /**
-   * Url of an entry from a website list. These lists only link to an episode, but a series thumbnail has the series id
-   * at the start of its file name (thumbnails from `cdn-scissors.gigaviewer.com` contain that url as their last path
-   * segment). Without a series thumbnail the episode path is used and the series is looked up from it.
-   */
-  setSeriesUrl(episodeUrl: string, thumbnailUrl: string | null | undefined): string {
-    const path = pathOf(episodeUrl);
-    let thumbnail = thumbnailUrl ?? '';
-    const last = decodeURIComponent(pathOf(thumbnail).split('/').pop() ?? '');
-    if (/^https?:\/\//i.test(last)) thumbnail = last;
-    const segments = pathOf(thumbnail).split('/').filter(Boolean);
-    const [parent, file] = segments.slice(-2);
-    const seriesId = parent?.startsWith('series-') ? file?.split('-')[0] : undefined;
-    return `${seriesId ?? path}#${path}`;
+  /** Url of an entry from a website list: the path of its episode (the series id is looked up from it). */
+  setSeriesUrl(episodeUrl: string, _thumbnailUrl?: string | null): string {
+    return pathOf(episodeUrl);
   }
 
   // Details and chapters
   async seriesIdOf(manga: MangaSummary): Promise<string> {
     const head = manga.url.split('#')[0] ?? '';
-    // Old urls are the path of an episode.
+    // Old urls were the bare series id.
     if (!head.startsWith('/')) return head;
     const document = await this.fetchDocument(this.baseUrl + head);
     const id = document.selectFirst('script.js-valve')?.attr('data-giga_series');
@@ -253,7 +242,7 @@ export abstract class GigaViewer {
     const series = await this.fetchSeries(await this.seriesIdOf(manga));
     const summary = this.toSummary(series);
     return {
-      url: summary?.url ?? manga.url,
+      url: manga.url,
       title: series.title,
       author: series.author?.name,
       description: series.description ?? undefined,
@@ -371,7 +360,7 @@ export abstract class GigaViewer {
   resolveUrl(url: string): MangaSummary | null {
     const match = /^https?:\/\/([^/?#]+)(\/(?:episode|volume)\/[^?#]*)/i.exec(url.trim());
     if (!match || match[1]?.toLowerCase() !== hostOf(this.baseUrl)) return null;
-    return { url: `${match[2]}#${match[2]}`, title: '' };
+    return { url: match[2]!, title: '' };
   }
 
   getWebUrl(item: MangaSummary | Chapter): string {
