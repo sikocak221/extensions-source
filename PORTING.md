@@ -1341,7 +1341,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | bookwalkerjp            | standalone       | todo    |                                |
 | championcross           | comiciviewer     | todo    |                                |
 | ciaoplus                | standalone       | todo    |                                |
-| cmoa                    | standalone       | todo    |                                |
+| cmoa | standalone | ported | in pending/: page images answer 403 (SpeedBinb SBC token) so descrambling is unverified; fixture test passes |
 | comicboost              | standalone       | todo    |                                |
 | comicborder             | gigaviewer       | todo    |                                |
 | comicdays               | gigaviewer       | todo    |                                |
