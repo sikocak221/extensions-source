@@ -1340,7 +1340,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | booklistastudio         | comiciviewer     | todo    |                                |
 | bookwalkerjp            | standalone       | todo    |                                |
 | championcross           | comiciviewer     | todo    |                                |
-| ciaoplus                | standalone       | todo    |                                |
+| ciaoplus | standalone | done | scrambled pages restored via transformImage tiles (verified visually); SHA-512 in JS |
 | cmoa | standalone | ported | in pending/: page images answer 403 (SpeedBinb SBC token) so descrambling is unverified; fixture test passes |
 | comicboost              | standalone       | todo    |                                |
 | comicborder             | gigaviewer       | todo    |                                |
