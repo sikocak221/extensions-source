@@ -1347,7 +1347,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | comicdays               | gigaviewer       | todo    |                                |
 | comicearthstar          | gigaviewer       | todo    |                                |
 | comicfesta              | clipstudioreader | todo    |                                |
-| comicfuz                | standalone       | todo    |                                |
+| comicfuz | standalone | blocked | API speaks protobuf (binary request bodies); the sandbox http cannot send binary bodies |
 | comicgardo              | gigaviewer       | todo    |                                |
 | comicgrast              | standalone       | todo    |                                |
 | comicmeteor | standalone | done | SpeedBinb descrambling via transformImage tiles (verified visually); filter list parsed from the /titles page |
