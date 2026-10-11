@@ -2,6 +2,7 @@ import { type FilterState, defineExtension } from '@matane/extension-sdk';
 import { MangaReader } from './mangareader/MangaReader';
 
 class Jmanga extends MangaReader {
+  readonly lang = 'ja';
   readonly name = 'Jmanga';
   readonly baseUrl = 'https://jmanga.media';
 

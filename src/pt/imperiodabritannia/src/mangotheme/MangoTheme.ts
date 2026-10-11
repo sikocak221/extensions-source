@@ -220,7 +220,7 @@ export abstract class MangoTheme {
     );
     const pages = (result.paginas ?? result.pages ?? [])
       .slice()
-      .sort((a, b) => a.number - b.number)
+      .sort((a, b) => a.numero - b.numero)
       .map((p) => p.cdn_id ?? p.imagem ?? p.image ?? p.src ?? p.link ?? p.path ?? p.arquivo)
       .filter((url): url is string => !!url && url.trim() !== '')
       .map((url) => (/^https?:\/\//i.test(url) ? url : `${this.cdnUrl}/${url.replace(/^\/+/, '')}`))

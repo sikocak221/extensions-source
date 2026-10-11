@@ -2,6 +2,7 @@ import { type FilterState, defineExtension } from '@matane/extension-sdk';
 import { MangaReader } from './mangareader/MangaReader';
 
 class RawOtaku extends MangaReader {
+  readonly lang = 'ja';
   readonly name = 'Raw Otaku';
   readonly baseUrl = 'https://rawotaku.com';
 
