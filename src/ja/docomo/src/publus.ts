@@ -314,22 +314,87 @@ export function decodeConfigurationPack(
 
 class B2y {
   static readonly CGH: number[][] = [
-    [1, 3, 10], [1, 5, 16], [1, 5, 19], [1, 9, 29], [1, 11, 6], [1, 11, 16], [1, 19, 3], [1, 21, 20], [1, 27, 27],
-    [2, 5, 15], [2, 5, 21], [2, 7, 7], [2, 7, 9], [2, 7, 25], [2, 9, 15], [2, 15, 17], [2, 15, 25], [2, 21, 9],
-    [3, 1, 14], [3, 3, 26], [3, 3, 28], [3, 3, 29], [3, 5, 20], [3, 5, 22], [3, 5, 25], [3, 7, 29], [3, 13, 7], [3, 23, 25], [3, 25, 24], [3, 27, 11],
-    [4, 3, 17], [4, 3, 27], [4, 5, 15],
-    [5, 3, 21], [5, 7, 22], [5, 9, 7], [5, 9, 28], [5, 9, 31], [5, 13, 6], [5, 15, 17], [5, 17, 13], [5, 21, 12], [5, 27, 8], [5, 27, 21], [5, 27, 25], [5, 27, 28],
-    [6, 1, 11], [6, 3, 17], [6, 17, 9], [6, 21, 7], [6, 21, 13],
-    [7, 1, 9], [7, 1, 18], [7, 1, 25], [7, 13, 25], [7, 17, 21], [7, 25, 12], [7, 25, 20],
-    [8, 7, 23], [8, 9, 23],
-    [9, 5, 14], [9, 5, 25], [9, 11, 19], [9, 21, 16],
-    [10, 9, 21], [10, 9, 25],
-    [11, 7, 12], [11, 7, 16], [11, 17, 13], [11, 21, 13],
+    [1, 3, 10],
+    [1, 5, 16],
+    [1, 5, 19],
+    [1, 9, 29],
+    [1, 11, 6],
+    [1, 11, 16],
+    [1, 19, 3],
+    [1, 21, 20],
+    [1, 27, 27],
+    [2, 5, 15],
+    [2, 5, 21],
+    [2, 7, 7],
+    [2, 7, 9],
+    [2, 7, 25],
+    [2, 9, 15],
+    [2, 15, 17],
+    [2, 15, 25],
+    [2, 21, 9],
+    [3, 1, 14],
+    [3, 3, 26],
+    [3, 3, 28],
+    [3, 3, 29],
+    [3, 5, 20],
+    [3, 5, 22],
+    [3, 5, 25],
+    [3, 7, 29],
+    [3, 13, 7],
+    [3, 23, 25],
+    [3, 25, 24],
+    [3, 27, 11],
+    [4, 3, 17],
+    [4, 3, 27],
+    [4, 5, 15],
+    [5, 3, 21],
+    [5, 7, 22],
+    [5, 9, 7],
+    [5, 9, 28],
+    [5, 9, 31],
+    [5, 13, 6],
+    [5, 15, 17],
+    [5, 17, 13],
+    [5, 21, 12],
+    [5, 27, 8],
+    [5, 27, 21],
+    [5, 27, 25],
+    [5, 27, 28],
+    [6, 1, 11],
+    [6, 3, 17],
+    [6, 17, 9],
+    [6, 21, 7],
+    [6, 21, 13],
+    [7, 1, 9],
+    [7, 1, 18],
+    [7, 1, 25],
+    [7, 13, 25],
+    [7, 17, 21],
+    [7, 25, 12],
+    [7, 25, 20],
+    [8, 7, 23],
+    [8, 9, 23],
+    [9, 5, 14],
+    [9, 5, 25],
+    [9, 11, 19],
+    [9, 21, 16],
+    [10, 9, 21],
+    [10, 9, 25],
+    [11, 7, 12],
+    [11, 7, 16],
+    [11, 17, 13],
+    [11, 21, 13],
     [12, 9, 23],
-    [13, 3, 17], [13, 3, 27], [13, 5, 19], [13, 17, 15],
-    [14, 1, 15], [14, 13, 15],
+    [13, 3, 17],
+    [13, 3, 27],
+    [13, 5, 19],
+    [13, 17, 15],
+    [14, 1, 15],
+    [14, 13, 15],
     [15, 1, 29],
-    [17, 15, 20], [17, 15, 23], [17, 15, 26],
+    [17, 15, 20],
+    [17, 15, 23],
+    [17, 15, 26],
   ];
   static readonly DGH: ((p1: number, p2: number, p3: number, p4: number) => number)[] = [
     (r, p2, p3, p4) => {
@@ -558,8 +623,19 @@ function v9qg(tog: B2y, p2: number[], p3: number[], p4: number, p5: number, p6: 
 }
 
 function vQpg(
-  p1: number, p2: number, p3: number[], p4: number[], p5: number[], p6: number[], p7: number[],
-  p8: number, p9: number, p10: number[], p11: number[], p12: number, p13: number,
+  p1: number,
+  p2: number,
+  p3: number[],
+  p4: number[],
+  p5: number[],
+  p6: number[],
+  p7: number[],
+  p8: number,
+  p9: number,
+  p10: number[],
+  p11: number[],
+  p12: number,
+  p13: number,
 ): number[] {
   const v1 = p1 + 1;
   const v2 = p2 + 1;
@@ -659,7 +735,13 @@ interface PageAttributes {
   contentHeight: number;
 }
 
-function unscrambleMoves(width: number, height: number, page: PageAttributes, keys: number[][], pageId: string): Move[] {
+function unscrambleMoves(
+  width: number,
+  height: number,
+  page: PageAttributes,
+  keys: number[][],
+  pageId: string,
+): Move[] {
   const [k1, k2, k3] = keys as [number[], number[], number[]];
   let v0if = 47;
   for (const c of pageId) v0if += c.charCodeAt(0);
@@ -921,8 +1003,9 @@ export async function publusPages(
   const base = contentUrl.replace(/\/+$/, '');
   const query = publusAuthQuery(auth);
   const sep = (u: string) => (query ? `${u}${u.includes('?') ? '&' : '?'}${query}` : u);
-  const root = (await http.get<Record<string, unknown>>(sep(`${base}/configuration_pack.json`), { headers, responseType: 'json' }))
-    .body;
+  const root = (
+    await http.get<Record<string, unknown>>(sep(`${base}/configuration_pack.json`), { headers, responseType: 'json' })
+  ).body;
   const decoded = typeof root.data === 'string' ? decodeConfigurationPack(root.data) : undefined;
   const config = (decoded ? JSON.parse(decoded.json) : root) as Record<string, any>;
   const keys = decoded?.keys ?? [];
@@ -968,7 +1051,7 @@ function imageSize(bytes: Uint8Array): [number, number] | undefined {
   const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
   if (bytes[0] === 0x89 && bytes[1] === 0x50) return [view.getUint32(16), view.getUint32(20)];
   if (bytes[0] === 0xff && bytes[1] === 0xd8) {
-    for (let i = 2; i + 9 < bytes.length; ) {
+    for (let i = 2; i + 9 < bytes.length;) {
       if (bytes[i] !== 0xff) return undefined;
       const marker = bytes[i + 1]!;
       if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker))

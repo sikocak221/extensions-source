@@ -23,9 +23,7 @@ function queryParam(url: string, name: string): string | undefined {
 
 function setParams(url: string, params: Record<string, string | undefined>): string {
   const [base, query = ''] = url.split('#')[0]!.split('?') as [string, string?];
-  const kept = query
-    .split('&')
-    .filter((p) => p && !(p.split('=')[0]! in params));
+  const kept = query.split('&').filter((p) => p && !(p.split('=')[0]! in params));
   for (const [k, v] of Object.entries(params)) if (v !== undefined) kept.push(`${k}=${encodeURIComponent(v)}`);
   return kept.length ? `${base}?${kept.join('&')}` : base;
 }
@@ -56,13 +54,13 @@ function determineKeyPair(src: string, ptbl: string[], ctbl: string[]): [string,
 function decodeScrambleTable(cid: string, sharedKey: string, table: string): string {
   const seed = `${cid}:${sharedKey}`;
   let e = 0;
-  for (let i = 0; i < seed.length; i++) e = (e + (seed.charCodeAt(i) << i % 16)) | 0;
+  for (let i = 0; i < seed.length; i++) e = (e + (seed.charCodeAt(i) << (i % 16))) | 0;
   e &= 0x7fffffff;
   if (e === 0) e = 0x12345678;
   let out = '';
   for (const c of table) {
     e = ((e >>> 1) ^ (1210056708 & -(e & 1))) | 0;
-    out += String.fromCharCode((((c.charCodeAt(0) - 32 + (e >>> 0) % 94) % 94) + 32));
+    out += String.fromCharCode(((c.charCodeAt(0) - 32 + ((e >>> 0) % 94)) % 94) + 32);
   }
   return out;
 }
@@ -363,7 +361,7 @@ export function imageSize(bytes: Uint8Array): [number, number] | undefined {
       ];
   }
   if (bytes[0] === 0xff && bytes[1] === 0xd8) {
-    for (let i = 2; i + 9 < bytes.length; ) {
+    for (let i = 2; i + 9 < bytes.length;) {
       if (bytes[i] !== 0xff) return undefined;
       const marker = bytes[i + 1]!;
       if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker))

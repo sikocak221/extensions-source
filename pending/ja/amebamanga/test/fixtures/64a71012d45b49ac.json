@@ -1,1 +1,84 @@
-{"request":{"method":"GET","url":"https://api.dokusho-ojikan.jp/dokusho-server/search/search/v2?ac=1&word=%E5%9C%B0%E5%91%B3%E3%81%A7%E7%9B%AE%E7%AB%8B%E3%81%9F%E3%81%AA%E3%81%84%E7%A7%81%E3%81%AF%E3%80%81%E4%BB%8A%E6%97%A5%E3%81%A7%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB%E3%81%97%E3%81%BE%E3%81%99&offset=0&limit=50&sort_key=monthly_spend"},"response":{"status":200,"url":"https://api.dokusho-ojikan.jp/dokusho-server/search/search/v2?ac=1&word=%E5%9C%B0%E5%91%B3%E3%81%A7%E7%9B%AE%E7%AB%8B%E3%81%9F%E3%81%AA%E3%81%84%E7%A7%81%E3%81%AF%E3%80%81%E4%BB%8A%E6%97%A5%E3%81%A7%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB%E3%81%97%E3%81%BE%E3%81%99&offset=0&limit=50&sort_key=monthly_spend","headers":{"content-type":"application/json;charset=UTF-8"},"body":{"results":[{"titleId":163032,"titleName":"地味で目立たない私は、今日で終わりにします。","maxBook":{"bookId":3742770,"vol":9,"authors":[{"authorId":12724,"name":"住吉文子","kana":"スミヨシユキコ","initial":"す"},{"authorId":39109,"name":"大森蜜柑","kana":"オオモリミカン","initial":"お"},{"authorId":39110,"name":"れいた","kana":"レイタ","initial":"れ"}],"imageUrl":"https://stat.dokusho-ojikan.jp/10f825d5-073a-4863-abe7-be4ca70a3e8a.jpg"}},{"titleId":204342,"titleName":"地味で目立たない私は、今日で終わりにします。【分冊版】","maxBook":{"bookId":3743267,"vol":89,"authors":[{"authorId":12724,"name":"住吉文子","kana":"スミヨシユキコ","initial":"す"},{"authorId":39109,"name":"大森蜜柑","kana":"オオモリミカン","initial":"お"},{"authorId":39110,"name":"れいた","kana":"レイタ","initial":"れ"}],"imageUrl":"https://stat.dokusho-ojikan.jp/a04934f4-41bc-4268-9e06-b95d74258e4f.jpg"}},{"titleId":847543,"titleName":"地味で目立たない私は、今日で終わりにします。【タテスク】","maxBook":{"bookId":3745771,"vol":64,"authors":[{"authorId":12724,"name":"住吉文子","kana":"スミヨシユキコ","initial":"す"},{"authorId":39109,"name":"大森蜜柑","kana":"オオモリミカン","initial":"お"},{"authorId":39110,"name":"れいた","kana":"レイタ","initial":"れ"}],"imageUrl":"https://stat.dokusho-ojikan.jp/0f7406e7-51bd-45aa-9868-e9961dc78278.jpg"}},{"titleId":613909,"titleName":"【合本版】地味で目立たない私は、今日で終わりにします。　全４巻","maxBook":{"bookId":1594390,"vol":1,"authors":[{"authorId":39109,"name":"大森蜜柑","kana":"オオモリミカン","initial":"お"},{"authorId":39110,"name":"れいた","kana":"レイタ","initial":"れ"}],"imageUrl":"https://stat.dokusho-ojikan.jp/75cf7320-90ee-4d10-85ec-f84bf93db504.jpg"}},{"titleId":605400,"titleName":"地味で目立たない私は、今日で終わりにします。","maxBook":{"bookId":1582869,"vol":4,"authors":[{"authorId":39109,"name":"大森蜜柑","kana":"オオモリミカン","initial":"お"},{"authorId":39110,"name":"れいた","kana":"レイタ","initial":"れ"}],"imageUrl":"https://stat.dokusho-ojikan.jp/a05bb7b7-a7e5-46ba-b87d-0441d21cf1fe.jpg"}}],"totalCount":5}}}
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.dokusho-ojikan.jp/dokusho-server/search/search/v2?ac=1&word=%E5%9C%B0%E5%91%B3%E3%81%A7%E7%9B%AE%E7%AB%8B%E3%81%9F%E3%81%AA%E3%81%84%E7%A7%81%E3%81%AF%E3%80%81%E4%BB%8A%E6%97%A5%E3%81%A7%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB%E3%81%97%E3%81%BE%E3%81%99&offset=0&limit=50&sort_key=monthly_spend"
+  },
+  "response": {
+    "status": 200,
+    "url": "https://api.dokusho-ojikan.jp/dokusho-server/search/search/v2?ac=1&word=%E5%9C%B0%E5%91%B3%E3%81%A7%E7%9B%AE%E7%AB%8B%E3%81%9F%E3%81%AA%E3%81%84%E7%A7%81%E3%81%AF%E3%80%81%E4%BB%8A%E6%97%A5%E3%81%A7%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB%E3%81%97%E3%81%BE%E3%81%99&offset=0&limit=50&sort_key=monthly_spend",
+    "headers": { "content-type": "application/json;charset=UTF-8" },
+    "body": {
+      "results": [
+        {
+          "titleId": 163032,
+          "titleName": "地味で目立たない私は、今日で終わりにします。",
+          "maxBook": {
+            "bookId": 3742770,
+            "vol": 9,
+            "authors": [
+              { "authorId": 12724, "name": "住吉文子", "kana": "スミヨシユキコ", "initial": "す" },
+              { "authorId": 39109, "name": "大森蜜柑", "kana": "オオモリミカン", "initial": "お" },
+              { "authorId": 39110, "name": "れいた", "kana": "レイタ", "initial": "れ" }
+            ],
+            "imageUrl": "https://stat.dokusho-ojikan.jp/10f825d5-073a-4863-abe7-be4ca70a3e8a.jpg"
+          }
+        },
+        {
+          "titleId": 204342,
+          "titleName": "地味で目立たない私は、今日で終わりにします。【分冊版】",
+          "maxBook": {
+            "bookId": 3743267,
+            "vol": 89,
+            "authors": [
+              { "authorId": 12724, "name": "住吉文子", "kana": "スミヨシユキコ", "initial": "す" },
+              { "authorId": 39109, "name": "大森蜜柑", "kana": "オオモリミカン", "initial": "お" },
+              { "authorId": 39110, "name": "れいた", "kana": "レイタ", "initial": "れ" }
+            ],
+            "imageUrl": "https://stat.dokusho-ojikan.jp/a04934f4-41bc-4268-9e06-b95d74258e4f.jpg"
+          }
+        },
+        {
+          "titleId": 847543,
+          "titleName": "地味で目立たない私は、今日で終わりにします。【タテスク】",
+          "maxBook": {
+            "bookId": 3745771,
+            "vol": 64,
+            "authors": [
+              { "authorId": 12724, "name": "住吉文子", "kana": "スミヨシユキコ", "initial": "す" },
+              { "authorId": 39109, "name": "大森蜜柑", "kana": "オオモリミカン", "initial": "お" },
+              { "authorId": 39110, "name": "れいた", "kana": "レイタ", "initial": "れ" }
+            ],
+            "imageUrl": "https://stat.dokusho-ojikan.jp/0f7406e7-51bd-45aa-9868-e9961dc78278.jpg"
+          }
+        },
+        {
+          "titleId": 613909,
+          "titleName": "【合本版】地味で目立たない私は、今日で終わりにします。　全４巻",
+          "maxBook": {
+            "bookId": 1594390,
+            "vol": 1,
+            "authors": [
+              { "authorId": 39109, "name": "大森蜜柑", "kana": "オオモリミカン", "initial": "お" },
+              { "authorId": 39110, "name": "れいた", "kana": "レイタ", "initial": "れ" }
+            ],
+            "imageUrl": "https://stat.dokusho-ojikan.jp/75cf7320-90ee-4d10-85ec-f84bf93db504.jpg"
+          }
+        },
+        {
+          "titleId": 605400,
+          "titleName": "地味で目立たない私は、今日で終わりにします。",
+          "maxBook": {
+            "bookId": 1582869,
+            "vol": 4,
+            "authors": [
+              { "authorId": 39109, "name": "大森蜜柑", "kana": "オオモリミカン", "initial": "お" },
+              { "authorId": 39110, "name": "れいた", "kana": "レイタ", "initial": "れ" }
+            ],
+            "imageUrl": "https://stat.dokusho-ojikan.jp/a05bb7b7-a7e5-46ba-b87d-0441d21cf1fe.jpg"
+          }
+        }
+      ],
+      "totalCount": 5
+    }
+  }
+}

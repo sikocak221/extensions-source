@@ -1,1 +1,12 @@
-{"request":{"method":"GET","url":"https://manga-5.com/api4js/contents/license?cid=IsKT4cQNmW0tS1mu%252F83H8WvR7AQkGjNktxwkLqAGRgFQ88%252FFQWVlAdWDBywgRAbo%252FkwKLNTwc4k6z3wlxbt4Ab%252FR26xrxybXg0R4bzSNIEgFpmY%252FnHSGGY6YzmlkHsV0lT5jUrenoeZP1Z2YSTPz%252Fw%253D%253D"},"response":{"status":200,"url":"https://manga-5.com/api4js/contents/license?cid=IsKT4cQNmW0tS1mu%252F83H8WvR7AQkGjNktxwkLqAGRgFQ88%252FFQWVlAdWDBywgRAbo%252FkwKLNTwc4k6z3wlxbt4Ab%252FR26xrxybXg0R4bzSNIEgFpmY%252FnHSGGY6YzmlkHsV0lT5jUrenoeZP1Z2YSTPz%252Fw%253D%253D","headers":{"content-type":"text/html; charset=UTF-8"},"body":{"status":404,"message":"コンテンツ情報が見つかりません"}}}
+{
+  "request": {
+    "method": "GET",
+    "url": "https://manga-5.com/api4js/contents/license?cid=IsKT4cQNmW0tS1mu%252F83H8WvR7AQkGjNktxwkLqAGRgFQ88%252FFQWVlAdWDBywgRAbo%252FkwKLNTwc4k6z3wlxbt4Ab%252FR26xrxybXg0R4bzSNIEgFpmY%252FnHSGGY6YzmlkHsV0lT5jUrenoeZP1Z2YSTPz%252Fw%253D%253D"
+  },
+  "response": {
+    "status": 200,
+    "url": "https://manga-5.com/api4js/contents/license?cid=IsKT4cQNmW0tS1mu%252F83H8WvR7AQkGjNktxwkLqAGRgFQ88%252FFQWVlAdWDBywgRAbo%252FkwKLNTwc4k6z3wlxbt4Ab%252FR26xrxybXg0R4bzSNIEgFpmY%252FnHSGGY6YzmlkHsV0lT5jUrenoeZP1Z2YSTPz%252Fw%253D%253D",
+    "headers": { "content-type": "text/html; charset=UTF-8" },
+    "body": { "status": 404, "message": "コンテンツ情報が見つかりません" }
+  }
+}

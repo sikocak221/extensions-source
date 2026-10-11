@@ -1,1 +1,3 @@
-{"https://api.dokusho-ojikan.jp/dokusho-server/browser/bookinfo/v3?bookId=963043":"EXT_JSESSIONID=92144fda-b210-47c0-bbb5-29070e55c8e5; Version=1; Comment=\"EXT_JSESSIONID COOKIE.\"; Domain=.dokusho-ojikan.jp; Max-Age=5184000; Expires=Thu, 10-Dec-2026 00:47:18 GMT; Path=/; Secure"}
+{
+  "https://api.dokusho-ojikan.jp/dokusho-server/browser/bookinfo/v3?bookId=963043": "EXT_JSESSIONID=92144fda-b210-47c0-bbb5-29070e55c8e5; Version=1; Comment=\"EXT_JSESSIONID COOKIE.\"; Domain=.dokusho-ojikan.jp; Max-Age=5184000; Expires=Thu, 10-Dec-2026 00:47:18 GMT; Path=/; Secure"
+}

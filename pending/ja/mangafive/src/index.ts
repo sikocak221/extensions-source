@@ -127,10 +127,14 @@ export default defineExtension({
       const cookie = /(?:^|[\s,])(access_id(?:_up)?=[^;,\s]+)/g;
       const cookies = [...setCookie.matchAll(cookie)].map((m) => m[1]!);
       const content = (
-        await http.get<{ url?: string | null; cty?: number | string | null; auth_info?: Parameters<typeof toPublusAuth>[0] }>(
-          `${BASE_URL}/api4js/contents/license?cid=${cid}`,
-          { headers: { ...headers, Cookie: cookies.join('; ') }, responseType: 'json' },
-        )
+        await http.get<{
+          url?: string | null;
+          cty?: number | string | null;
+          auth_info?: Parameters<typeof toPublusAuth>[0];
+        }>(`${BASE_URL}/api4js/contents/license?cid=${cid}`, {
+          headers: { ...headers, Cookie: cookies.join('; ') },
+          responseType: 'json',
+        })
       ).body;
       const auth = toPublusAuth(content.auth_info);
       const contentUrl = content.url;
