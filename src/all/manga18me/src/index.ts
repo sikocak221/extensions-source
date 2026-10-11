@@ -40,7 +40,11 @@ function mangaList(document: HtmlElement): MangaPage {
     const title = el.selectFirst('div.item-thumb.wleft img')?.attr('alt');
     if (!link || !title) return [];
     return [
-      { url: relativeUrl(link.absUrl('href')), title, thumbnailUrl: el.selectFirst('img')?.absUrl('src') || undefined },
+      {
+        url: relativeUrl(link.absUrl('href') || link.attr('href') || ''),
+        title,
+        thumbnailUrl: el.selectFirst('img')?.absUrl('src') || undefined,
+      },
     ];
   });
   return { items, hasNextPage: document.selectFirst('.next') != null };
@@ -141,7 +145,7 @@ export default defineExtension({
         const link = el.selectFirst('a');
         if (!link) continue;
         chapters.push({
-          url: relativeUrl(link.absUrl('href')),
+          url: relativeUrl(link.absUrl('href') || link.attr('href') || ''),
           name: link.text(),
           uploadedAt: parseDate(el.selectFirst('span')?.text(), 'dd MMM yyyy'),
         });
