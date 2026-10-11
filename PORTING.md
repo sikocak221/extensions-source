@@ -122,6 +122,8 @@ Status: `todo` → `ported` (code + build) → `done` (fixture test + live `mr-e
 | gattsu           | 2 (pt)          | done    | hentaiseason blocked                                              |
 | greenshit        | 3 (pt)          | done    |
 | gigaviewer       | 12 (ja)         | done    |
+| hentaihand       | 1 (all)         | done    | nhentaicom blocked                                                |
+| kemono           | 1 (all)         | done    | coomer blocked (creator list over the 64 MB sandbox limit)        |
 
 ## id
 
