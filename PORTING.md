@@ -1366,7 +1366,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | docomo                  | standalone       | todo    |                                |
 | dokiraw | standalone | done |  |
 | drecomics               | standalone       | blocked | site answers 403               |
-| ebookjapan              | standalone       | todo    |                                |
+| ebookjapan | standalone | blocked | needs AES-GCM (sandbox has only cbc/ctr/ecb) and per-tile rotation (not expressible as TileOp) |
 | firecross               | clipstudioreader | todo    |                                |
 | flowercomics | standalone | done | live: newest chapter is locked (by design) |
 | fodfuji                 | standalone       | blocked | site answers 403               |
