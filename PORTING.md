@@ -1394,7 +1394,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | kumaraw                 | standalone       | blocked | Cloudflare challenge           |
 | kuragebunch             | gigaviewer       | todo    |                                |
 | linemanga               | standalone       | blocked | site answers 412               |
-| magazinepocket          | standalone       | todo    |                                |
+| magazinepocket | standalone | done | descrambling via transformImage tiles (verified visually); live: newest chapter is locked |
 | magcomi                 | gigaviewer       | todo    |                                |
 | magkan                  | comiciviewer     | todo    |                                |
 | manga1000 | standalone | done |  |
