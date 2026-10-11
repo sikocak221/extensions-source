@@ -1389,7 +1389,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | kimicomi                | comiciviewer     | todo    |                                |
 | kisslove | standalone | done |  |
 | klraw                   | mangareader      | todo    |                                |
-| klto9                   | standalone       | todo    |                                |
+| klto9 | standalone | done |  |
 | kmansin09               | madara           | todo    |                                |
 | kumaraw                 | standalone       | blocked | Cloudflare challenge           |
 | kuragebunch             | gigaviewer       | todo    |                                |
