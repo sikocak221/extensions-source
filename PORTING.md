@@ -1342,7 +1342,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | championcross           | comiciviewer     | todo    |                                |
 | ciaoplus | standalone | done | scrambled pages restored via transformImage tiles (verified visually); SHA-512 in JS |
 | cmoa | standalone | ported | in pending/: page images answer 403 (SpeedBinb SBC token) so descrambling is unverified; fixture test passes |
-| comicboost              | standalone       | todo    |                                |
+| comicboost | standalone | blocked | reader session needs the access_id cookie, which is only set on a redirect response; the sandbox http follows redirects and exposes only the final response |
 | comicborder             | gigaviewer       | todo    |                                |
 | comicdays               | gigaviewer       | todo    |                                |
 | comicearthstar          | gigaviewer       | todo    |                                |
