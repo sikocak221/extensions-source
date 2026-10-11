@@ -1350,7 +1350,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | comicfuz                | standalone       | todo    |                                |
 | comicgardo              | gigaviewer       | todo    |                                |
 | comicgrast              | standalone       | todo    |                                |
-| comicmeteor             | standalone       | todo    |                                |
+| comicmeteor | standalone | done | SpeedBinb descrambling via transformImage tiles (verified visually); filter list parsed from the /titles page |
 | comicnettai             | standalone       | todo    |                                |
 | comico | standalone | blocked | API returns empty lists outside Japan (geo-restricted); port untested |
 | comicpash               | comiciviewer     | todo    |                                |
