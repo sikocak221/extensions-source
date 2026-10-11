@@ -1333,7 +1333,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | Extension               | Theme            | Status  | Notes                          |
 | ----------------------- | ---------------- | ------- | ------------------------------ |
 | alphapolis | standalone | blocked | pages are scrambled with per-tile rotation/flip (not expressible as TileOp), XSRF cookie flow, most chapters rental |
-| amebamanga              | standalone       | todo    |                                |
+| amebamanga | standalone | ported | in pending/: works (descrambling verified on a free volume) but the generic test's oldest chapter is locked, so getPages fails the fixture test |
 | asacomi                 | comiciviewer     | todo    |                                |
 | bibibicomic             | comiciviewer     | todo    |                                |
 | bigcomics               | comiciviewer     | todo    |                                |
