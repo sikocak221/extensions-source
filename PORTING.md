@@ -1364,7 +1364,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | cycomi                  | standalone       | todo    |                                |
 | dmm                     | standalone       | blocked | redirects to login (geo-block) |
 | docomo                  | standalone       | todo    |                                |
-| dokiraw                 | standalone       | todo    |                                |
+| dokiraw | standalone | done |  |
 | drecomics               | standalone       | blocked | site answers 403               |
 | ebookjapan              | standalone       | todo    |                                |
 | firecross               | clipstudioreader | todo    |                                |
