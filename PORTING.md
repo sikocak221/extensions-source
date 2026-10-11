@@ -1361,7 +1361,7 @@ Status seeded from a site probe (node fetch through public DNS): `blocked` rows 
 | comirela                | comiciviewer     | todo    |                                |
 | corocoroonline          | standalone       | todo    |                                |
 | coronaex                | standalone       | todo    |                                |
-| cycomi                  | standalone       | todo    |                                |
+| cycomi | standalone | done | live: newest chapter is locked (by design); image descrambling not exercised live |
 | dmm                     | standalone       | blocked | redirects to login (geo-block) |
 | docomo                  | standalone       | todo    |                                |
 | dokiraw | standalone | done |  |
