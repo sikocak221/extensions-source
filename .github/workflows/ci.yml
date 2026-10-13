@@ -28,6 +28,8 @@ jobs:
       - run: pnpm test
       # Every extension must build into a repository exactly as Publish would (unsigned here).
       - run: pnpm repo:build:unsigned
+      # The documentation site must build from that repository.
+      - run: pnpm docs:build
       # A changed extension needs a higher version, or the app never offers the change.
       - run: node scripts/check-versions.mjs "$REPO_URL"
         env:

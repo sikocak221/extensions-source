@@ -8,3 +8,10 @@ public/
 src/*/*/test/fixtures/
 *.pem
 .DS_Store
+# The documentation site (docs/): built by scripts/build-site.mjs, never committed
+!docs/public/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/data/
+docs/repository.md
+docs/extensions.md

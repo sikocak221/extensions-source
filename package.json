@@ -13,13 +13,16 @@
     "format:check": "prettier --check .",
     "repo:build": "mr-ext repo build src/*/* -o public --name \"Extensions Source\"",
     "repo:build:unsigned": "mr-ext repo build src/*/* -o public --name \"Extensions Source\" --unsigned",
-    "repo:verify": "mr-ext repo verify public"
+    "repo:verify": "mr-ext repo verify public",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "node scripts/build-site.mjs"
   },
   "devDependencies": {
     "@matane/extension-cli": "catalog:",
     "@types/node": "catalog:",
     "prettier": "3.9.9",
     "typescript": "6.0.3",
+    "vitepress": "1.6.4",
     "vitest": "5.0.1"
   }
 }

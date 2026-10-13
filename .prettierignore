@@ -6,3 +6,8 @@ src/*/*/test/fixtures
 src/en/dynasty/src/covers.ts
 src/en/dynasty/src/tags.ts
 .codegraph
+docs/.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/data
+docs/repository.md
+docs/extensions.md

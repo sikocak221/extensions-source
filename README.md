@@ -4,7 +4,7 @@ Extensions for apps that load Matane-format extensions (built with `@matane/exte
 
 Every index of this repository is signed (ed25519) with this repository's own key, and every archive must match the SHA-256 in that signed index before it is installed. Nothing is added to an app by default: add the repository yourself, then choose to trust its key.
 
-**Repository URL:** `https://sikocak221.github.io/extensions-source/` (live once the repository is published). In the app: Extensions → Repositories → Add repository, then "Trust this key".
+**Repository URL:** `https://sikocak221.github.io/extensions-source/` (live once the repository is published), which is also the documentation site: how to add the repository, the signing key and a searchable list of extensions. In the app: Extensions → Repositories → Add repository, then "Trust this key".
 
 ## Extensions
 

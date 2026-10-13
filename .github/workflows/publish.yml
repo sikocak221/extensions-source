@@ -1,12 +1,14 @@
 name: Publish repository
 
 # Builds every extension, signs index.json with the repository key (secret MR_REPO_KEY) and
-# publishes the result to GitHub Pages. Nothing unsigned or signed with another key is ever published.
+# publishes the result with the documentation site (docs/) to GitHub Pages. Nothing unsigned or signed with another key is ever published.
 on:
   push:
     branches: [main]
     paths:
       - 'src/**'
+      - 'docs/**'
+      - 'scripts/**'
       - 'pnpm-lock.yaml'
       - '.github/workflows/publish.yml'
   workflow_dispatch:
@@ -47,6 +49,8 @@ jobs:
         env:
           # The repository's public key: a repository variable, or a secret of the same name.
           PUBLIC_KEY: ${{ vars.MR_REPO_PUBLIC_KEY || secrets.MR_REPO_PUBLIC_KEY }}
+      - name: Documentation site
+        run: node scripts/build-site.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
